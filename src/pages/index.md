@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: Your partner for mass & heat transfer technology
 image: /img/home-jumbotron.jpg
 heading: Your partner for mass & heat transfer technology
-subheading: Support sustainable farming while enjoying a cup
+subheading: WasteWater & Protein Recycling
 mainpitch:
   title: Why Kaldi
   description: >
