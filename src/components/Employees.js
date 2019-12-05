@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { graphql, StaticQuery } from "gatsby";
-import Employee from "./Employee";
+import { Employee } from "./Employee";
 
 class Employees extends React.Component {
   render() {
