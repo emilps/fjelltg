@@ -45,7 +45,7 @@ Employees.propTypes = {
   })
 };
 
-export default () => (
+const EmployeesQuery = () => (
   <StaticQuery
     query={graphql`
       query EmployeesQuery {
@@ -84,3 +84,6 @@ export default () => (
     render={(data, count) => <Employees data={data} count={count} />}
   />
 );
+
+EmployeesQuery.displayName = "EmployeesQuery";
+export default EmployeesQuery;

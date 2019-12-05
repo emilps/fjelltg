@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { EmployeeTemplate } from "../../templates/employee";
 
-const EmployeePreview = ({ entry, widgetFor }) => (
+const EmployeePreview = ({ entry }) => (
   <EmployeeTemplate
     position={entry.getIn(["data", "position"])}
     name={entry.getIn(["data", "name"])}

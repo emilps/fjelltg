@@ -1,10 +1,10 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { kebabCase } from 'lodash';
-import Helmet from 'react-helmet';
-import { graphql, Link } from 'gatsby';
-import Layout from '../components/Layout';
-import Content, { HTMLContent } from '../components/Content';
+import React from "react";
+import PropTypes from "prop-types";
+import { kebabCase } from "lodash";
+import Helmet from "react-helmet";
+import { graphql, Link } from "gatsby";
+import Layout from "../components/Layout";
+import Content, { HTMLContent } from "../components/Content";
 
 export const ProductTemplate = ({
   content,
@@ -18,7 +18,7 @@ export const ProductTemplate = ({
 
   return (
     <section className="section">
-      {helmet || ''}
+      {helmet || ""}
       <div className="container content">
         <div className="columns">
           <div className="column is-10 is-offset-1">
@@ -51,7 +51,8 @@ ProductTemplate.propTypes = {
   contentComponent: PropTypes.func,
   description: PropTypes.string,
   title: PropTypes.string,
-  helmet: PropTypes.object
+  helmet: PropTypes.object,
+  tags: PropTypes.array
 };
 
 const Product = ({ data }) => {

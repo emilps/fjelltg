@@ -1,7 +1,7 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { Link, graphql, StaticQuery } from 'gatsby';
-import PreviewCompatibleImage from './PreviewCompatibleImage';
+import React from "react";
+import PropTypes from "prop-types";
+import { Link, graphql, StaticQuery } from "gatsby";
+import PreviewCompatibleImage from "./PreviewCompatibleImage";
 
 class ProductRoll extends React.Component {
   render() {
@@ -16,7 +16,7 @@ class ProductRoll extends React.Component {
             <div className="is-parent column is-6" key={post.id}>
               <article
                 className={`blog-list-item tile is-child box notification ${
-                  post.frontmatter.featuredpost ? 'is-featured' : ''
+                  post.frontmatter.featuredpost ? "is-featured" : ""
                 }`}
               >
                 <header>
@@ -64,7 +64,7 @@ ProductRoll.propTypes = {
   })
 };
 
-export default () => (
+const ProductRollQuery = () => (
   <StaticQuery
     query={graphql`
       query ProductRollQuery {
@@ -99,3 +99,6 @@ export default () => (
     render={(data, count) => <ProductRoll data={data} count={count} />}
   />
 );
+
+ProductRollQuery.displayName = "ProductRollQuery";
+export default ProductRollQuery;

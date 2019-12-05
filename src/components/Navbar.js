@@ -1,13 +1,13 @@
-import React from 'react';
-import { Link } from 'gatsby';
-import logo from '../img/ftg_logo_neg.svg';
+import React from "react";
+import { Link } from "gatsby";
+import logo from "../img/ftg_logo_neg.svg";
 
 const Navbar = class extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       active: false,
-      navBarActiveClass: ''
+      navBarActiveClass: ""
     };
   }
 
@@ -22,10 +22,10 @@ const Navbar = class extends React.Component {
         // set the class in state for the navbar accordingly
         this.state.active
           ? this.setState({
-              navBarActiveClass: 'is-active'
+              navBarActiveClass: "is-active"
             })
           : this.setState({
-              navBarActiveClass: ''
+              navBarActiveClass: ""
             });
       }
     );
@@ -41,7 +41,7 @@ const Navbar = class extends React.Component {
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Kaldi" style={{ width: '150px' }} />
+              <img src={logo} alt="Kaldi" style={{ width: "150px" }} />
             </Link>
             {/* Hamburger menu */}
             <div
@@ -85,4 +85,5 @@ const Navbar = class extends React.Component {
   }
 };
 
+Navbar.displayName = "Navbar";
 export default Navbar;
