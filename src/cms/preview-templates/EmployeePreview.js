@@ -6,7 +6,7 @@ const EmployeePreview = ({ entry, widgetFor }) => (
   <EmployeeTemplate
     position={entry.getIn(["data", "position"])}
     name={entry.getIn(["data", "name"])}
-    picture={widgetFor("picture")}
+    picture={entry.getIn(["data", "picture"])}
     phoneNumber={entry.getIn(["data", "phonenumber"])}
     email={entry.getIn(["data", "email"])}
     linkedIn={entry.getIn(["data", "linkedin"])}

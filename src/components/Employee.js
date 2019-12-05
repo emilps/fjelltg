@@ -23,7 +23,6 @@ export const Employee = ({
             />
           </div>
         ) : null}
-        }
       </div>
       <h3>{name}</h3>
       <h4>{position}</h4>
@@ -37,7 +36,7 @@ export const Employee = ({
 Employee.propTypes = {
   name: PropTypes.string,
   position: PropTypes.string,
-  picture: PropTypes.string,
+  picture: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   phoneNumber: PropTypes.number,
   email: PropTypes.string,
   linkedIn: PropTypes.string

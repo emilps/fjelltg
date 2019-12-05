@@ -25,12 +25,9 @@ class Employees extends React.Component {
                     picture={employee.frontmatter.picture}
                     position={employee.frontmatter.position}
                     email={employee.frontmatter.email}
-                    phoneNumber={employee.frontmatter.phoneNumber}
-                    linkedIn={employee.frontmatter.linkedIn}
+                    phoneNumber={employee.frontmatter.phonenumber}
+                    linkedIn={employee.frontmatter.linkedin}
                   />
-                  <p className="post-meta">
-                    <span> &bull; </span>
-                  </p>
                 </header>
               </article>
             </div>

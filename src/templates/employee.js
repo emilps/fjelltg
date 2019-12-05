@@ -28,8 +28,7 @@ export const EmployeeTemplate = ({
             <PostContent content={content} />
             <PreviewCompatibleImage
               imageInfo={{
-                image: picture,
-                alt: `featured image thumbnail for post ${name}`
+                image: picture
               }}
             />
             <h4>{position}</h4>
@@ -48,7 +47,7 @@ EmployeeTemplate.propTypes = {
   contentComponent: PropTypes.func,
   name: PropTypes.string,
   position: PropTypes.string,
-  picture: PropTypes.string,
+  picture: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   phoneNumber: PropTypes.number,
   email: PropTypes.string,
   linkedIn: PropTypes.string
@@ -66,8 +65,8 @@ const Employee = ({ data }) => {
         name={employee.frontmatter.name}
         picture={employee.frontmatter.picture}
         email={employee.frontmatter.email}
-        linkedIn={employee.frontmatter.linkedIn}
-        phoneNumber={employee.frontmatter.phoneNumber}
+        linkedIn={employee.frontmatter.linkedin}
+        phoneNumber={employee.frontmatter.phonenumber}
       />
     </Layout>
   );
@@ -91,6 +90,8 @@ export const pageQuery = graphql`
         name
         position
         email
+        linkedin
+        phonenumber
         picture {
           childImageSharp {
             fluid(maxWidth: 120, quality: 100) {
@@ -98,8 +99,6 @@ export const pageQuery = graphql`
             }
           }
         }
-        linkedin
-        phonenumber
       }
     }
   }
