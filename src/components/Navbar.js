@@ -62,7 +62,7 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item is-light" to="/about">
                 Projects
               </Link>
-              <Link className="navbar-item" to="/products">
+              <Link className="navbar-item" to="/product">
                 Products
               </Link>
               <Link className="navbar-item" to="/blog">
@@ -85,4 +85,5 @@ const Navbar = class extends React.Component {
   }
 };
 
+Navbar.displayName = "Navbar";
 export default Navbar;

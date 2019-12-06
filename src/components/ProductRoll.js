@@ -3,10 +3,11 @@ import PropTypes from "prop-types";
 import { Link, graphql, StaticQuery } from "gatsby";
 import PreviewCompatibleImage from "./PreviewCompatibleImage";
 
-class BlogRoll extends React.Component {
+class ProductRoll extends React.Component {
   render() {
     const { data } = this.props;
     const { edges: posts } = data.allMarkdownRemark;
+    console.log(posts);
 
     return (
       <div className="columns is-multiline">
@@ -37,9 +38,6 @@ class BlogRoll extends React.Component {
                       {post.frontmatter.title}
                     </Link>
                     <span> &bull; </span>
-                    <span className="subtitle is-size-5 is-block">
-                      {post.frontmatter.date}
-                    </span>
                   </p>
                 </header>
                 <p>
@@ -47,7 +45,7 @@ class BlogRoll extends React.Component {
                   <br />
                   <br />
                   <Link className="button" to={post.fields.slug}>
-                    Keep Reading →
+                    Trykk her for mer info →
                   </Link>
                 </p>
               </article>
@@ -58,7 +56,7 @@ class BlogRoll extends React.Component {
   }
 }
 
-BlogRoll.propTypes = {
+ProductRoll.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.array
@@ -66,13 +64,13 @@ BlogRoll.propTypes = {
   })
 };
 
-const BlogRollQuery = () => (
+const ProductRollQuery = () => (
   <StaticQuery
     query={graphql`
-      query BlogRollQuery {
+      query ProductRollQuery {
         allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___date] }
-          filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
+          filter: { frontmatter: { templateKey: { eq: "product" } } }
         ) {
           edges {
             node {
@@ -84,7 +82,6 @@ const BlogRollQuery = () => (
               frontmatter {
                 title
                 templateKey
-                date(formatString: "MMMM DD, YYYY")
                 featuredpost
                 featuredimage {
                   childImageSharp {
@@ -99,9 +96,9 @@ const BlogRollQuery = () => (
         }
       }
     `}
-    render={(data, count) => <BlogRoll data={data} count={count} />}
+    render={(data, count) => <ProductRoll data={data} count={count} />}
   />
 );
 
-BlogRollQuery.displayName = "BlogRollQuery";
-export default BlogRollQuery;
+ProductRollQuery.displayName = "ProductRollQuery";
+export default ProductRollQuery;
