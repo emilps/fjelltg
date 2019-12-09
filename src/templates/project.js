@@ -56,25 +56,25 @@ ProjectTemplate.propTypes = {
 };
 
 const Project = ({ data }) => {
-  const { markdownRemark: post } = data;
+  const { markdownRemark: project } = data;
 
   return (
     <Layout>
       <ProjectTemplate
-        content={post.html}
+        content={project.html}
         contentComponent={HTMLContent}
-        description={post.frontmatter.description}
+        description={project.frontmatter.description}
         helmet={
           <Helmet titleTemplate="%s | Blog">
-            <title>{`${post.frontmatter.title}`}</title>
+            <title>{`${project.frontmatter.title}`}</title>
             <meta
               name="description"
-              content={`${post.frontmatter.description}`}
+              content={`${project.frontmatter.description}`}
             />
           </Helmet>
         }
-        tags={post.frontmatter.tags}
-        title={post.frontmatter.title}
+        tags={project.frontmatter.tags}
+        title={project.frontmatter.title}
       />
     </Layout>
   );
