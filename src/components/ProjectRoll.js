@@ -11,11 +11,17 @@ class ProjectRoll extends React.Component {
     return (
       <div className="columns is-multiline">
         {projects &&
-          projects.map(({ node: project }) => (
+          projects.map(({ node: project }, index) => (
             <div className="is-parent column is-12" key={project.id}>
               {console.log(project)}
+              {console.log(index)}
               <div className="columns is-gapless">
-                <div className="column is-gapless is-half">
+                {index % 2 == 0 && (
+                  <div className="column is-half has-text-centered is-vertical-center	has-background-secondary">
+                    <p className="is-primary">{project.frontmatter.title}</p>
+                  </div>
+                )}
+                <div className="column is-half">
                   {project.frontmatter.featuredimage ? (
                     <div className="">
                       <PreviewCompatibleImage
@@ -27,9 +33,11 @@ class ProjectRoll extends React.Component {
                     </div>
                   ) : null}
                 </div>
-                <div className="column is-half has-text-centered is-vertical-center	has-background-info">
-                  <p className="is-primary">{project.frontmatter.title}</p>
-                </div>
+                {index % 2 != 0 && (
+                  <div className="column is-half has-text-centered is-vertical-center	has-background-secondary">
+                    <p className="is-primary">{project.frontmatter.title}</p>
+                  </div>
+                )}
               </div>
               {/*
               <header>
