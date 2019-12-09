@@ -12,15 +12,12 @@ class ProjectRoll extends React.Component {
       <div className="columns is-multiline">
         {projects &&
           projects.map(({ node: project }) => (
-            <div className="is-parent column is-6" key={project.id}>
-              <article
-                className={`blog-list-item tile is-child box notification ${
-                  project.frontmatter.featuredproject ? 'is-featured' : ''
-                }`}
-              >
-                <header>
+            <div className="is-parent column is-12" key={project.id}>
+              {console.log(project)}
+              <div className="columns is-gapless">
+                <div className="column is-gapless is-half">
                   {project.frontmatter.featuredimage ? (
-                    <div className="featured-thumbnail">
+                    <div className="">
                       <PreviewCompatibleImage
                         imageInfo={{
                           image: project.frontmatter.featuredimage,
@@ -29,25 +26,41 @@ class ProjectRoll extends React.Component {
                       />
                     </div>
                   ) : null}
-                  <p className="project-meta">
-                    <Link
-                      className="title has-text-primary is-size-4"
-                      to={project.fields.slug}
-                    >
-                      {project.frontmatter.title}
-                    </Link>
-                    <span> &bull; </span>
-                  </p>
-                </header>
-                <p>
-                  {project.excerpt}
-                  <br />
-                  <br />
-                  <Link className="button" to={project.fields.slug}>
-                    Trykk her for mer info →
+                </div>
+                <div className="column is-half has-text-centered is-vertical-center	has-background-info">
+                  <p className="is-primary">{project.frontmatter.title}</p>
+                </div>
+              </div>
+              {/*
+              <header>
+                {project.frontmatter.featuredimage ? (
+                  <div className="featured-thumbnail">
+                    <PreviewCompatibleImage
+                      imageInfo={{
+                        image: project.frontmatter.featuredimage,
+                        alt: `featured image thumbnail for project ${project.title}`
+                      }}
+                    />
+                  </div>
+                ) : null}
+                <p className="project-meta">
+                  <Link
+                    className="title has-text-primary is-size-4"
+                    to={project.fields.slug}
+                  >
+                    {project.frontmatter.title}
                   </Link>
+                  <span> &bull; </span>
                 </p>
-              </article>
+              </header>
+              <p>
+                {project.excerpt}
+                <br />
+                <br />
+                <Link className="button" to={project.fields.slug}>
+                  Trykk her for mer info →
+                </Link>
+              </p>*/}
             </div>
           ))}
       </div>
@@ -89,6 +102,7 @@ const ProjectRollQuery = () => (
                     }
                   }
                 }
+                tags
               }
             }
           }
