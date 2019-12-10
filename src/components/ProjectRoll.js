@@ -44,12 +44,12 @@ class ProjectRoll extends React.Component {
 
     return (
       <div>
-        <div className="section">
+        <div className="section project-filter">
           <div className="is-horizontal-align">
             {Object.keys(filterValues).map((filter, index) => (
               <div key={index} className="is-horizontal-align">
                 <div
-                  className={`custom-text-button ${
+                  className={`custom-text-button is-size-5 ${
                     index == selectedItem ? 'selected' : ''
                   }`}
                   onClick={() =>
@@ -58,7 +58,10 @@ class ProjectRoll extends React.Component {
                 >
                   {filterValues[filter]}{' '}
                 </div>
-                <p className="is-divider"> {index != 4 ? '/ ' : ''}</p>
+                <p className="is-divider is-size-5">
+                  {' '}
+                  {index != 4 ? '/ ' : ''}
+                </p>
               </div>
             ))}
           </div>
