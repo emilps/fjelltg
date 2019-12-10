@@ -5,8 +5,7 @@ description: This is the new and better project
 featuredpost: true
 featuredimage: /img/blog-index.jpg
 tags:
-  - FishSludge
-  - Recovery System
+  - FishSludge Recovery System
 ---
 This project is also big and good!
 
