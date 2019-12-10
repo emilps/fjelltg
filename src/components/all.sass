@@ -157,6 +157,10 @@ $menu-label-color: $white-ter
   justify-content: center;
   flex-direction: column;
 
+.is-horizontal-align
+  display: flex;
+  align-items: center;
+
 .has-background-secondary
   background-color: $secondary;
 
@@ -171,3 +175,15 @@ $menu-label-color: $white-ter
 
 .remove-padding
   padding: 0;
+
+.is-divider
+  margin: 0 5px 0 5px;
+
+.custom-text-button
+  border-bottom: 1px solid white;
+  &:hover 
+    cursor: pointer;
+    border-bottom: 1px solid black;
+
+.selected
+  border-bottom: 1px solid black;
