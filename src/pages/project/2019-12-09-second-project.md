@@ -1,11 +1,11 @@
 ---
 templateKey: project
-title: Second project
+title: SANKI
 description: This is the new and better project
 featuredpost: true
 featuredimage: /img/blog-index.jpg
 tags:
-  - water-care
+  - FishSludge Recovery System
 ---
 This project is also big and good!
 
