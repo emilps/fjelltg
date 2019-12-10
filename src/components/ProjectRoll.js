@@ -9,24 +9,17 @@ class ProjectRoll extends React.Component {
     const { edges: projects } = data.allMarkdownRemark;
 
     return (
-      <div className="columns is-multiline">
+      <div className="columns is-multiline is-gapless">
         {projects &&
           projects.map(({ node: project }, index) => (
             <div className="is-parent column is-12" key={project.id}>
               {console.log(project)}
               {console.log(index)}
               <Link to={project.fields.slug}>
-                <div className="columns is-gapless">
-                  {index % 2 == 0 && (
-                    <div className="column is-half has-text-centered is-vertical-center	has-background-secondary">
-                      <p className="is-primary title">
-                        {project.frontmatter.title}
-                      </p>
-                      <p className="has-text-centered">
-                        {project.frontmatter.title}
-                      </p>
-                    </div>
-                  )}
+                <div
+                  className={`columns is-gapless 
+                  ${index % 2 == 0 ? 'row-reversed' : ''}`}
+                >
                   <div className="column is-half">
                     {project.frontmatter.featuredimage ? (
                       <div className="">
@@ -39,16 +32,14 @@ class ProjectRoll extends React.Component {
                       </div>
                     ) : null}
                   </div>
-                  {index % 2 != 0 && (
-                    <div className="column is-half has-text-centered is-vertical-center	has-background-secondary">
-                      <p className="has-text-centered title">
-                        {project.frontmatter.title}
-                      </p>
-                      <p className="has-text-centered">
-                        {project.frontmatter.title}
-                      </p>
-                    </div>
-                  )}
+                  <div className="column is-half has-text-centered is-vertical-center	has-background-secondary">
+                    <p className="has-text-centered title">
+                      {project.frontmatter.title}
+                    </p>
+                    <p className="has-text-centered">
+                      {project.frontmatter.tags}
+                    </p>
+                  </div>
                 </div>
               </Link>
               {/*

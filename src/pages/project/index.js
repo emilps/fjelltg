@@ -24,9 +24,9 @@ export default class ProjectIndexPage extends React.Component {
             Her kommer det informasjon om prosjekter
           </h1>
         </div>
-        <section className="section">
-          <div className="container">
-            <div className="content">
+        <section className="section remove-padding">
+          <div className="container remove-margin">
+            <div className="content is-fullwidth">
               <ProjectRoll />
             </div>
           </div>
