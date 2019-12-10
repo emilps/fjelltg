@@ -1,11 +1,11 @@
 ---
 templateKey: project
-title: Fourth project
+title: EPCON
 description: This is the new and better project
 featuredpost: true
 featuredimage: /img/products-grid3.jpg
 tags:
-  - turbo-disc
+  - Waste Heat Evaporator Plant
 ---
 This project is also big and good!
 
