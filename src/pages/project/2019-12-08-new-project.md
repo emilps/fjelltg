@@ -5,7 +5,8 @@ description: This is the new and better project
 featuredpost: true
 featuredimage: /img/products-grid2.jpg
 tags:
-  - FishSludge Recovery System
+  - FishSludge
+  - Recovery System
 ---
 This project is big and good!
 
