@@ -1,11 +1,11 @@
 ---
 templateKey: project
-title: Third project
+title: AKER
 description: This is the new and better project
 featuredpost: true
 featuredimage: /img/jumbotron.jpg
 tags:
-  - turbo-disc
+  - Protein Recycling
 ---
 This project is also big and good!
 
