@@ -24,10 +24,29 @@ export default class ProjectIndexPage extends React.Component {
             Her kommer det informasjon om prosjekter
           </h1>
         </div>
+        <section className="section is-medium">
+          <div className="container">
+            <div className="content">
+              <p className="has-text-centered is-size-4">
+                FjellTG has over xx years of experience with blabla something
+                nice to introduce the reference projects
+              </p>
+            </div>
+          </div>
+        </section>
         <section className="section remove-padding">
           <div className="container remove-margin">
             <div className="content is-fullwidth">
               <ProjectRoll />
+            </div>
+          </div>
+        </section>
+        <section className="section is-medium">
+          <div className="container">
+            <div className="content">
+              <p className="has-text-centered title">
+                Your partner for mass and heat transfer technology
+              </p>
             </div>
           </div>
         </section>
