@@ -15,30 +15,42 @@ class ProjectRoll extends React.Component {
             <div className="is-parent column is-12" key={project.id}>
               {console.log(project)}
               {console.log(index)}
-              <div className="columns is-gapless">
-                {index % 2 == 0 && (
-                  <div className="column is-half has-text-centered is-vertical-center	has-background-secondary">
-                    <p className="is-primary">{project.frontmatter.title}</p>
-                  </div>
-                )}
-                <div className="column is-half">
-                  {project.frontmatter.featuredimage ? (
-                    <div className="">
-                      <PreviewCompatibleImage
-                        imageInfo={{
-                          image: project.frontmatter.featuredimage,
-                          alt: `featured image thumbnail for project ${project.title}`
-                        }}
-                      />
+              <Link to={project.fields.slug}>
+                <div className="columns is-gapless">
+                  {index % 2 == 0 && (
+                    <div className="column is-half has-text-centered is-vertical-center	has-background-secondary">
+                      <p className="is-primary title">
+                        {project.frontmatter.title}
+                      </p>
+                      <p className="has-text-centered">
+                        {project.frontmatter.title}
+                      </p>
                     </div>
-                  ) : null}
-                </div>
-                {index % 2 != 0 && (
-                  <div className="column is-half has-text-centered is-vertical-center	has-background-secondary">
-                    <p className="is-primary">{project.frontmatter.title}</p>
+                  )}
+                  <div className="column is-half">
+                    {project.frontmatter.featuredimage ? (
+                      <div className="">
+                        <PreviewCompatibleImage
+                          imageInfo={{
+                            image: project.frontmatter.featuredimage,
+                            alt: `featured image thumbnail for project ${project.title}`
+                          }}
+                        />
+                      </div>
+                    ) : null}
                   </div>
-                )}
-              </div>
+                  {index % 2 != 0 && (
+                    <div className="column is-half has-text-centered is-vertical-center	has-background-secondary">
+                      <p className="has-text-centered title">
+                        {project.frontmatter.title}
+                      </p>
+                      <p className="has-text-centered">
+                        {project.frontmatter.title}
+                      </p>
+                    </div>
+                  )}
+                </div>
+              </Link>
               {/*
               <header>
                 {project.frontmatter.featuredimage ? (
@@ -105,7 +117,7 @@ const ProjectRollQuery = () => (
                 featuredpost
                 featuredimage {
                   childImageSharp {
-                    fluid(maxWidth: 120, quality: 100) {
+                    fluid(maxWidth: 1920, quality: 100) {
                       ...GatsbyImageSharpFluid
                     }
                   }
