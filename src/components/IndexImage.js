@@ -5,32 +5,39 @@ const IndexImage = () => {
   const [chosenTab, setChosenTab] = useState(1);
   const [title, setTitle] = useState('Waste Water');
   const [link, setLink] = useState('/project/2019-12-08-new-project/');
-  const [imageURL, setImageURL] = useState('blog-index.jpg');
 
   const handleClick = index => {
     setChosenTab(index);
     if (index === 1) {
       setTitle('Waste Water');
       setLink('/project/2019-12-08-new-project/');
-      setImageURL('blog-index.jpg');
     } else {
       setTitle('Protein Recycling');
       setLink('/project/2019-12-09-fourth-project/');
-      setImageURL('jumbotron.jpg');
     }
   };
 
   return (
-    <div
-      className="full-width-image margin-top-0"
-      style={{
-        backgroundImage: `url(/img/${imageURL})`,
-        backgroundPosition: `top`
-      }}
-    >
+    <div className="index-image-container margin-top-0">
+      <img
+        src="/img/blog-index.jpg"
+        alt="TEsting"
+        className="index-full-width-image margin-top-0"
+      />
+      <img
+        src="/img/jumbotron.jpg"
+        alt="TEsting"
+        className={`index-full-width-image image-overlay margin-top-0 ${
+          chosenTab == 1 ? 'recycle-active' : 'water-active'
+        }`}
+      />
       <div className="index-image-text-field">
         <div className="index-image-title-container">
-          <div className="is-size-2 has-text-weight-bold index-image-title">
+          <div
+            className={`is-size-2 has-text-weight-bold index-image-title ${
+              chosenTab == 1 ? 'water-active' : 'recycle-active'
+            }`}
+          >
             {title}
           </div>
           <Link to={link} className="button learn-button has-text-weight-bold">
