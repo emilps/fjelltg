@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { graphql, StaticQuery } from "gatsby";
 import { Employee } from "./Employee";
+import PageJumbotron from "./PageJumbotron";
 
 class Employees extends React.Component {
   render() {
@@ -11,6 +12,11 @@ class Employees extends React.Component {
 
     return (
       <div className="columns is-multiline">
+        <PageJumbotron
+          title={"Solution"}
+          image={""}
+          description={"All our solutions can be tailor made for YOUR needs"}
+        />
         {employees &&
           employees.map(({ node: employee }) => (
             <div className="is-parent column is-6" key={employee.id}>
