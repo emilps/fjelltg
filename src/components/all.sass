@@ -19,6 +19,7 @@ $primary: $fjellblue
 $primary-invert: $kaldi-red-invert
 $body-color: #333
 $black: #2b2523
+$secondary: #EDF2F6
 
 
 nav 
@@ -197,6 +198,10 @@ $menu-item-active-color: $kaldi-red-invert
 $menu-item-active-background-color:	$kaldi-red-invert
 $menu-list-border-left: 1px solid $kaldi-red-invert
 $menu-label-color: $white-ter
+$navbar-item-hover-background-color	: $primary !important
+$navbar-dropdown-background-color: $primary !important
+$navbar-background-color: $primary
+$navbar-item-color: white
 
 
 .menu-label
@@ -248,5 +253,43 @@ $menu-label-color: $white-ter
   .index-image-tabs
     background-color: rgba(0,0,0,0.7)
 
+.is-vertical-center 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+.is-horizontal-align
+  display: flex;
+  align-items: center;
+
+.has-background-secondary
+  background-color: $secondary;
+
+.row-reversed
+  flex-direction: row-reverse;
+
+.is-fullwidth
+  width: 100vw;
+
+.remove-margin
+  margin: 0 !important; 
+
 .remove-padding
-  padding: 0;	  padding: 0;
+  padding: 0;
+
+.is-divider
+  margin: 0 5px 0 5px;
+
+.custom-text-button
+  border-bottom: 1px solid white;
+  &:hover 
+    cursor: pointer;
+    border-bottom: 1px solid black;
+
+.selected
+  border-bottom: 1px solid black;
+
+.project-filter
+  padding-left: 3rem;
+
