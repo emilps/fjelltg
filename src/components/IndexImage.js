@@ -6,6 +6,12 @@ const IndexImage = () => {
   const [title, setTitle] = useState('Waste Water');
   const [link, setLink] = useState('/project/2019-12-08-new-project/');
 
+  React.useEffect(() => {
+    const next = (chosenTab + 1) % 2;
+    const id = setTimeout(() => setChosenTab(next), 5000);
+    return () => clearTimeout(id);
+  }, [chosenTab]);
+
   const handleClick = index => {
     setChosenTab(index);
     if (index === 1) {
