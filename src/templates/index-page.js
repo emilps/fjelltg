@@ -1,10 +1,11 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { Link, graphql } from "gatsby";
+import React from 'react';
+import PropTypes from 'prop-types';
+import { Link, graphql } from 'gatsby';
 
-import Layout from "../components/Layout";
-import Features from "../components/Features";
-import BlogRoll from "../components/BlogRoll";
+import Layout from '../components/Layout';
+import Features from '../components/Features';
+import BlogRoll from '../components/BlogRoll';
+import IndexImage from '../components/IndexImage';
 
 export const IndexPageTemplate = ({
   image,
@@ -16,52 +17,7 @@ export const IndexPageTemplate = ({
   intro
 }) => (
   <div>
-    <div
-      className="full-width-image margin-top-0"
-      style={{
-        backgroundImage: `url(${
-          image.childImageSharp ? image.childImageSharp.fluid.src : image
-        })`,
-        backgroundPosition: `top left`,
-        backgroundAttachment: `fixed`
-      }}
-    >
-      <div
-        style={{
-          display: "flex",
-          height: "150px",
-          lineHeight: "1",
-          justifyContent: "space-around",
-          alignItems: "left",
-          flexDirection: "column"
-        }}
-      >
-        <h1
-          className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-          style={{
-            boxShadow: "#002060 0.5rem 0px 0px, #002060 -0.5rem 0px 0px",
-            backgroundColor: "#002060",
-            color: "white",
-            lineHeight: "1",
-            padding: "0.25em"
-          }}
-        >
-          {title}
-        </h1>
-        <h3
-          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
-          style={{
-            boxShadow: "#002060 0.5rem 0px 0px, #002060 -0.5rem 0px 0px",
-            backgroundColor: "#002060",
-            color: "white",
-            lineHeight: "1",
-            padding: "0.25em"
-          }}
-        >
-          {subheading}
-        </h3>
-      </div>
-    </div>
+    <IndexImage />
     <section className="section section--gradient">
       <div className="container">
         <div className="section">

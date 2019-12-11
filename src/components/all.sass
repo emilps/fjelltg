@@ -1,5 +1,12 @@
 @import "~bulma/sass/utilities/initial-variables"
 
+@mixin transition($args...) 
+  -webkit-transition: $args;
+  -moz-transition: $args;
+  -ms-transition: $args;
+  -o-transition: $args;
+  transition: $args;
+
 // Config vars
 // Kaldi logo brand color: #FD461E
 $kaldi-red: #D64000
@@ -41,7 +48,7 @@ nav
 // Helper Classes
 .full-width-image-container
   width: 100vw
-  height: 400px
+  height: 700px
   position: relative
   left: 50%
   right: 50%
@@ -53,13 +60,101 @@ nav
   align-items: center
 
 .full-width-image
-    width: 100vw
-    height: 400px
-    background-size: cover
-    background-position: bottom
-    display: flex
-    justify-content: center
-    align-items: center
+  width: 100vw
+  height: 700px
+  background-size: cover
+  background-position: bottom
+  display: flex
+  justify-content: center
+  align-items: flex-end
+
+.index-image-container
+  position: relative
+
+.index-full-width-image
+  width: 100vw
+  height: 700px
+  object-fit: cover;
+  &.recycle-active
+    animation: .5s ease-in-out both image-fade-out;
+  &.water-active
+    animation: .5s ease-in-out both fade-in;
+  &.image-overlay
+    position: absolute
+    top: 0
+    left: 0
+
+.index-image-text-field
+  width: 100vw;
+  height: 150px
+  color: white
+  position: absolute
+  bottom: 6px
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+.index-image-title-container
+  background-color: rgba(45,45,45,0.7);
+  align-items: center
+  padding-top: 12px
+  display: flex
+  justify-content: space-between
+  flex-basis: 66.66%
+
+.index-image-title
+  margin-left: 20%
+  &.water-active
+    animation: .5s ease-in-out both fade-in;
+  &.recycle-active
+    animation: .5s ease-in-out both fade-out;
+
+.learn-button
+  width: 150px
+  color: #2d2d2d
+  margin-right: 20%
+
+.index-image-tabs
+  display: flex
+  flex-basis: 33.33%
+
+.index-image-tab
+  background-color: rgba(45,45,45,0.7);
+  flex-basis: 50%
+  @include transition(background-color .5s ease);
+  &.is-active
+    background-color: rgba(45,45,45,1)
+  &:hover
+    cursor: pointer
+
+
+@keyframes image-fade-out
+  0%
+    opacity: 1
+  100%
+    opacity: 0
+
+@keyframes fade-in 
+  0% 
+    opacity: 0
+  100% 
+    opacity: 1
+
+@keyframes fade-out 
+  0% 
+    opacity: 0
+  100%
+    opacity: 1
+
+  
+
+
+.index-image-tab-left
+  padding:  12px 0 0 20%
+  
+
+.index-image-tab-right
+  padding: 12px 12px 12px 24px
 
 .btn
     display: inline-block
@@ -148,3 +243,10 @@ $menu-label-color: $white-ter
     text-align: center;
     max-width: 70%;
     margin: 0 0 1em;
+  .index-image-text-field
+    margin-bottom: 30px;
+  .index-image-tabs
+    background-color: rgba(0,0,0,0.7)
+
+.remove-padding
+  padding: 0;	  padding: 0;
