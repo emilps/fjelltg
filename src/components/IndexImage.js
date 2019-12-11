@@ -8,7 +8,7 @@ const IndexImage = () => {
 
   React.useEffect(() => {
     const next = (chosenTab + 1) % 2;
-    const id = setTimeout(() => setChosenTab(next), 5000);
+    const id = setTimeout(() => handleClick(next), 5000);
     return () => clearTimeout(id);
   }, [chosenTab]);
 
