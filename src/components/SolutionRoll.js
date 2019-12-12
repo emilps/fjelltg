@@ -3,28 +3,26 @@ import PropTypes from "prop-types";
 import { Link, graphql, StaticQuery } from "gatsby";
 import PreviewCompatibleImage from "./PreviewCompatibleImage";
 
-class ProductRoll extends React.Component {
+class SolutionRoll extends React.Component {
   render() {
     const { data } = this.props;
-    const { edges: posts } = data.allMarkdownRemark;
+    const { edges: solutions } = data.allMarkdownRemark;
 
     return (
       <div className="columns is-multiline">
-        {posts &&
-          posts.map(({ node: post }) => (
-            <div className="is-parent column is-6" key={post.id}>
+        {solutions &&
+          solutions.map(({ node: solution }) => (
+            <div className="is-parent column is-6" key={solution.id}>
               <article
-                className={`blog-list-item tile is-child box notification ${
-                  post.frontmatter.featuredpost ? "is-featured" : ""
-                }`}
+                className={`blog-list-item tile is-child box notification`}
               >
                 <header>
-                  {post.frontmatter.featuredimage ? (
+                  {solution.frontmatter.featuredimage ? (
                     <div className="featured-thumbnail">
                       <PreviewCompatibleImage
                         imageInfo={{
-                          image: post.frontmatter.featuredimage,
-                          alt: `featured image thumbnail for post ${post.title}`
+                          image: solution.frontmatter.featuredimage,
+                          alt: `featured image thumbnail for post ${solution.title}`
                         }}
                       />
                     </div>
@@ -32,18 +30,18 @@ class ProductRoll extends React.Component {
                   <p className="post-meta">
                     <Link
                       className="title has-text-primary is-size-4"
-                      to={post.fields.slug}
+                      to={solution.fields.slug}
                     >
-                      {post.frontmatter.title}
+                      {solution.frontmatter.title}
                     </Link>
                     <span> &bull; </span>
                   </p>
                 </header>
                 <p>
-                  {post.excerpt}
+                  {solution.excerpt}
                   <br />
                   <br />
-                  <Link className="button" to={post.fields.slug}>
+                  <Link className="button" to={solution.fields.slug}>
                     Trykk her for mer info →
                   </Link>
                 </p>
@@ -55,7 +53,7 @@ class ProductRoll extends React.Component {
   }
 }
 
-ProductRoll.propTypes = {
+SolutionRoll.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.array
@@ -63,10 +61,10 @@ ProductRoll.propTypes = {
   })
 };
 
-const ProductRollQuery = () => (
+const SolutionRollQuery = () => (
   <StaticQuery
     query={graphql`
-      query ProductRollQuery {
+      query SolutionRollQuery {
         allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___date] }
           filter: { frontmatter: { templateKey: { eq: "product" } } }
@@ -81,7 +79,14 @@ const ProductRollQuery = () => (
               frontmatter {
                 title
                 templateKey
-                featuredpost
+                subtitle
+                body
+                solutions
+                baseproducts {
+                  baseproduct1
+                  baseproduct2
+                  baseproduct3
+                }
                 featuredimage {
                   childImageSharp {
                     fluid(maxWidth: 120, quality: 100) {
@@ -95,9 +100,9 @@ const ProductRollQuery = () => (
         }
       }
     `}
-    render={(data, count) => <ProductRoll data={data} count={count} />}
+    render={(data, count) => <SolutionRoll data={data} count={count} />}
   />
 );
 
-ProductRollQuery.displayName = "ProductRollQuery";
-export default ProductRollQuery;
+SolutionRollQuery.displayName = "SolutionRollQuery";
+export default SolutionRollQuery;
