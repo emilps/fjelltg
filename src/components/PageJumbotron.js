@@ -2,26 +2,21 @@ import React from "react";
 import PropTypes from "prop-types";
 
 const PageJumbotron = ({ title, image, description }) => {
+  const inputImage = image ? image : `url('/img/blog-index.jpg')`;
   return (
-    <div className="jumbotron-container">
+    <div>
       <div
         className="full-width-image-container-margin-top-0"
         style={{
-          backgroundImage: `url('/img/blog-index.jpg')`
+          backgroundImage: inputImage
         }}
       >
-        <div className="jumbotron-centered-elements">
-          <h1
-            className="has-text-weight-bold is-size-1"
-            style={{
-              color: "white",
-              padding: "1rem"
-            }}
-          >
-            {title}
-          </h1>
-          <hr className="hr-jumbotron" />
-          <h3>{description}</h3>
+        <div className="black-overlay-opacity-50">
+          <div className="jumbotron-centered-elements">
+            <h1 className="h1-page-title">{title.toUpperCase()}</h1>
+            <hr className="hr-jumbotron" />
+            <h3 className="h3-page-subtitle">{description}</h3>
+          </div>
         </div>
       </div>
     </div>
