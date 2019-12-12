@@ -9,7 +9,7 @@ export default class ProductIndexPage extends React.Component {
       <Layout>
         <PageJumbotron
           title={"Products"}
-          image={""}
+          image={`url('/img/products-grid2.jpg')`}
           description={
             "Our base products are used in all our tailored solutions"
           }

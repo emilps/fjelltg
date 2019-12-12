@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 const PageJumbotron = ({ title, image, description }) => {
-  const inputImage = image ? image : `url('/img/blog-index.jpg')`;
+  const inputImage = image !== "" ? image : `url('/img/blog-index.jpg')`;
   return (
     <div>
       <div
