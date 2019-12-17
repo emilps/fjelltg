@@ -10,8 +10,10 @@ baseproducts:
   baseproduct2: Ikke Test produkt
   baseproduct3: Ikke Test produkt
 tags:
-  - Tag1
+  - tag1
+  - tag2
+  - tag3
 ---
 # Introduction
 
-Wow what a solution this is, cant believe it
+Wow what a solution this is, cant believe it or not?
