@@ -9,43 +9,32 @@ class SolutionRoll extends React.Component {
     const { edges: solutions } = data.allMarkdownRemark;
 
     return (
-      <div className="columns is-multiline">
+      <div className="solutions-roll is-multiline">
         {solutions &&
-          solutions.map(({ node: solution }) => (
-            <div className="is-parent column is-6" key={solution.id}>
-              <article
-                className={`blog-list-item tile is-child box notification`}
-              >
-                <header>
-                  {solution.frontmatter.featuredimage ? (
-                    <div className="featured-thumbnail">
-                      <PreviewCompatibleImage
-                        imageInfo={{
-                          image: solution.frontmatter.featuredimage,
-                          alt: `featured image thumbnail for post ${solution.title}`
-                        }}
-                      />
-                    </div>
-                  ) : null}
-                  <p className="post-meta">
-                    <Link
-                      className="title has-text-primary is-size-4"
-                      to={solution.fields.slug}
-                    >
-                      {solution.frontmatter.title}
-                    </Link>
-                    <span> &bull; </span>
-                  </p>
-                </header>
-                <p>
-                  {solution.excerpt}
-                  <br />
-                  <br />
-                  <Link className="button" to={solution.fields.slug}>
-                    Trykk her for mer info →
-                  </Link>
+          solutions.map(({ node: solution }, index) => (
+            <div
+              className="solution-container remove-padding"
+              key={solution.id}
+            >
+              <Link className="" to={solution.fields.slug}>
+                {solution.frontmatter.featuredimage ? (
+                  <div className="solution-image">
+                    <PreviewCompatibleImage
+                      imageInfo={{
+                        image: solution.frontmatter.featuredimage,
+                        alt: `featured image thumbnail for post ${solution.title}`
+                      }}
+                    />
+                  </div>
+                ) : null}
+                <p
+                  className={`solution-text title is-uppercase ${
+                    index % 3 == 0 ? 'black-overlay' : 'blue-overlay'
+                  }`}
+                >
+                  {solution.frontmatter.title}
                 </p>
-              </article>
+              </Link>
             </div>
           ))}
       </div>
@@ -78,17 +67,9 @@ const SolutionRollQuery = () => (
               }
               frontmatter {
                 title
-                templateKey
-                subtitle
-                solutions
-                baseproducts {
-                  baseproduct1
-                  baseproduct2
-                  baseproduct3
-                }
                 featuredimage {
                   childImageSharp {
-                    fluid(maxWidth: 120, quality: 100) {
+                    fluid(maxWidth: 680, quality: 100) {
                       ...GatsbyImageSharpFluid
                     }
                   }

@@ -1,11 +1,11 @@
 @import "~bulma/sass/utilities/initial-variables"
 
-@mixin transition($args...) 
-  -webkit-transition: $args;
-  -moz-transition: $args;
-  -ms-transition: $args;
-  -o-transition: $args;
-  transition: $args;
+@mixin transition($args...)
+  -webkit-transition: $args
+  -moz-transition: $args
+  -ms-transition: $args
+  -o-transition: $args
+  transition: $args
 
 // Config vars
 // Kaldi logo brand color: #FD461E
@@ -21,14 +21,13 @@ $body-color: #333
 $black: #2b2523
 $secondary: #EDF2F6
 
-
-nav 
+nav
   height: 40px
 
 .navbar .navbar-menu
-  box-shadow:none !important
+  box-shadow: none !important
 
-.navbar 
+.navbar
   background-color: $fjellblue !important
 
 .content .taglist
@@ -75,28 +74,28 @@ nav
 .index-full-width-image
   width: 100vw
   height: 700px
-  object-fit: cover;
+  object-fit: cover
   &.recycle-active
-    animation: .5s ease-in-out both image-fade-out;
+    animation: .5s ease-in-out both image-fade-out
   &.water-active
-    animation: .5s ease-in-out both fade-in;
+    animation: .5s ease-in-out both fade-in
   &.image-overlay
     position: absolute
     top: 0
     left: 0
 
 .index-image-text-field
-  width: 100vw;
+  width: 100vw
   height: 150px
   color: white
   position: absolute
   bottom: 6px
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  display: flex
+  flex-direction: column
+  justify-content: space-between
 
 .index-image-title-container
-  background-color: rgba(45,45,45,0.7);
+  background-color: rgba(45,45,45,0.7)
   align-items: center
   padding-top: 12px
   display: flex
@@ -106,9 +105,9 @@ nav
 .index-image-title
   margin-left: 20%
   &.water-active
-    animation: .5s ease-in-out both fade-in;
+    animation: .5s ease-in-out both fade-in
   &.recycle-active
-    animation: .5s ease-in-out both fade-out;
+    animation: .5s ease-in-out both fade-out
 
 .learn-button
   width: 150px
@@ -120,14 +119,13 @@ nav
   flex-basis: 33.33%
 
 .index-image-tab
-  background-color: rgba(45,45,45,0.7);
+  background-color: rgba(45,45,45,0.7)
   flex-basis: 50%
-  @include transition(background-color .5s ease);
+  @include transition(background-color .5s ease)
   &.is-active
     background-color: rgba(45,45,45,1)
   &:hover
     cursor: pointer
-
 
 @keyframes image-fade-out
   0%
@@ -135,44 +133,40 @@ nav
   100%
     opacity: 0
 
-@keyframes fade-in 
-  0% 
-    opacity: 0
-  100% 
-    opacity: 1
-
-@keyframes fade-out 
-  0% 
+@keyframes fade-in
+  0%
     opacity: 0
   100%
     opacity: 1
 
-  
-
+@keyframes fade-out
+  0%
+    opacity: 0
+  100%
+    opacity: 1
 
 .index-image-tab-left
-  padding:  12px 0 0 20%
-  
+  padding: 12px 0 0 20%
 
 .index-image-tab-right
   padding: 12px 12px 12px 24px
 
 .btn
-    display: inline-block
-    padding: 12px 16px 10px
-    font-size: 18px
-    font-size: 1rem
-    line-height: 1.25
-    background-color: #fff
-    border-radius: .25rem
-    text-decoration: none
-    font-weight: 700
-    color: #CC3700
-    text-align: center
-    -webkit-box-shadow: inset 0 0 0 2px #CC3700
-    box-shadow: inset 0 0 0 2px #f40
-    -webkit-transition: all .15s ease
-    transition: all .15s ease
+  display: inline-block
+  padding: 12px 16px 10px
+  font-size: 18px
+  font-size: 1rem
+  line-height: 1.25
+  background-color: #fff
+  border-radius: .25rem
+  text-decoration: none
+  font-weight: 700
+  color: #CC3700
+  text-align: center
+  -webkit-box-shadow: inset 0 0 0 2px #CC3700
+  box-shadow: inset 0 0 0 2px #f40
+  -webkit-transition: all .15s ease
+  transition: all .15s ease
 
 .margin-top-0
   margin-top: 0 !important
@@ -203,7 +197,6 @@ $navbar-dropdown-background-color: $primary !important
 $navbar-background-color: $primary
 $navbar-item-color: white
 
-
 .menu-label
   font-size: 1em !important
   text-align: left
@@ -213,83 +206,111 @@ $navbar-item-color: white
 .social
   padding: 2em
 .social a
-    padding: .5em .5em .3em .5em
-    border-radius: 1em
-    background-color: $white-ter
-    margin: .5em
-    width: 1em
-    height: 1em
-    vertical-align: middle
-    display: inline
+  padding: .5em .5em .3em .5em
+  border-radius: 1em
+  background-color: $white-ter
+  margin: .5em
+  width: 1em
+  height: 1em
+  vertical-align: middle
+  display: inline
 
 // blog roll
 .blog-list-item.is-featured
-  background-color: #d6400033;
+  background-color: #d6400033
 .blog-list-item header
-  display: flex;
-  margin-bottom: 1em;
+  display: flex
+  margin-bottom: 1em
 .blog-list-item .featured-thumbnail
-  flex-basis: 35%;
-  margin: 0 1.5em 0 0;
-
+  flex-basis: 35%
+  margin: 0 1.5em 0 0
 
 @import "~bulma"
-
 
 // responsiveness
 +tablet-only
   .blog-list-item .featured-thumbnail
-    flex-basis: 50%;
+    flex-basis: 50%
 
 +mobile
   .blog-list-item header
     display: block
   .blog-list-item .featured-thumbnail
-    text-align: center;
-    max-width: 70%;
-    margin: 0 0 1em;
+    text-align: center
+    max-width: 70%
+    margin: 0 0 1em
   .index-image-text-field
-    margin-bottom: 30px;
+    margin-bottom: 30px
   .index-image-tabs
     background-color: rgba(0,0,0,0.7)
 
-.is-vertical-center 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+.is-vertical-center
+  display: flex
+  align-items: center
+  justify-content: center
+  flex-direction: column
 
 .is-horizontal-align
-  display: flex;
-  align-items: center;
+  display: flex
+  align-items: center
 
 .has-background-secondary
-  background-color: $secondary;
+  background-color: $secondary
 
 .row-reversed
-  flex-direction: row-reverse;
+  flex-direction: row-reverse
 
 .is-fullwidth
-  width: 100vw;
+  width: 100vw
 
 .remove-margin
-  margin: 0 !important; 
+  margin: 0 !important
 
 .remove-padding
-  padding: 0;
+  padding: 0
 
 .is-divider
-  margin: 0 5px 0 5px;
+  margin: 0 5px 0 5px
 
 .custom-text-button
-  border-bottom: 1px solid white;
-  &:hover 
-    cursor: pointer;
-    border-bottom: 1px solid black;
+  border-bottom: 1px solid white
+  &:hover
+    cursor: pointer
+    border-bottom: 1px solid black
 
 .selected
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid black
 
 .project-filter
-  padding-left: 3rem;
+  padding-left: 3rem
 
+// Solution
+
+.solutions-roll
+  width: 100vw
+  display: flex
+  flex-wrap: wrap
+
+.solution-container
+  position: relative
+  flex-basis: 50%
+  max-height: 450px
+
+.solution-image > *
+  max-height: 450px
+
+.solution-text
+  position: absolute
+  z-index: 1
+  color: white
+  top: 0
+  right: 0
+  left: 0
+  bottom: 0
+  display: flex
+  align-items: center
+  justify-content: center
+  &.black-overlay
+    background-color: rgba(27,27,27,0.5)
+  &.blue-overlay
+    background-color: rgba(77,126,168,0.5)
