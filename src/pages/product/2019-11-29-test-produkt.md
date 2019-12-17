@@ -1,6 +1,6 @@
 ---
 templateKey: product
-title: Test produkt
+title: Test produktet eller
 description: 'Dette er et veldig bra produkt. Vet ikke hvor bra det er, men det funker'
 featuredpost: true
 featuredimage: /img/chemex.jpg
