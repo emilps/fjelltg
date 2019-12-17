@@ -1,7 +1,7 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { Link, graphql, StaticQuery } from "gatsby";
-import PreviewCompatibleImage from "./PreviewCompatibleImage";
+import React from 'react';
+import PropTypes from 'prop-types';
+import { Link, graphql, StaticQuery } from 'gatsby';
+import PreviewCompatibleImage from './PreviewCompatibleImage';
 
 class SolutionRoll extends React.Component {
   render() {
@@ -67,7 +67,7 @@ const SolutionRollQuery = () => (
       query SolutionRollQuery {
         allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___date] }
-          filter: { frontmatter: { templateKey: { eq: "product" } } }
+          filter: { frontmatter: { templateKey: { eq: "solution" } } }
         ) {
           edges {
             node {
@@ -80,7 +80,6 @@ const SolutionRollQuery = () => (
                 title
                 templateKey
                 subtitle
-                body
                 solutions
                 baseproducts {
                   baseproduct1
@@ -104,5 +103,5 @@ const SolutionRollQuery = () => (
   />
 );
 
-SolutionRollQuery.displayName = "SolutionRollQuery";
+SolutionRollQuery.displayName = 'SolutionRollQuery';
 export default SolutionRollQuery;
