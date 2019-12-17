@@ -6,9 +6,9 @@ featuredimage: /img/products-grid2.jpg
 solutions:
   - Fish Residual Raw Material Processing (Omega 3 and Fish Meal)
 baseproducts:
-  baseproduct1: Test produkt
-  baseproduct2: Test produkt
-  baseproduct3: Test produkt
+  baseproduct1: Test produktet eller
+  baseproduct2: Ikke Test produkt
+  baseproduct3: Ikke Test produkt
 tags:
   - Tag1
 ---
