@@ -6,19 +6,19 @@ const SolutionPreview = ({ entry, widgetFor }) => {
   const entryBaseProducts = entry.getIn(['data', 'baseproducts']);
   const baseProducts = entryBaseProducts ? entryBaseProducts.toJS() : [];
 
-  const entryTags = entry.getIn(['data', 'tags']);
-  const tags = entryTags ? entryTags.toJS() : [];
+  //const entryTags = entry.getIn(['data', 'tags']);
+  //const tags = entryTags ? entryTags.toJS() : [];
 
-  const entrySolutions = entry.getIn(['data', 'solutions']);
-  const solutions = entrySolutions ? entrySolutions.toJS() : [];
+  //const entrySolutions = entry.getIn(['data', 'solutions']);
+  //const solutions = entrySolutions ? entrySolutions.toJS() : [];
 
   return (
     <SolutionTemplate
       content={widgetFor('body')}
       subtitle={entry.getIn(['data', 'subtitle'])}
-      tags={tags || []}
+      tags={entry.getIn(['data', 'tags']) || []}
       title={entry.getIn(['data', 'title'])}
-      solutions={solutions || []}
+      solutions={entry.getIn(['data', 'solutions']) || []}
       baseproducts={baseProducts || {}}
     />
   );
