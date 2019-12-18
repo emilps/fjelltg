@@ -73,9 +73,9 @@ SolutionTemplate.propTypes = {
   description: PropTypes.string,
   title: PropTypes.string,
   helmet: PropTypes.object,
-  tags: PropTypes.array,
+  tags: PropTypes.oneOfType([PropTypes.array, PropTypes.object]),
   baseproducts: PropTypes.object,
-  solutions: PropTypes.array,
+  solutions: PropTypes.oneOfType([PropTypes.array, PropTypes.object]),
   featuredimage: PropTypes.object
 };
 
