@@ -1,29 +1,20 @@
 import React from "react";
 import Layout from "../../components/Layout";
 import ProductRoll from "../../components/ProductRoll";
+import PageJumbotron from "../../components/PageJumbotron";
 
 export default class ProductIndexPage extends React.Component {
   render() {
     return (
       <Layout>
-        <div
-          className="full-width-image-container margin-top-0"
-          style={{
-            backgroundImage: `url('/img/blog-index.jpg')`
-          }}
-        >
-          <h1
-            className="has-text-weight-bold is-size-1"
-            style={{
-              boxShadow: "0.5rem 0 0 #002060, -0.5rem 0 0 #002060",
-              backgroundColor: "#002060",
-              color: "white",
-              padding: "1rem"
-            }}
-          >
-            Her kommer det informasjon om produkter
-          </h1>
-        </div>
+        <PageJumbotron
+          title={"Products"}
+          image={`url('/img/products-grid2.jpg')`}
+          description={
+            "Our base products are used in all our tailored solutions"
+          }
+        />
+
         <section className="section">
           <div className="container">
             <div className="content">
