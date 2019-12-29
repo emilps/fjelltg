@@ -1,30 +1,18 @@
 import React from "react";
 import Layout from "../../components/Layout";
 import SolutionRoll from "../../components/SolutionRoll";
+import PageJumbotron from "../../components/PageJumbotron";
 
 export default class SolutionIndexPage extends React.Component {
   render() {
     return (
       <Layout>
         <div>
-          <div
-            className="full-width-image-container margin-top-0"
-            style={{
-              backgroundImage: `url('/img/blog-index.jpg')`
-            }}
-          >
-            <h1
-              className="has-text-weight-bold is-size-1"
-              style={{
-                boxShadow: "0.5rem 0 0 #002060, -0.5rem 0 0 #002060",
-                backgroundColor: "#002060",
-                color: "white",
-                padding: "1rem"
-              }}
-            >
-              Solutions
-            </h1>
-          </div>
+          <PageJumbotron
+            title={"Solutions"}
+            image={`url('/img/products-grid2.jpg')`}
+            description={"All our solutions can be tailor made for YOUR needs"}
+          />
           <section className="section is-medium">
             <div className="container">
               <div className="content">
