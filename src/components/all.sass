@@ -30,6 +30,9 @@ nav
 .navbar
   background-color: $fjellblue !important
 
+.hr-jumbotron
+  width: 20%
+
 .content .taglist
   list-style: none
   margin-bottom: 0
@@ -44,6 +47,26 @@ nav
     padding: 0 2rem 1rem 0
     margin-bottom: 1.5rem
     margin-top: 0
+
+.jumbotron-centered-elements
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  width: 100vw
+  height: 650px
+  animation: 0.5s ease-in fade-in
+
+.h1-page-title
+  color: white
+  font-size: 70px
+  font-weight: bold
+
+.h3-page-subtitle
+  color: white
+  font-size: 22px
+  max-width: 40%
+  text-align: center
 
 // Helper Classes
 .full-width-image-container
@@ -68,12 +91,15 @@ nav
   justify-content: center
   align-items: flex-end
 
+.black-overlay-opacity-50
+  background: rgba(0,0,0, 0.5)
+
 .index-image-container
   position: relative
 
 .index-full-width-image
   width: 100vw
-  height: 700px
+  height: 650px
   object-fit: cover
   &.recycle-active
     animation: .5s ease-in-out both image-fade-out
