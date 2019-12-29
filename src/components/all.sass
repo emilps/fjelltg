@@ -309,3 +309,34 @@ $navbar-item-color: white
 
 .project-filter
   padding-left: 3rem
+
+// Solution
+
+.solutions-roll
+  width: 100vw
+  display: flex
+  flex-wrap: wrap
+
+.solution-container
+  position: relative
+  flex-basis: 50%
+  max-height: 450px
+
+.solution-image > *
+  max-height: 450px
+
+.solution-text
+  position: absolute
+  z-index: 1
+  color: white
+  top: 0
+  right: 0
+  left: 0
+  bottom: 0
+  display: flex
+  align-items: center
+  justify-content: center
+  &.black-overlay
+    background-color: rgba(27,27,27,0.5)
+  &.blue-overlay
+    background-color: rgba(77,126,168,0.5)
