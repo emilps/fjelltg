@@ -5,6 +5,7 @@ import { SolutionTemplate } from '../../templates/solution';
 const SolutionPreview = ({ entry, widgetFor }) => {
   const entryBaseProducts = entry.getIn(['data', 'baseproducts']);
   const baseProducts = entryBaseProducts ? entryBaseProducts.toJS() : [];
+  const tags = entry.getIn(['data', 'tags']);
 
   //const entryTags = entry.getIn(['data', 'tags']);
   //const tags = entryTags ? entryTags.toJS() : [];
@@ -16,7 +17,7 @@ const SolutionPreview = ({ entry, widgetFor }) => {
     <SolutionTemplate
       content={widgetFor('body')}
       subtitle={entry.getIn(['data', 'subtitle'])}
-      tags={entry.getIn(['data', 'tags']) || []}
+      tags={tags && tags.toJS()}
       title={entry.getIn(['data', 'title'])}
       solutions={entry.getIn(['data', 'solutions']) || []}
       baseproducts={baseProducts || {}}
