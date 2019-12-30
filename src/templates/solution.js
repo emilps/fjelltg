@@ -92,7 +92,7 @@ const Solution = ({ data }) => {
         baseproducts={solution.frontmatter.baseproducts}
         featuredimage={solution.frontmatter.featuredimage}
         helmet={
-          <Helmet titleTemplate="%s | Blog">
+          <Helmet titleTemplate="%s | Solution">
             <title>{`${solution.frontmatter.title}`}</title>
             <meta
               name="description"

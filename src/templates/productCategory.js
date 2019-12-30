@@ -1,18 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { kebabCase } from 'lodash';
 import Helmet from 'react-helmet';
-import { graphql, Link } from 'gatsby';
+import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
 import Content, { HTMLContent } from '../components/Content';
+import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 
-export const ProductTemplate = ({
+export const ProductCategoryTemplate = ({
   content,
   contentComponent,
-  description,
-  tags,
+  subtitle,
   title,
-  helmet
+  helmet,
+  featuredimage
 }) => {
   const PostContent = contentComponent || Content;
 
@@ -25,20 +25,18 @@ export const ProductTemplate = ({
             <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
               {title}
             </h1>
-            <p>{description}</p>
-            <PostContent content={content} />
-            {tags && tags.length ? (
-              <div style={{ marginTop: `4rem` }}>
-                <h4>Tags</h4>
-                <ul className="taglist">
-                  {tags.map(tag => (
-                    <li key={tag + `tag`}>
-                      <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-                    </li>
-                  ))}
-                </ul>
+            <p>{subtitle}</p>
+            {featuredimage ? (
+              <div className="featured-thumbnail">
+                <PreviewCompatibleImage
+                  imageInfo={{
+                    image: featuredimage,
+                    alt: `featured image thumbnail for post ${title}`
+                  }}
+                />
               </div>
             ) : null}
+            <PostContent content={content} />
           </div>
         </div>
       </div>
@@ -46,58 +44,61 @@ export const ProductTemplate = ({
   );
 };
 
-ProductTemplate.propTypes = {
+ProductCategoryTemplate.propTypes = {
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
-  description: PropTypes.string,
+  subtitle: PropTypes.string,
   title: PropTypes.string,
   helmet: PropTypes.object,
-  tags: PropTypes.array
+  featuredimage: PropTypes.object
 };
 
-const Product = ({ data }) => {
+const ProductCategory = ({ data }) => {
   const { markdownRemark: post } = data;
 
   return (
     <Layout>
-      <ProductTemplate
+      <ProductCategoryTemplate
         content={post.html}
         contentComponent={HTMLContent}
-        description={post.frontmatter.description}
+        subtitle={post.frontmatter.subtitle}
         helmet={
-          <Helmet titleTemplate="%s | Product">
+          <Helmet titleTemplate="%s | ProductCategory">
             <title>{`${post.frontmatter.title}`}</title>
-            <meta
-              name="description"
-              content={`${post.frontmatter.description}`}
-            />
+            <meta name="text" content={`${post.frontmatter.text}`} />
           </Helmet>
         }
-        tags={post.frontmatter.tags}
         title={post.frontmatter.title}
+        featuredimage={post.frontmatter.featuredimage}
       />
     </Layout>
   );
 };
 
-Product.propTypes = {
+ProductCategory.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.object
   })
 };
 
-export default Product;
+export default ProductCategory;
 
 export const pageQuery = graphql`
-  query ProductByID($id: String!) {
+  query ProductCategoryByID($id: String!) {
     markdownRemark(id: { eq: $id }) {
       id
       html
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         title
-        description
-        tags
+        subtitle
+        featuredimage {
+          childImageSharp {
+            fluid(maxWidth: 680, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }

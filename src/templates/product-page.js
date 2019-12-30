@@ -1,11 +1,11 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { graphql } from "gatsby";
-import Layout from "../components/Layout";
-import Features from "../components/Features";
-import Testimonials from "../components/Testimonials";
-import Pricing from "../components/Pricing";
-import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
+import React from 'react';
+import PropTypes from 'prop-types';
+import { graphql } from 'gatsby';
+import Layout from '../components/Layout';
+import Features from '../components/Features';
+import Testimonials from '../components/Testimonials';
+import Pricing from '../components/Pricing';
+import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 
 export const ProductPageTemplate = ({
   image,
@@ -18,6 +18,15 @@ export const ProductPageTemplate = ({
   fullImage,
   pricing
 }) => (
+  /**
+   * This should be deleted as it is part of the template but never used
+   * This should be deleted as it is part of the template but never used
+   * This should be deleted as it is part of the template but never used
+   * This should be deleted as it is part of the template but never used
+   * This should be deleted as it is part of the template but never used
+   * This should be deleted as it is part of the template but never used
+   * This should be deleted as it is part of the template but never used
+   */
   <div className="content">
     <div
       className="full-width-image-container margin-top-0"
@@ -30,10 +39,10 @@ export const ProductPageTemplate = ({
       <h2
         className="has-text-weight-bold is-size-1"
         style={{
-          boxShadow: "0.5rem 0 0 #002060, -0.5rem 0 0 #002060",
-          backgroundColor: "#002060",
-          color: "white",
-          padding: "1rem"
+          boxShadow: '0.5rem 0 0 #002060, -0.5rem 0 0 #002060',
+          backgroundColor: '#002060',
+          color: 'white',
+          padding: '1rem'
         }}
       >
         {title}
