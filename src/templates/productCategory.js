@@ -54,22 +54,22 @@ ProductCategoryTemplate.propTypes = {
 };
 
 const ProductCategory = ({ data }) => {
-  const { markdownRemark: post } = data;
+  const { markdownRemark: productCategory } = data;
 
   return (
     <Layout>
       <ProductCategoryTemplate
-        content={post.html}
+        content={productCategory.html}
         contentComponent={HTMLContent}
-        subtitle={post.frontmatter.subtitle}
+        subtitle={productCategory.frontmatter.subtitle}
         helmet={
           <Helmet titleTemplate="%s | ProductCategory">
-            <title>{`${post.frontmatter.title}`}</title>
-            <meta name="text" content={`${post.frontmatter.text}`} />
+            <title>{`${productCategory.frontmatter.title}`}</title>
+            <meta name="text" content={`${productCategory.frontmatter.text}`} />
           </Helmet>
         }
-        title={post.frontmatter.title}
-        featuredimage={post.frontmatter.featuredimage}
+        title={productCategory.frontmatter.title}
+        featuredimage={productCategory.frontmatter.featuredimage}
       />
     </Layout>
   );

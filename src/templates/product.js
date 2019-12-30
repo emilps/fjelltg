@@ -56,25 +56,25 @@ ProductTemplate.propTypes = {
 };
 
 const Product = ({ data }) => {
-  const { markdownRemark: post } = data;
+  const { markdownRemark: product } = data;
 
   return (
     <Layout>
       <ProductTemplate
-        content={post.html}
+        content={product.html}
         contentComponent={HTMLContent}
-        description={post.frontmatter.description}
+        description={product.frontmatter.description}
         helmet={
           <Helmet titleTemplate="%s | Product">
-            <title>{`${post.frontmatter.title}`}</title>
+            <title>{`${product.frontmatter.title}`}</title>
             <meta
               name="description"
-              content={`${post.frontmatter.description}`}
+              content={`${product.frontmatter.description}`}
             />
           </Helmet>
         }
-        tags={post.frontmatter.tags}
-        title={post.frontmatter.title}
+        tags={product.frontmatter.tags}
+        title={product.frontmatter.title}
       />
     </Layout>
   );

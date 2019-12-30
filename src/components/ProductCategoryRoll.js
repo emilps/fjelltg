@@ -10,6 +10,7 @@ class ProductCategoryRoll extends React.Component {
 
     return (
       <div className="columns is-multiline">
+        {console.log(data)}
         {productCategories &&
           productCategories.map(({ node: productCategory }, index) => (
             <div
@@ -68,7 +69,6 @@ const ProductCategoryRollQuery = () => (
               frontmatter {
                 title
                 templateKey
-                featuredpost
                 featuredimage {
                   childImageSharp {
                     fluid(maxWidth: 120, quality: 100) {
