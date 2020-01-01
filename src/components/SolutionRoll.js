@@ -9,16 +9,13 @@ class SolutionRoll extends React.Component {
     const { edges: solutions } = data.allMarkdownRemark;
 
     return (
-      <div className="solutions-roll is-multiline">
+      <div className="outer-container-roll is-multiline">
         {solutions &&
           solutions.map(({ node: solution }, index) => (
-            <div
-              className="solution-container remove-padding"
-              key={solution.id}
-            >
+            <div className="object-container remove-padding" key={solution.id}>
               <Link className="" to={solution.fields.slug}>
                 {solution.frontmatter.featuredimage ? (
-                  <div className="solution-image">
+                  <div className="object-image">
                     <PreviewCompatibleImage
                       imageInfo={{
                         image: solution.frontmatter.featuredimage,
@@ -28,7 +25,7 @@ class SolutionRoll extends React.Component {
                   </div>
                 ) : null}
                 <p
-                  className={`solution-text title is-uppercase ${
+                  className={`object-text title is-uppercase ${
                     index % 3 == 0 ? 'black-overlay' : 'blue-overlay'
                   }`}
                 >

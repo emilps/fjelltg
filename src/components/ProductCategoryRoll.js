@@ -9,17 +9,16 @@ class ProductCategoryRoll extends React.Component {
     const { edges: productCategories } = data.allMarkdownRemark;
 
     return (
-      <div className="columns is-multiline">
-        {console.log(data)}
+      <div className="outer-container-roll is-multiline">
         {productCategories &&
           productCategories.map(({ node: productCategory }, index) => (
             <div
-              className="solution-container remove-padding"
+              className="object-container remove-padding"
               key={productCategory.id}
             >
               <Link className="" to={productCategory.fields.slug}>
                 {productCategory.frontmatter.featuredimage ? (
-                  <div className="solution-image">
+                  <div className="object-image">
                     <PreviewCompatibleImage
                       imageInfo={{
                         image: productCategory.frontmatter.featuredimage,
@@ -29,7 +28,7 @@ class ProductCategoryRoll extends React.Component {
                   </div>
                 ) : null}
                 <p
-                  className={`solution-text title is-uppercase ${
+                  className={`object-text title is-uppercase ${
                     index % 3 == 0 ? 'black-overlay' : 'blue-overlay'
                   }`}
                 >
@@ -71,7 +70,7 @@ const ProductCategoryRollQuery = () => (
                 templateKey
                 featuredimage {
                   childImageSharp {
-                    fluid(maxWidth: 120, quality: 100) {
+                    fluid(maxWidth: 680, quality: 100) {
                       ...GatsbyImageSharpFluid
                     }
                   }

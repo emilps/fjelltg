@@ -1,7 +1,8 @@
-import React from "react";
-import Layout from "../../components/Layout";
-import SolutionRoll from "../../components/SolutionRoll";
-import PageJumbotron from "../../components/PageJumbotron";
+import React from 'react';
+import Layout from '../../components/Layout';
+import SolutionRoll from '../../components/SolutionRoll';
+import PageJumbotron from '../../components/PageJumbotron';
+import SimpleCompanyQuote from '../../components/SimpleCompanyQuote';
 
 export default class SolutionIndexPage extends React.Component {
   render() {
@@ -9,20 +10,16 @@ export default class SolutionIndexPage extends React.Component {
       <Layout>
         <div>
           <PageJumbotron
-            title={"Solutions"}
+            title={'Solutions'}
             image={`url('/img/products-grid2.jpg')`}
-            description={"All our solutions can be tailor made for YOUR needs"}
+            description={'All our solutions can be tailor made for YOUR needs'}
           />
-          <section className="section is-medium">
-            <div className="container">
-              <div className="content">
-                <p className="has-text-centered is-size-4">
-                  FjellTG has over xx years of experience with blabla something
-                  nice to introduce the reference projects
-                </p>
-              </div>
-            </div>
-          </section>
+          <SimpleCompanyQuote
+            text={
+              'FjellTG has over xx years of experience with blabla something nice to introduce the reference projects'
+            }
+            isMainQuote={false}
+          />
           <section className="section remove-padding">
             <div className="container remove-margin">
               <div className="content is-fullwidth">
@@ -30,15 +27,10 @@ export default class SolutionIndexPage extends React.Component {
               </div>
             </div>
           </section>
-          <section className="section is-medium">
-            <div className="container">
-              <div className="content">
-                <p className="has-text-centered title">
-                  Your partner for mass and heat transfer technology
-                </p>
-              </div>
-            </div>
-          </section>
+          <SimpleCompanyQuote
+            text={'Your partner for mass and heat transfer technology'}
+            isMainQuote={true}
+          />
         </div>
       </Layout>
     );
