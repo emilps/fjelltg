@@ -9,7 +9,6 @@ import Content, { HTMLContent } from '../components/Content';
 export const ProductTemplate = ({
   content,
   contentComponent,
-  description,
   tags,
   title,
   helmet
@@ -25,7 +24,6 @@ export const ProductTemplate = ({
             <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
               {title}
             </h1>
-            <p>{description}</p>
             <PostContent content={content} />
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
@@ -49,8 +47,8 @@ export const ProductTemplate = ({
 ProductTemplate.propTypes = {
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
-  description: PropTypes.string,
   title: PropTypes.string,
+  subtitle: PropTypes.string,
   helmet: PropTypes.object,
   tags: PropTypes.array
 };
@@ -63,14 +61,10 @@ const Product = ({ data }) => {
       <ProductTemplate
         content={product.html}
         contentComponent={HTMLContent}
-        description={product.frontmatter.description}
         helmet={
           <Helmet titleTemplate="%s | Product">
             <title>{`${product.frontmatter.title}`}</title>
-            <meta
-              name="description"
-              content={`${product.frontmatter.description}`}
-            />
+            <meta name="description" content={`some description`} />
           </Helmet>
         }
         tags={product.frontmatter.tags}
@@ -96,7 +90,33 @@ export const pageQuery = graphql`
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         title
-        description
+        subtitle
+        headerimage {
+          childImageSharp {
+            fluid(maxWidth: 680, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        description1
+        infobox1
+        smallimage {
+          childImageSharp {
+            fluid(maxWidth: 680, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        fullwidthimage {
+          childImageSharp {
+            fluid(maxWidth: 680, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        description2
+        infobox2
+        productcategory
         tags
       }
     }
