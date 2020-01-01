@@ -62,11 +62,24 @@ collections:
           default: 'product',
         }
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Description', name: 'description', widget: 'text' }
-      - { label: 'Featured Post', name: 'featuredpost', widget: 'boolean' }
-      - { label: 'Featured Image', name: 'featuredimage', widget: image }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Subtitle', name: 'subtitle', widget: 'text' }
+      - { label: 'Header Image', name: 'headerimage', widget: image }
+      - { label: 'Description 1', name: 'description1', widget: 'markdown' }
+      - { label: 'Infobox 1', name: 'infobox1', widget: 'markdown' }
+      - { label: 'Small Image', name: 'smallimage', widget: image }
+      - { label: 'Fullwidth Image', name: 'fullwidthimage', widget: image }
+      - { label: 'Description 2', name: 'description2', widget: 'markdown' }
+      - { label: 'Infobox 2', name: 'infobox2', widget: 'markdown' }
+      - {
+          label: 'Product Category',
+          name: 'productcategory',
+          widget: 'relation',
+          collection: 'productcategory',
+          searchFields: 'title',
+          valueField: 'title',
+        }
       - { label: 'Tags', name: 'tags', widget: 'list' }
+
   - name: 'project'
     label: 'Project'
     folder: 'src/pages/project'
@@ -116,6 +129,7 @@ collections:
                 collection: 'product',
                 searchFields: 'title',
                 valueField: 'title',
+                required: false,
               },
               {
                 label: 'BaseProduct2',
@@ -124,6 +138,7 @@ collections:
                 collection: 'product',
                 searchFields: 'title',
                 valueField: 'title',
+                required: false,
               },
               {
                 label: 'BaseProduct3',
@@ -132,6 +147,7 @@ collections:
                 collection: 'product',
                 searchFields: 'title',
                 valueField: 'title',
+                required: false,
               },
             ],
         }
