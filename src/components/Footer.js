@@ -25,21 +25,29 @@ const Footer = class extends React.Component {
               </div>
               <div className="column is-3 has-text-centered-mobile">
                 <section className="menu">
-                  <p className="has-text-weight-bold has-text-left">Explore</p>
-                  <ul className="menu-list remove-margin">
+                  <p className="has-text-weight-bold has-text-centered-mobile">
+                    Explore
+                  </p>
+                  <ul className="menu-list remove-margin has-text-centered-mobile">
                     <li>
-                      <Link to="/" className="navbar-item remove-padding">
+                      <Link
+                        to="/"
+                        className="navbar-item has-text-weight-light remove-padding"
+                      >
                         Home
                       </Link>
                     </li>
                     <li>
-                      <Link className="navbar-item remove-padding" to="/about">
+                      <Link
+                        className="navbar-item has-text-weight-light remove-padding"
+                        to="/about"
+                      >
                         About
                       </Link>
                     </li>
                     <li>
                       <Link
-                        className="navbar-item remove-padding"
+                        className="navbar-item has-text-weight-light remove-padding"
                         to="/project"
                       >
                         Projects
@@ -47,7 +55,7 @@ const Footer = class extends React.Component {
                     </li>
                     <li>
                       <Link
-                        className="navbar-item remove-padding"
+                        className="navbar-item has-text-weight-light remove-padding"
                         to="/product"
                       >
                         Products
@@ -55,7 +63,7 @@ const Footer = class extends React.Component {
                     </li>
                     <li>
                       <Link
-                        className="navbar-item remove-padding"
+                        className="navbar-item has-text-weight-light remove-padding"
                         to="/solutions"
                       >
                         Solutions
@@ -63,7 +71,7 @@ const Footer = class extends React.Component {
                     </li>
                     <li>
                       <Link
-                        className="navbar-item remove-padding"
+                        className="navbar-item has-text-weight-light remove-padding"
                         to="/contact/"
                       >
                         Contact
@@ -79,25 +87,22 @@ const Footer = class extends React.Component {
                     Main office: <br /> Idrettsvegen 103 <br />
                     N5353 Straume
                   </p>
-                  <p className="">
+                  <p className="has-text-weight-light">
                     GreenTech office:
                     <br /> Kong Christian Frederiks Plass 3 <br />
                     N-5006 Bergen
                   </p>
                 </section>
               </div>
-              <div
-                className="column is-3 has-text-centered-mobile	
-"
-              >
+              <div className="column is-3 has-text-centered-mobile">
                 <section className="menu">
                   <p className="has-text-weight-bold">Follow</p>
-                  <ul className="menu-list remove-margin">
+                  <ul className="menu-list remove-margin has-text-centered-mobile">
                     <li>
                       <a
                         title="linkedin"
                         href="https://www.linkedin.com/company/fjell-technology-group-as/"
-                        className="remove-padding navbar-item"
+                        className="remove-padding navbar-item has-text-weight-light"
                       >
                         LinkedIn
                       </a>
@@ -106,7 +111,7 @@ const Footer = class extends React.Component {
                       <a
                         title="facebook"
                         href="https://www.facebook.com/FjellGreenTech/"
-                        className="remove-padding navbar-item"
+                        className="remove-padding navbar-item has-text-weight-light"
                       >
                         Facebook
                       </a>
@@ -115,7 +120,7 @@ const Footer = class extends React.Component {
                       <a
                         title="instagram"
                         href="https://www.instagram.com/fjelltechnology/"
-                        className="remove-padding navbar-item"
+                        className="remove-padding navbar-item has-text-weight-light"
                       >
                         Instagram
                       </a>
@@ -124,7 +129,7 @@ const Footer = class extends React.Component {
                       <a
                         title="twitter"
                         href="https://twitter.com"
-                        className="remove-padding navbar-item"
+                        className="remove-padding navbar-item has-text-weight-light"
                       >
                         Twitter
                       </a>
@@ -133,7 +138,10 @@ const Footer = class extends React.Component {
                 </section>
               </div>
             </div>
-            <div style={{ marginTop: '7rem' }}>
+            <div
+              className="has-text-centered-mobile"
+              style={{ marginTop: '7rem' }}
+            >
               <p>© 2020 Fjell Technology Group. All rights reserved.</p>
             </div>
           </div>
