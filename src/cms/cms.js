@@ -22,3 +22,5 @@ CMS.registerPreviewTemplate('product', ProductPreview);
 CMS.registerPreviewTemplate('employee', EmployeePreview);
 CMS.registerPreviewTemplate('project', ProjectPreview);
 CMS.registerPreviewTemplate('solution', SolutionPreview);
+
+window.___loader = { enqueue: () => {}, hovering: () => {} };
