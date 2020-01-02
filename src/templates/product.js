@@ -1,19 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { kebabCase } from 'lodash';
 import Helmet from 'react-helmet';
-import { graphql, Link } from 'gatsby';
+import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
-import Content, { HTMLContent } from '../components/Content';
+/* import Content, { HTMLContent }  from '../components/Content'; */
 
 export const ProductTemplate = ({
-  content,
-  contentComponent,
-  tags,
+  /*   content,
+  contentComponent, */
   title,
   helmet
 }) => {
-  const PostContent = contentComponent || Content;
+  /* const PostContent = contentComponent || Content; */
 
   return (
     <section className="section">
@@ -24,19 +22,7 @@ export const ProductTemplate = ({
             <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
               {title}
             </h1>
-            <PostContent content={content} />
-            {tags && tags.length ? (
-              <div style={{ marginTop: `4rem` }}>
-                <h4>Tags</h4>
-                <ul className="taglist">
-                  {tags.map(tag => (
-                    <li key={tag + `tag`}>
-                      <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ) : null}
+            {/*             <PostContent content={content} /> */}
           </div>
         </div>
       </div>
@@ -45,12 +31,11 @@ export const ProductTemplate = ({
 };
 
 ProductTemplate.propTypes = {
-  content: PropTypes.node.isRequired,
-  contentComponent: PropTypes.func,
+  /* content: PropTypes.node.isRequired,
+  contentComponent: PropTypes.func, */
   title: PropTypes.string,
   subtitle: PropTypes.string,
-  helmet: PropTypes.object,
-  tags: PropTypes.array
+  helmet: PropTypes.object
 };
 
 const Product = ({ data }) => {
@@ -59,15 +44,14 @@ const Product = ({ data }) => {
   return (
     <Layout>
       <ProductTemplate
-        content={product.html}
-        contentComponent={HTMLContent}
+        /*         content={product.html}
+        contentComponent={HTMLContent} */
         helmet={
           <Helmet titleTemplate="%s | Product">
             <title>{`${product.frontmatter.title}`}</title>
             <meta name="description" content={`some description`} />
           </Helmet>
         }
-        tags={product.frontmatter.tags}
         title={product.frontmatter.title}
       />
     </Layout>
