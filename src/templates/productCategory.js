@@ -5,6 +5,7 @@ import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
 import Content, { HTMLContent } from '../components/Content';
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
+import ProductRoll from '../components/ProductRoll';
 
 export const ProductCategoryTemplate = ({
   content,
@@ -37,6 +38,7 @@ export const ProductCategoryTemplate = ({
               </div>
             ) : null}
             <PostContent content={content} />
+            <ProductRoll />
           </div>
         </div>
       </div>

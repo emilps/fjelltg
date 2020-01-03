@@ -84,6 +84,9 @@ export const pageQuery = graphql`
         }
         description1
         infobox1
+        productbrochure {
+          ...
+        }
         smallimage {
           childImageSharp {
             fluid(maxWidth: 680, quality: 100) {
