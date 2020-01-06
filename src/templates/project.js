@@ -5,17 +5,20 @@ import Helmet from 'react-helmet';
 import { graphql, Link } from 'gatsby';
 import Layout from '../components/Layout';
 import Content, { HTMLContent } from '../components/Content';
+import Img from 'gatsby-image';
 
 export const ProjectTemplate = ({
-  content,
-  contentComponent,
   description,
-  tags,
   title,
-  helmet
+  helmet,
+  secondtitle,
+  seconddescription,
+  thirdtitle,
+  thirddescription,
+  mainimage,
+  firstminiatureimage,
+  secondminiatureimage
 }) => {
-  const PostContent = contentComponent || Content;
-
   return (
     <section className="section">
       {helmet || ''}
@@ -26,19 +29,41 @@ export const ProjectTemplate = ({
               {title}
             </h1>
             <p>{description}</p>
-            <PostContent content={content} />
-            {tags && tags.length ? (
-              <div style={{ marginTop: `4rem` }}>
-                <h4>Tags</h4>
-                <ul className="taglist">
-                  {tags.map(tag => (
-                    <li key={tag + `tag`}>
-                      <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-                    </li>
-                  ))}
-                </ul>
+            {mainimage ? (
+              <div>
+                <Img
+                  style={{ maxHeight: '400px' }}
+                  fluid={mainimage.childImageSharp.fluid}
+                  alt={`featured image thumbnail for project ${title}`}
+                />
               </div>
             ) : null}
+            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
+              {secondtitle}
+            </h1>
+            <p>{seconddescription}</p>
+            {firstminiatureimage ? (
+              <div>
+                <Img
+                  style={{ maxHeight: '480px', maxWidth: '200px' }}
+                  fluid={firstminiatureimage.childImageSharp.fluid}
+                  alt={`featured image thumbnail for project ${secondtitle}`}
+                />
+              </div>
+            ) : null}
+            {secondminiatureimage ? (
+              <div>
+                <Img
+                  style={{ maxHeight: '200px', maxWidth: '200px' }}
+                  fluid={secondminiatureimage.childImageSharp.fluid}
+                  alt={`featured image thumbnail for project ${secondtitle}`}
+                />
+              </div>
+            ) : null}
+            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
+              {thirdtitle}
+            </h1>
+            <p>{thirddescription}</p>
           </div>
         </div>
       </div>
@@ -47,12 +72,16 @@ export const ProjectTemplate = ({
 };
 
 ProjectTemplate.propTypes = {
-  content: PropTypes.node.isRequired,
-  contentComponent: PropTypes.func,
   description: PropTypes.string,
   title: PropTypes.string,
+  seconddescription: PropTypes.string,
+  secondtitle: PropTypes.string,
+  thirddescription: PropTypes.string,
+  thirdtitle: PropTypes.string,
   helmet: PropTypes.object,
-  tags: PropTypes.array
+  mainimage: PropTypes.any,
+  firstminiatureimage: PropTypes.any,
+  secondminiatureimage: PropTypes.any
 };
 
 const Project = ({ data }) => {
@@ -61,8 +90,6 @@ const Project = ({ data }) => {
   return (
     <Layout>
       <ProjectTemplate
-        content={project.html}
-        contentComponent={HTMLContent}
         description={project.frontmatter.description}
         helmet={
           <Helmet titleTemplate="%s | Blog">
@@ -75,6 +102,13 @@ const Project = ({ data }) => {
         }
         tags={project.frontmatter.tags}
         title={project.frontmatter.title}
+        secondtitle={project.frontmatter.secondtitle}
+        seconddescription={project.frontmatter.seconddescription}
+        thirdtitle={project.frontmatter.thirdtitle}
+        thirddescription={project.frontmatter.thirddescription}
+        mainimage={project.frontmatter.mainimage}
+        firstminiatureimage={project.frontmatter.firstminiatureimage}
+        secondminiatureimage={project.frontmatter.secondminiatureimage}
       />
     </Layout>
   );
@@ -94,10 +128,33 @@ export const pageQuery = graphql`
       id
       html
       frontmatter {
-        date(formatString: "MMMM DD, YYYY")
         title
         description
-        tags
+        secondtitle
+        seconddescription
+        thirdtitle
+        thirddescription
+        mainimage {
+          childImageSharp {
+            fluid(maxWidth: 1080, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        firstminiatureimage {
+          childImageSharp {
+            fluid(maxWidth: 120, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        secondminiatureimage {
+          childImageSharp {
+            fluid(maxWidth: 120, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }
