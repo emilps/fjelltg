@@ -125,15 +125,6 @@ const Footer = class extends React.Component {
                         Instagram
                       </a>
                     </li>
-                    <li>
-                      <a
-                        title="twitter"
-                        href="https://twitter.com"
-                        className="remove-padding navbar-item has-text-weight-light"
-                      >
-                        Twitter
-                      </a>
-                    </li>
                   </ul>
                 </section>
               </div>
