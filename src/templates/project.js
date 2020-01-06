@@ -20,50 +20,58 @@ export const ProjectTemplate = ({
   secondminiatureimage
 }) => {
   return (
-    <section className="section">
+    <section>
       {helmet || ''}
-      <div className="container content">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
+      <div className="">
+        <div>
+          <div className="project-title-section">
             <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
               {title}
             </h1>
-            <p>{description}</p>
+            <p className="is-size-5">{description}</p>
+          </div>
+          <div>
             {mainimage ? (
               <div>
                 <Img
-                  style={{ maxHeight: '400px' }}
+                  style={{ maxHeight: '720px' }}
                   fluid={mainimage.childImageSharp.fluid}
                   alt={`featured image thumbnail for project ${title}`}
                 />
               </div>
             ) : null}
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-              {secondtitle}
-            </h1>
-            <p>{seconddescription}</p>
-            {firstminiatureimage ? (
-              <div>
-                <Img
-                  style={{ maxHeight: '480px', maxWidth: '200px' }}
-                  fluid={firstminiatureimage.childImageSharp.fluid}
-                  alt={`featured image thumbnail for project ${secondtitle}`}
-                />
+          </div>
+          <div className="project-info-section">
+            <div className="project-info-first">
+              <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
+                {secondtitle}
+              </h1>
+              <p>{seconddescription}</p>
+              <div className="columns project-miniature-images">
+                {firstminiatureimage ? (
+                  <div className="column is-two-fifths">
+                    <Img
+                      fluid={firstminiatureimage.childImageSharp.fluid}
+                      alt={`featured image thumbnail for project ${secondtitle}`}
+                    />
+                  </div>
+                ) : null}
+                {secondminiatureimage ? (
+                  <div className="column is-two-fifths">
+                    <Img
+                      fluid={secondminiatureimage.childImageSharp.fluid}
+                      alt={`featured image thumbnail for project ${secondtitle}`}
+                    />
+                  </div>
+                ) : null}
               </div>
-            ) : null}
-            {secondminiatureimage ? (
-              <div>
-                <Img
-                  style={{ maxHeight: '200px', maxWidth: '200px' }}
-                  fluid={secondminiatureimage.childImageSharp.fluid}
-                  alt={`featured image thumbnail for project ${secondtitle}`}
-                />
-              </div>
-            ) : null}
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-              {thirdtitle}
-            </h1>
-            <p>{thirddescription}</p>
+            </div>
+            <div className="project-info-second">
+              <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
+                {thirdtitle}
+              </h1>
+              <p>{thirddescription}</p>
+            </div>
           </div>
         </div>
       </div>
@@ -143,14 +151,14 @@ export const pageQuery = graphql`
         }
         firstminiatureimage {
           childImageSharp {
-            fluid(maxWidth: 120, quality: 100) {
+            fluid(maxWidth: 380, quality: 100) {
               ...GatsbyImageSharpFluid
             }
           }
         }
         secondminiatureimage {
           childImageSharp {
-            fluid(maxWidth: 120, quality: 100) {
+            fluid(maxWidth: 380, quality: 100) {
               ...GatsbyImageSharpFluid
             }
           }

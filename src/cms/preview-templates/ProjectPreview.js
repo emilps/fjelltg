@@ -4,10 +4,12 @@ import { ProjectTemplate } from '../../templates/project';
 
 const ProjectPreview = ({ entry, widgetFor }) => (
   <ProjectTemplate
-    content={widgetFor('body')}
     description={entry.getIn(['data', 'description'])}
-    tags={entry.getIn(['data', 'tags'])}
     title={entry.getIn(['data', 'title'])}
+    seconddescription={entry.getIn(['data', 'seconddescription'])}
+    secondtitle={entry.getIn(['data', 'secondtitle'])}
+    thirddescription={entry.getIn(['data', 'thirddescription'])}
+    thirdtitle={entry.getIn(['data', 'thirdtitle'])}
   />
 );
 
