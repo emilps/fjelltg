@@ -19,7 +19,6 @@ export const IndexPageTemplate = ({
   <div>
     <IndexImage />
     <section className="section section--gradient">
-      {console.log(image)}
       <div className="container">
         <div className="section">
           <div className="columns">
