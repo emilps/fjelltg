@@ -107,9 +107,15 @@ ProjectTemplate.propTypes = {
   thirddescription: PropTypes.string,
   thirdtitle: PropTypes.string,
   helmet: PropTypes.object,
-  mainimage: PropTypes.any,
-  firstminiatureimage: PropTypes.any,
-  secondminiatureimage: PropTypes.any
+  mainimage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+  firstminiatureimage: PropTypes.oneOfType([
+    PropTypes.object,
+    PropTypes.string
+  ]),
+  secondminiatureimage: PropTypes.oneOfType([
+    PropTypes.object,
+    PropTypes.string
+  ])
 };
 
 const Project = ({ data }) => {
