@@ -24,6 +24,6 @@ thirddescription: >-
   an extremely tough application with severe wear and tear on the drying
   equipment, but the Fjell Turbo Disc Dryer has proven to resist the extreme
   conditions since the first unit was installed at I.V.A.R – Stavanger in 2001
-category: ORD
+category: FishSludge Recovery System
 ---
 
