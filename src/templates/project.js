@@ -34,11 +34,15 @@ export const ProjectTemplate = ({
             {mainimage ? (
               <div>
                 {typeof mainimage === 'string' ? (
-                  <img src={mainimage} style={{ width: '100%' }} />
+                  <img
+                    src={mainimage}
+                    style={{ maxHeight: '720px', width: '100%' }}
+                  />
                 ) : (
                   <Img
                     fluid={mainimage.childImageSharp.fluid}
                     alt={`featured image thumbnail for project ${secondtitle}`}
+                    style={{ maxHeight: '720px' }}
                   />
                 )}
               </div>
@@ -59,6 +63,7 @@ export const ProjectTemplate = ({
                       <Img
                         fluid={firstminiatureimage.childImageSharp.fluid}
                         alt={`featured image thumbnail for project ${secondtitle}`}
+                        style={{ maxHeight: '270px', maxWidth: '380px' }}
                       />
                     )}
                   </div>
@@ -74,6 +79,7 @@ export const ProjectTemplate = ({
                       <Img
                         fluid={secondminiatureimage.childImageSharp.fluid}
                         alt={`featured image thumbnail for project ${secondtitle}`}
+                        style={{ maxHeight: '270px', maxWidth: '380px' }}
                       />
                     )}
                   </div>
