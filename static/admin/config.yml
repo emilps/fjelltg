@@ -82,10 +82,10 @@ collections:
         required: true,
         options:
           [
-            { label: 'FishSludge Recovery System', value: 'ORD' },
-            { label: 'Protein Recycling', value: 'CDG' },
-            { label: 'Oil & Gas', value: 'HND' },
-            { label: 'Co2 Capture', value: 'Co2' },
+             'FishSludge Recovery System', 
+             'Protein Recycling',
+             'Oil & Gas',
+             'Co2 Capture'
           ],
       }
 
