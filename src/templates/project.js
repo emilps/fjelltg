@@ -33,11 +33,14 @@ export const ProjectTemplate = ({
           <div>
             {mainimage ? (
               <div>
-                <Img
-                  style={{ maxHeight: '720px' }}
-                  fluid={mainimage.childImageSharp.fluid}
-                  alt={`featured image thumbnail for project ${title}`}
-                />
+                {typeof mainimage === 'string' ? (
+                  <img src={mainimage} style={{ width: '100%' }} />
+                ) : (
+                  <Img
+                    fluid={mainimage.childImageSharp.fluid}
+                    alt={`featured image thumbnail for project ${secondtitle}`}
+                  />
+                )}
               </div>
             ) : null}
           </div>
@@ -50,18 +53,29 @@ export const ProjectTemplate = ({
               <div className="columns project-miniature-images">
                 {firstminiatureimage ? (
                   <div className="column is-two-fifths">
-                    <Img
-                      fluid={firstminiatureimage.childImageSharp.fluid}
-                      alt={`featured image thumbnail for project ${secondtitle}`}
-                    />
+                    {typeof firstminiatureimage === 'string' ? (
+                      <img src={firstminiatureimage} style={{ width: '40%' }} />
+                    ) : (
+                      <Img
+                        fluid={firstminiatureimage.childImageSharp.fluid}
+                        alt={`featured image thumbnail for project ${secondtitle}`}
+                      />
+                    )}
                   </div>
                 ) : null}
                 {secondminiatureimage ? (
                   <div className="column is-two-fifths">
-                    <Img
-                      fluid={secondminiatureimage.childImageSharp.fluid}
-                      alt={`featured image thumbnail for project ${secondtitle}`}
-                    />
+                    {typeof secondminiatureimage === 'string' ? (
+                      <img
+                        src={secondminiatureimage}
+                        style={{ width: '40%' }}
+                      />
+                    ) : (
+                      <Img
+                        fluid={secondminiatureimage.childImageSharp.fluid}
+                        alt={`featured image thumbnail for project ${secondtitle}`}
+                      />
+                    )}
                   </div>
                 ) : null}
               </div>
