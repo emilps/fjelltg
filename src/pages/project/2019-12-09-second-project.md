@@ -9,6 +9,6 @@ firstminiatureimage: /img/coffee-gear.png
 secondminiatureimage: /img/coffee.png
 thirdtitle: SANKI
 thirddescription: This is the new and better project
-category: HND
+category: Oil & Gas
 ---
 

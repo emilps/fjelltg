@@ -9,6 +9,6 @@ firstminiatureimage: /img/meeting-space.png
 secondminiatureimage: /img/coffee-gear.png
 thirdtitle: AKER
 thirddescription: This is the new and better project
-category: CDG
+category: Oil & Gas
 ---
 

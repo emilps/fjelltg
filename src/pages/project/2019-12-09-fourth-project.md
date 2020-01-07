@@ -9,6 +9,6 @@ firstminiatureimage: /img/coffee-gear.png
 secondminiatureimage: /img/coffee.png
 thirdtitle: EPCON
 thirddescription: This is the new and better project
-category: Co2
+category: Protein Recycling
 ---
 
