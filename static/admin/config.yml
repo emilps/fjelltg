@@ -76,6 +76,41 @@ collections:
       - { label: 'Third Title', name: 'thirdtitle', widget: 'string' }
       - { label: 'Third Description', name: 'thirddescription', widget: 'text' }
       - {
+        label: 'Related Products',
+        name: 'relatedproducts',
+        widget: 'object',
+        fields:
+          [
+            {
+              label: 'Related Product 1',
+              name: 'relatedproduct1',
+              widget: 'relatedProduct',
+              collection: 'product',
+              searchFields: 'title',
+              valueField: 'title',
+              displayFields: 'title'
+            },
+            {
+              label: 'Related Product 2',
+              name: 'relatedproduct2',
+              widget: 'relatedProduct',
+              collection: 'product',
+              searchFields: 'title',
+              valueField: 'title',
+              displayFields: 'title'
+            },
+            {
+              label: 'Related Product 3',
+              name: 'relatedproduct3',
+              widget: 'relatedProduct',
+              collection: 'product',
+              searchFields: 'title',
+              valueField: 'title',
+              displayFields: 'title'
+            },
+          ],
+        }
+      - {
         label: 'Category',
         name: 'category',
         widget: 'select',
