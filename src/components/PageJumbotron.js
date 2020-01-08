@@ -1,24 +1,44 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
+import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 
 const PageJumbotron = ({ title, image, description }) => {
-  const inputImage = image !== "" ? image : `url('/img/blog-index.jpg')`;
+  const inputImage = image !== '' ? image : `url('/img/blog-index.jpg')`;
   return (
     <div>
-      <div
-        className="full-width-image-container-margin-top-0"
-        style={{
-          backgroundImage: inputImage
-        }}
-      >
-        <div className="black-overlay-opacity-50">
-          <div className="jumbotron-centered-elements">
-            <h1 className="h1-page-title">{title.toUpperCase()}</h1>
-            <hr className="hr-jumbotron" />
-            <h3 className="h3-page-subtitle">{description}</h3>
+      {inputImage && inputImage instanceof Object ? (
+        <div className="full-width-image-container-margin-top-0">
+          <PreviewCompatibleImage
+            imageInfo={{
+              image: image,
+              alt: `featured image thumbnail for ${title}`,
+              style: { height: '650px' }
+            }}
+          />
+          <div className="jumbotron-image black-overlay-opacity-50">
+            <div className="jumbotron-centered-elements">
+              <h1 className="h1-page-title">{title.toUpperCase()}</h1>
+              <hr className="hr-jumbotron" />
+              <h3 className="h3-page-subtitle">{description}</h3>
+            </div>
           </div>
         </div>
-      </div>
+      ) : (
+        <div
+          className="full-width-image-container-margin-top-0"
+          style={{
+            backgroundImage: inputImage
+          }}
+        >
+          <div className="black-overlay-opacity-50">
+            <div className="jumbotron-centered-elements">
+              <h1 className="h1-page-title">{title.toUpperCase()}</h1>
+              <hr className="hr-jumbotron" />
+              <h3 className="h3-page-subtitle">{description}</h3>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 };

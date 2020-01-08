@@ -1,13 +1,12 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { graphql, StaticQuery } from "gatsby";
-import { Employee } from "./Employee";
+import React from 'react';
+import PropTypes from 'prop-types';
+import { graphql, StaticQuery } from 'gatsby';
+import { Employee } from './Employee';
 
 class Employees extends React.Component {
   render() {
     const { data } = this.props;
     const { edges: employees } = data.allMarkdownRemark;
-    console.log(employees);
 
     return (
       <div className="columns is-multiline">
@@ -16,7 +15,7 @@ class Employees extends React.Component {
             <div className="is-parent column is-6" key={employee.id}>
               <article
                 className={`blog-list-item tile is-child box notification ${
-                  employee.frontmatter.featuredpost ? "is-featured" : ""
+                  employee.frontmatter.featuredpost ? 'is-featured' : ''
                 }`}
               >
                 <header>
@@ -85,5 +84,5 @@ const EmployeesQuery = () => (
   />
 );
 
-EmployeesQuery.displayName = "EmployeesQuery";
+EmployeesQuery.displayName = 'EmployeesQuery';
 export default EmployeesQuery;

@@ -48,12 +48,21 @@ nav
     margin-bottom: 1.5rem
     margin-top: 0
 
+.jumbotron-image
+  position: absolute
+  z-index: 1
+  bottom: 0
+  right: 0
+  left: 0
+  top: 80px
+  height: 650px
+
 .jumbotron-centered-elements
   display: flex
   flex-direction: column
   justify-content: center
   align-items: center
-  width: 100vw
+  width: 100%
   height: 650px
   animation: 0.5s ease-in fade-in
 
@@ -92,7 +101,7 @@ nav
   align-items: flex-end
 
 .black-overlay-opacity-50
-  background: rgba(0,0,0, 0.5)
+  background: rgba(27,27,27, 0.5)
 
 .index-image-container
   position: relative
@@ -254,11 +263,11 @@ $navbar-item-color: white
 @import "~bulma"
 
 // responsiveness
-+tablet-only
+  +tablet-only
   .blog-list-item .featured-thumbnail
     flex-basis: 50%
 
-+mobile
+    +mobile
   .blog-list-item header
     display: block
   .blog-list-item .featured-thumbnail
@@ -310,6 +319,77 @@ $navbar-item-color: white
 .project-filter
   padding-left: 3rem
 
+// Product page
+
+.product-info-section
+  padding: 5rem 14rem
+  
+.product-info-section-text
+  display: flex
+  flex-direction: row
+
+.brochure-container
+  padding: 10px 30px
+  margin-left: 190px
+  width: 300px
+  background-color: #002060
+  color: white
+  display: flex
+  flex-direction: row
+
+.brochure-container-info > h3 
+  font-size: 26px
+  font-weight: 600
+
+.brochure-container-info > h4 
+  font-size: 12px
+  font-weight: bold
+
+
+.fullwidthimage-container
+  padding: 2rem 0
+  
+
+// Markdowns
+
+.markdown-container
+  display: flex
+  flex-direction: column
+  &.description
+    
+  &.infobox
+    padding: 10px 30px
+    padding-bottom: 2em
+    margin-left: 190px
+    width: 300px
+    
+    &.lightblue
+      background-color: rgba(77,126,168, 0.1)
+      color: black
+
+.markdown-container > h2
+  font-weight: bold 
+  font-size: 28px
+  padding: 10px 0
+
+.markdown-container > p 
+  font-size: 16px
+  padding: 10px 0
+
+.markdown-container > ul li 
+  list-style: none
+  padding: 0 20px
+  font-size: 14px
+  &:before
+    content: "\2022"
+    color: #4D7EA8
+    font-weight: 900
+    font-size: 1.8em
+    display: inline-block
+    width: 1em
+    margin-left: -1em
+    line-height: 1
+
 // ObjectRolls containers
 
 .outer-container-roll
@@ -340,3 +420,4 @@ $navbar-item-color: white
     background-color: rgba(27,27,27,0.5)
   &.blue-overlay
     background-color: rgba(77,126,168,0.5)
+

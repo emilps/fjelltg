@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { ProductTemplate } from '../../templates/product';
 
-const ProductPreview = ({ entry }) => {
+const ProductPreview = ({ entry, widgetFor }) => {
   const tags = entry.getIn(['data', 'tags']);
 
   return (
@@ -10,7 +10,7 @@ const ProductPreview = ({ entry }) => {
       title={entry.getIn(['data', 'title'])}
       subtitle={entry.getIn(['data', 'subtitle'])}
       headerimage={entry.getIn(['data', 'headerimage'])}
-      description1={entry.getIn(['data', 'description1'])}
+      description1={widgetFor('description1')}
       infobox1={entry.getIn(['data', 'infobox1'])}
       productbrochure={entry.getIn(['data', 'productbrochure'])}
       smallimage={entry.getIn(['data', 'smallimage'])}
@@ -26,7 +26,8 @@ const ProductPreview = ({ entry }) => {
 ProductPreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func
-  })
+  }),
+  widgetFor: PropTypes.func
 };
 
 export default ProductPreview;
