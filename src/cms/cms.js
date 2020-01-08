@@ -26,6 +26,6 @@ CMS.registerPreviewTemplate('employee', EmployeePreview);
 CMS.registerPreviewTemplate('project', ProjectPreview);
 CMS.registerPreviewTemplate('solution', SolutionPreview);
 
-CMS.registerWidget('relatedProduct', controlComponent, previewComponent);
+CMS.registerWidget('relatedProduct', controlComponent);
 
 window.___loader = { enqueue: () => {}, hovering: () => {} };

@@ -30,7 +30,15 @@ function getSelectedValue({ value, options, isMultiple }) {
       .filter(Boolean)
       .map(convertToOption);
   } else {
-    return find(options, ['value', value]) || null;
+    let title = '';
+    if (value) {
+      if (value.size) {
+        title = value.toJS().title;
+      } else {
+        title = value.title;
+      }
+    }
+    return find(options, ['value.title', title]) || null;
   }
 }
 
@@ -189,7 +197,6 @@ export default class RelationControl extends React.Component {
       setInactiveStyle,
       queryHits
     } = this.props;
-    // console.log(this.props);
 
     const isMultiple = field.get('multiple', false);
     const isClearable = !field.get('required', true) || isMultiple;
@@ -202,6 +209,8 @@ export default class RelationControl extends React.Component {
       value,
       isMultiple
     });
+
+    console.log(selectedValue);
 
     return (
       <AsyncSelect

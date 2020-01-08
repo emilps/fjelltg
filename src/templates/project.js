@@ -109,8 +109,8 @@ export const ProjectTemplate = ({
                     className="is-horizontal-align column"
                     style={{ flexDirection: 'column' }}
                   >
-                    {console.log(relatedproducts[product].fullwidthimage)}
-                    {typeof secondminiatureimage === 'string' ? (
+                    {typeof relatedproducts[product].fullwidthimage ===
+                    'string' ? (
                       <img
                         src={relatedproducts[product].fullwidthimage}
                         style={{ width: '40%' }}
