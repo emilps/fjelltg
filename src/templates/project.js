@@ -108,18 +108,22 @@ export const ProjectTemplate = ({
                   className="is-horizontal-align column"
                   style={{ flexDirection: 'column' }}
                 >
-                  <img
-                    src={
-                      relatedproducts[product]['fullwidthimage'].includes(
-                        '../../../static'
-                      )
-                        ? relatedproducts[product]['fullwidthimage'].split(
-                            '../../../static'
-                          )[1]
-                        : relatedproducts[product]['fullwidthimage']
-                    }
-                    style={{ width: '80%' }}
-                  />
+                  {console.log(relatedproducts[product].fullwidthimage)}
+                  {typeof secondminiatureimage === 'string' ? (
+                    <img
+                      src={relatedproducts[product].fullwidthimage}
+                      style={{ width: '40%' }}
+                    />
+                  ) : (
+                    <Img
+                      fluid={
+                        relatedproducts[product].fullwidthimage.childImageSharp
+                          .fluid
+                      }
+                      alt={`featured image thumbnail for project ${secondtitle}`}
+                      style={{ width: '80%' }}
+                    />
+                  )}
                   <hr
                     style={{
                       backgroundColor: 'black',
@@ -160,10 +164,12 @@ ProjectTemplate.propTypes = {
     PropTypes.object,
     PropTypes.string
   ]),
-  relatedproducts: PropTypes.object
+  relatedproducts: PropTypes.any
 };
 
 const Project = ({ data }) => {
+  console.log(data);
+
   const { markdownRemark: project } = data;
 
   return (
@@ -218,17 +224,35 @@ export const pageQuery = graphql`
           relatedproduct1 {
             title
             slug
-            fullwidthimage
+            fullwidthimage {
+              childImageSharp {
+                fluid(maxWidth: 380, quality: 100) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
           }
           relatedproduct2 {
             title
             slug
-            fullwidthimage
+            fullwidthimage {
+              childImageSharp {
+                fluid(maxWidth: 380, quality: 100) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
           }
           relatedproduct3 {
             title
             slug
-            fullwidthimage
+            fullwidthimage {
+              childImageSharp {
+                fluid(maxWidth: 380, quality: 100) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
           }
         }
         mainimage {
