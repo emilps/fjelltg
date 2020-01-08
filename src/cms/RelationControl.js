@@ -18,8 +18,6 @@ function convertToOption(raw) {
 }
 
 function getSelectedValue({ value, options, isMultiple }) {
-  console.log(options);
-
   if (isMultiple) {
     const selectedOptions = List.isList(value) ? value.toJS() : value;
 
@@ -32,8 +30,6 @@ function getSelectedValue({ value, options, isMultiple }) {
       .filter(Boolean)
       .map(convertToOption);
   } else {
-    console.log('Selected', find(options, ['value', value]));
-
     return find(options, ['value', value]) || null;
   }
 }
@@ -134,8 +130,6 @@ export default class RelationControl extends React.Component {
   };
 
   parseHitOptions = hits => {
-    console.log('hits', hits);
-
     const { field } = this.props;
 
     const valueField = field.get('valueField');
@@ -202,7 +196,6 @@ export default class RelationControl extends React.Component {
 
     const hits = queryHits.get(forID, []);
     const options = this.allOptions || this.parseHitOptions(hits);
-    console.log(value);
 
     const selectedValue = getSelectedValue({
       options,

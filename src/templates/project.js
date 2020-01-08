@@ -17,7 +17,8 @@ export const ProjectTemplate = ({
   thirddescription,
   mainimage,
   firstminiatureimage,
-  secondminiatureimage
+  secondminiatureimage,
+  relatedproducts
 }) => {
   return (
     <section>
@@ -93,6 +94,49 @@ export const ProjectTemplate = ({
               <p>{thirddescription}</p>
             </div>
           </div>
+          <div className="project-related-products">
+            <p
+              className="title has-text-centered"
+              style={{ marginBottom: '3rem' }}
+            >
+              Relevant products
+            </p>
+            <div className="columns ">
+              {Object.keys(relatedproducts).map((product, index) => (
+                <div
+                  key={index}
+                  className="is-horizontal-align column"
+                  style={{ flexDirection: 'column' }}
+                >
+                  <img
+                    src={
+                      relatedproducts[product]['fullwidthimage'].includes(
+                        '../../../static'
+                      )
+                        ? relatedproducts[product]['fullwidthimage'].split(
+                            '../../../static'
+                          )[1]
+                        : relatedproducts[product]['fullwidthimage']
+                    }
+                    style={{ width: '80%' }}
+                  />
+                  <hr
+                    style={{
+                      backgroundColor: 'black',
+                      width: '50%',
+                      height: '1px'
+                    }}
+                  ></hr>
+                  <Link
+                    className="title is-5"
+                    to={'/product/' + relatedproducts[product]['slug']}
+                  >
+                    {relatedproducts[product]['title']}
+                  </Link>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -115,7 +159,8 @@ ProjectTemplate.propTypes = {
   secondminiatureimage: PropTypes.oneOfType([
     PropTypes.object,
     PropTypes.string
-  ])
+  ]),
+  relatedproducts: PropTypes.object
 };
 
 const Project = ({ data }) => {
@@ -143,6 +188,7 @@ const Project = ({ data }) => {
         mainimage={project.frontmatter.mainimage}
         firstminiatureimage={project.frontmatter.firstminiatureimage}
         secondminiatureimage={project.frontmatter.secondminiatureimage}
+        relatedproducts={project.frontmatter.relatedproducts}
       />
     </Layout>
   );
@@ -168,6 +214,23 @@ export const pageQuery = graphql`
         seconddescription
         thirdtitle
         thirddescription
+        relatedproducts {
+          relatedproduct1 {
+            title
+            slug
+            fullwidthimage
+          }
+          relatedproduct2 {
+            title
+            slug
+            fullwidthimage
+          }
+          relatedproduct3 {
+            title
+            slug
+            fullwidthimage
+          }
+        }
         mainimage {
           childImageSharp {
             fluid(maxWidth: 1080, quality: 100) {
