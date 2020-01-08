@@ -83,6 +83,20 @@ export const ProductTemplate = ({
             />
           ) : null}
         </div>
+        <div className="product-info-section">
+          <div className="product-info-section-text">
+            <PostContent
+              className={'markdown-container description'}
+              content={description2}
+            />
+            <div className="infobox-container">
+              <PostContent
+                className={'markdown-container infobox darkblue'}
+                content={infobox2}
+              />
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
@@ -94,7 +108,7 @@ ProductTemplate.propTypes = {
   subtitle: PropTypes.string,
   helmet: PropTypes.object,
   headerimage: PropTypes.oneOf([PropTypes.string, PropTypes.object]),
-  description1: PropTypes.node,
+  description1: PropTypes.string,
   infobox1: PropTypes.string,
   smallimage: PropTypes.oneOf([PropTypes.string, PropTypes.object]),
   fullwidthimage: PropTypes.oneOf([PropTypes.string, PropTypes.object]),
