@@ -11,13 +11,13 @@ export const ProjectTemplate = ({
   description,
   title,
   helmet,
-  secondtitle,
-  seconddescription,
-  thirdtitle,
-  thirddescription,
+  title1,
+  description1,
+  title2,
+  description2,
   mainimage,
-  firstminiatureimage,
-  secondminiatureimage,
+  miniatureimage1,
+  miniatureimage2,
   relatedproducts
 }) => {
   return (
@@ -42,7 +42,7 @@ export const ProjectTemplate = ({
                 ) : (
                   <Img
                     fluid={mainimage.childImageSharp.fluid}
-                    alt={`featured image thumbnail for project ${secondtitle}`}
+                    alt={`featured image thumbnail for project ${title1}`}
                     style={{ maxHeight: '720px' }}
                   />
                 )}
@@ -52,34 +52,31 @@ export const ProjectTemplate = ({
           <div className="project-info-section">
             <div className="project-info-first">
               <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-                {secondtitle}
+                {title1}
               </h1>
-              <p>{seconddescription}</p>
+              <p>{description1}</p>
               <div className="columns project-miniature-images">
-                {firstminiatureimage ? (
+                {miniatureimage1 ? (
                   <div className="column is-two-fifths">
-                    {typeof firstminiatureimage === 'string' ? (
-                      <img src={firstminiatureimage} style={{ width: '40%' }} />
+                    {typeof miniatureimage1 === 'string' ? (
+                      <img src={miniatureimage1} style={{ width: '40%' }} />
                     ) : (
                       <Img
-                        fluid={firstminiatureimage.childImageSharp.fluid}
-                        alt={`featured image thumbnail for project ${secondtitle}`}
+                        fluid={miniatureimage1.childImageSharp.fluid}
+                        alt={`featured image thumbnail for project ${title1}`}
                         style={{ maxHeight: '270px', maxWidth: '380px' }}
                       />
                     )}
                   </div>
                 ) : null}
-                {secondminiatureimage ? (
+                {miniatureimage2 ? (
                   <div className="column is-two-fifths">
-                    {typeof secondminiatureimage === 'string' ? (
-                      <img
-                        src={secondminiatureimage}
-                        style={{ width: '40%' }}
-                      />
+                    {typeof miniatureimage2 === 'string' ? (
+                      <img src={miniatureimage2} style={{ width: '40%' }} />
                     ) : (
                       <Img
-                        fluid={secondminiatureimage.childImageSharp.fluid}
-                        alt={`featured image thumbnail for project ${secondtitle}`}
+                        fluid={miniatureimage2.childImageSharp.fluid}
+                        alt={`featured image thumbnail for project ${title1}`}
                         style={{ maxHeight: '270px', maxWidth: '380px' }}
                       />
                     )}
@@ -89,9 +86,9 @@ export const ProjectTemplate = ({
             </div>
             <div className="project-info-second">
               <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-                {thirdtitle}
+                {title2}
               </h1>
-              <p>{thirddescription}</p>
+              <p>{description2}</p>
             </div>
           </div>
           <div className="project-related-products">
@@ -121,7 +118,7 @@ export const ProjectTemplate = ({
                           relatedproducts[product].fullwidthimage
                             .childImageSharp.fluid
                         }
-                        alt={`featured image thumbnail for project ${secondtitle}`}
+                        alt={`featured image thumbnail for project ${title1}`}
                         style={{ width: '80%' }}
                       />
                     )}
@@ -151,20 +148,14 @@ export const ProjectTemplate = ({
 ProjectTemplate.propTypes = {
   description: PropTypes.string,
   title: PropTypes.string,
-  seconddescription: PropTypes.string,
-  secondtitle: PropTypes.string,
-  thirddescription: PropTypes.string,
-  thirdtitle: PropTypes.string,
+  description1: PropTypes.string,
+  title1: PropTypes.string,
+  description2: PropTypes.string,
+  title2: PropTypes.string,
   helmet: PropTypes.object,
   mainimage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-  firstminiatureimage: PropTypes.oneOfType([
-    PropTypes.object,
-    PropTypes.string
-  ]),
-  secondminiatureimage: PropTypes.oneOfType([
-    PropTypes.object,
-    PropTypes.string
-  ]),
+  miniatureimage1: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+  miniatureimage2: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   relatedproducts: PropTypes.object
 };
 
@@ -186,13 +177,13 @@ const Project = ({ data }) => {
         }
         tags={project.frontmatter.tags}
         title={project.frontmatter.title}
-        secondtitle={project.frontmatter.secondtitle}
-        seconddescription={project.frontmatter.seconddescription}
-        thirdtitle={project.frontmatter.thirdtitle}
-        thirddescription={project.frontmatter.thirddescription}
+        title1={project.frontmatter.title1}
+        description1={project.frontmatter.description1}
+        title2={project.frontmatter.title2}
+        description2={project.frontmatter.description2}
         mainimage={project.frontmatter.mainimage}
-        firstminiatureimage={project.frontmatter.firstminiatureimage}
-        secondminiatureimage={project.frontmatter.secondminiatureimage}
+        miniatureimage1={project.frontmatter.miniatureimage1}
+        miniatureimage2={project.frontmatter.miniatureimage2}
         relatedproducts={project.frontmatter.relatedproducts}
       />
     </Layout>
@@ -215,10 +206,10 @@ export const pageQuery = graphql`
       frontmatter {
         title
         description
-        secondtitle
-        seconddescription
-        thirdtitle
-        thirddescription
+        title1
+        description1
+        title2
+        description2
         relatedproducts {
           relatedproduct1 {
             title
@@ -261,14 +252,14 @@ export const pageQuery = graphql`
             }
           }
         }
-        firstminiatureimage {
+        miniatureimage1 {
           childImageSharp {
             fluid(maxWidth: 380, quality: 100) {
               ...GatsbyImageSharpFluid
             }
           }
         }
-        secondminiatureimage {
+        miniatureimage2 {
           childImageSharp {
             fluid(maxWidth: 380, quality: 100) {
               ...GatsbyImageSharpFluid

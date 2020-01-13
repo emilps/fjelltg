@@ -3,12 +3,11 @@ templateKey: project
 title: SANKI
 description: This is the new and better project
 mainimage: /img/jumbotron.jpg
-secondtitle: SANKI
-seconddescription: This is the new and better project
-firstminiatureimage: /img/coffee-gear.png
-secondminiatureimage: /img/coffee.png
-thirdtitle: SANKI
-thirddescription: This is the new and better project
+title1: SANKI
+description1: This is the new and better project
+miniatureimage1: /img/coffee-gear.png
+miniatureimage2: /img/coffee.png
+title2: SANKI
+description2: This is the new and better project
 category: Oil & Gas
 ---
-

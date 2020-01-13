@@ -65,16 +65,16 @@ collections:
       - { label: 'Description', name: 'description', widget: 'text' }
       - { label: 'Main Image', name: 'mainimage', widget: image }
       
-      - { label: 'Second Title', name: 'secondtitle', widget: 'string' }
+      - { label: 'Second Title', name: 'title1', widget: 'string' }
       - {
           label: 'Second Description',
-          name: 'seconddescription',
+          name: 'description1',
           widget: 'text',
         }
-      - { label: 'First Miniature Image', name: 'firstminiatureimage', widget: image }
-      - { label: 'Second Miniature Image', name: 'secondminiatureimage', widget: image }
-      - { label: 'Third Title', name: 'thirdtitle', widget: 'string' }
-      - { label: 'Third Description', name: 'thirddescription', widget: 'text' }
+      - { label: 'First Miniature Image', name: 'miniatureimage1', widget: image }
+      - { label: 'Second Miniature Image', name: 'miniatureimage2', widget: image }
+      - { label: 'Third Title', name: 'title2', widget: 'string' }
+      - { label: 'Third Description', name: 'description2', widget: 'text' }
       - {
         label: 'Related Products',
         name: 'relatedproducts',

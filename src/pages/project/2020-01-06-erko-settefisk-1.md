@@ -6,8 +6,8 @@ description: >-
   and products this project is relevant for. Also some short information about
   what FjellTG helped with, eg. products, leadership, project management etc
 mainimage: /img/blog-index.jpg
-secondtitle: Background
-seconddescription: >-
+title1: Background
+description1: >-
   Fjell Technology Group has together with selected partners, developed a
   process for treatment of waste water, which amongst others can be used in
   treatment of waste water from fish farming. The process recover suspended and
@@ -15,10 +15,10 @@ seconddescription: >-
   The process use the best available technologies in each of the process steps
   and is extremely compact, reliable, automatic and energy efficient. Please
   check our references for more info.
-firstminiatureimage: /img/coffee-gear.png
-secondminiatureimage: /img/coffee.png
-thirdtitle: Solution
-thirddescription: >-
+miniatureimage1: /img/coffee-gear.png
+miniatureimage2: /img/coffee.png
+title2: Solution
+description2: >-
   Biosludges and MWW sludges are known to be extremely tricky to dry because of
   their tendency to form glue phase. Municipal Waste Water Sludge is generally
   an extremely tough application with severe wear and tear on the drying

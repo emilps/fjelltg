@@ -3,12 +3,11 @@ templateKey: project
 title: AKER
 description: This is the new and better project
 mainimage: /img/flavor_wheel.jpg
-secondtitle: AKER
-seconddescription: This is the new and better project
-firstminiatureimage: /img/meeting-space.png
-secondminiatureimage: /img/coffee-gear.png
-thirdtitle: AKER
-thirddescription: This is the new and better project
+title1: AKER
+description1: This is the new and better project
+miniatureimage1: /img/meeting-space.png
+miniatureimage2: /img/coffee-gear.png
+title2: AKER
+description2: This is the new and better project
 category: Oil & Gas
 ---
-
