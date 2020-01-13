@@ -165,12 +165,10 @@ ProjectTemplate.propTypes = {
     PropTypes.object,
     PropTypes.string
   ]),
-  relatedproducts: PropTypes.any
+  relatedproducts: PropTypes.object
 };
 
 const Project = ({ data }) => {
-  console.log(data);
-
   const { markdownRemark: project } = data;
 
   return (
