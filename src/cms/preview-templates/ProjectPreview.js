@@ -9,13 +9,13 @@ const ProjectPreview = ({ entry }) => {
     <ProjectTemplate
       description={entry.getIn(['data', 'description'])}
       title={entry.getIn(['data', 'title'])}
-      seconddescription={entry.getIn(['data', 'seconddescription'])}
-      secondtitle={entry.getIn(['data', 'secondtitle'])}
-      thirddescription={entry.getIn(['data', 'thirddescription'])}
-      thirdtitle={entry.getIn(['data', 'thirdtitle'])}
+      description1={entry.getIn(['data', 'description1'])}
+      title1={entry.getIn(['data', 'title1'])}
+      description2={entry.getIn(['data', 'description2'])}
+      title2={entry.getIn(['data', 'title2'])}
       mainimage={entry.getIn(['data', 'mainimage'])}
-      firstminiatureimage={entry.getIn(['data', 'firstminiatureimage'])}
-      secondminiatureimage={entry.getIn(['data', 'secondminiatureimage'])}
+      miniatureimage1={entry.getIn(['data', 'miniatureimage1'])}
+      miniatureimage2={entry.getIn(['data', 'miniatureimage2'])}
       relatedproducts={baseProducts || {}}
     />
   );
