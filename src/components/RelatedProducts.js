@@ -9,7 +9,7 @@ const RelatedProducts = ({ relatedproducts, title1 }) => (
       Related products
     </p>
     <div className="columns is-centered">
-      {relatedproducts &&
+      {relatedproducts ? (
         Object.keys(relatedproducts).map((product, index) => {
           if (relatedproducts[product]) {
             return (
@@ -58,7 +58,10 @@ const RelatedProducts = ({ relatedproducts, title1 }) => (
               </div>
             );
           }
-        })}
+        })
+      ) : (
+        <div>- No related products found -</div>
+      )}
     </div>
   </div>
 );
