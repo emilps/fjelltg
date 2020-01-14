@@ -45,7 +45,8 @@ const RelatedProducts = ({ relatedproducts, title1 }) => (
                   style={{
                     backgroundColor: 'black',
                     width: '50%',
-                    height: '1px'
+                    height: '1px',
+                    padding: '0.5px'
                   }}
                 ></hr>
                 <Link
