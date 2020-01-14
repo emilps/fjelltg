@@ -98,45 +98,53 @@ export const ProjectTemplate = ({
             >
               Relevant products
             </p>
-            <div className="columns ">
+            <div className="columns is-centered">
               {relatedproducts &&
-                Object.keys(relatedproducts).map((product, index) => (
-                  <div
-                    key={index}
-                    className="is-horizontal-align column"
-                    style={{ flexDirection: 'column' }}
-                  >
-                    {typeof relatedproducts[product].fullwidthimage ===
-                    'string' ? (
-                      <img
-                        src={relatedproducts[product].fullwidthimage}
-                        style={{ width: '40%' }}
-                      />
-                    ) : (
-                      <Img
-                        fluid={
-                          relatedproducts[product].fullwidthimage
-                            .childImageSharp.fluid
-                        }
-                        alt={`featured image thumbnail for project ${title1}`}
-                        style={{ width: '80%' }}
-                      />
-                    )}
-                    <hr
-                      style={{
-                        backgroundColor: 'black',
-                        width: '50%',
-                        height: '1px'
-                      }}
-                    ></hr>
-                    <Link
-                      className="title is-5"
-                      to={'/product/' + relatedproducts[product]['slug']}
-                    >
-                      {relatedproducts[product]['title']}
-                    </Link>
-                  </div>
-                ))}
+                Object.keys(relatedproducts).map((product, index) => {
+                  if (relatedproducts[product]) {
+                    return (
+                      <div
+                        key={index}
+                        className="is-horizontal-align column"
+                        style={{
+                          flexDirection: 'column',
+                          maxHeight: '350px',
+                          maxWidth: '550px'
+                        }}
+                      >
+                        {typeof relatedproducts[product].fullwidthimage ===
+                        'string' ? (
+                          <img
+                            src={relatedproducts[product].fullwidthimage}
+                            style={{ width: '40%' }}
+                          />
+                        ) : (
+                          <Img
+                            fluid={
+                              relatedproducts[product].fullwidthimage
+                                .childImageSharp.fluid
+                            }
+                            alt={`featured image thumbnail for project ${title1}`}
+                            style={{ width: '80%' }}
+                          />
+                        )}
+                        <hr
+                          style={{
+                            backgroundColor: 'black',
+                            width: '50%',
+                            height: '1px'
+                          }}
+                        ></hr>
+                        <Link
+                          className="title is-5"
+                          to={'/product/' + relatedproducts[product]['slug']}
+                        >
+                          {relatedproducts[product]['title']}
+                        </Link>
+                      </div>
+                    );
+                  }
+                })}
             </div>
           </div>
         </div>
