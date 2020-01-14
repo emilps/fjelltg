@@ -28,14 +28,18 @@ const RelatedProducts = ({ relatedproducts, title1 }) => (
                     style={{ width: '40%' }}
                   />
                 ) : (
-                  <Img
-                    fluid={
-                      relatedproducts[product].fullwidthimage.childImageSharp
-                        .fluid
-                    }
-                    alt={`featured image thumbnail for project ${title1}`}
+                  <Link
+                    to={'/product/' + relatedproducts[product]['slug']}
                     style={{ width: '80%' }}
-                  />
+                  >
+                    <Img
+                      fluid={
+                        relatedproducts[product].fullwidthimage.childImageSharp
+                          .fluid
+                      }
+                      alt={`featured image thumbnail for project ${title1}`}
+                    />
+                  </Link>
                 )}
                 <hr
                   style={{
@@ -45,7 +49,7 @@ const RelatedProducts = ({ relatedproducts, title1 }) => (
                   }}
                 ></hr>
                 <Link
-                  className="title is-5"
+                  className="title is-5 has-text-centered	"
                   to={'/product/' + relatedproducts[product]['slug']}
                 >
                   {relatedproducts[product]['title']}
