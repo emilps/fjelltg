@@ -210,8 +210,6 @@ export default class RelationControl extends React.Component {
       isMultiple
     });
 
-    console.log(selectedValue);
-
     return (
       <AsyncSelect
         value={selectedValue}
