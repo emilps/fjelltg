@@ -1,7 +1,7 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { graphql, StaticQuery } from "gatsby";
-import { Employee } from "./Employee";
+import React from 'react';
+import PropTypes from 'prop-types';
+import { graphql, StaticQuery } from 'gatsby';
+import { Employee } from './Employee';
 
 class Employees extends React.Component {
   render() {
@@ -12,24 +12,19 @@ class Employees extends React.Component {
     return (
       <div className="columns is-multiline">
         {employees &&
-          employees.map(({ node: employee }) => (
-            <div className="is-parent column is-6" key={employee.id}>
-              <article
-                className={`blog-list-item tile is-child box notification ${
-                  employee.frontmatter.featuredpost ? "is-featured" : ""
-                }`}
-              >
-                <header>
-                  <Employee
-                    name={employee.frontmatter.name}
-                    picture={employee.frontmatter.picture}
-                    position={employee.frontmatter.position}
-                    email={employee.frontmatter.email}
-                    phoneNumber={employee.frontmatter.phonenumber}
-                    linkedIn={employee.frontmatter.linkedin}
-                  />
-                </header>
-              </article>
+          employees.map(({ node: employee }, index) => (
+            <div className="is-parent column is-4" key={employee.id}>
+              <header>
+                <Employee
+                  name={employee.frontmatter.name}
+                  picture={employee.frontmatter.picture}
+                  position={employee.frontmatter.position}
+                  email={employee.frontmatter.email}
+                  phoneNumber={employee.frontmatter.phonenumber}
+                  linkedIn={employee.frontmatter.linkedin}
+                  index={index}
+                />
+              </header>
             </div>
           ))}
       </div>
@@ -70,7 +65,7 @@ const EmployeesQuery = () => (
                 phonenumber
                 picture {
                   childImageSharp {
-                    fluid(maxWidth: 120, quality: 100) {
+                    fluid(maxWidth: 350, quality: 100) {
                       ...GatsbyImageSharpFluid
                     }
                   }
@@ -85,5 +80,5 @@ const EmployeesQuery = () => (
   />
 );
 
-EmployeesQuery.displayName = "EmployeesQuery";
+EmployeesQuery.displayName = 'EmployeesQuery';
 export default EmployeesQuery;

@@ -3,6 +3,25 @@ import { navigate } from 'gatsby-link';
 import Layout from '../../components/Layout';
 import Employees from '../../components/Employees';
 import PageJumbotron from '../../components/PageJumbotron';
+import {
+  withScriptjs,
+  withGoogleMap,
+  GoogleMap,
+  Marker
+} from 'react-google-maps';
+
+const MyMapComponent = withScriptjs(
+  withGoogleMap(props => (
+    <GoogleMap
+      defaultZoom={8}
+      defaultCenter={{ lat: 60.348052, lng: 5.129922 }}
+    >
+      {props.isMarkerShown && (
+        <Marker position={{ lat: 60.348052, lng: 5.129922 }} />
+      )}
+    </GoogleMap>
+  ))
+);
 
 function encode(data) {
   return Object.keys(data)
@@ -47,9 +66,10 @@ export default class Index extends React.Component {
         />
         <section className="section">
           <div className="container">
-            <Employees />
             <div className="content">
-              <h1>Contact</h1>
+              <h1 className="has-text-centered form-title is-size-4">
+                Let's talk about your project
+              </h1>
               <form
                 name="contact"
                 method="post"
@@ -66,40 +86,35 @@ export default class Index extends React.Component {
                     <input name="bot-field" onChange={this.handleChange} />
                   </label>
                 </div>
-                <div className="field">
-                  <label className="label" htmlFor={'name'}>
-                    Your name
-                  </label>
-                  <div className="control">
-                    <input
-                      className="input"
-                      type={'text'}
-                      name={'name'}
-                      onChange={this.handleChange}
-                      id={'name'}
-                      required={true}
-                    />
+                <div className="columns">
+                  <div className="field column">
+                    <div className="control">
+                      <input
+                        className="input"
+                        type={'text'}
+                        name={'name'}
+                        onChange={this.handleChange}
+                        id={'name'}
+                        required={true}
+                        placeholder="Your name"
+                      />
+                    </div>
+                  </div>
+                  <div className="field column">
+                    <div className="control">
+                      <input
+                        className="input"
+                        type={'email'}
+                        name={'email'}
+                        onChange={this.handleChange}
+                        id={'email'}
+                        required={true}
+                        placeholder="Your Email"
+                      />
+                    </div>
                   </div>
                 </div>
                 <div className="field">
-                  <label className="label" htmlFor={'email'}>
-                    Email
-                  </label>
-                  <div className="control">
-                    <input
-                      className="input"
-                      type={'email'}
-                      name={'email'}
-                      onChange={this.handleChange}
-                      id={'email'}
-                      required={true}
-                    />
-                  </div>
-                </div>
-                <div className="field">
-                  <label className="label" htmlFor={'message'}>
-                    Message
-                  </label>
                   <div className="control">
                     <textarea
                       className="textarea"
@@ -107,15 +122,65 @@ export default class Index extends React.Component {
                       onChange={this.handleChange}
                       id={'message'}
                       required={true}
+                      placeholder="What can we do for you?"
                     />
                   </div>
                 </div>
-                <div className="field">
-                  <button className="button is-link" type="submit">
-                    Send
+                <div className="field submit-button-container">
+                  <button
+                    className="button submit-button is-link"
+                    type="submit"
+                  >
+                    Submit
                   </button>
                 </div>
               </form>
+            </div>
+          </div>
+        </section>
+        <section className="map-container">
+          <div
+            dangerouslySetInnerHTML={{
+              __html: `
+            <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63164.15731682712!2d5.059505359068912!3d60.34810013596297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x463ce4e16b9ff8c5%3A0x53a88b203461729c!2sFjell%20Technology%20Group%20AS!5e0!3m2!1sen!2sno!4v1579202795590!5m2!1sen!2sno" 
+            width="100%" 
+            height="400" 
+            frameborder="0" 
+            style="border:0;" 
+            allowfullscreen=""></iframe>`
+            }}
+          />
+        </section>
+        {/*
+        <MyMapComponent
+          isMarkerShown
+          googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyBFNaN_q0RJq6oiK4oMMKTipbIuQLDBfHg&v=3.exp&libraries=geometry,drawing,places"
+          loadingElement={<div style={{ height: `100%` }} />}
+          containerElement={<div style={{ height: `400px` }} />}
+          mapElement={<div style={{ height: `100%` }} />}
+        />
+        <div
+          dangerouslySetInnerHTML={{
+            __html: `
+            <iframe src="http://maps.google.com/maps?q=fjell+technology&z=10&output=embed" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+`
+          }}
+        />*/}
+        <section className="is-large">
+          <div className="container">
+            <h1 className="title has-text-centered management-title">
+              Management
+            </h1>
+            <Employees />
+          </div>
+        </section>
+        <section className="section is-medium">
+          <div className="container">
+            <div className="content">
+              <p className="has-text-centered title">
+                Your partner for mass and heat transfer technology
+              </p>
             </div>
           </div>
         </section>
