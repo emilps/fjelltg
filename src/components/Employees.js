@@ -7,7 +7,6 @@ class Employees extends React.Component {
   render() {
     const { data } = this.props;
     const { edges: employees } = data.allMarkdownRemark;
-    console.log(employees);
 
     return (
       <div className="columns is-multiline">
