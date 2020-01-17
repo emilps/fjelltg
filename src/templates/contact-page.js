@@ -11,6 +11,7 @@ import {
   GoogleMap,
   Marker
 } from 'react-google-maps';
+import ContactPagePreview from '../cms/preview-templates/ContactPagePreview';
 
 const MyMapComponent = withScriptjs(
   withGoogleMap(props => (
@@ -31,7 +32,7 @@ function encode(data) {
     .join('&');
 }
 
-export default class ContactPage extends React.Component {
+export class ContactPageTemplate extends React.Component {
   constructor(props) {
     super(props);
     this.state = { isValidated: false };
@@ -57,14 +58,14 @@ export default class ContactPage extends React.Component {
   };
 
   render() {
-    const { frontmatter } = this.props.data.markdownRemark;
+    const { headertitle, headerimage, headerbyline } = this.props;
 
     return (
-      <Layout>
+      <div>
         <PageJumbotron
-          title={frontmatter.headertitle}
-          image={frontmatter.headerimage}
-          description={frontmatter.headerbyline}
+          title={headertitle}
+          image={headerimage}
+          description={headerbyline}
         />
         <section className="section">
           <div className="container">
@@ -186,10 +187,30 @@ export default class ContactPage extends React.Component {
             </div>
           </div>
         </section>
-      </Layout>
+      </div>
     );
   }
 }
+
+ContactPageTemplate.propTypes = {
+  headerimage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+  headertitle: PropTypes.string,
+  headerbyline: PropTypes.string
+};
+
+const ContactPage = ({ data }) => {
+  const { frontmatter } = data.markdownRemark;
+
+  return (
+    <Layout>
+      <ContactPageTemplate
+        headerimage={frontmatter.headerimage}
+        headertitle={frontmatter.headertitle}
+        headerbyline={frontmatter.headerbyline}
+      />
+    </Layout>
+  );
+};
 
 ContactPage.propTypes = {
   data: PropTypes.shape({
@@ -198,6 +219,8 @@ ContactPage.propTypes = {
     })
   })
 };
+
+export default ContactPage;
 
 export const contactPageQuery = graphql`
   query ContactPage($id: String!) {
