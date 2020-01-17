@@ -58,7 +58,13 @@ export class ContactPageTemplate extends React.Component {
   };
 
   render() {
-    const { headertitle, headerimage, headerbyline } = this.props;
+    const {
+      headertitle,
+      headerimage,
+      headerbyline,
+      formtitle,
+      employeetitle
+    } = this.props;
 
     return (
       <div>
@@ -71,7 +77,7 @@ export class ContactPageTemplate extends React.Component {
           <div className="container">
             <div className="content">
               <h1 className="has-text-centered form-title is-size-4">
-                Let's talk about your project
+                {formtitle}
               </h1>
               <form
                 name="contact"
@@ -173,7 +179,7 @@ export class ContactPageTemplate extends React.Component {
         <section className="is-large">
           <div className="container">
             <h1 className="title has-text-centered management-title">
-              Management
+              {employeetitle}
             </h1>
             <Employees />
           </div>
@@ -195,7 +201,9 @@ export class ContactPageTemplate extends React.Component {
 ContactPageTemplate.propTypes = {
   headerimage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   headertitle: PropTypes.string,
-  headerbyline: PropTypes.string
+  headerbyline: PropTypes.string,
+  formtitle: PropTypes.string,
+  employeetitle: PropTypes.string
 };
 
 const ContactPage = ({ data }) => {
@@ -207,6 +215,8 @@ const ContactPage = ({ data }) => {
         headerimage={frontmatter.headerimage}
         headertitle={frontmatter.headertitle}
         headerbyline={frontmatter.headerbyline}
+        formtitle={frontmatter.formtitle}
+        employeetitle={frontmatter.employeetitle}
       />
     </Layout>
   );
@@ -236,6 +246,8 @@ export const contactPageQuery = graphql`
             }
           }
         }
+        formtitle
+        employeetitle
       }
     }
   }
