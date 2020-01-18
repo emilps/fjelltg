@@ -1,17 +1,17 @@
-import React from "react";
-import Layout from "../../components/Layout";
-import ProductRoll from "../../components/ProductRoll";
-import PageJumbotron from "../../components/PageJumbotron";
+import React from 'react';
+import Layout from '../../components/Layout';
+import ProductRoll from '../../components/ProductRoll';
+import PageJumbotron from '../../components/PageJumbotron';
 
 export default class ProductIndexPage extends React.Component {
   render() {
     return (
       <Layout>
         <PageJumbotron
-          title={"Products"}
-          image={`url('/img/products-grid2.jpg')`}
+          title={'Products'}
+          image={'/img/products-grid2.jpg'}
           description={
-            "Our base products are used in all our tailored solutions"
+            'Our base products are used in all our tailored solutions'
           }
         />
 

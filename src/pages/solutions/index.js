@@ -1,7 +1,7 @@
-import React from "react";
-import Layout from "../../components/Layout";
-import SolutionRoll from "../../components/SolutionRoll";
-import PageJumbotron from "../../components/PageJumbotron";
+import React from 'react';
+import Layout from '../../components/Layout';
+import SolutionRoll from '../../components/SolutionRoll';
+import PageJumbotron from '../../components/PageJumbotron';
 
 export default class SolutionIndexPage extends React.Component {
   render() {
@@ -9,9 +9,9 @@ export default class SolutionIndexPage extends React.Component {
       <Layout>
         <div>
           <PageJumbotron
-            title={"Solutions"}
-            image={`url('/img/products-grid2.jpg')`}
-            description={"All our solutions can be tailor made for YOUR needs"}
+            title={'Solutions'}
+            image={'/img/products-grid2.jpg'}
+            description={'All our solutions can be tailor made for YOUR needs'}
           />
           <section className="section is-medium">
             <div className="container">
