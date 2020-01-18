@@ -9,6 +9,7 @@ const ContactPagePreview = ({ entry, widgetFor }) => (
     headerimage={entry.getIn(['data', 'headerimage'])}
     formtitle={entry.getIn(['data', 'formtitle'])}
     employeetitle={entry.getIn(['data', 'employeetitle'])}
+    mapiframe={entry.getIn(['data', 'mapiframe'])}
   />
 );
 

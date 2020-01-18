@@ -253,6 +253,7 @@ collections:
           - { label: 'Header image', name: 'headerimage', widget: image }
           - { label: 'Form title', name: 'formtitle', widget: 'string' }
           - { label: 'Employee title', name: 'employeetitle', widget: 'string' }
+          - { label: 'Map Iframe', name: 'mapiframe', widget: 'string' }
       - file: 'src/pages/products/index.md'
         label: 'Products Page'
         name: 'products'
