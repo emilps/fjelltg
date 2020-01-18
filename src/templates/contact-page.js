@@ -5,26 +5,6 @@ import Employees from '../components/Employees';
 import PageJumbotron from '../components/PageJumbotron';
 import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
-import {
-  withScriptjs,
-  withGoogleMap,
-  GoogleMap,
-  Marker
-} from 'react-google-maps';
-import ContactPagePreview from '../cms/preview-templates/ContactPagePreview';
-
-const MyMapComponent = withScriptjs(
-  withGoogleMap(props => (
-    <GoogleMap
-      defaultZoom={8}
-      defaultCenter={{ lat: 60.348052, lng: 5.129922 }}
-    >
-      {props.isMarkerShown && (
-        <Marker position={{ lat: 60.348052, lng: 5.129922 }} />
-      )}
-    </GoogleMap>
-  ))
-);
 
 function encode(data) {
   return Object.keys(data)
@@ -156,13 +136,6 @@ export class ContactPageTemplate extends React.Component {
           />
         </section>
         {/*
-        <MyMapComponent
-          isMarkerShown
-          googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyBFNaN_q0RJq6oiK4oMMKTipbIuQLDBfHg&v=3.exp&libraries=geometry,drawing,places"
-          loadingElement={<div style={{ height: `100%` }} />}
-          containerElement={<div style={{ height: `400px` }} />}
-          mapElement={<div style={{ height: `100%` }} />}
-        />
         <div
           dangerouslySetInnerHTML={{
             __html: `
