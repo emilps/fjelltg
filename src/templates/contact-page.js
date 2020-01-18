@@ -131,18 +131,12 @@ export class ContactPageTemplate extends React.Component {
         <section className="map-container">
           <div
             dangerouslySetInnerHTML={{
-              __html: mapiframe
+              __html: `
+            <iframe src="http://maps.google.com/maps?q=${mapiframe}&z=10&output=embed" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+`
             }}
           />
         </section>
-        {/*
-        <div
-          dangerouslySetInnerHTML={{
-            __html: `
-            <iframe src="http://maps.google.com/maps?q=fjell+technology&z=10&output=embed" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-`
-          }}
-        />*/}
         <section className="is-large">
           <div className="container">
             <h1 className="title has-text-centered management-title">
