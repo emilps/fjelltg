@@ -12,6 +12,7 @@ const PageJumbotron = ({ title, image, description }) => {
           <img
             src={inputImage}
             className="index-full-width-image margin-top-0"
+            style={{ maxWidth: '100%' }}
           />
         ) : (
           <Img
