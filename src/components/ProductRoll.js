@@ -1,53 +1,37 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { Link, graphql, StaticQuery } from "gatsby";
-import PreviewCompatibleImage from "./PreviewCompatibleImage";
+import React from 'react';
+import PropTypes from 'prop-types';
+import { Link, graphql, StaticQuery } from 'gatsby';
+import PreviewCompatibleImage from './PreviewCompatibleImage';
 
 class ProductRoll extends React.Component {
   render() {
     const { data } = this.props;
-    const { edges: posts } = data.allMarkdownRemark;
+    const { edges: products } = data.allMarkdownRemark;
 
     return (
-      <div className="columns is-multiline">
-        {posts &&
-          posts.map(({ node: post }) => (
-            <div className="is-parent column is-6" key={post.id}>
-              <article
-                className={`blog-list-item tile is-child box notification ${
-                  post.frontmatter.featuredpost ? "is-featured" : ""
-                }`}
-              >
-                <header>
-                  {post.frontmatter.featuredimage ? (
-                    <div className="featured-thumbnail">
-                      <PreviewCompatibleImage
-                        imageInfo={{
-                          image: post.frontmatter.featuredimage,
-                          alt: `featured image thumbnail for post ${post.title}`
-                        }}
-                      />
-                    </div>
-                  ) : null}
-                  <p className="post-meta">
-                    <Link
-                      className="title has-text-primary is-size-4"
-                      to={post.fields.slug}
-                    >
-                      {post.frontmatter.title}
-                    </Link>
-                    <span> &bull; </span>
-                  </p>
-                </header>
-                <p>
-                  {post.excerpt}
-                  <br />
-                  <br />
-                  <Link className="button" to={post.fields.slug}>
-                    Trykk her for mer info →
-                  </Link>
+      <div className="outer-container-roll is-multiline">
+        {products &&
+          products.map(({ node: product }, index) => (
+            <div className="object-container" key={product.id}>
+              <Link className="" to={product.fields.slug}>
+                {product.frontmatter.headerimage ? (
+                  <div className="object-image">
+                    <PreviewCompatibleImage
+                      imageInfo={{
+                        image: product.frontmatter.headerimage,
+                        alt: `featured image thumbnail for ${product.title}`
+                      }}
+                    />
+                  </div>
+                ) : null}
+                <p
+                  className={`object-text title is-uppercase ${
+                    index % 3 == 0 ? 'black-overlay' : 'blue-overlay'
+                  }`}
+                >
+                  {product.frontmatter.title}
                 </p>
-              </article>
+              </Link>
             </div>
           ))}
       </div>
@@ -81,10 +65,9 @@ const ProductRollQuery = () => (
               frontmatter {
                 title
                 templateKey
-                featuredpost
-                featuredimage {
+                headerimage {
                   childImageSharp {
-                    fluid(maxWidth: 120, quality: 100) {
+                    fluid(maxWidth: 680, quality: 100) {
                       ...GatsbyImageSharpFluid
                     }
                   }
@@ -99,5 +82,5 @@ const ProductRollQuery = () => (
   />
 );
 
-ProductRollQuery.displayName = "ProductRollQuery";
+ProductRollQuery.displayName = 'ProductRollQuery';
 export default ProductRollQuery;

@@ -3,52 +3,36 @@ import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
-import Content, { HTMLContent } from '../components/Content';
-import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 import ProductRoll from '../components/ProductRoll';
+import PageJumbotron from '../components/PageJumbotron';
+import SimpleCompanyQuote from '../components/SimpleCompanyQuote';
 
 export const ProductCategoryTemplate = ({
-  content,
-  contentComponent,
   subtitle,
   title,
   helmet,
   featuredimage
 }) => {
-  const PostContent = contentComponent || Content;
-
   return (
-    <section className="section">
+    <section>
       {helmet || ''}
-      <div className="container content">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-              {title}
-            </h1>
-            <p>{subtitle}</p>
-            {featuredimage ? (
-              <div className="featured-thumbnail">
-                <PreviewCompatibleImage
-                  imageInfo={{
-                    image: featuredimage,
-                    alt: `featured image thumbnail for post ${title}`
-                  }}
-                />
-              </div>
-            ) : null}
-            <PostContent content={content} />
-            <ProductRoll />
-          </div>
-        </div>
+      <div>
+        <PageJumbotron
+          title={title}
+          description={subtitle}
+          image={featuredimage}
+        />
+        <SimpleCompanyQuote
+          text={'Our base products are used in all our tailored solutions'}
+          isMainQuote={false}
+        />
+        <ProductRoll />
       </div>
     </section>
   );
 };
 
 ProductCategoryTemplate.propTypes = {
-  content: PropTypes.node.isRequired,
-  contentComponent: PropTypes.func,
   subtitle: PropTypes.string,
   title: PropTypes.string,
   helmet: PropTypes.object,
@@ -61,8 +45,6 @@ const ProductCategory = ({ data }) => {
   return (
     <Layout>
       <ProductCategoryTemplate
-        content={productCategory.html}
-        contentComponent={HTMLContent}
         subtitle={productCategory.frontmatter.subtitle}
         helmet={
           <Helmet titleTemplate="%s | ProductCategory">
