@@ -25,4 +25,6 @@ CMS.registerPreviewTemplate('project', ProjectPreview);
 CMS.registerPreviewTemplate('solution', SolutionPreview);
 CMS.registerPreviewTemplate('contact', ContactPagePreview);
 
+CMS.registerPreviewStyle('./../components/all.sass');
+
 window.___loader = { enqueue: () => {}, hovering: () => {} };
