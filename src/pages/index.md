@@ -5,12 +5,7 @@ image: /img/home-jumbotron.jpg
 heading: Your partner for mass & heat transfer technology
 subheading: WasteWater & Protein Recycling
 middleblock:
-  title: Why Fjell TG
-  description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+  title: FJELL TECHNOLOGY TEST CENTRe
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
   java’s origin and support the farmers that grew it. We take coffee production,

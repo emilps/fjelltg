@@ -48,7 +48,7 @@ export const IndexPageTemplate = ({
         }}
       />
       <p className="title has-text-white test-center-text is-uppercase">
-        FJELL TECHNOLOGY TEST CENTRE
+        {middleblock.title}
       </p>
       <Link
         to={'/test-center'}
@@ -131,7 +131,6 @@ export const pageQuery = graphql`
         subheading
         middleblock {
           title
-          description
         }
         description
         partners {
