@@ -1,9 +1,9 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { IndexPageTemplate } from "../../templates/index-page";
+import React from 'react';
+import PropTypes from 'prop-types';
+import { IndexPageTemplate } from '../../templates/index-page';
 
 const IndexPagePreview = ({ entry }) => {
-  const data = entry.getIn(["data"]).toJS();
+  const data = entry.getIn(['data']).toJS();
 
   if (data) {
     return (
@@ -13,8 +13,8 @@ const IndexPagePreview = ({ entry }) => {
         heading={data.heading}
         subheading={data.subheading}
         description={data.description}
-        intro={data.intro || { blurbs: [] }}
-        mainpitch={data.mainpitch || {}}
+        partners={data.partners || { partnerimage: [] }}
+        middleblock={data.middleblock || {}}
       />
     );
   } else {

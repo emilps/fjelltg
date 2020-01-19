@@ -13,9 +13,9 @@ export const IndexPageTemplate = ({
   title,
   heading,
   subheading,
-  mainpitch,
+  middleblock,
   description,
-  intro
+  partners
 }) => (
   <div>
     <IndexImage />
@@ -58,9 +58,17 @@ export const IndexPageTemplate = ({
         See more
       </Link>
     </section>
-    <section className="updates-container">
-      <h3 className="has-text-weight-semibold is-size-2">Partners</h3>
-      <Features gridItems={intro.blurbs} />
+    <section className="partners-container has-text-centered">
+      <div className="partners-text-container">
+        <h3
+          className="has-text-weight-semibold is-size-2"
+          style={{ marginBottom: '1rem' }}
+        >
+          {partners.heading}
+        </h3>
+        <p>{partners.description}</p>
+      </div>
+      <Features gridItems={partners.partnerimage} />
     </section>
   </div>
 );
@@ -70,10 +78,12 @@ IndexPageTemplate.propTypes = {
   title: PropTypes.string,
   heading: PropTypes.string,
   subheading: PropTypes.string,
-  mainpitch: PropTypes.object,
+  middleblock: PropTypes.object,
   description: PropTypes.string,
-  intro: PropTypes.shape({
-    blurbs: PropTypes.array
+  partners: PropTypes.shape({
+    partnerimage: PropTypes.array,
+    heading: PropTypes.string,
+    description: PropTypes.string
   })
 };
 
@@ -87,9 +97,9 @@ const IndexPage = ({ data }) => {
         title={frontmatter.title}
         heading={frontmatter.heading}
         subheading={frontmatter.subheading}
-        mainpitch={frontmatter.mainpitch}
+        middleblock={frontmatter.middleblock}
         description={frontmatter.description}
-        intro={frontmatter.intro}
+        partners={frontmatter.partners}
       />
     </Layout>
   );
@@ -119,13 +129,13 @@ export const pageQuery = graphql`
         }
         heading
         subheading
-        mainpitch {
+        middleblock {
           title
           description
         }
         description
-        intro {
-          blurbs {
+        partners {
+          partnerimage {
             image {
               childImageSharp {
                 fluid(maxWidth: 240, quality: 64) {
@@ -133,7 +143,7 @@ export const pageQuery = graphql`
                 }
               }
             }
-            text
+            link
           }
           heading
           description

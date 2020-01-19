@@ -215,8 +215,8 @@ collections:
           - { label: Heading, name: heading, widget: string }
           - { label: Subheading, name: subheading, widget: string }
           - {
-              label: Mainpitch,
-              name: mainpitch,
+              label: Middle block,
+              name: middleblock,
               widget: object,
               fields:
                 [
@@ -226,21 +226,21 @@ collections:
             }
           - { label: Description, name: description, widget: string }
           - {
-              label: Intro,
-              name: intro,
+              label: Partners,
+              name: partners,
               widget: object,
               fields:
                 [
                   { label: Heading, name: heading, widget: string },
                   { label: Description, name: description, widget: text },
                   {
-                    label: Blurbs,
-                    name: blurbs,
+                    label: partnerimage,
+                    name: partnerimage,
                     widget: list,
                     fields:
                       [
                         { label: Image, name: image, widget: image },
-                        { label: Text, name: text, widget: text },
+                        { label: Link, name: link, widget: string },
                       ],
                   },
                 ],
@@ -336,8 +336,8 @@ collections:
                   { label: Heading, name: heading, widget: string },
                   { label: Description, name: description, widget: text },
                   {
-                    label: Blurbs,
-                    name: blurbs,
+                    label: partnerimage,
+                    name: partnerimage,
                     widget: list,
                     fields:
                       [
