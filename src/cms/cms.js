@@ -10,6 +10,7 @@ import ProductPreview from './preview-templates/ProductPreview';
 import EmployeePreview from './preview-templates/EmployeePreview';
 import ProjectPreview from './preview-templates/ProjectPreview';
 import SolutionPreview from './preview-templates/SolutionPreview';
+import ContactPagePreview from './preview-templates/ContactPagePreview';
 
 import previewComponent from './RelationPreview';
 import controlComponent from './RelationControl';
@@ -25,6 +26,9 @@ CMS.registerPreviewTemplate('product', ProductPreview);
 CMS.registerPreviewTemplate('employee', EmployeePreview);
 CMS.registerPreviewTemplate('project', ProjectPreview);
 CMS.registerPreviewTemplate('solution', SolutionPreview);
+CMS.registerPreviewTemplate('contact', ContactPagePreview);
+
+CMS.registerPreviewStyle('./../components/all.sass');
 
 CMS.registerWidget('relatedProduct', controlComponent);
 
