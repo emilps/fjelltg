@@ -6,6 +6,7 @@ import Layout from '../components/Layout';
 import Features from '../components/Features';
 import BlogRoll from '../components/BlogRoll';
 import IndexImage from '../components/IndexImage';
+import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 
 export const IndexPageTemplate = ({
   image,
@@ -18,52 +19,48 @@ export const IndexPageTemplate = ({
 }) => (
   <div>
     <IndexImage />
-    <section className="section section--gradient">
+    <section className="section is-medium">
       <div className="container">
-        <div className="section">
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
-              <div className="content">
-                <div className="content">
-                  <div className="tile">
-                    <h1 className="title">{mainpitch.title}</h1>
-                  </div>
-                  <div className="tile">
-                    <h3 className="subtitle">{mainpitch.description}</h3>
-                  </div>
-                </div>
-                <div className="columns">
-                  <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      {heading}
-                    </h3>
-                    <p>{description}</p>
-                  </div>
-                </div>
-                <Features gridItems={intro.blurbs} />
-                <div className="columns">
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/products">
-                      See all products
-                    </Link>
-                  </div>
-                </div>
-                <div className="column is-12">
-                  <h3 className="has-text-weight-semibold is-size-2">
-                    Latest stories
-                  </h3>
-                  <BlogRoll />
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/blog">
-                      Read more
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div className="content">
+          <p className="has-text-centered title">
+            Your partner for mass and heat transfer technology
+          </p>
         </div>
       </div>
+    </section>
+    <section className="updates-container">
+      <h3 className="has-text-weight-semibold is-size-2">
+        Recent news and updates
+      </h3>
+      <BlogRoll />
+    </section>
+    <section className="test-center-container index-image-container black-overlay">
+      <PreviewCompatibleImage
+        imageInfo={{
+          image: '/img/products-grid2.jpg',
+          alt: `featured image thumbnail for post ${title}`,
+          imageStyle: {
+            width: '100%',
+            maxHeight: '270px',
+            objectFit: 'cover',
+            zIndex: '-1'
+          }
+        }}
+      />
+      <p className="title has-text-white test-center-text is-uppercase">
+        FJELL TECHNOLOGY TEST CENTRE
+      </p>
+      <Link
+        to={'/test-center'}
+        className="button test-center-button is-link has-text-weight-bold is-uppercase"
+        type="submit"
+      >
+        See more
+      </Link>
+    </section>
+    <section className="updates-container">
+      <h3 className="has-text-weight-semibold is-size-2">Partners</h3>
+      <Features gridItems={intro.blurbs} />
     </section>
   </div>
 );
