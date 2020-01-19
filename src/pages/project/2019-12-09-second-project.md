@@ -2,14 +2,13 @@
 templateKey: project
 title: SANKI
 description: This is the new and better project
-featuredpost: true
-featuredimage: /img/blog-index.jpg
-tags:
-  - FishSludge Recovery System
+mainimage: /img/jumbotron.jpg
+secondtitle: SANKI
+seconddescription: This is the new and better project
+firstminiatureimage: /img/coffee-gear.png
+secondminiatureimage: /img/coffee.png
+thirdtitle: SANKI
+thirddescription: This is the new and better project
+category: Oil & Gas
 ---
-This project is also big and good!
 
-1. 123123
-2. 123
-3. 321
-4. 321

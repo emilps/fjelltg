@@ -1,6 +1,6 @@
-import React from "react";
-import PropTypes from "prop-types";
-import PreviewCompatibleImage from "./PreviewCompatibleImage";
+import React from 'react';
+import PropTypes from 'prop-types';
+import PreviewCompatibleImage from './PreviewCompatibleImage';
 
 export const Employee = ({
   name,
@@ -8,27 +8,43 @@ export const Employee = ({
   picture,
   phoneNumber,
   email,
-  linkedIn
+  linkedIn,
+  index
 }) => {
   return (
     <div className="employeeContainer">
       <div className="employeePicture">
         {picture ? (
-          <div className="featured-thumbnail">
+          <div
+            className={`${index % 2 == 0 ? 'black-overlay' : 'blue-overlay'}`}
+          >
             <PreviewCompatibleImage
               imageInfo={{
                 image: picture,
-                alt: `featured image thumbnail for post ${name}`
+                alt: `featured image thumbnail for post ${name}`,
+                imageStyle: { height: '270px', width: '100%', zIndex: '-1' }
               }}
             />
           </div>
         ) : null}
       </div>
-      <h3>{name}</h3>
-      <h4>{position}</h4>
-      <h4>{phoneNumber}</h4>
-      <h4>{email}</h4>
-      <h4>{linkedIn}</h4>
+      <div className="employeeInfo">
+        <hr
+          className="has-text-centered"
+          style={{
+            backgroundColor: '#002060',
+            width: '60%',
+            height: '1px',
+            padding: '1px',
+            margin: '20px 0 10px 0'
+          }}
+        ></hr>
+        <p className="has-text-centered has-text-weight-bold">{name}</p>
+        <p className="has-text-centered has-text-weight-light">{position}</p>
+        <p className="has-text-centered has-text-weight-light">{email}</p>
+        <p className="has-text-centered has-text-weight-light">{phoneNumber}</p>
+        <p className="has-text-centered has-text-weight-light">{linkedIn}</p>
+      </div>
     </div>
   );
 };
