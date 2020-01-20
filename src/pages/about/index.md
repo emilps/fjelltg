@@ -9,7 +9,7 @@ ingress: >-
   service workshop at Straume in Fjell Municipality.
 image: /img/1558427420.banner3.jpg
 ---
-{"widget":"imageblock","text":"Tekster","image":"/img/blog-index.jpg"}
+{"widget":"imageblock","text":"Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.","image":"/img/blog-index.jpg"}
 
 ### Shade-grown coffee
 
