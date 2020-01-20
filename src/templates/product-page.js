@@ -1,11 +1,11 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { graphql } from "gatsby";
-import Layout from "../components/Layout";
-import Features from "../components/Features";
-import Testimonials from "../components/Testimonials";
-import Pricing from "../components/Pricing";
-import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
+import React from 'react';
+import PropTypes from 'prop-types';
+import { graphql } from 'gatsby';
+import Layout from '../components/Layout';
+import Features from '../components/Features';
+import Testimonials from '../components/Testimonials';
+import Pricing from '../components/Pricing';
+import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 
 export const ProductPageTemplate = ({
   image,
@@ -30,10 +30,10 @@ export const ProductPageTemplate = ({
       <h2
         className="has-text-weight-bold is-size-1"
         style={{
-          boxShadow: "0.5rem 0 0 #002060, -0.5rem 0 0 #002060",
-          backgroundColor: "#002060",
-          color: "white",
-          padding: "1rem"
+          boxShadow: '0.5rem 0 0 #002060, -0.5rem 0 0 #002060',
+          backgroundColor: '#002060',
+          color: 'white',
+          padding: '1rem'
         }}
       >
         {title}
@@ -50,7 +50,7 @@ export const ProductPageTemplate = ({
           </div>
           <div className="columns">
             <div className="column is-10 is-offset-1">
-              <Features gridItems={intro.partnerimage} />
+              <Features gridItems={intro.blurbs} />
               <div className="columns">
                 <div className="column is-7">
                   <h3 className="has-text-weight-semibold is-size-3">
@@ -110,7 +110,7 @@ ProductPageTemplate.propTypes = {
   heading: PropTypes.string,
   description: PropTypes.string,
   intro: PropTypes.shape({
-    partnerimage: PropTypes.array
+    blurbs: PropTypes.array
   }),
   main: PropTypes.shape({
     heading: PropTypes.string,
@@ -173,7 +173,7 @@ export const productPageQuery = graphql`
         heading
         description
         intro {
-          partnerimage {
+          blurbs {
             image {
               childImageSharp {
                 fluid(maxWidth: 240, quality: 64) {
