@@ -6,7 +6,10 @@ const FeatureGrid = ({ gridItems }) => (
   <div className="columns is-multiline is-centered">
     {gridItems &&
       gridItems.map((item, index) => (
-        <div key={index} className="column is-one-fifth remove-padding">
+        <div
+          key={index}
+          className="column is-one-fifth-desktop is-one-third-tablet remove-padding"
+        >
           <a href={item.link} className="partner-logo">
             <PreviewCompatibleImage imageInfo={item} />
           </a>
