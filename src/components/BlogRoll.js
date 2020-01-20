@@ -38,7 +38,8 @@ class BlogRoll extends React.Component {
                         <PreviewCompatibleImage
                           imageInfo={{
                             image: post.frontmatter.featuredimage,
-                            alt: `featured image for post ${post.title}`
+                            alt: `featured image for post ${post.title}`,
+                            imageStyle: { height: '315px' }
                           }}
                         />
                       </div>
