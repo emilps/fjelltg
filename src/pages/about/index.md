@@ -1,6 +1,13 @@
 ---
 templateKey: about-page
-title: About our test
+title: Reliable – Innovative – Responsible
+ingress: >-
+  Fjell Technology Group was established in 2002 and is based on more than 40
+  years of experience in high-end engineering and fabrication work from the
+  process industry on and offshore. Today, FTG operates in modern premises at
+  Thormøhlens Gate 49A at Marineholmen in Bergen, as well as installation and
+  service workshop at Straume in Fjell Municipality.
+image: /img/1558427420.banner3.jpg
 ---
 ### Shade-grown coffee
 Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
