@@ -9,7 +9,7 @@ ingress: >-
   service workshop at Straume in Fjell Municipality.
 image: /img/1558427420.banner3.jpg
 ---
-youtube textte
+imageblock text
 
 ### Shade-grown coffee
 
