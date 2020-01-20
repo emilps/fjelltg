@@ -56,7 +56,6 @@ const EmployeesQuery = () => (
               }
               frontmatter {
                 templateKey
-                featuredpost
                 name
                 position
                 email

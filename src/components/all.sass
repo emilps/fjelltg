@@ -20,6 +20,7 @@ $primary-invert: $kaldi-red-invert
 $body-color: #333
 $black: #2b2523
 $secondary: #EDF2F6
+$third: #4D7EA8
 
 nav
   height: 40px
@@ -359,7 +360,7 @@ $navbar-item-color: white
   justify-content: center
   text-align: center
   width: 150px
-  color: #2d2d2d
+  color: #fff !important
   background-color: $primary !important
   border-radius: 3px
 
@@ -426,7 +427,30 @@ $navbar-item-color: white
     max-width: 160px
     width: 160px !important
     max-height: 160px
-    // responsiveness
+
+.blog-container
+  min-height: 670px
+  border-right: 1px solid $third
+
+.blog-top
+  display: flex
+  justify-content: space-between
+  align-items: center
+  padding: 5px 2rem 5px 2rem
+
+.blog-bottom
+  padding: 3rem
+  display: flex
+  align-items: center
+  flex-direction: column
+  justify-content: space-between
+  height: 314px
+  background-color: $secondary
+
+.blog-title
+  padding: 5rem
+
+// responsiveness
 +tablet-only
   .blog-list-item .featured-thumbnail
     flex-basis: 50%

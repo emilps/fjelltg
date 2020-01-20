@@ -8,15 +8,7 @@ import BlogRoll from '../components/BlogRoll';
 import IndexImage from '../components/IndexImage';
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 
-export const IndexPageTemplate = ({
-  image,
-  title,
-  heading,
-  subheading,
-  middleblock,
-  description,
-  partners
-}) => (
+export const IndexPageTemplate = ({ title, middleblock, partners }) => (
   <div>
     <IndexImage />
     <section className="section is-medium">
@@ -29,7 +21,7 @@ export const IndexPageTemplate = ({
       </div>
     </section>
     <section className="updates-container">
-      <h3 className="has-text-weight-semibold is-size-2">
+      <h3 className="title has-text-weight-normal is-size-2 blog-title has-text-centered">
         Recent news and updates
       </h3>
       <BlogRoll />
@@ -120,19 +112,9 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
         title
-        image {
-          childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-        heading
-        subheading
         middleblock {
           title
         }
-        description
         partners {
           partnerimage {
             image {

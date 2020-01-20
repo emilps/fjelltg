@@ -4,13 +4,14 @@ import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 
 const FeatureGrid = ({ gridItems }) => (
   <div className="columns is-multiline is-centered">
-    {gridItems.map((item, index) => (
-      <div key={index} className="column is-one-fifth remove-padding">
-        <a href={item.link} className="partner-logo">
-          <PreviewCompatibleImage imageInfo={item} />
-        </a>
-      </div>
-    ))}
+    {gridItems &&
+      gridItems.map((item, index) => (
+        <div key={index} className="column is-one-fifth remove-padding">
+          <a href={item.link} className="partner-logo">
+            <PreviewCompatibleImage imageInfo={item} />
+          </a>
+        </div>
+      ))}
   </div>
 );
 
