@@ -27,7 +27,7 @@ class ProjectRoll extends React.Component {
   filterProjects = projects => {
     if (this.state.filter !== filterValues.ALL) {
       const filteredProjects = projects.filter(
-        project => project.node.frontmatter.tags[0] === this.state.filter
+        project => project.node.frontmatter.category === this.state.filter
       );
       return filteredProjects;
     } else {
@@ -76,12 +76,12 @@ class ProjectRoll extends React.Component {
                   ${index % 2 == 0 ? 'row-reversed' : ''}`}
                   >
                     <div className="column is-half">
-                      {project.frontmatter.featuredimage ? (
+                      {project.frontmatter.mainimage ? (
                         <div>
                           <Img
                             style={{ maxHeight: '400px' }}
                             fluid={
-                              project.frontmatter.featuredimage.childImageSharp
+                              project.frontmatter.mainimage.childImageSharp
                                 .fluid
                             }
                             alt={`featured image thumbnail for project ${project.title}`}
@@ -94,7 +94,7 @@ class ProjectRoll extends React.Component {
                         {project.frontmatter.title}
                       </p>
                       <p className="has-text-centered">
-                        {project.frontmatter.tags}
+                        {project.frontmatter.category}
                       </p>
                     </div>
                   </div>
@@ -134,7 +134,8 @@ const ProjectRollQuery = () => (
                 title
                 templateKey
                 featuredpost
-                featuredimage {
+                category
+                mainimage {
                   childImageSharp {
                     fluid(maxWidth: 1920, quality: 100) {
                       ...GatsbyImageSharpFluid

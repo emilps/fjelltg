@@ -13,6 +13,9 @@ import ProjectPreview from './preview-templates/ProjectPreview';
 import SolutionPreview from './preview-templates/SolutionPreview';
 import ContactPagePreview from './preview-templates/ContactPagePreview';
 
+import previewComponent from './RelationPreview';
+import controlComponent from './RelationControl';
+
 CMS.registerMediaLibrary(uploadcare);
 CMS.registerMediaLibrary(cloudinary);
 
@@ -28,5 +31,7 @@ CMS.registerPreviewTemplate('solution', SolutionPreview);
 CMS.registerPreviewTemplate('contact', ContactPagePreview);
 
 CMS.registerPreviewStyle('./../components/all.sass');
+
+CMS.registerWidget('relatedProduct', controlComponent);
 
 window.___loader = { enqueue: () => {}, hovering: () => {} };

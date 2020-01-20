@@ -266,23 +266,6 @@ $navbar-item-color: white
 
 @import "~bulma"
 
-// responsiveness
-  +tablet-only
-  .blog-list-item .featured-thumbnail
-    flex-basis: 50%
-
-    +mobile
-  .blog-list-item header
-    display: block
-  .blog-list-item .featured-thumbnail
-    text-align: center
-    max-width: 70%
-    margin: 0 0 1em
-  .index-image-text-field
-    margin-bottom: 30px
-  .index-image-tabs
-    background-color: rgba(0,0,0,0.7)
-
 .is-vertical-center
   display: flex
   align-items: center
@@ -454,6 +437,22 @@ $navbar-item-color: white
   &.blue-overlay
     background-color: rgba(77,126,168,0.5)
 
+.project-title-section
+  padding: 12rem 14rem 8rem 8rem
+
+.project-info-section
+  padding: 8rem
+
+.project-info-first
+  margin-bottom: 7rem
+
+.project-miniature-images
+  margin-top: 24px
+
+.project-related-products
+  background-color: rgba(77, 126, 168, 0.1)
+  padding: 3rem 3rem 5rem 3rem
+
 .employeeContainer
   display: flex
   flex-direction: column
@@ -495,3 +494,32 @@ $navbar-item-color: white
 
 .form-title
   margin: 3rem 6rem 6rem 6rem !important
+
+    // responsiveness
+  +tablet-only
+  .blog-list-item .featured-thumbnail
+    flex-basis: 50%
+
+    +mobile
+  .blog-list-item header
+    display: block
+  .blog-list-item .featured-thumbnail
+    text-align: center
+    max-width: 70%
+    margin: 0 0 1em
+  .index-image-text-field
+    margin-bottom: 30px
+  .index-image-tabs
+    background-color: rgba(0,0,0,0.7)
+  .project-title-section
+    padding: 1rem
+  .project-info-section
+    padding: 1rem
+  .project-miniature-images
+    margin: 24px
+    img
+      height: auto !important
+      max-height: 270px !important
+      width: auto !important
+  .project-info-first
+    margin-bottom: 2rem
