@@ -133,7 +133,6 @@ const ProjectRollQuery = () => (
               frontmatter {
                 title
                 templateKey
-                featuredpost
                 category
                 mainimage {
                   childImageSharp {

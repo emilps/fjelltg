@@ -20,6 +20,7 @@ $primary-invert: $kaldi-red-invert
 $body-color: #333
 $black: #2b2523
 $secondary: #EDF2F6
+$third: #4D7EA8
 
 nav
   height: 40px
@@ -469,7 +470,7 @@ $navbar-item-color: white
   justify-content: center
   text-align: center
   width: 150px
-  color: #2d2d2d
+  color: #fff !important
   background-color: $primary !important
   border-radius: 3px
 
@@ -495,7 +496,71 @@ $navbar-item-color: white
 .form-title
   margin: 3rem 6rem 6rem 6rem !important
 
-    // responsiveness
+.updates-container
+  background-color: $secondary
+
+.test-center-container
+  margin: 10rem 0 10rem 0
+  display: flex
+  justify-content: center
+  align-items: center
+
+.test-center-button
+  display: flex
+  justify-content: center
+  text-align: center
+  width: 150px
+  color: #2d2d2d !important
+  background-color: #f2f2f2 !important
+  border-radius: 3px
+  position: absolute
+  bottom: 0
+  margin-bottom: 35px
+  font-size: 14px
+
+.test-center-text
+  position: absolute
+
+.partners-container
+  background-color: $secondary
+  padding: 5rem
+
+.partners-text-container
+  margin-bottom: 4rem
+
+.partner-logo
+  height: 160px
+  display: flex
+  align-items: center
+  justify-content: center
+  *
+    max-width: 160px
+    width: 160px !important
+    max-height: 160px
+
+.blog-container
+  min-height: 670px
+  border-right: 1px solid $third
+
+.blog-top
+  display: flex
+  justify-content: space-between
+  align-items: center
+  padding: 5px 2rem 5px 2rem
+
+.blog-bottom
+  padding: 3rem
+  display: flex
+  align-items: center
+  flex-direction: column
+  justify-content: space-between
+  height: 314px
+  background-color: $secondary
+
+.blog-title
+  padding: 5rem
+
+// responsiveness
   +tablet-only
   .blog-list-item .featured-thumbnail
     flex-basis: 50%

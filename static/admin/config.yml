@@ -13,7 +13,7 @@ public_folder: /img
 
 collections:
   - name: 'blog'
-    label: 'Blog'
+    label: 'Recent updates'
     folder: 'src/pages/blog'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
@@ -26,29 +26,16 @@ collections:
         }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Image', name: 'featuredimage', widget: image }
       - { label: 'Description', name: 'description', widget: 'text' }
-      - { label: 'Featured Post', name: 'featuredpost', widget: 'boolean' }
-      - { label: 'Featured Image', name: 'featuredimage', widget: image }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
-      - { label: 'Tags', name: 'tags', widget: 'list' }
-
-  - name: 'productcategory'
-    label: 'ProductCategory'
-    folder: 'src/pages/productCategory'
-    create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-    fields:
-      - {
-          label: 'Template Key',
-          name: 'templateKey',
-          widget: 'hidden',
-          default: 'productcategory',
+      - { label: 'Link', name: 'link', widget: 'string' }
+      - { 
+          label: "Social Media", 
+          name: "socialmedia", 
+          widget: "select", 
+          options: ["Instagram", "Twitter", "Facebook"],
+          default: ["Twitter"], 
         }
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Subtitle', name: 'subtitle', widget: 'text' }
-      - { label: 'Featured Image', name: 'featuredimage', widget: image }
-      - { label: 'Text', name: 'text', widget: 'markdown' }
-
   - name: 'product'
     label: 'Product'
     folder: 'src/pages/product'
@@ -243,36 +230,31 @@ collections:
               default: 'index-page',
             }
           - { label: Title, name: title, widget: string }
-          - { label: Image, name: image, widget: image }
-          - { label: Heading, name: heading, widget: string }
-          - { label: Subheading, name: subheading, widget: string }
           - {
-              label: Mainpitch,
-              name: mainpitch,
+              label: Middle block,
+              name: middleblock,
               widget: object,
               fields:
                 [
                   { label: Title, name: title, widget: string },
-                  { label: Description, name: description, widget: text },
                 ],
             }
-          - { label: Description, name: description, widget: string }
           - {
-              label: Intro,
-              name: intro,
+              label: Partners,
+              name: partners,
               widget: object,
               fields:
                 [
                   { label: Heading, name: heading, widget: string },
                   { label: Description, name: description, widget: text },
                   {
-                    label: Blurbs,
-                    name: blurbs,
+                    label: partnerimage,
+                    name: partnerimage,
                     widget: list,
                     fields:
                       [
                         { label: Image, name: image, widget: image },
-                        { label: Text, name: text, widget: text },
+                        { label: Link, name: link, widget: string },
                       ],
                   },
                 ],
@@ -368,8 +350,8 @@ collections:
                   { label: Heading, name: heading, widget: string },
                   { label: Description, name: description, widget: text },
                   {
-                    label: Blurbs,
-                    name: blurbs,
+                    label: partnerimage,
+                    name: partnerimage,
                     widget: list,
                     fields:
                       [

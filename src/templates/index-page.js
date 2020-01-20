@@ -6,64 +6,61 @@ import Layout from '../components/Layout';
 import Features from '../components/Features';
 import BlogRoll from '../components/BlogRoll';
 import IndexImage from '../components/IndexImage';
+import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 
-export const IndexPageTemplate = ({
-  image,
-  title,
-  heading,
-  subheading,
-  mainpitch,
-  description,
-  intro
-}) => (
+export const IndexPageTemplate = ({ title, middleblock, partners }) => (
   <div>
     <IndexImage />
-    <section className="section section--gradient">
+    <section className="section is-medium">
       <div className="container">
-        <div className="section">
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
-              <div className="content">
-                <div className="content">
-                  <div className="tile">
-                    <h1 className="title">{mainpitch.title}</h1>
-                  </div>
-                  <div className="tile">
-                    <h3 className="subtitle">{mainpitch.description}</h3>
-                  </div>
-                </div>
-                <div className="columns">
-                  <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      {heading}
-                    </h3>
-                    <p>{description}</p>
-                  </div>
-                </div>
-                <Features gridItems={intro.blurbs} />
-                <div className="columns">
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/products">
-                      See all products
-                    </Link>
-                  </div>
-                </div>
-                <div className="column is-12">
-                  <h3 className="has-text-weight-semibold is-size-2">
-                    Latest stories
-                  </h3>
-                  <BlogRoll />
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/blog">
-                      Read more
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div className="content">
+          <p className="has-text-centered title">
+            Your partner for mass and heat transfer technology
+          </p>
         </div>
       </div>
+    </section>
+    <section className="updates-container">
+      <h3 className="title has-text-weight-normal is-size-2 blog-title has-text-centered">
+        Recent news and updates
+      </h3>
+      <BlogRoll />
+    </section>
+    <section className="test-center-container index-image-container black-overlay">
+      <PreviewCompatibleImage
+        imageInfo={{
+          image: '/img/products-grid2.jpg',
+          alt: `featured image thumbnail for post ${title}`,
+          imageStyle: {
+            width: '100%',
+            maxHeight: '270px',
+            objectFit: 'cover',
+            zIndex: '-1'
+          }
+        }}
+      />
+      <p className="title has-text-white test-center-text has-text-centered is-uppercase is-size-1">
+        {middleblock.title}
+      </p>
+      <Link
+        to={'/test-center'}
+        className="button test-center-button is-link has-text-weight-bold is-uppercase"
+        type="submit"
+      >
+        See more
+      </Link>
+    </section>
+    <section className="partners-container has-text-centered">
+      <div className="partners-text-container">
+        <h3
+          className="has-text-weight-semibold is-size-2"
+          style={{ marginBottom: '1rem' }}
+        >
+          {partners.heading}
+        </h3>
+        <p>{partners.description}</p>
+      </div>
+      <Features gridItems={partners.partnerimage} />
     </section>
   </div>
 );
@@ -73,10 +70,12 @@ IndexPageTemplate.propTypes = {
   title: PropTypes.string,
   heading: PropTypes.string,
   subheading: PropTypes.string,
-  mainpitch: PropTypes.object,
+  middleblock: PropTypes.object,
   description: PropTypes.string,
-  intro: PropTypes.shape({
-    blurbs: PropTypes.array
+  partners: PropTypes.shape({
+    partnerimage: PropTypes.array,
+    heading: PropTypes.string,
+    description: PropTypes.string
   })
 };
 
@@ -90,9 +89,9 @@ const IndexPage = ({ data }) => {
         title={frontmatter.title}
         heading={frontmatter.heading}
         subheading={frontmatter.subheading}
-        mainpitch={frontmatter.mainpitch}
+        middleblock={frontmatter.middleblock}
         description={frontmatter.description}
-        intro={frontmatter.intro}
+        partners={frontmatter.partners}
       />
     </Layout>
   );
@@ -113,22 +112,11 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
         title
-        image {
-          childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-        heading
-        subheading
-        mainpitch {
+        middleblock {
           title
-          description
         }
-        description
-        intro {
-          blurbs {
+        partners {
+          partnerimage {
             image {
               childImageSharp {
                 fluid(maxWidth: 240, quality: 64) {
@@ -136,7 +124,7 @@ export const pageQuery = graphql`
                 }
               }
             }
-            text
+            link
           }
           heading
           description
