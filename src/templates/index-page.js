@@ -39,7 +39,10 @@ export const IndexPageTemplate = ({ title, middleblock, partners }) => (
           }
         }}
       />
-      <p className="title has-text-white test-center-text has-text-centered is-uppercase is-size-1">
+      <p
+        className="title has-text-white test-center-text has-text-centered is-size-4-mobile	
+                  is-uppercase is-size-1"
+      >
         {middleblock.title}
       </p>
       <Link
