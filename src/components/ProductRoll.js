@@ -21,7 +21,6 @@ class ProductRoll extends React.Component {
     ); */
 
     return (
-<<<<<<< HEAD
       <div className="product-roll-container">
         {products &&
           products.map(({ node: product }) => (
@@ -52,47 +51,6 @@ class ProductRoll extends React.Component {
                   <p>{product.frontmatter.title.toUpperCase()}</p>
                 </div>
               </Link>
-=======
-      <div className="columns is-multiline">
-        {posts &&
-          posts.map(({ node: post }) => (
-            <div className="is-parent column is-6" key={post.id}>
-              <article
-                className={`blog-list-item tile is-child box notification ${
-                  post.frontmatter.featuredpost ? 'is-featured' : ''
-                }`}
-              >
-                <header>
-                  {post.frontmatter.featuredimage ? (
-                    <div className="featured-thumbnail">
-                      <PreviewCompatibleImage
-                        imageInfo={{
-                          image: post.frontmatter.featuredimage,
-                          alt: `featured image thumbnail for post ${post.title}`
-                        }}
-                      />
-                    </div>
-                  ) : null}
-                  <p className="post-meta">
-                    <Link
-                      className="title has-text-primary is-size-4"
-                      to={post.fields.slug}
-                    >
-                      {post.frontmatter.title}
-                    </Link>
-                    <span> &bull; </span>
-                  </p>
-                </header>
-                <p>
-                  {post.excerpt}
-                  <br />
-                  <br />
-                  <Link className="button" to={post.fields.slug}>
-                    Trykk her for mer info →
-                  </Link>
-                </p>
-              </article>
->>>>>>> feat/landingpage
             </div>
           ))}
       </div>
@@ -127,12 +85,8 @@ const ProductRollQuery = () => (
               frontmatter {
                 title
                 templateKey
-<<<<<<< HEAD
                 productcategory
                 headerimage {
-=======
-                featuredimage {
->>>>>>> feat/landingpage
                   childImageSharp {
                     fluid(maxWidth: 680, quality: 100) {
                       ...GatsbyImageSharpFluid

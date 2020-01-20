@@ -24,6 +24,7 @@ export const ProductTemplate = ({
   helmet
 }) => {
   const PostContent = contentComponent || Content;
+  console.log(productbrochure);
 
   return (
     <section>
@@ -197,6 +198,9 @@ export const pageQuery = graphql`
         description2
         infobox2
         productcategory
+        productbrochure {
+          relativePath
+        }
         tags
       }
     }
