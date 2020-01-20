@@ -26,7 +26,7 @@ export const ProductCategoryTemplate = ({
           text={'Our base products are used in all our tailored solutions'}
           isMainQuote={false}
         />
-        <ProductRoll />
+        <ProductRoll filterByCategory={title} />
       </div>
     </section>
   );

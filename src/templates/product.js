@@ -19,6 +19,7 @@ export const ProductTemplate = ({
   infobox1,
   infobox2,
   productcategory,
+  productbrochure,
   tags,
   helmet
 }) => {
@@ -28,11 +29,13 @@ export const ProductTemplate = ({
     <section>
       {helmet || ''}
       <div>
-        <PageJumbotron
-          title={title}
-          description={subtitle}
-          image={headerimage}
-        />
+        {headerimage && (
+          <PageJumbotron
+            title={title}
+            description={subtitle}
+            image={headerimage}
+          />
+        )}
         <div className="product-info-section">
           <div className="product-info-section-text">
             <PostContent
@@ -44,6 +47,7 @@ export const ProductTemplate = ({
                 className={'markdown-container infobox lightblue'}
                 content={infobox1}
               />
+              {/* {productbrochure ? ( */}
               <div className="brochure-container">
                 <div className="brochure-container-info">
                   <h4>{title}</h4>
@@ -52,12 +56,13 @@ export const ProductTemplate = ({
                 <div className="brochure-container-icon">
                   <PreviewCompatibleImage
                     imageInfo={{
-                      image: `url(/PDF_file_icon.svg)`,
+                      image: `img/PDF_file_icon.svg`,
                       style: { height: '88px' }
                     }}
                   />
                 </div>
               </div>
+              {/* ) : null} */}
             </div>
           </div>
           <div className="smallimage-container">
@@ -115,6 +120,7 @@ ProductTemplate.propTypes = {
   description2: PropTypes.string,
   infobox2: PropTypes.string,
   productcategory: PropTypes.string,
+  productbrochure: PropTypes.object,
   tags: PropTypes.oneOfType([PropTypes.array, PropTypes.object])
 };
 
@@ -142,6 +148,7 @@ const Product = ({ data }) => {
         infobox2={product.frontmatter.infobox2}
         productcategory={product.frontmatter.productcategory}
         tags={product.frontmatter.tags}
+        productbrochure={product.frontmatter.productbrochure}
       />
     </Layout>
   );
