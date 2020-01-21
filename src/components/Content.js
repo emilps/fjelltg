@@ -7,49 +7,53 @@ export const HTMLContent = ({ content, className }) => {
     /{"widget":"imageblock","text":"(.+)","image":"(.+)"}/,
     'g'
   );
-  const founds = content.matchAll(regexp) || [];
-
   let newContent = content;
-  let clusteredBool = false;
-  let findingsList = [];
-  let clusteredString = '';
 
-  for (const found of founds) {
-    findingsList.push(found);
-  }
+  if (content) {
+    const founds = content.matchAll(regexp) || [];
 
-  for (let index = 0; index < findingsList.length; index++) {
-    const element = findingsList[index];
+    newContent = content;
+    let clusteredBool = false;
+    let findingsList = [];
+    let clusteredString = '';
 
-    if (index < findingsList.length - 1) {
-      if (
-        findingsList[index + 1].index - (element.index + element[0].length) <
-        9
-      ) {
-        if (clusteredBool) {
-          clusteredString = 'clustered-bottom clustered-top';
-        } else {
-          clusteredString = 'clustered-top';
-        }
-        clusteredBool = true;
-      } else {
-        if (clusteredBool) {
-          clusteredString = 'clustered-bottom';
-        } else {
-          clusteredString = '';
-        }
-        clusteredBool = false;
-      }
+    for (const found of founds) {
+      findingsList.push(found);
     }
-    newContent = newContent.replace(
-      element[0],
-      TestComp(
-        JSON.parse(element[0]).text,
-        JSON.parse(element[0]).image,
-        index % 2 == 1,
-        clusteredString
-      )
-    );
+
+    for (let index = 0; index < findingsList.length; index++) {
+      const element = findingsList[index];
+
+      if (index < findingsList.length - 1) {
+        if (
+          findingsList[index + 1].index - (element.index + element[0].length) <
+          9
+        ) {
+          if (clusteredBool) {
+            clusteredString = 'clustered-bottom clustered-top';
+          } else {
+            clusteredString = 'clustered-top';
+          }
+          clusteredBool = true;
+        } else {
+          if (clusteredBool) {
+            clusteredString = 'clustered-bottom';
+          } else {
+            clusteredString = '';
+          }
+          clusteredBool = false;
+        }
+      }
+      newContent = newContent.replace(
+        element[0],
+        TestComp(
+          JSON.parse(element[0]).text,
+          JSON.parse(element[0]).image,
+          index % 2 == 1,
+          clusteredString
+        )
+      );
+    }
   }
 
   return (
