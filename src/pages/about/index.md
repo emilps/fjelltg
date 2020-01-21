@@ -25,6 +25,8 @@ Through the values ​​Reliable – Innovative – Responsible, the pursuit of
 
 {"widget":"imageblock","text":"FTG has a strategy of having a high level of expertise in engineering and project management. The purpose is to be able to offer R&D for customers and partners, when customers do not have the necessary knowledge.  At the same time, FTG wants to be able to carry out project follow-up and deliveries, in order to offer comprehensive solutions. FTG therefore often join forces with a range of cooperative companies.","image":"/img/jumbotron.jpg"}
 
+{"widget":"imageblock","text":"Fjell Technology Group has its main office in Fjell outside Bergen. There, the company also has a workshop for assembly and small scale production.","image":"/img/products-grid3.jpg"}
+
 ## Facilities
 
 Fjell Technology Group has its main office in Fjell outside Bergen. There, the company also has a workshop for assembly and small scale production.
