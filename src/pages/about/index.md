@@ -27,6 +27,8 @@ Through the values ​​Reliable – Innovative – Responsible, the pursuit of
 
 {"widget":"imageblock","text":"Fjell Technology Group has its main office in Fjell outside Bergen. There, the company also has a workshop for assembly and small scale production.","image":"/img/products-grid3.jpg"}
 
+{"widget":"imageblock","text":"New image","image":"/img/flavor_wheel.jpg"}
+
 ## Facilities
 
 Fjell Technology Group has its main office in Fjell outside Bergen. There, the company also has a workshop for assembly and small scale production.
