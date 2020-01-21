@@ -450,13 +450,23 @@ $navbar-item-color: white
 .blog-title
   padding: 5rem
 
-.content .image-text-block
+.image-text-block
   width: 100vw
   margin-left: -8rem
   max-height: 350px
   background-color: #EDF2F6
   margin-top: 5rem
-  margin-bottom: 5rem
+  margin-bottom: 5rem !important
+
+.clustered-bottom
+  margin-top: 0 !important
+
+.clustered-top
+  margin-bottom: 0 !important
+  & + p
+    display: none
+    & + p
+      display: none
 
 .image-text-block-text
   padding: 5rem 4rem
@@ -465,6 +475,9 @@ $navbar-item-color: white
 .image-text-block-image
   max-height: 350px
   width: 100%
+
+.remove-margin-top
+  margin-top: 0
 
 // responsiveness
 +tablet-only

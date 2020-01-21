@@ -3,21 +3,54 @@ import PropTypes from 'prop-types';
 import './all.sass';
 
 export const HTMLContent = ({ content, className }) => {
-  const regex = /{"widget":"imageblock","text":"(.+)","image":"(.+)"}/g;
-  const found = content.match(regex) || [];
+  const regexp = RegExp(
+    /{"widget":"imageblock","text":"(.+)","image":"(.+)"}/,
+    'g'
+  );
+  const founds = content.matchAll(regexp) || [];
 
   let newContent = content;
+  let clusteredBool = false;
+  let findingsList = [];
+  let clusteredString = '';
 
-  found.forEach((element, index) => {
+  for (const found of founds) {
+    findingsList.push(found);
+  }
+
+  for (let index = 0; index < findingsList.length; index++) {
+    const element = findingsList[index];
+
+    if (index < findingsList.length - 1) {
+      if (
+        findingsList[index + 1].index - (element.index + element[0].length) <
+        9
+      ) {
+        if (clusteredBool) {
+          clusteredString = 'clustered-bottom clustered-top';
+        } else {
+          clusteredString = 'clustered-top';
+        }
+        clusteredBool = true;
+      } else {
+        if (clusteredBool) {
+          clusteredString = 'clustered-bottom';
+        } else {
+          clusteredString = '';
+        }
+        clusteredBool = false;
+      }
+    }
     newContent = newContent.replace(
-      element,
+      element[0],
       TestComp(
-        JSON.parse(element).text,
-        JSON.parse(element).image,
-        index % 2 == 1
+        JSON.parse(element[0]).text,
+        JSON.parse(element[0]).image,
+        index % 2 == 1,
+        clusteredString
       )
     );
-  });
+  }
 
   return (
     <div
@@ -27,9 +60,11 @@ export const HTMLContent = ({ content, className }) => {
   );
 };
 
-const TestComp = (text, image, reversed) =>
+const TestComp = (text, image, reversed, clustered) =>
   `
-  <div class="columns image-text-block ${reversed ? 'row-reversed' : ''}" >
+  <div class="columns image-text-block ${
+    reversed ? 'row-reversed' : ''
+  } ${clustered}" >
     <p class="column is-half image-text-block-text">
       ${text}
     </p>
