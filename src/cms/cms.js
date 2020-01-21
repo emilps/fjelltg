@@ -58,8 +58,6 @@ CMS.registerEditorComponent({
   },
   // Function to create a text block from an instance of this component
   toBlock: function(obj) {
-    console.log(obj);
-
     return JSON.stringify({
       widget: 'imageblock',
       text: obj.text,
@@ -70,8 +68,6 @@ CMS.registerEditorComponent({
   // Preview output for this component. Can either be a string or a React component
   // (component gives better render performance)
   toPreview: obj => {
-    console.log(obj);
-
     return <TestComp text={obj.text} image={obj.image} />;
   }
 });
@@ -80,9 +76,9 @@ export default class TestComp extends React.Component {
   render() {
     const { text, image } = this.props;
     return (
-      <div>
-        <p>{text}</p>
-        <img src={image} style={{ height: '100px', width: '100px' }} />
+      <div className="columns image-text-block">
+        <p className="column is-half image-text-block-text">{text}</p>
+        <img className="column is-half remove-padding image-text-block-image" src={image} style={{ objectFit: 'cover' }} />
       </div>
     );
   }
