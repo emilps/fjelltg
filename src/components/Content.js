@@ -4,14 +4,18 @@ import './all.sass';
 
 export const HTMLContent = ({ content, className }) => {
   const regex = /{"widget":"imageblock","text":"(.+)","image":"(.+)"}/g;
-  const found = content.match(regex);
+  const found = content.match(regex) || [];
 
   let newContent = content;
 
-  found.forEach(element => {
+  found.forEach((element, index) => {
     newContent = newContent.replace(
       element,
-      TestComp(JSON.parse(element).text, JSON.parse(element).image)
+      TestComp(
+        JSON.parse(element).text,
+        JSON.parse(element).image,
+        index % 2 == 1
+      )
     );
   });
 
@@ -23,9 +27,9 @@ export const HTMLContent = ({ content, className }) => {
   );
 };
 
-const TestComp = (text, image) =>
+const TestComp = (text, image, reversed) =>
   `
-  <div class="columns image-text-block" >
+  <div class="columns image-text-block ${reversed ? 'row-reversed' : ''}" >
     <p class="column is-half image-text-block-text">
       ${text}
     </p>
