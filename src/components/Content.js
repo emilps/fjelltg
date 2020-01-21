@@ -9,7 +9,7 @@ export const HTMLContent = ({ content, className }) => {
   );
   let newContent = content;
 
-  if (content) {
+  if (typeof content === 'string') {
     const founds = content.matchAll(regexp) || [];
 
     newContent = content;
