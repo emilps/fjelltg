@@ -450,10 +450,28 @@ $navbar-item-color: white
 .blog-title
   padding: 5rem
 
+.content .image-text-block
+  width: 100vw
+  margin-left: -8rem
+  max-height: 350px
+  background-color: #EDF2F6
+  margin-top: 5rem
+  margin-bottom: 5rem
+
+.image-text-block-text
+  padding: 5rem 4rem
+  font-size: 1em
+
+.image-text-block-image
+  max-height: 350px
+  width: 100%
+
 // responsiveness
 +tablet-only
   .blog-list-item .featured-thumbnail
     flex-basis: 50%
+  .image-text-block-text
+    padding: 3rem 2rem
 
 +mobile
   .blog-list-item header
@@ -490,3 +508,10 @@ $navbar-item-color: white
     margin-bottom: 2rem
   .blog-container
     border-bottom: 1px solid $third
+  .content .image-text-block
+    margin-left: -16px
+    flex-direction: column
+    max-height: none
+  .image-text-block-text
+    padding: 2rem
+    margin-bottom: 0 !important

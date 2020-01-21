@@ -15,6 +15,9 @@ import ContactPagePreview from './preview-templates/ContactPagePreview';
 import previewComponent from './RelationPreview';
 import controlComponent from './RelationControl';
 
+import React from 'react';
+import PropTypes from 'prop-types';
+
 CMS.registerMediaLibrary(uploadcare);
 CMS.registerMediaLibrary(cloudinary);
 
@@ -31,5 +34,63 @@ CMS.registerPreviewTemplate('contact', ContactPagePreview);
 CMS.registerPreviewStyle('./../components/all.sass');
 
 CMS.registerWidget('relatedProduct', controlComponent);
+
+CMS.registerEditorComponent({
+  // Internal id of the component
+  id: 'imageblock',
+  // Visible label
+  label: 'Image with text',
+  // Fields the user need to fill out when adding an instance of the component
+  fields: [
+    { name: 'text', label: 'Text field', widget: 'text' },
+    { name: 'image', label: 'Image', widget: 'image' }
+  ],
+  // Pattern to identify a block as being an instance of this component
+  pattern: /{"widget":"imageblock","text":"(.+)","image":"(.+)"}/,
+  // Function to extract data elements from the regexp match
+  fromBlock: function(match) {
+    console.log(match);
+
+    return {
+      text: match[1],
+      image: match[2]
+    };
+  },
+  // Function to create a text block from an instance of this component
+  toBlock: function(obj) {
+    console.log(obj);
+
+    return JSON.stringify({
+      widget: 'imageblock',
+      text: obj.text,
+      image: obj.image
+    });
+    // return 'imageblock ' + obj.text + '+' + obj.image;
+  },
+  // Preview output for this component. Can either be a string or a React component
+  // (component gives better render performance)
+  toPreview: obj => {
+    console.log(obj);
+
+    return <TestComp text={obj.text} image={obj.image} />;
+  }
+});
+
+export default class TestComp extends React.Component {
+  render() {
+    const { text, image } = this.props;
+    return (
+      <div>
+        <p>{text}</p>
+        <img src={image} style={{ height: '100px', width: '100px' }} />
+      </div>
+    );
+  }
+}
+
+TestComp.propTypes = {
+  text: PropTypes.string,
+  image: PropTypes.oneOfType([PropTypes.object, PropTypes.string])
+};
 
 window.___loader = { enqueue: () => {}, hovering: () => {} };
