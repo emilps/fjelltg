@@ -7,7 +7,12 @@ import facebook from '../img/social/facebook.svg';
 import instagram from '../img/social/instagram.svg';
 import linkedin from '../img/social/linkedin.svg';
 
-const mediums = { Twitter: twitter, Facebook: facebook, Instagram: instagram, LinkedIn: linkedin };
+const mediums = {
+  Twitter: twitter,
+  Facebook: facebook,
+  Instagram: instagram,
+  LinkedIn: linkedin
+};
 
 class BlogRoll extends React.Component {
   render() {
@@ -91,7 +96,7 @@ const BlogRollQuery = () => (
               }
               frontmatter {
                 templateKey
-                date(formatString: "DD.MM.YYYY")
+                date
                 featuredimage {
                   childImageSharp {
                     fluid(maxWidth: 420, quality: 100) {

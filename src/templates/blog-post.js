@@ -7,9 +7,14 @@ import PreviewCompatibleImage from './../components/PreviewCompatibleImage';
 import twitter from '../img/social/twitter.svg';
 import facebook from '../img/social/facebook.svg';
 import instagram from '../img/social/instagram.svg';
-import linkedin from '../img/social/linkedin.svg'
+import linkedin from '../img/social/linkedin.svg';
 
-const mediums = { Twitter: twitter, Facebook: facebook, Instagram: instagram, LinkedIn: linkedin };
+const mediums = {
+  Twitter: twitter,
+  Facebook: facebook,
+  Instagram: instagram,
+  LinkedIn: linkedin
+};
 
 export const BlogPostTemplate = ({
   description,
@@ -25,7 +30,7 @@ export const BlogPostTemplate = ({
       {helmet || ''}
       <div className="is-parent blog-container column remove-padding is-4">
         <div className="blog-top">
-          <p>{date.toUTCString()}</p>
+          <p>{date}</p>
           <img
             className="fas fa-lg"
             src={mediums[socialmedia]}
@@ -64,7 +69,7 @@ BlogPostTemplate.propTypes = {
   link: PropTypes.string,
   date: PropTypes.string,
   featuredimage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-  socialmedia: PropTypes.string
+  socialmedia: PropTypes.oneOfType([PropTypes.object, PropTypes.string])
 };
 
 const BlogPost = ({ data }) => {
@@ -107,7 +112,7 @@ export const pageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       id
       frontmatter {
-        date(formatString: "DD.MM.YYYY")
+        date
         title
         description
         link
