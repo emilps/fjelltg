@@ -6,8 +6,10 @@ const BlogPostPreview = ({ entry, widgetFor }) => (
   <BlogPostTemplate
     date={entry.getIn(['data', 'date'])}
     description={entry.getIn(['data', 'description'])}
-    image={entry.getIn(['data', 'image'])}
+    featuredimage={entry.getIn(['data', 'featuredimage'])}
     link={entry.getIn(['data', 'link'])}
+    title={entry.getIn(['data', 'title'])}
+    socialmedia={entry.getIn(['data', 'socialmedia'])}
   />
 );
 
