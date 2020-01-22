@@ -5,8 +5,9 @@ import PreviewCompatibleImage from './PreviewCompatibleImage';
 import twitter from '../img/social/twitter.svg';
 import facebook from '../img/social/facebook.svg';
 import instagram from '../img/social/instagram.svg';
+import linkedin from '../img/social/linkedin.svg';
 
-const mediums = { Twitter: twitter, Facebook: facebook, Instagram: instagram };
+const mediums = { Twitter: twitter, Facebook: facebook, Instagram: instagram, LinkedIn: linkedin };
 
 class BlogRoll extends React.Component {
   render() {
@@ -51,7 +52,7 @@ class BlogRoll extends React.Component {
                     </p>
                     <a
                       className="button submit-button blog-button"
-                      href={post.fields.slug}
+                      href={post.frontmatter.link}
                     >
                       Read more
                     </a>
