@@ -37,69 +37,71 @@ export const ProductTemplate = ({
             image={headerimage}
           />
         )}
-        <div className="product-info-section">
-          <div className="product-info-section-text">
-            <PostContent
-              className={'markdown-container description'}
-              content={description1}
-            />
-            <div className="infobox-container">
+        <div className="product-content-section">
+          <div className="product-info-section">
+            <div className="product-info-section-text">
               <PostContent
-                className={'markdown-container infobox lightblue'}
-                content={infobox1}
+                className={'markdown-container description'}
+                content={description1}
               />
-              {/* {productbrochure ? ( */}
-              <div className="brochure-container">
-                <div className="brochure-container-info">
-                  <h4>{title}</h4>
-                  <h3>PRODUCT BROCHURE</h3>
+              <div className="infobox-container">
+                <PostContent
+                  className={'markdown-container infobox lightblue'}
+                  content={infobox1}
+                />
+                {/* {productbrochure ? ( */}
+                <div className="brochure-container">
+                  <div className="brochure-container-info">
+                    <h4>{title}</h4>
+                    <h3>PRODUCT BROCHURE</h3>
+                  </div>
+                  <div className="brochure-container-icon">
+                    <PreviewCompatibleImage
+                      imageInfo={{
+                        image: `img/PDF_file_icon.svg`,
+                        style: { height: '88px' }
+                      }}
+                    />
+                  </div>
                 </div>
-                <div className="brochure-container-icon">
-                  <PreviewCompatibleImage
-                    imageInfo={{
-                      image: `img/PDF_file_icon.svg`,
-                      style: { height: '88px' }
-                    }}
-                  />
-                </div>
+                {/* ) : null} */}
               </div>
-              {/* ) : null} */}
+            </div>
+            <div className="smallimage-container">
+              {smallimage ? (
+                <PreviewCompatibleImage
+                  imageInfo={{
+                    image: smallimage,
+                    alt: `smallimage for product ${title}`,
+                    style: { height: '269px', width: '410px' }
+                  }}
+                />
+              ) : null}
             </div>
           </div>
-          <div className="smallimage-container">
-            {smallimage ? (
+          <div className="fullwidthimage-container">
+            {fullwidthimage ? (
               <PreviewCompatibleImage
                 imageInfo={{
-                  image: smallimage,
-                  alt: `smallimage for product ${title}`,
-                  style: { height: '269px', width: '410px' }
+                  image: fullwidthimage,
+                  alt: `fullwidthimage for product ${title}`,
+                  style: { height: '650px' }
                 }}
               />
             ) : null}
           </div>
-        </div>
-        <div className="fullwidthimage-container">
-          {fullwidthimage ? (
-            <PreviewCompatibleImage
-              imageInfo={{
-                image: fullwidthimage,
-                alt: `fullwidthimage for product ${title}`,
-                style: { height: '650px' }
-              }}
-            />
-          ) : null}
-        </div>
-        <div className="product-info-section">
-          <div className="product-info-section-text">
-            <PostContent
-              className={'markdown-container description'}
-              content={description2}
-            />
-            <div className="infobox-container">
+          <div className="product-info-section">
+            <div className="product-info-section-text">
               <PostContent
-                className={'markdown-container infobox darkblue'}
-                content={infobox2}
+                className={'markdown-container description'}
+                content={description2}
               />
+              <div className="infobox-container">
+                <PostContent
+                  className={'markdown-container infobox darkblue'}
+                  content={infobox2}
+                />
+              </div>
             </div>
           </div>
         </div>
