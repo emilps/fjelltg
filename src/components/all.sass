@@ -311,12 +311,16 @@ $navbar-item-color: white
 
 .product-info-section
   padding: 5rem 14rem
+  @media screen and ( max-width:768px )
+    padding: 2rem
 
-  
 .product-info-section-text
   display: flex
   flex-direction: row
   padding-bottom: 2rem
+  @media screen and ( max-width:768px )
+    flex-direction: column
+    
 
 .brochure-container
   padding: 10px 30px
@@ -345,22 +349,59 @@ $navbar-item-color: white
   display: flex
   flex-direction: column
   &.description
+    @media screen and ( max-width: 768px  )
+      padding-bottom: 2rem
     
   &.infobox
     padding: 10px 30px
     padding-bottom: 2em
     margin-left: 190px
     width: 300px
+    @media screen and ( max-width: 768px  )
+      margin: 0
+      width: auto
     
     &.lightblue
       background-color: rgba(77,126,168, 0.1)
       color: black
+      > ul li 
+        list-style: none
+        padding: 0 20px
+        font-size: 14px
+        &:before
+          content: "\2022"
+          color: #4D7EA8
+          font-weight: 900
+          font-size: 1.8em
+          display: inline-block
+          width: 1em
+          margin-left: -1em
+          line-height: 1
+
 
     &.darkblue
       background-color: #002060
       color: white
+      > ul li 
+        list-style: none
+        padding: 0 20px
+        font-size: 14px
+        &:before
+          content: "\2022"
+          color: white
+          font-weight: 900
+          font-size: 1.8em
+          display: inline-block
+          width: 1em
+          margin-left: -1em
+          line-height: 1
 
 .markdown-container > h2
+  font-weight: bold 
+  font-size: 28px
+  padding: 10px 0
+
+.markdown-container > h1
   font-weight: bold 
   font-size: 28px
   padding: 10px 0
@@ -369,32 +410,26 @@ $navbar-item-color: white
   font-size: 16px
   padding: 10px 0
 
-.markdown-container > ul li 
-  list-style: none
-  padding: 0 20px
-  font-size: 14px
-  &:before
-    content: "\2022"
-    color: #4D7EA8
-    font-weight: 900
-    font-size: 1.8em
-    display: inline-block
-    width: 1em
-    margin-left: -1em
-    line-height: 1
-
-
 .product-roll-container
   padding: 0 5rem 5rem
   display: flex
   flex-wrap: wrap
   justify-content: space-between
   align-items: center
+  @media screen and ( max-width: 1492px  )
+    display: flex
+    justify-content: space-between
+    @media screen and ( max-width: 1040px  )
+      display: flex
+      justify-content: center
+      
+.brochure-container-icon 
+  padding-left: 10px  
 
 .product-roll-product-container
   display: flex
   flex-direction: column
-  padding: 2rem
+  padding: 30px
   min-height: 430px
   align-items: center
 
@@ -413,12 +448,15 @@ $navbar-item-color: white
 .outer-container-roll
   width: 100vw
   display: flex
-  flex-wrap: wrap
+  flex-wrap: wrap  
 
 .object-container
   position: relative
   flex-basis: 50%
   max-height: 450px
+  text-align: center
+  @media screen and ( max-width: 768px  )
+    flex-basis: 100%
 
 .object-image > *
   max-height: 450px
@@ -562,11 +600,11 @@ $navbar-item-color: white
   padding: 5rem
 
 // responsiveness
-  +tablet-only
++tablet-only
   .blog-list-item .featured-thumbnail
     flex-basis: 50%
 
-    +mobile
++mobile
   .blog-list-item header
     display: block
   .blog-list-item .featured-thumbnail
@@ -592,3 +630,12 @@ $navbar-item-color: white
   .product-content-section
     display: flex
     flex-direction: column
+  .brochure-container
+    margin: 0
+    width: auto
+  .smallimage-container
+    display: none
+  .gatsby-image-wrapper
+    width: auto
+    height: auto
+  

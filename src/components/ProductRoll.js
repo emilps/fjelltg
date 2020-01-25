@@ -32,7 +32,7 @@ class ProductRoll extends React.Component {
                       imageInfo={{
                         image: product.frontmatter.headerimage,
                         alt: `featured image thumbnail for ${product.frontmatter.title}`,
-                        style: { height: '330px', width: '380px' }
+                        style: { height: '280px', width: '380px' }
                       }}
                     />
                   </div>

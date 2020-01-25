@@ -24,7 +24,7 @@ export const ProductTemplate = ({
   helmet
 }) => {
   const PostContent = contentComponent || Content;
-  console.log(productbrochure);
+  console.log(productbrochure.relativePath);
 
   return (
     <section>
@@ -49,22 +49,25 @@ export const ProductTemplate = ({
                   className={'markdown-container infobox lightblue'}
                   content={infobox1}
                 />
-                {/* {productbrochure ? ( */}
-                <div className="brochure-container">
-                  <div className="brochure-container-info">
-                    <h4>{title}</h4>
-                    <h3>PRODUCT BROCHURE</h3>
+                {productbrochure ? (
+                  <div className="brochure-container">
+                    <div className="brochure-container-info">
+                      <h4>{title}</h4>
+                      <h3>PRODUCT BROCHURE</h3>
+                    </div>
+                    <div className="brochure-container-icon">
+                      <a
+                        href={productbrochure.relativePath}
+                        download={productbrochure.relativePath}
+                      >
+                        <img
+                          src={`https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg`}
+                          width="110px"
+                        />
+                      </a>
+                    </div>
                   </div>
-                  <div className="brochure-container-icon">
-                    <PreviewCompatibleImage
-                      imageInfo={{
-                        image: `img/PDF_file_icon.svg`,
-                        style: { height: '88px' }
-                      }}
-                    />
-                  </div>
-                </div>
-                {/* ) : null} */}
+                ) : null}
               </div>
             </div>
             <div className="smallimage-container">
