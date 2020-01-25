@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { ProductCategoryTemplate } from '../../templates/productCategory';
+import { ProductCategoryTemplate } from '../../templates/productcategory';
 
 const ProductCategoryPreview = ({ entry, widgetFor }) => {
   //const entryTags = entry.getIn(['data', 'tags']);
