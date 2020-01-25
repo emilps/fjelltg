@@ -16,7 +16,7 @@ const PageJumbotron = ({ title, image, description }) => {
           />
         ) : (
           <div>
-            {inputImage.childImageSharp ? (
+            {inputImage ? (
               <Img
                 fluid={inputImage.childImageSharp.fluid}
                 alt={`featured image thumbnail for project ${title}`}

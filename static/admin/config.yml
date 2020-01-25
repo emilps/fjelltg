@@ -36,6 +36,24 @@ collections:
           options: ["Instagram", "Twitter", "Facebook"],
           default: ["Twitter"], 
         }
+
+  - name: 'productcategory'
+    label: 'Product Category'
+    folder: 'src/pages/productCategory'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    fields:
+      - {
+          label: 'Template Key',
+          name: 'templateKey',
+          widget: 'hidden',
+          default: 'productcategory',
+        }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Subtitle', name: 'subtitle', widget: 'text' }
+      - { label: 'Featured Image', name: 'featuredimage', widget: image }
+      - { label: 'Text', name: 'text', widget: 'markdown' }
+
   - name: 'product'
     label: 'Product'
     folder: 'src/pages/product'
