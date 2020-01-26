@@ -25,7 +25,7 @@ collections:
           default: 'blog-post',
         }
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Publish Date', name: 'date', widget: 'date', format: "DD.MM.YYYY" }
       - { label: 'Image', name: 'featuredimage', widget: image }
       - { label: 'Description', name: 'description', widget: 'text' }
       - { label: 'Link', name: 'link', widget: 'string' }
@@ -33,8 +33,8 @@ collections:
           label: "Social Media", 
           name: "socialmedia", 
           widget: "select", 
-          options: ["Instagram", "Twitter", "Facebook"],
-          default: ["Twitter"], 
+          options: ["Instagram", "LinkedIn", "Facebook"],
+          default: ["Instagram"], 
         }
   - name: 'product'
     label: 'Product'

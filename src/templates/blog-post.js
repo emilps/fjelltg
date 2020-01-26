@@ -1,45 +1,61 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { kebabCase } from "lodash";
-import Helmet from "react-helmet";
-import { graphql, Link } from "gatsby";
-import Layout from "../components/Layout";
-import Content, { HTMLContent } from "../components/Content";
+import React from 'react';
+import PropTypes from 'prop-types';
+import Helmet from 'react-helmet';
+import { graphql } from 'gatsby';
+import Layout from '../components/Layout';
+import PreviewCompatibleImage from './../components/PreviewCompatibleImage';
+import twitter from '../img/social/twitter.svg';
+import facebook from '../img/social/facebook.svg';
+import instagram from '../img/social/instagram.svg';
+import linkedin from '../img/social/linkedin.svg';
+
+const mediums = {
+  Twitter: twitter,
+  Facebook: facebook,
+  Instagram: instagram,
+  LinkedIn: linkedin
+};
 
 export const BlogPostTemplate = ({
-  content,
-  contentComponent,
   description,
-  tags,
+  link,
   title,
-  helmet
+  helmet,
+  date,
+  featuredimage,
+  socialmedia
 }) => {
-  const PostContent = contentComponent || Content;
-
   return (
     <section className="section">
-      {helmet || ""}
-      <div className="container content">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-              {title}
-            </h1>
-            <p>{description}</p>
-            <PostContent content={content} />
-            {tags && tags.length ? (
-              <div style={{ marginTop: `4rem` }}>
-                <h4>Tags</h4>
-                <ul className="taglist">
-                  {tags.map(tag => (
-                    <li key={tag + `tag`}>
-                      <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ) : null}
-          </div>
+      {helmet || ''}
+      <div className="is-parent blog-container column remove-padding is-4">
+        <div className="blog-top">
+          <p>{date}</p>
+          <img
+            className="fas fa-lg"
+            src={mediums[socialmedia]}
+            alt="Twitter"
+            style={{ width: '1em', height: '1em' }}
+          />
+        </div>
+        <div>
+          {featuredimage ? (
+            <div className="featured-thumbnail">
+              <PreviewCompatibleImage
+                imageInfo={{
+                  image: featuredimage,
+                  alt: `featured image for post ${title}`,
+                  imageStyle: { height: '315px' }
+                }}
+              />
+            </div>
+          ) : null}
+        </div>
+        <div className="blog-bottom">
+          <p className="has-text-centered">{description}</p>
+          <a className="button submit-button blog-button" href={link}>
+            Read more
+          </a>
         </div>
       </div>
     </section>
@@ -47,22 +63,20 @@ export const BlogPostTemplate = ({
 };
 
 BlogPostTemplate.propTypes = {
-  content: PropTypes.node.isRequired,
-  contentComponent: PropTypes.func,
   description: PropTypes.string,
   title: PropTypes.string,
   helmet: PropTypes.object,
-  tags: PropTypes.array
+  link: PropTypes.string,
+  date: PropTypes.string,
+  featuredimage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+  socialmedia: PropTypes.oneOfType([PropTypes.object, PropTypes.string])
 };
 
 const BlogPost = ({ data }) => {
   const { markdownRemark: post } = data;
-
   return (
     <Layout>
       <BlogPostTemplate
-        content={post.html}
-        contentComponent={HTMLContent}
         description={post.frontmatter.description}
         helmet={
           <Helmet titleTemplate="%s | Blog">
@@ -73,8 +87,11 @@ const BlogPost = ({ data }) => {
             />
           </Helmet>
         }
-        tags={post.frontmatter.tags}
+        link={post.frontmatter.link}
         title={post.frontmatter.title}
+        featuredimage={post.frontmatter.featuredimage}
+        date={post.frontmatter.date}
+        socialmedia={post.frontmatter.socialmedia}
       />
     </Layout>
   );
@@ -92,12 +109,19 @@ export const pageQuery = graphql`
   query BlogPostByID($id: String!) {
     markdownRemark(id: { eq: $id }) {
       id
-      html
       frontmatter {
-        date(formatString: "MMMM DD, YYYY")
+        date
         title
         description
-        tags
+        link
+        featuredimage {
+          childImageSharp {
+            fluid(maxWidth: 240, quality: 64) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        socialmedia
       }
     }
   }
