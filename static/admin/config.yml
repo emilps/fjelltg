@@ -296,6 +296,8 @@ collections:
               default: 'about-page',
             }
           - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Ingress', name: 'ingress', widget: 'text' }
+          - { label: Image, name: image, widget: image }
           - { label: 'Body', name: 'body', widget: 'markdown' }
       - file: 'src/pages/contact/index.md'
         label: 'Contact'

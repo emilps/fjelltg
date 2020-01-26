@@ -334,7 +334,7 @@ $navbar-item-color: white
   padding: 12rem 14rem 8rem 8rem
 
 .project-info-section
-  padding: 8rem
+  padding: 8rem 8rem 0 8rem
 
 .project-info-first
   margin-bottom: 7rem
@@ -345,6 +345,9 @@ $navbar-item-color: white
 .project-related-products
   background-color: rgba(77, 126, 168, 0.1)
   padding: 3rem 3rem 5rem 3rem
+
+.project-sort-tags
+  flex-wrap: wrap
 
 .employeeContainer
   display: flex
@@ -455,11 +458,45 @@ $navbar-item-color: white
 .navbar-dropdown .navbar-item
   &:hover
     border-bottom: 1px solid white
+.image-text-block
+  width: 100vw
+  margin-left: -8rem
+  max-height: 350px
+  background-color: #EDF2F6
+  margin-top: 5rem
+  margin-bottom: 5rem !important
+
+.clustered-bottom
+  margin-top: 0 !important
+
+.clustered-top
+  margin-bottom: 0 !important
+  & + p
+    display: none
+    & + p
+      display: none
+
+.image-text-block-text
+  padding: 5rem 4rem
+  font-size: 1em
+  margin-bottom: 0 !important
+  display: flex
+  align-items: center
+  justify-content: center
+
+.image-text-block-image
+  max-height: 350px
+  width: 100%
+
+.remove-margin-top
+  margin-top: 0
 
 // responsiveness
 +tablet-only
   .blog-list-item .featured-thumbnail
     flex-basis: 50%
+  .image-text-block-text
+    padding: 3rem 2rem
 
 // Mobile
 +mobile
@@ -499,3 +536,10 @@ $navbar-item-color: white
     border-bottom: 1px solid $third
   .navbar-dropdown
     display: none
+  .content .image-text-block
+    margin-left: -16px
+    flex-direction: column
+    max-height: none
+  .image-text-block-text
+    padding: 2rem
+    margin-bottom: 0 !important
