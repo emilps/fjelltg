@@ -20,6 +20,7 @@ $primary-invert: $kaldi-red-invert
 $body-color: #333
 $black: #2b2523
 $secondary: #EDF2F6
+$third: #4D7EA8
 
 nav
   height: 40px
@@ -359,7 +360,7 @@ $navbar-item-color: white
   justify-content: center
   text-align: center
   width: 150px
-  color: #2d2d2d
+  color: #fff !important
   background-color: $primary !important
   border-radius: 3px
 
@@ -385,7 +386,71 @@ $navbar-item-color: white
 .form-title
   margin: 3rem 6rem 6rem 6rem !important
 
-    // responsiveness
+.updates-container
+  background-color: $secondary
+
+.test-center-container
+  margin: 10rem 0 10rem 0
+  display: flex
+  justify-content: center
+  align-items: center
+
+.test-center-button
+  display: flex
+  justify-content: center
+  text-align: center
+  width: 150px
+  color: #2d2d2d !important
+  background-color: #f2f2f2 !important
+  border-radius: 3px
+  position: absolute
+  bottom: 0
+  margin-bottom: 35px
+  font-size: 14px
+
+.test-center-text
+  position: absolute
+
+.partners-container
+  background-color: $secondary
+  padding: 5rem
+
+.partners-text-container
+  margin-bottom: 4rem
+
+.partner-logo
+  height: 160px
+  display: flex
+  align-items: center
+  justify-content: center
+  *
+    max-width: 160px
+    width: 160px !important
+    max-height: 160px
+
+.blog-container
+  min-height: 670px
+  border-right: 1px solid $third
+
+.blog-top
+  display: flex
+  justify-content: space-between
+  align-items: center
+  padding: 5px 2rem 5px 2rem
+
+.blog-bottom
+  padding: 3rem
+  display: flex
+  align-items: center
+  flex-direction: column
+  justify-content: space-between
+  height: 314px
+  background-color: $secondary
+
+.blog-title
+  padding: 5rem
+
+// responsiveness
 +tablet-only
   .blog-list-item .featured-thumbnail
     flex-basis: 50%
@@ -397,10 +462,20 @@ $navbar-item-color: white
     text-align: center
     max-width: 70%
     margin: 0 0 1em
-  .index-image-text-field
-    margin-bottom: 30px
   .index-image-tabs
     background-color: rgba(0,0,0,0.7)
+  .index-image-title, .learn-button
+    margin: 0
+  .index-image-title-container
+    justify-content: space-around
+  .index-image-tab-left
+    padding: 12px 12px 12px 24px
+  .index-full-width-image
+    height: 350px
+  .jumbotron-centered-elements
+    height: 350px
+  .h3-page-subtitle
+    max-width: 90%
   .project-title-section
     padding: 1rem
   .project-info-section
@@ -413,3 +488,5 @@ $navbar-item-color: white
       width: auto !important
   .project-info-first
     margin-bottom: 2rem
+  .blog-container
+    border-bottom: 1px solid $third

@@ -1,58 +1,79 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { Link, graphql, StaticQuery } from "gatsby";
-import PreviewCompatibleImage from "./PreviewCompatibleImage";
+import React from 'react';
+import PropTypes from 'prop-types';
+import { graphql, StaticQuery } from 'gatsby';
+import PreviewCompatibleImage from './PreviewCompatibleImage';
+import twitter from '../img/social/twitter.svg';
+import facebook from '../img/social/facebook.svg';
+import instagram from '../img/social/instagram.svg';
+import linkedin from '../img/social/linkedin.svg';
+
+const mediums = {
+  Twitter: twitter,
+  Facebook: facebook,
+  Instagram: instagram,
+  LinkedIn: linkedin
+};
 
 class BlogRoll extends React.Component {
   render() {
     const { data } = this.props;
     const { edges: posts } = data.allMarkdownRemark;
-
     return (
-      <div className="columns is-multiline">
+      <div className="columns is-centered">
         {posts &&
-          posts.map(({ node: post }) => (
-            <div className="is-parent column is-6" key={post.id}>
-              <article
-                className={`blog-list-item tile is-child box notification ${
-                  post.frontmatter.featuredpost ? "is-featured" : ""
-                }`}
-              >
-                <header>
-                  {post.frontmatter.featuredimage ? (
-                    <div className="featured-thumbnail">
-                      <PreviewCompatibleImage
-                        imageInfo={{
-                          image: post.frontmatter.featuredimage,
-                          alt: `featured image thumbnail for post ${post.title}`
-                        }}
+          posts
+            .sort(function(a, b) {
+              const aSplit = a.node.frontmatter.date.split('.');
+              const bSplit = b.node.frontmatter.date.split('.');
+              return (
+                new Date(bSplit[2], bSplit[1], bSplit[0]) -
+                new Date(aSplit[2], aSplit[1], aSplit[0])
+              );
+            })
+            .map(({ node: post }, index) => {
+              if (index < 3) {
+                return (
+                  <div
+                    className="is-parent blog-container column remove-padding is-4"
+                    key={post.id}
+                  >
+                    <div className="blog-top">
+                      <p>{post.frontmatter.date}</p>
+                      <img
+                        className="fas fa-lg"
+                        src={mediums[post.frontmatter.socialmedia]}
+                        alt="Twitter"
+                        style={{ width: '1em', height: '1em' }}
                       />
                     </div>
-                  ) : null}
-                  <p className="post-meta">
-                    <Link
-                      className="title has-text-primary is-size-4"
-                      to={post.fields.slug}
-                    >
-                      {post.frontmatter.title}
-                    </Link>
-                    <span> &bull; </span>
-                    <span className="subtitle is-size-5 is-block">
-                      {post.frontmatter.date}
-                    </span>
-                  </p>
-                </header>
-                <p>
-                  {post.excerpt}
-                  <br />
-                  <br />
-                  <Link className="button" to={post.fields.slug}>
-                    Keep Reading →
-                  </Link>
-                </p>
-              </article>
-            </div>
-          ))}
+                    <div>
+                      {post.frontmatter.featuredimage ? (
+                        <div className="featured-thumbnail">
+                          <PreviewCompatibleImage
+                            imageInfo={{
+                              image: post.frontmatter.featuredimage,
+                              alt: `featured image for post ${post.title}`,
+                              imageStyle: { height: '315px' }
+                            }}
+                          />
+                        </div>
+                      ) : null}
+                    </div>
+                    <div className="blog-bottom">
+                      <p className="has-text-centered">
+                        {post.frontmatter.description}
+                      </p>
+                      <a
+                        className="button submit-button blog-button"
+                        href={post.frontmatter.link}
+                      >
+                        Read more
+                      </a>
+                    </div>
+                  </div>
+                );
+              }
+            })}
       </div>
     );
   }
@@ -76,23 +97,24 @@ const BlogRollQuery = () => (
         ) {
           edges {
             node {
-              excerpt(pruneLength: 400)
+              excerpt(pruneLength: 300)
               id
               fields {
                 slug
               }
               frontmatter {
-                title
                 templateKey
-                date(formatString: "MMMM DD, YYYY")
-                featuredpost
+                date
                 featuredimage {
                   childImageSharp {
-                    fluid(maxWidth: 120, quality: 100) {
+                    fluid(maxWidth: 420, quality: 100) {
                       ...GatsbyImageSharpFluid
                     }
                   }
                 }
+                link
+                description
+                socialmedia
               }
             }
           }
@@ -103,5 +125,5 @@ const BlogRollQuery = () => (
   />
 );
 
-BlogRollQuery.displayName = "BlogRollQuery";
+BlogRollQuery.displayName = 'BlogRollQuery';
 export default BlogRollQuery;
