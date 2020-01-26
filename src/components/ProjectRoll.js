@@ -45,7 +45,7 @@ class ProjectRoll extends React.Component {
     return (
       <div>
         <div className="section project-filter">
-          <div className="is-horizontal-align">
+          <div className="is-horizontal-align project-sort-tags">
             {Object.keys(filterValues).map((filter, index) => (
               <div key={index} className="is-horizontal-align">
                 <div
