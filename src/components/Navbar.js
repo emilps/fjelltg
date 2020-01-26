@@ -1,13 +1,13 @@
-import React from "react";
-import { Link } from "gatsby";
-import logo from "../img/ftg_logo_neg.svg";
+import React from 'react';
+import { Link } from 'gatsby';
+import logo from '../img/ftg_logo_neg.svg';
 
 const Navbar = class extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       active: false,
-      navBarActiveClass: ""
+      navBarActiveClass: ''
     };
   }
 
@@ -22,10 +22,10 @@ const Navbar = class extends React.Component {
         // set the class in state for the navbar accordingly
         this.state.active
           ? this.setState({
-              navBarActiveClass: "is-active"
+              navBarActiveClass: 'is-active'
             })
           : this.setState({
-              navBarActiveClass: ""
+              navBarActiveClass: ''
             });
       }
     );
@@ -41,7 +41,11 @@ const Navbar = class extends React.Component {
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Kaldi" style={{ width: "150px" }} />
+              <img
+                src={logo}
+                alt="Fjell Technology Group AS"
+                style={{ width: '200px', maxHeight: '50px !important' }}
+              />
             </Link>
             {/* Hamburger menu */}
             <div
@@ -60,20 +64,49 @@ const Navbar = class extends React.Component {
           >
             <div className="navbar-end has-text-centered">
               <Link className="navbar-item is-light" to="/project">
-                Projects
+                Reference projects
               </Link>
-              <Link className="navbar-item" to="/product">
-                Products
-              </Link>
-              <Link className="navbar-item" to="/solutions">
-                Solutions
-              </Link>
-              <Link className="navbar-item" to="/blog">
-                WasteWater
-              </Link>
-              <Link className="navbar-item" to="/contact/examples">
-                Protein Recycling
-              </Link>
+              <div className="navbar-item has-dropdown is-hoverable">
+                <Link className="navbar-link is-arrowless" to="/product">
+                  Products
+                </Link>
+                <div className="navbar-dropdown">
+                  <Link className="navbar-item" to="/product">
+                    Pressure Vessels
+                  </Link>
+                  <Link className="navbar-item" to="/product">
+                    Heat Exchangers
+                  </Link>
+                  <Link className="navbar-item" to="/product">
+                    Air Coolers
+                  </Link>
+                  <Link className="navbar-item" to="/product">
+                    Steam Heated Screw Cookers
+                  </Link>
+                  <Link className="navbar-item" to="/product">
+                    Mud & Gas Separators
+                  </Link>
+                </div>
+              </div>
+              <div className="navbar-item has-dropdown is-hoverable">
+                <Link className="navbar-link is-arrowless" to="/solutions">
+                  Solutions
+                </Link>
+                <div className="navbar-dropdown">
+                  <Link className="navbar-item" to="/solutions">
+                    Greentech and the environment
+                  </Link>
+                  <Link className="navbar-item" to="/solutions">
+                    Protein recycling
+                  </Link>
+                  <Link className="navbar-item" to="/solutions">
+                    Oil & Gas
+                  </Link>
+                  <Link className="navbar-item" to="/solutions">
+                    Co2 Capture
+                  </Link>
+                </div>
+              </div>
               <Link className="navbar-item" to="/about">
                 About
               </Link>
@@ -88,5 +121,5 @@ const Navbar = class extends React.Component {
   }
 };
 
-Navbar.displayName = "Navbar";
+Navbar.displayName = 'Navbar';
 export default Navbar;
