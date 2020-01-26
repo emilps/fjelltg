@@ -2,7 +2,7 @@
 templateKey: solution
 title: TestSolution
 subtitle: The best solution
-featuredimage: /img/products-grid2.jpg
+featuredimage: /img/frs-plant-2.png
 solutions:
   - Fish Residual Raw Material Processing (Omega 3 and Fish Meal)
 baseproducts:
