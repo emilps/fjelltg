@@ -89,7 +89,18 @@ class ProjectRoll extends React.Component {
                         </div>
                       ) : null}
                     </div>
-                    <div className="column is-half has-text-centered is-vertical-center	has-background-secondary">
+                    <div
+                      className="column is-half has-text-centered is-vertical-center has-background-secondary"
+                      ref={node => {
+                        if (node) {
+                          node.style.setProperty(
+                            'padding',
+                            '2rem 0 2rem 0',
+                            'important'
+                          );
+                        }
+                      }}
+                    >
                       <p className="has-text-centered title is-uppercase remove-margin">
                         {project.frontmatter.title}
                       </p>
