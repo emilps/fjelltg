@@ -46,7 +46,7 @@ export const HTMLContent = ({ content, className }) => {
       }
       newContent = newContent.replace(
         element[0],
-        TestComp(
+        ImageTextBlock(
           JSON.parse(element[0]).text,
           JSON.parse(element[0]).image,
           index % 2 == 1,
@@ -64,7 +64,7 @@ export const HTMLContent = ({ content, className }) => {
   );
 };
 
-const TestComp = (text, image, reversed, clustered) =>
+const ImageTextBlock = (text, image, reversed, clustered) =>
   `
   <div class="columns image-text-block ${
     reversed ? 'row-reversed' : ''

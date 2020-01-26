@@ -68,23 +68,27 @@ CMS.registerEditorComponent({
   // Preview output for this component. Can either be a string or a React component
   // (component gives better render performance)
   toPreview: obj => {
-    return <TestComp text={obj.text} image={obj.image} />;
+    return <ImageTextBlock text={obj.text} image={obj.image} />;
   }
 });
 
-export default class TestComp extends React.Component {
+export default class ImageTextBlock extends React.Component {
   render() {
     const { text, image } = this.props;
     return (
       <div className="columns image-text-block">
         <p className="column is-half image-text-block-text">{text}</p>
-        <img className="column is-half remove-padding image-text-block-image" src={image} style={{ objectFit: 'cover' }} />
+        <img
+          className="column is-half remove-padding image-text-block-image"
+          src={image}
+          style={{ objectFit: 'cover' }}
+        />
       </div>
     );
   }
 }
 
-TestComp.propTypes = {
+ImageTextBlock.propTypes = {
   text: PropTypes.string,
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string])
 };
