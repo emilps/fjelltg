@@ -11,7 +11,7 @@ class ProductCategoryRoll extends React.Component {
     return (
       <div className="outer-container-roll is-multiline">
         {productCategories &&
-          productCategories.map(({ node: productCategory }, index) => (
+          productCategories.map(({ node: productCategory }) => (
             <div
               className="object-container remove-padding"
               key={productCategory.id}

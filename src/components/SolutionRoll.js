@@ -11,7 +11,7 @@ class SolutionRoll extends React.Component {
     return (
       <div className="outer-container-roll is-multiline">
         {solutions &&
-          solutions.map(({ node: solution }, index) => (
+          solutions.map(({ node: solution }) => (
             <div className="object-container remove-padding" key={solution.id}>
               <Link className="" to={solution.fields.slug}>
                 {solution.frontmatter.featuredimage ? (
