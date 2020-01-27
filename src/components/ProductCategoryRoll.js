@@ -22,16 +22,13 @@ class ProductCategoryRoll extends React.Component {
                     <PreviewCompatibleImage
                       imageInfo={{
                         image: productCategory.frontmatter.featuredimage,
-                        alt: `featured image thumbnail for post ${productCategory.title}`
+                        alt: `featured image thumbnail for post ${productCategory.title}`,
+                        style: { objectFit: 'cover', height: '350px' }
                       }}
                     />
                   </div>
                 ) : null}
-                <p
-                  className={`object-text title is-uppercase ${
-                    index % 3 == 0 ? 'black-overlay' : 'blue-overlay'
-                  }`}
-                >
+                <p className="object-text title is-uppercase">
                   {productCategory.frontmatter.title}
                 </p>
               </Link>

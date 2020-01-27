@@ -452,7 +452,7 @@ $navbar-item-color: white
 .object-container
   position: relative
   flex-basis: 50%
-  max-height: 450px
+  max-height: 350px
   text-align: center
   @media screen and ( max-width: 768px  )
     flex-basis: 100%
@@ -598,6 +598,25 @@ $navbar-item-color: white
 .blog-title
   padding: 5rem
 
+.object-container
+    &:nth-child(4n + 1)
+      a
+        p
+          background-color: rgba(27,27,27,0.5)
+    &:nth-child(4n)
+      a
+        p
+          background-color: rgba(27,27,27,0.5)
+    &:nth-child(4n-1)
+      a
+        p
+          background-color: rgba(77,126,168,0.5)
+    &:nth-child(4n-2)
+      a
+        p
+          background-color: rgba(77,126,168,0.5)
+
+
 // responsiveness
 +tablet-only
   .blog-list-item .featured-thumbnail
@@ -637,4 +656,13 @@ $navbar-item-color: white
   .gatsby-image-wrapper
     width: auto
     height: auto
-  
+  .object-container
+    &:nth-child(odd)
+      a
+        p
+          background-color: rgba(27,27,27,0.5)
+    &:nth-child(even)
+      a
+        p
+          background-color: rgba(77,126,168,0.5)
+      
