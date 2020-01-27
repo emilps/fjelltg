@@ -1,4 +1,5 @@
 @import "~bulma/sass/utilities/initial-variables"
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 @mixin transition($args...)
   -webkit-transition: $args
@@ -21,6 +22,8 @@ $body-color: #333
 $black: #2b2523
 $secondary: #EDF2F6
 $third: #4D7EA8
+
+$family-primary: 'Montserrat', sans-serif
 
 nav
   height: 40px
@@ -332,7 +335,7 @@ $navbar-item-color: white
   padding: 12rem 14rem 8rem 8rem
 
 .project-info-section
-  padding: 8rem 8rem 0 8rem
+  padding: 8rem
 
 .project-info-first
   margin-bottom: 7rem
@@ -486,13 +489,49 @@ $navbar-item-color: white
 .remove-margin-top
   margin-top: 0
 
+.about-section
+  padding: 8rem 8rem 0 8rem
+
+.navbar-dropdown 
+  left: calc( -50% - 1rem )
+  background-color: $third !important
+  border-radius: unset
+  border-top: 0px
+  .navbar-item
+    padding-right: 1rem !important
+    margin: 1rem
+    &:hover
+      text-decoration: underline
+      background-color: $third !important
+  &:after 
+    bottom: 100%
+    left: 50%
+    border: solid transparent
+    content: " "
+    height: 0
+    width: 0
+    position: absolute
+    pointer-events: none
+    border-color: rgba(136, 183, 213, 0)
+    border-bottom-color: $third
+    border-width: 20px
+    margin-left: -20px
+
+
+.main-navbar-item
+  margin-right: 50px
+  &:hover
+    text-decoration: underline
+
 // responsiveness
 +tablet-only
   .blog-list-item .featured-thumbnail
     flex-basis: 50%
   .image-text-block-text
     padding: 3rem 2rem
-
+  .navbar-dropdown
+    display: none
+// Mobile
 +mobile
   .blog-list-item header
     display: block
@@ -528,6 +567,8 @@ $navbar-item-color: white
     margin-bottom: 2rem
   .blog-container
     border-bottom: 1px solid $third
+  .navbar-dropdown
+    display: none
   .content .image-text-block
     margin-left: -16px
     flex-direction: column
@@ -535,3 +576,15 @@ $navbar-item-color: white
   .image-text-block-text
     padding: 2rem
     margin-bottom: 0 !important
+  .main-navbar-item
+    margin-right: 0
+    margin-top: 10px
+    margin-bottom: 10px
+  .navbar-menu
+    &.is-active
+      min-height: calc( 100vh - 80px )
+      display: flex
+      justify-content: center
+      align-items: center
+
+  

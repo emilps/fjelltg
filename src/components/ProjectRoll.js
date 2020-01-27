@@ -79,7 +79,7 @@ class ProjectRoll extends React.Component {
                       {project.frontmatter.mainimage ? (
                         <div>
                           <Img
-                            style={{ maxHeight: '400px' }}
+                            style={{ height: '400px' }}
                             fluid={
                               project.frontmatter.mainimage.childImageSharp
                                 .fluid
