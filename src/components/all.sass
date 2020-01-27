@@ -455,9 +455,6 @@ $navbar-item-color: white
 .blog-title
   padding: 5rem
 
-.navbar-dropdown .navbar-item
-  &:hover
-    border-bottom: 1px solid white
 .image-text-block
   width: 100vw
   margin-left: -8rem
@@ -494,13 +491,45 @@ $navbar-item-color: white
 .about-section
   padding: 8rem 8rem 0 8rem
 
+.navbar-dropdown 
+  left: calc( -50% - 1rem )
+  background-color: $third !important
+  border-radius: unset
+  border-top: 0px
+  .navbar-item
+    padding-right: 1rem !important
+    margin: 1rem
+    &:hover
+      text-decoration: underline
+      background-color: $third !important
+  &:after 
+    bottom: 100%
+    left: 50%
+    border: solid transparent
+    content: " "
+    height: 0
+    width: 0
+    position: absolute
+    pointer-events: none
+    border-color: rgba(136, 183, 213, 0)
+    border-bottom-color: $third
+    border-width: 20px
+    margin-left: -20px
+
+
+.main-navbar-item
+  margin-right: 50px
+  &:hover
+    text-decoration: underline
+
 // responsiveness
 +tablet-only
   .blog-list-item .featured-thumbnail
     flex-basis: 50%
   .image-text-block-text
     padding: 3rem 2rem
-
+  .navbar-dropdown
+    display: none
 // Mobile
 +mobile
   .blog-list-item header
@@ -546,3 +575,15 @@ $navbar-item-color: white
   .image-text-block-text
     padding: 2rem
     margin-bottom: 0 !important
+  .main-navbar-item
+    margin-right: 0
+    margin-top: 10px
+    margin-bottom: 10px
+  .navbar-menu
+    &.is-active
+      min-height: calc( 100vh - 80px )
+      display: flex
+      justify-content: center
+      align-items: center
+
+  
