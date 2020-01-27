@@ -29,7 +29,7 @@ export const IndexPageTemplate = ({ title, middleblock, partners }) => (
     <section className="test-center-container index-image-container black-overlay">
       <PreviewCompatibleImage
         imageInfo={{
-          image: '/img/products-grid2.jpg',
+          image: '/img/p15776-001-1.jpg',
           alt: `featured image thumbnail for post ${title}`,
           style: {
             width: '100%',
@@ -39,7 +39,10 @@ export const IndexPageTemplate = ({ title, middleblock, partners }) => (
           }
         }}
       />
-      <p className="title has-text-white test-center-text has-text-centered is-uppercase is-size-1">
+      <p
+        className="title has-text-white test-center-text has-text-centered is-size-4-mobile	
+                  is-uppercase is-size-1"
+      >
         {middleblock.title}
       </p>
       <Link

@@ -1,4 +1,5 @@
 @import "~bulma/sass/utilities/initial-variables"
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 @mixin transition($args...)
   -webkit-transition: $args
@@ -21,6 +22,8 @@ $body-color: #333
 $black: #2b2523
 $secondary: #EDF2F6
 $third: #4D7EA8
+
+$family-primary: 'Montserrat', sans-serif
 
 nav
   height: 40px
@@ -492,6 +495,9 @@ $navbar-item-color: white
   background-color: rgba(77, 126, 168, 0.1)
   padding: 3rem 3rem 5rem 3rem
 
+.project-sort-tags
+  flex-wrap: wrap
+
 .employeeContainer
   display: flex
   flex-direction: column
@@ -616,12 +622,82 @@ $navbar-item-color: white
         p
           background-color: rgba(77,126,168,0.5)
 
+.image-text-block
+  width: 100vw
+  margin-left: -8rem
+  max-height: 350px
+  background-color: #EDF2F6
+  margin-top: 5rem
+  margin-bottom: 5rem !important
+
+.clustered-bottom
+  margin-top: 0 !important
+
+.clustered-top
+  margin-bottom: 0 !important
+  & + p
+    display: none
+    & + p
+      display: none
+
+.image-text-block-text
+  padding: 5rem 4rem
+  font-size: 1em
+  margin-bottom: 0 !important
+  display: flex
+  align-items: center
+  justify-content: center
+
+.image-text-block-image
+  max-height: 350px
+  width: 100%
+
+.remove-margin-top
+  margin-top: 0
+
+.about-section
+  padding: 8rem 8rem 0 8rem
+
+.navbar-dropdown 
+  left: calc( -50% - 1rem )
+  background-color: $third !important
+  border-radius: unset
+  border-top: 0px
+  .navbar-item
+    padding-right: 1rem !important
+    margin: 1rem
+    &:hover
+      text-decoration: underline
+      background-color: $third !important
+  &:after 
+    bottom: 100%
+    left: 50%
+    border: solid transparent
+    content: " "
+    height: 0
+    width: 0
+    position: absolute
+    pointer-events: none
+    border-color: rgba(136, 183, 213, 0)
+    border-bottom-color: $third
+    border-width: 20px
+    margin-left: -20px
+
+
+.main-navbar-item
+  margin-right: 50px
+  &:hover
+    text-decoration: underline
 
 // responsiveness
 +tablet-only
   .blog-list-item .featured-thumbnail
     flex-basis: 50%
-
+  .image-text-block-text
+    padding: 3rem 2rem
+  .navbar-dropdown
+    display: none
+// Mobile
 +mobile
   .blog-list-item header
     display: block
@@ -629,10 +705,20 @@ $navbar-item-color: white
     text-align: center
     max-width: 70%
     margin: 0 0 1em
-  .index-image-text-field
-    margin-bottom: 30px
   .index-image-tabs
     background-color: rgba(0,0,0,0.7)
+  .index-image-title, .learn-button
+    margin: 0
+  .index-image-title-container
+    justify-content: space-around
+  .index-image-tab-left
+    padding: 12px 12px 12px 24px
+  .index-full-width-image
+    height: 350px
+  .jumbotron-centered-elements
+    height: 350px
+  .h3-page-subtitle
+    max-width: 90%
   .project-title-section
     padding: 1rem
   .project-info-section
@@ -665,4 +751,26 @@ $navbar-item-color: white
       a
         p
           background-color: rgba(77,126,168,0.5)
-      
+  .blog-container
+    border-bottom: 1px solid $third
+  .navbar-dropdown
+    display: none
+  .content .image-text-block
+    margin-left: -16px
+    flex-direction: column
+    max-height: none
+  .image-text-block-text
+    padding: 2rem
+    margin-bottom: 0 !important
+  .main-navbar-item
+    margin-right: 0
+    margin-top: 10px
+    margin-bottom: 10px
+  .navbar-menu
+    &.is-active
+      min-height: calc( 100vh - 80px )
+      display: flex
+      justify-content: center
+      align-items: center
+
+  

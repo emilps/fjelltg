@@ -60,7 +60,7 @@ const RelatedProducts = ({ relatedproducts, title1 }) => (
           }
         })
       ) : (
-        <div>- No related products found -</div>
+        <div style={{ textAlign: 'center' }}>- No related products found -</div>
       )}
     </div>
   </div>

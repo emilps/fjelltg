@@ -41,7 +41,11 @@ const Navbar = class extends React.Component {
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Kaldi" style={{ width: '150px' }} />
+              <img
+                src={logo}
+                alt="Fjell Technology Group AS"
+                style={{ width: '200px', maxHeight: '50px !important' }}
+              />
             </Link>
             {/* Hamburger menu */}
             <div
@@ -59,25 +63,63 @@ const Navbar = class extends React.Component {
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-end has-text-centered">
-              <Link className="navbar-item is-light" to="/project">
-                Projects
+              <Link
+                className="navbar-item is-light main-navbar-item"
+                to="/project"
+              >
+                Reference Projects
               </Link>
-              <Link className="navbar-item" to="/productCategory">
-                Products
-              </Link>
-              <Link className="navbar-item" to="/solutions">
-                Solutions
-              </Link>
-              <Link className="navbar-item" to="/blog">
-                WasteWater
-              </Link>
-              <Link className="navbar-item" to="/contact/examples">
-                Protein Recycling
-              </Link>
-              <Link className="navbar-item" to="/about">
+              <div className="navbar-item has-dropdown is-hoverable">
+                <Link
+                  className="navbar-link is-arrowless main-navbar-item"
+                  to="/productCategory"
+                >
+                  Products
+                </Link>
+                <div className="navbar-dropdown">
+                  <Link className="navbar-item" to="/product">
+                    Pressure Vessels
+                  </Link>
+                  <Link className="navbar-item" to="/product">
+                    Heat Exchangers
+                  </Link>
+                  <Link className="navbar-item" to="/product">
+                    Air Coolers
+                  </Link>
+                  <Link className="navbar-item" to="/product">
+                    Steam Heated Screw Cookers
+                  </Link>
+                  <Link className="navbar-item" to="/product">
+                    Mud & Gas Separators
+                  </Link>
+                </div>
+              </div>
+              <div className="navbar-item has-dropdown is-hoverable">
+                <Link
+                  className="navbar-link is-arrowless main-navbar-item"
+                  to="/solutions"
+                >
+                  Solutions
+                </Link>
+                <div className="navbar-dropdown">
+                  <Link className="navbar-item" to="/solutions">
+                    Greentech and the environment
+                  </Link>
+                  <Link className="navbar-item" to="/solutions">
+                    Protein recycling
+                  </Link>
+                  <Link className="navbar-item" to="/solutions">
+                    Oil & Gas
+                  </Link>
+                  <Link className="navbar-item" to="/solutions">
+                    Co2 Capture
+                  </Link>
+                </div>
+              </div>
+              <Link className="navbar-item main-navbar-item" to="/about">
                 About
               </Link>
-              <Link className="navbar-item" to="/contact/">
+              <Link className="navbar-item main-navbar-item" to="/contact/">
                 Contact
               </Link>
             </div>

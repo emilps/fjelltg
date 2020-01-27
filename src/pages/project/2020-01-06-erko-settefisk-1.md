@@ -5,7 +5,7 @@ description: >-
   More information regarding the project, and more importantly which solutions
   and products this project is relevant for. Also some short information about
   what FjellTG helped with, eg. products, leadership, project management etc
-mainimage: /img/blog-index.jpg
+mainimage: /img/1558427420.banner3.jpg
 title1: Background
 description1: >-
   Fjell Technology Group has together with selected partners, developed a
@@ -15,8 +15,8 @@ description1: >-
   The process use the best available technologies in each of the process steps
   and is extremely compact, reliable, automatic and energy efficient. Please
   check our references for more info.
-miniatureimage1: /img/coffee-gear.png
-miniatureimage2: /img/coffee.png
+miniatureimage1: /img/img_1727.jpg
+miniatureimage2: /img/img_1756.jpg
 title2: Solution
 description2: >-
   Biosludges and MWW sludges are known to be extremely tricky to dry because of
@@ -135,3 +135,4 @@ relatedproducts:
     title: Dryer Disc Turbo 2.0
 category: FishSludge Recovery System
 ---
+

@@ -26,13 +26,13 @@ const IndexImage = () => {
   return (
     <div className="index-image-container margin-top-0">
       <img
-        src="/img/blog-index.jpg"
-        alt="TEsting"
+        src="/img/FRS-plant-2.png"
+        alt="Waste water"
         className="index-full-width-image margin-top-0"
       />
       <img
-        src="/img/jumbotron.jpg"
-        alt="TEsting"
+        src="/img/protein-recycling_1920.jpg"
+        alt="Protein Recycling"
         className={`index-full-width-image image-overlay margin-top-0 ${
           chosenTab == 1 ? 'recycle-active' : 'water-active'
         }`}
@@ -40,7 +40,7 @@ const IndexImage = () => {
       <div className="index-image-text-field">
         <div className="index-image-title-container">
           <div
-            className={`is-size-2 has-text-weight-bold index-image-title ${
+            className={`is-size-2 has-text-weight-bold index-image-title is-size-4-mobile has-text-centered ${
               chosenTab == 1 ? 'water-active' : 'recycle-active'
             }`}
           >

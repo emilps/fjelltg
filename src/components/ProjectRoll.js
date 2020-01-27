@@ -45,7 +45,7 @@ class ProjectRoll extends React.Component {
     return (
       <div>
         <div className="section project-filter">
-          <div className="is-horizontal-align">
+          <div className="is-horizontal-align project-sort-tags">
             {Object.keys(filterValues).map((filter, index) => (
               <div key={index} className="is-horizontal-align">
                 <div
@@ -79,7 +79,7 @@ class ProjectRoll extends React.Component {
                       {project.frontmatter.mainimage ? (
                         <div>
                           <Img
-                            style={{ maxHeight: '400px' }}
+                            style={{ height: '400px' }}
                             fluid={
                               project.frontmatter.mainimage.childImageSharp
                                 .fluid
@@ -89,7 +89,18 @@ class ProjectRoll extends React.Component {
                         </div>
                       ) : null}
                     </div>
-                    <div className="column is-half has-text-centered is-vertical-center	has-background-secondary">
+                    <div
+                      className="column is-half has-text-centered is-vertical-center has-background-secondary"
+                      ref={node => {
+                        if (node) {
+                          node.style.setProperty(
+                            'padding',
+                            '2rem 0 2rem 0',
+                            'important'
+                          );
+                        }
+                      }}
+                    >
                       <p className="has-text-centered title is-uppercase remove-margin">
                         {project.frontmatter.title}
                       </p>

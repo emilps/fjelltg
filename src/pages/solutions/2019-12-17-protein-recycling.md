@@ -2,7 +2,7 @@
 templateKey: solution
 title: Protein Recycling
 subtitle: Recycles
-featuredimage: /img/flavor_wheel.jpg
+featuredimage: /img/p15776-001-1.jpg
 solutions:
   - Protein Recycling
 baseproducts:
