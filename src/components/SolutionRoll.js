@@ -19,16 +19,13 @@ class SolutionRoll extends React.Component {
                     <PreviewCompatibleImage
                       imageInfo={{
                         image: solution.frontmatter.featuredimage,
-                        alt: `featured image thumbnail for post ${solution.title}`
+                        alt: `featured image thumbnail for post ${solution.title}`,
+                        style: { objectFit: 'cover', height: '350px' }
                       }}
                     />
                   </div>
                 ) : null}
-                <p
-                  className={`object-text title is-uppercase ${
-                    index % 3 == 0 ? 'black-overlay' : 'blue-overlay'
-                  }`}
-                >
+                <p className="object-text title is-uppercase">
                   {solution.frontmatter.title}
                 </p>
               </Link>
