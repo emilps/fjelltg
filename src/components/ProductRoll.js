@@ -5,7 +5,6 @@ import PreviewCompatibleImage from './PreviewCompatibleImage';
 
 export const ProductRoll = ({ data, filterByCategory }) => {
   const filterProductRoll = (categoryTitle, products) => {
-    console.log(categoryTitle);
     return products.filter(
       ({ node: product }) =>
         product.frontmatter.productcategory === categoryTitle
@@ -20,8 +19,8 @@ export const ProductRoll = ({ data, filterByCategory }) => {
 
   return (
     <div className="product-roll-container">
-      {products &&
-        products.map(({ node: product }) => (
+      {categoryFilteredProducts && categoryFilteredProducts.length ? (
+        categoryFilteredProducts.map(({ node: product }) => (
           <div className="product-roll-product-container" key={product.id}>
             <Link className="" to={product.fields.slug}>
               {product.frontmatter.headerimage ? (
@@ -50,7 +49,14 @@ export const ProductRoll = ({ data, filterByCategory }) => {
               </div>
             </Link>
           </div>
-        ))}
+        ))
+      ) : (
+        <div style={{ width: '100%' }}>
+          <p className="has-text-centered">
+            - There are no products within this category -
+          </p>
+        </div>
+      )}
     </div>
   );
 };
@@ -64,7 +70,7 @@ ProductRoll.propTypes = {
   filterByCategory: PropTypes.string
 };
 
-const ProductRollQuery = () => (
+const ProductRollQuery = props => (
   <StaticQuery
     query={graphql`
       query ProductRollQuery {
@@ -96,7 +102,9 @@ const ProductRollQuery = () => (
         }
       }
     `}
-    render={(data, count) => <ProductRoll data={data} count={count} />}
+    render={(data, count) => (
+      <ProductRoll data={data} count={count} {...props} />
+    )}
   />
 );
 
