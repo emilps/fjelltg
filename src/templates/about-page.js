@@ -42,7 +42,7 @@ export const AboutPageTemplate = ({
                 }}
               />
             )}
-            <div className="project-info-section">
+            <div className="about-section">
               <PageContent className="content" content={content} />
             </div>
           </div>
