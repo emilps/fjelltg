@@ -11,7 +11,7 @@ export default class SolutionIndexPage extends React.Component {
         <div>
           <PageJumbotron
             title={'Solutions'}
-            image={`url('/img/products-grid2.jpg')`}
+            image={'/img/products-grid2.jpg'}
             description={'All our solutions can be tailor made for YOUR needs'}
           />
           <SimpleCompanyQuote
