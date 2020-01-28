@@ -6,7 +6,7 @@ import PageJumbotron from '../components/PageJumbotron';
 import SimpleCompanyQuote from '../components/SimpleCompanyQuote';
 import { graphql } from 'gatsby';
 
-class ProductsPageTemplate extends React.Component {
+export class ProductsPageTemplate extends React.Component {
   render() {
     const {
       headertitle,
