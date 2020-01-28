@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './all.sass';
+import showdown from 'showdown';
+const converter = new showdown.Converter();
 
 export const HTMLContent = ({ content, className }) => {
   const regexp = RegExp(
@@ -59,7 +61,7 @@ export const HTMLContent = ({ content, className }) => {
   return (
     <div
       className={className}
-      dangerouslySetInnerHTML={{ __html: newContent }}
+      dangerouslySetInnerHTML={{ __html: converter.makeHtml(newContent) }}
     />
   );
 };
