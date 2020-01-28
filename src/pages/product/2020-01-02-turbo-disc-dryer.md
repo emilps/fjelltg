@@ -2,7 +2,7 @@
 templateKey: product
 title: Turbo Disc Dryer
 subtitle: Engineered to accommodate a robust and energy efficient drying of Biomasses
-headerimage: /img/chemex.jpg
+headerimage: /img/img_1739.jpg
 description1: "## Design\n\nThe Fjell Turbo Disc Dryer is designed for indirect heating by steam (6-10 bar). The dryer can be delivered for vacuum drying of temperature sensitive raw materials. The largest heating surface is the rotor, but additional heating surface is available as an option on the stator. The product to be dried is slowly, but vigorously, transported from inlet to outlet end by a paddle system mounted on the disc periphery. \L\L\n\nProduct discharge is normally done continuously by a speed controlled extraction screw conveyor. The discs are mounted on a heavy central shaft with a highly efficient condensate removal system integrated. Scraper bars ensure agitation between the discs, which is necessary for an efficient evaporation. The moisture evaporated from the product is collected in a high top vapour dome, and continuously removed. \L\L\n\nDryers can be supplied in all practical sizes, in all common materials of construction (carbon-, stainless-, and duplex steels), and approved and inspected according to the leading international design codes and standards (PED, ASME, JIS, GOST, DNV, Lloyds, Bureau Veritas etc..) The dryer has a unique endurable patented rotor design without traditional welded stays exposed to tear, wear, fatigue and corrosion."
 infobox1: >-
   ## Advantages
