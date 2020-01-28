@@ -2,7 +2,7 @@
 templateKey: product
 title: Compressed Gas Coolers 2
 subtitle: Engineered to accommodate a robust and energy efficient drying of Biomasses
-headerimage: /img/jumbotron.jpg
+headerimage: /img/img_1726.jpg
 description1: "## Design\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nec sagittis aliquam malesuada bibendum arcu. Mi proin sed libero enim sed faucibus turpis. Pharetra diam sit amet nisl. Aliquet nec ullamcorper sit amet risus. Eu scelerisque felis imperdiet proin. Faucibus ornare suspendisse sed nisi lacus sed viverra. Hendrerit gravida rutrum quisque non tellus orci ac auctor. Nibh praesent tristique magna sit. Fusce id velit ut tortor. Leo integer malesuada nunc vel. Ipsum faucibus vitae aliquet nec ullamcorper sit amet risus nullam. Ridiculus mus mauris vitae ultricies leo integer. In vitae turpis massa sed. Platea dictumst quisque sagittis purus sit amet volutpat consequat mauris. Egestas maecenas pharetra convallis posuere morbi leo urna. Etiam dignissim diam quis enim lobortis scelerisque fermentum. Nibh tortor id aliquet lectus proin.\r\n\nMi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Lectus proin nibh nisl condimentum id. Faucibus et molestie ac feugiat. Massa id neque aliquam vestibulum morbi blandit cursus. Nulla posuere sollicitudin aliquam ultrices. Tortor condimentum lacinia quis vel. Mi eget mauris pharetra et ultrices neque ornare aenean. Varius morbi enim nunc faucibus a pellentesque sit amet porttitor. Habitasse platea dictumst quisque sagittis purus sit amet volutpat. Tempus iaculis urna id volutpat lacus laoreet. Tincidunt dui ut ornare lectus sit."
 infobox1: |-
   ## Advantages
