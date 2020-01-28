@@ -307,7 +307,7 @@ collections:
           - { label: 'Form title', name: 'formtitle', widget: 'string' }
           - { label: 'Employee title', name: 'employeetitle', widget: 'string' }
           - { label: 'Address or Place', name: 'mapiframe', widget: 'string' }
-      - file: 'src/pages/productCategory/index.md'
+      - file: 'src/pages/products/index.md'
         label: 'Products Page'
         name: 'productpage'
         fields:
