@@ -56,10 +56,7 @@ export const ProductTemplate = ({
                       <h3>PRODUCT BROCHURE</h3>
                     </div>
                     <div className="brochure-container-icon">
-                      <a
-                        href={productbrochure.relativePath}
-                        download={productbrochure.relativePath}
-                      >
+                      <a href={productbrochure.publicURL}>
                         <img
                           src={`https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg`}
                           width="110px"
@@ -204,7 +201,7 @@ export const pageQuery = graphql`
         infobox2
         productcategory
         productbrochure {
-          relativePath
+          publicURL
         }
         tags
       }
