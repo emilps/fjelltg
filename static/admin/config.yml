@@ -38,7 +38,7 @@ collections:
         }
 
   - name: 'productcategory'
-    label: 'Product Category'
+    label: 'Product Categories'
     folder: 'src/pages/productCategory'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
