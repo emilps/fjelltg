@@ -347,6 +347,20 @@ collections:
           - { label: 'Form title', name: 'formtitle', widget: 'string' }
           - { label: 'Employee title', name: 'employeetitle', widget: 'string' }
           - { label: 'Address or Place', name: 'mapiframe', widget: 'string' }
+      - file: 'src/pages/productCategory/index.md'
+        label: 'Products Page Real'
+        name: 'productpage'
+        fields:
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'product-categories-page',
+            }
+          - { label: 'Header title', name: 'headertitle', widget: 'string' }
+          - { label: 'Header byline', name: 'headerbyline', widget: 'string' }
+          - { label: 'Header image', name: 'headerimage', widget: image }
+          - { label: 'Products Quote', name: 'productsquote', widget: 'string' }
       - file: 'src/pages/products/index.md'
         label: 'Products Page'
         name: 'products'
