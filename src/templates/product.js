@@ -56,7 +56,7 @@ export const ProductTemplate = ({
                       <h3>PRODUCT BROCHURE</h3>
                     </div>
                     <div className="brochure-container-icon">
-                      <a href={productbrochure.publicURL}>
+                      <a href={productbrochure.publicURL} download>
                         <img
                           src={`https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg`}
                           width="110px"
