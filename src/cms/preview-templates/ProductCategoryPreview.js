@@ -14,6 +14,7 @@ const ProductCategoryPreview = ({ entry, widgetFor }) => {
       content={widgetFor('text')}
       subtitle={entry.getIn(['data', 'subtitle'])}
       title={entry.getIn(['data', 'title'])}
+      featuredimage={entry.getIn(['data', 'featuredimage'])}
     />
   );
 };
