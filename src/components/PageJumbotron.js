@@ -15,11 +15,15 @@ const PageJumbotron = ({ title, image, description }) => {
             style={{ maxWidth: '100%' }}
           />
         ) : (
-          <Img
-            fluid={inputImage.childImageSharp.fluid}
-            alt={`featured image thumbnail for project ${title}`}
-            className="index-full-width-image margin-top-0"
-          />
+          <div>
+            {inputImage ? (
+              <Img
+                fluid={inputImage.childImageSharp.fluid}
+                alt={`featured image thumbnail for project ${title}`}
+                className="index-full-width-image margin-top-0"
+              />
+            ) : null}
+          </div>
         )}
         <div className="black-overlay-opacity-50">
           <div className="jumbotron-centered-elements">

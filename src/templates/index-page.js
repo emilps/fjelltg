@@ -31,7 +31,7 @@ export const IndexPageTemplate = ({ title, middleblock, partners }) => (
         imageInfo={{
           image: '/img/p15776-001-1.jpg',
           alt: `featured image thumbnail for post ${title}`,
-          imageStyle: {
+          style: {
             width: '100%',
             maxHeight: '270px',
             objectFit: 'cover',

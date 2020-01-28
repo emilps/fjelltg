@@ -37,7 +37,7 @@ const RelatedProducts = ({ relatedproducts, title1 }) => (
                         relatedproducts[product].fullwidthimage.childImageSharp
                           .fluid
                       }
-                      alt={`featured image thumbnail for project ${title1}`}
+                      alt={`featured image thumbnail for ${title1}`}
                     />
                   </Link>
                 )}

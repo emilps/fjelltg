@@ -3,30 +3,33 @@ import PropTypes from 'prop-types';
 import { Link, graphql, StaticQuery } from 'gatsby';
 import PreviewCompatibleImage from './PreviewCompatibleImage';
 
-class SolutionRoll extends React.Component {
+class ProductCategoryRoll extends React.Component {
   render() {
     const { data } = this.props;
-    const { edges: solutions } = data.allMarkdownRemark;
+    const { edges: productCategories } = data.allMarkdownRemark;
 
     return (
       <div className="outer-container-roll is-multiline">
-        {solutions &&
-          solutions.map(({ node: solution }) => (
-            <div className="object-container remove-padding" key={solution.id}>
-              <Link className="" to={solution.fields.slug}>
-                {solution.frontmatter.featuredimage ? (
+        {productCategories &&
+          productCategories.map(({ node: productCategory }) => (
+            <div
+              className="object-container remove-padding"
+              key={productCategory.id}
+            >
+              <Link className="" to={productCategory.fields.slug}>
+                {productCategory.frontmatter.featuredimage ? (
                   <div className="object-image">
                     <PreviewCompatibleImage
                       imageInfo={{
-                        image: solution.frontmatter.featuredimage,
-                        alt: `featured image thumbnail for post ${solution.title}`,
+                        image: productCategory.frontmatter.featuredimage,
+                        alt: `featured image thumbnail for post ${productCategory.title}`,
                         style: { objectFit: 'cover', height: '350px' }
                       }}
                     />
                   </div>
                 ) : null}
                 <p className="object-text title is-uppercase">
-                  {solution.frontmatter.title}
+                  {productCategory.frontmatter.title}
                 </p>
               </Link>
             </div>
@@ -36,7 +39,7 @@ class SolutionRoll extends React.Component {
   }
 }
 
-SolutionRoll.propTypes = {
+ProductCategoryRoll.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.array
@@ -44,13 +47,13 @@ SolutionRoll.propTypes = {
   })
 };
 
-const SolutionRollQuery = () => (
+const ProductCategoryRollQuery = () => (
   <StaticQuery
     query={graphql`
-      query SolutionRollQuery {
+      query ProductCategoryRollQuery {
         allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___date] }
-          filter: { frontmatter: { templateKey: { eq: "solution" } } }
+          filter: { frontmatter: { templateKey: { eq: "productcategory" } } }
         ) {
           edges {
             node {
@@ -61,6 +64,7 @@ const SolutionRollQuery = () => (
               }
               frontmatter {
                 title
+                templateKey
                 featuredimage {
                   childImageSharp {
                     fluid(maxWidth: 680, quality: 100) {
@@ -74,9 +78,9 @@ const SolutionRollQuery = () => (
         }
       }
     `}
-    render={(data, count) => <SolutionRoll data={data} count={count} />}
+    render={(data, count) => <ProductCategoryRoll data={data} count={count} />}
   />
 );
 
-SolutionRollQuery.displayName = 'SolutionRollQuery';
-export default SolutionRollQuery;
+ProductCategoryRollQuery.displayName = 'ProductCategoryRollQuery';
+export default ProductCategoryRollQuery;

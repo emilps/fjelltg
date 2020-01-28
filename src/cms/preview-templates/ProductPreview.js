@@ -2,14 +2,26 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { ProductTemplate } from '../../templates/product';
 
-const ProductPreview = ({ entry, widgetFor }) => (
-  <ProductTemplate
-    content={widgetFor('body')}
-    description={entry.getIn(['data', 'description'])}
-    tags={entry.getIn(['data', 'tags'])}
-    title={entry.getIn(['data', 'title'])}
-  />
-);
+const ProductPreview = ({ entry, widgetFor }) => {
+  const tags = entry.getIn(['data', 'tags']);
+
+  return (
+    <ProductTemplate
+      title={entry.getIn(['data', 'title'])}
+      subtitle={entry.getIn(['data', 'subtitle'])}
+      headerimage={entry.getIn(['data', 'headerimage'])}
+      description1={widgetFor('description1')}
+      infobox1={entry.getIn(['data', 'infobox1'])}
+      productbrochure={entry.getIn(['data', 'productbrochure'])}
+      smallimage={entry.getIn(['data', 'smallimage'])}
+      fullwidthimage={entry.getIn(['data', 'fullwidthimage'])}
+      description2={entry.getIn(['data', 'description2'])}
+      infobox2={entry.getIn(['data', 'infobox2'])}
+      productcategory={entry.getIn(['data', 'productcategory'])}
+      tags={tags && tags.toJS()}
+    />
+  );
+};
 
 ProductPreview.propTypes = {
   entry: PropTypes.shape({

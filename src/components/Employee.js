@@ -22,7 +22,7 @@ export const Employee = ({
               imageInfo={{
                 image: picture,
                 alt: `featured image thumbnail for post ${name}`,
-                imageStyle: { height: '270px', width: '100%', zIndex: '-1' }
+                style: { height: '270px', width: '100%', zIndex: '-1' }
               }}
             />
           </div>
