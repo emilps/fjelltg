@@ -1,49 +1,105 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Layout from '../components/Layout';
-import ProductCategoryRoll from '../components/ProductCategoryRoll';
-import PageJumbotron from '../components/PageJumbotron';
 import SimpleCompanyQuote from '../components/SimpleCompanyQuote';
-import { graphql } from 'gatsby';
+import { graphql, Link } from 'gatsby';
+import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
+import Helmet from 'react-helmet';
 
-export class TestCentrePageTemplate extends React.Component {
-  render() {
-    const {
-      headertitle,
-      headerimage,
-      headerbyline,
-      TestCentrequote
-    } = this.props;
-
-    return (
-      <div>
-        <PageJumbotron
-          title={headertitle}
-          image={headerimage}
-          description={headerbyline}
-        />
-        <SimpleCompanyQuote text={TestCentrequote} isMainQuote={false} />
-        <section className="section remove-padding">
-          <div className="container remove-margin">
-            <div className="content is-fullwidth">
-              <ProductCategoryRoll />
-            </div>
+export const TestCentrePageTemplate = ({
+  helmet,
+  headertitle,
+  ingress,
+  testcentreimages,
+  contacttitle
+}) => {
+  return (
+    <section>
+      {helmet || ''}
+      <div className="">
+        <div>
+          <div className="project-title-section">
+            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
+              {headertitle}
+            </h1>
+            <p className="is-size-5">{ingress}</p>
           </div>
-        </section>
+          <div className="test-centre-images">
+            {testcentreimages.image1 && (
+              <PreviewCompatibleImage
+                imageInfo={{
+                  image: testcentreimages.image1,
+                  alt: `featured image thumbnail for post ${headertitle}`,
+                  imageStyle: {
+                    width: '100%',
+                    maxHeight: '320px',
+                    objectFit: 'cover',
+                    zIndex: '-1'
+                  }
+                }}
+              />
+            )}
+            {testcentreimages.image2 && (
+              <PreviewCompatibleImage
+                imageInfo={{
+                  image: testcentreimages.image2,
+                  alt: `featured image thumbnail for post ${headertitle}`,
+                  imageStyle: {
+                    width: '100%',
+                    maxHeight: '100%',
+                    objectFit: 'cover',
+                    zIndex: '-1'
+                  }
+                }}
+              />
+            )}
+            {testcentreimages.image3 && (
+              <PreviewCompatibleImage
+                imageInfo={{
+                  image: testcentreimages.image3,
+                  alt: `featured image thumbnail for post ${headertitle}`,
+                  imageStyle: {
+                    width: '100%',
+                    maxHeight: '320px',
+                    objectFit: 'cover',
+                    zIndex: '-1'
+                  }
+                }}
+              />
+            )}
+          </div>
+          <div>
+            <div className="has-text-centered test-centre-contact-container">
+              <p className="title">{contacttitle}</p>
+              <Link
+                to={'/contact'}
+                className="button submit-button is-link has-text-weight-bold is-uppercase"
+                type="submit"
+              >
+                Contact us
+              </Link>
+            </div>
+            <div className="about-section"></div>
+          </div>
+        </div>
+      </div>
+      <section className="section is-medium">
         <SimpleCompanyQuote
           text={'Your partner for mass and heat transfer technology'}
           isMainQuote={true}
         />
-      </div>
-    );
-  }
-}
+      </section>
+    </section>
+  );
+};
 
 TestCentrePageTemplate.propTypes = {
   headerimage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   headertitle: PropTypes.string,
-  headerbyline: PropTypes.string,
-  testcentrequote: PropTypes.string
+  ingress: PropTypes.string,
+  contacttitle: PropTypes.string,
+  testcentreimages: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+  helmet: PropTypes.object
 };
 
 const TestCentrePage = ({ data }) => {
@@ -52,10 +108,17 @@ const TestCentrePage = ({ data }) => {
   return (
     <Layout>
       <TestCentrePageTemplate
-        headerimage={frontmatter.headerimage}
+        helmet={
+          <Helmet titleTemplate="%s | Test centre">
+            <title>{`${frontmatter.headertitle}`}</title>
+            <meta name="description" content={`${frontmatter.ingress}`} />
+          </Helmet>
+        }
+        ingress={frontmatter.ingress}
         headertitle={frontmatter.headertitle}
         headerbyline={frontmatter.headerbyline}
-        testcentrequote={frontmatter.productsquote}
+        testcentreimages={frontmatter.testcentreimages}
+        contacttitle={frontmatter.contacttitle}
       />
     </Layout>
   );
@@ -75,16 +138,32 @@ export const testCentrePageQuery = graphql`
   query TestCentrePage {
     markdownRemark(frontmatter: { templateKey: { eq: "test-centre-page" } }) {
       frontmatter {
-        productsquote
         headertitle
-        headerbyline
-        headerimage {
-          childImageSharp {
-            fluid(maxWidth: 1080, quality: 64) {
-              ...GatsbyImageSharpFluid
+        ingress
+        testcentreimages {
+          image1 {
+            childImageSharp {
+              fluid(maxWidth: 1080, quality: 64) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+          image2 {
+            childImageSharp {
+              fluid(maxWidth: 1080, quality: 64) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+          image3 {
+            childImageSharp {
+              fluid(maxWidth: 1080, quality: 64) {
+                ...GatsbyImageSharpFluid
+              }
             }
           }
         }
+        contacttitle
       }
     }
   }

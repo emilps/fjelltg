@@ -53,6 +53,22 @@ collections:
       - { label: 'Subtitle', name: 'subtitle', widget: 'text' }
       - { label: 'Featured Image', name: 'featuredimage', widget: image }
       - { label: 'Text', name: 'text', widget: 'markdown' }
+  - name: 'testcentreentry'
+    label: 'Test Centre Entries'
+    folder: 'src/pages/test-centre'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    fields:
+      - {
+          label: 'Template Key',
+          name: 'templateKey',
+          widget: 'hidden',
+          default: 'test-centre',
+        }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'date', format: "DD.MM.YYYY" }
+      - { label: 'Featured Image', name: 'featuredimage', widget: image }
+      - { label: 'Text', name: 'text', widget: 'text' }
 
   - name: 'product'
     label: 'Product'
@@ -321,7 +337,7 @@ collections:
           - { label: 'Header byline', name: 'headerbyline', widget: 'string' }
           - { label: 'Header image', name: 'headerimage', widget: image }
           - { label: 'Products Quote', name: 'productsquote', widget: 'string' }
-      - file: 'src/pages/test-centre/index.md'
+      - file: 'src/pages/test-centre-page/index.md'
         label: 'Test Centre Page'
         name: 'testcentre'
         fields:
