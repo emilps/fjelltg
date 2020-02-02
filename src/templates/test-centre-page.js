@@ -5,6 +5,7 @@ import SimpleCompanyQuote from '../components/SimpleCompanyQuote';
 import { graphql, Link } from 'gatsby';
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 import Helmet from 'react-helmet';
+import TestCentreRoll from '../components/TestCentreRoll';
 
 export const TestCentrePageTemplate = ({
   helmet,
@@ -79,7 +80,7 @@ export const TestCentrePageTemplate = ({
                 Contact us
               </Link>
             </div>
-            <div className="about-section"></div>
+            <TestCentreRoll />
           </div>
         </div>
       </div>

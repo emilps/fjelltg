@@ -63,7 +63,7 @@ collections:
           label: 'Template Key',
           name: 'templateKey',
           widget: 'hidden',
-          default: 'test-centre',
+          default: 'test-centre-post',
         }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'date', format: "DD.MM.YYYY" }
