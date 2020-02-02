@@ -321,3 +321,27 @@ collections:
           - { label: 'Header byline', name: 'headerbyline', widget: 'string' }
           - { label: 'Header image', name: 'headerimage', widget: image }
           - { label: 'Products Quote', name: 'productsquote', widget: 'string' }
+      - file: 'src/pages/test-centre/index.md'
+        label: 'Test Centre Page'
+        name: 'testcentre'
+        fields:
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'test-centre-page',
+            }
+          - { label: 'Header title', name: 'headertitle', widget: 'string' }
+          - { label: 'Ingress', name: 'ingress', widget: 'text' }
+          - {
+                    label: Images,
+                    name: testcentreimages,
+                    widget: object,
+                    fields:
+                      [
+                        { label: Image 1, name: image1, widget: image },
+                        { label: Image 2, name: image2, widget: image },
+                        { label: Image 3, name: image3, widget: image },
+                      ]
+            }
+          - { label: 'Contact Title', name: 'contacttitle', widget: 'string' }
