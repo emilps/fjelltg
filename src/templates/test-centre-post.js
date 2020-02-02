@@ -3,81 +3,62 @@ import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
-import PreviewCompatibleImage from './../components/PreviewCompatibleImage';
-import twitter from '../img/social/twitter.svg';
-import facebook from '../img/social/facebook.svg';
-import instagram from '../img/social/instagram.svg';
-import linkedin from '../img/social/linkedin.svg';
-
-const mediums = {
-  Twitter: twitter,
-  Facebook: facebook,
-  Instagram: instagram,
-  LinkedIn: linkedin
-};
+import Img from 'gatsby-image';
 
 export const TestCentrePostTemplate = ({
-  description,
-  link,
   title,
-  helmet,
   date,
   featuredimage,
-  socialmedia
+  text
 }) => {
   return (
-    <section className="section">
-      {helmet || ''}
-      <div className="is-parent blog-container column remove-padding is-4">
-        <div className="blog-top">
-          <p>{date}</p>
-          <img
-            className="fas fa-lg"
-            src={mediums[socialmedia]}
-            alt="Twitter"
-            style={{ width: '1em', height: '1em' }}
-          />
-        </div>
-        <div>
-          {featuredimage ? (
-            <div className="featured-thumbnail">
-              <PreviewCompatibleImage
-                imageInfo={{
-                  image: featuredimage,
-                  alt: `featured image for post ${title}`,
-                  imageStyle: { height: '315px' }
-                }}
+    <div className="is-parent column is-12">
+      <div className={`columns is-gapless`}>
+        <div className="column is-half">
+          {featuredimage && typeof featuredimage != 'string' ? (
+            <div>
+              <Img
+                style={{ height: '400px' }}
+                fluid={featuredimage.childImageSharp.fluid}
+                alt={`featured image thumbnail for post ${title}`}
               />
             </div>
-          ) : null}
+          ) : (
+            <img src={featuredimage} alt="Protein Recycling" />
+          )}
         </div>
-        <div className="blog-bottom">
-          <p className="has-text-centered">{description}</p>
-          <a className="button submit-button blog-button" href={link}>
-            Read more
-          </a>
+        <div
+          className="column is-half has-background-secondary test-post-text-container"
+          ref={node => {
+            if (node) {
+              node.style.setProperty('padding', '2rem', 'important');
+            }
+          }}
+        >
+          <div>
+            <p className="has-text-centered title is-uppercase">{title}</p>
+            <p>{text}</p>
+          </div>
+          <p className="test-centre-post-date">{date}</p>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 
 TestCentrePostTemplate.propTypes = {
-  description: PropTypes.string,
   title: PropTypes.string,
   helmet: PropTypes.object,
-  link: PropTypes.string,
+  text: PropTypes.string,
   date: PropTypes.string,
-  featuredimage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-  socialmedia: PropTypes.oneOfType([PropTypes.object, PropTypes.string])
+  featuredimage: PropTypes.oneOfType([PropTypes.object, PropTypes.string])
 };
 
-const BlogPost = ({ data }) => {
+const TestCentrePost = ({ data }) => {
   const { markdownRemark: post } = data;
   return (
     <Layout>
       <TestCentrePostTemplate
-        description={post.frontmatter.description}
         helmet={
           <Helmet titleTemplate="%s | Blog">
             <title>{`${post.frontmatter.title}`}</title>
@@ -87,23 +68,22 @@ const BlogPost = ({ data }) => {
             />
           </Helmet>
         }
-        link={post.frontmatter.link}
+        text={post.frontmatter.text}
         title={post.frontmatter.title}
         featuredimage={post.frontmatter.featuredimage}
         date={post.frontmatter.date}
-        socialmedia={post.frontmatter.socialmedia}
       />
     </Layout>
   );
 };
 
-BlogPost.propTypes = {
+TestCentrePost.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.object
   })
 };
 
-export default BlogPost;
+export default TestCentrePost;
 
 export const pageQuery = graphql`
   query TestCenterPostByID($id: String!) {
@@ -112,8 +92,7 @@ export const pageQuery = graphql`
       frontmatter {
         date
         title
-        description
-        link
+        text
         featuredimage {
           childImageSharp {
             fluid(maxWidth: 240, quality: 64) {
@@ -121,7 +100,6 @@ export const pageQuery = graphql`
             }
           }
         }
-        socialmedia
       }
     }
   }

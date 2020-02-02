@@ -106,6 +106,8 @@ TestCentrePageTemplate.propTypes = {
 const TestCentrePage = ({ data }) => {
   const { frontmatter } = data.markdownRemark;
 
+  console.log(frontmatter.testcentreimages);
+
   return (
     <Layout>
       <TestCentrePageTemplate
