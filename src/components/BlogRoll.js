@@ -46,17 +46,17 @@ class BlogRoll extends React.Component {
                         style={{ width: '1em', height: '1em' }}
                       />
                     </div>
-                    <div>
+                    <div className="blog-roll-image">
                       {post.frontmatter.featuredimage ? (
-                        <div className="featured-thumbnail">
-                          <PreviewCompatibleImage
-                            imageInfo={{
-                              image: post.frontmatter.featuredimage,
-                              alt: `featured image for post ${post.title}`,
-                              imageStyle: { height: '315px' }
-                            }}
-                          />
-                        </div>
+                        <PreviewCompatibleImage
+                          imageInfo={{
+                            image: post.frontmatter.featuredimage,
+                            alt: `featured image for post ${post.title}`,
+                            imageStyle: {
+                              objectFit: 'cover'
+                            }
+                          }}
+                        />
                       ) : null}
                     </div>
                     <div className="blog-bottom">
@@ -107,7 +107,7 @@ const BlogRollQuery = () => (
                 date
                 featuredimage {
                   childImageSharp {
-                    fluid(maxWidth: 420, quality: 100) {
+                    fluid(maxWidth: 650, quality: 100) {
                       ...GatsbyImageSharpFluid
                     }
                   }
