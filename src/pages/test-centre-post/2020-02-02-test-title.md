@@ -1,5 +1,5 @@
 ---
-templateKey: test-centre
+templateKey: test-centre-post
 title: Test titles
 date: 02.02.2020
 featuredimage: /img/img_1727.jpg
