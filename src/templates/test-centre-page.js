@@ -80,6 +80,12 @@ export const TestCentrePageTemplate = ({
                 Contact us
               </Link>
             </div>
+            <p
+              className="title has-text-centered has-text-weight-normal"
+              style={{ padding: '2rem 0 3rem 0' }}
+            >
+              Our recent tests
+            </p>
             <TestCentreRoll />
           </div>
         </div>

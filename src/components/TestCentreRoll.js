@@ -21,17 +21,20 @@ class TestCentreRoll extends React.Component {
         <div className="columns is-multiline is-gapless">
           {posts &&
             posts.map(({ node: post }, index) => (
-              <div className="is-parent column is-12" key={post.id}>
+              <div
+                className="is-parent column is-12 test-post-container"
+                key={post.id}
+              >
                 <Link to={post.fields.slug} style={{ color: 'black' }}>
                   <div
-                    className={`columns is-gapless 
+                    className={`columns is-gapless
                   ${index % 2 == 0 ? 'row-reversed' : ''}`}
                   >
                     <div className="column is-half">
                       {post.frontmatter.featuredimage ? (
                         <div>
                           <Img
-                            style={{ height: '400px' }}
+                            className="test-centre-post-image"
                             fluid={
                               post.frontmatter.featuredimage.childImageSharp
                                 .fluid
@@ -39,7 +42,13 @@ class TestCentreRoll extends React.Component {
                             alt={`featured image thumbnail for post ${post.title}`}
                           />
                         </div>
-                      ) : null}
+                      ) : (
+                        <img
+                          src={post.frontmatter.featuredimage}
+                          alt="Image"
+                          className="test-centre-post-image"
+                        />
+                      )}
                     </div>
                     <div
                       className="column is-half has-background-secondary test-post-text-container"
@@ -47,19 +56,22 @@ class TestCentreRoll extends React.Component {
                         if (node) {
                           node.style.setProperty(
                             'padding',
-                            '2rem',
+                            '4rem 2rem 2rem 2rem',
                             'important'
                           );
                         }
                       }}
                     >
                       <div>
-                        <p className="has-text-centered title is-uppercase">
+                        <p className="has-text-centered title is-uppercase is-size-4">
                           {post.frontmatter.title}
                         </p>
                         <p>{post.frontmatter.text}</p>
                       </div>
-                      <p className="test-centre-post-date">
+                      <p
+                        className="test-centre-post-date"
+                        style={{ fontSize: '14px' }}
+                      >
                         {post.frontmatter.date}
                       </p>
                     </div>

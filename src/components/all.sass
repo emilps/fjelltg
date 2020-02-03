@@ -709,10 +709,21 @@ $navbar-item-color: white
   text-align: end
   align-self: 
 
+.test-post-container
+  margin-bottom: 100px !important
+  &:last-child
+    margin-bottom: 0 !important
+
 .test-post-text-container
   justify-content: space-between
   display: flex
   flex-direction: column
+
+.test-centre-post-image
+  height: 350px
+  max-height: 350px
+  
+
 
 // responsiveness
 +tablet-only
@@ -799,5 +810,9 @@ $navbar-item-color: white
       align-items: center
   .test-centre-images
     flex-direction: column
+  .test-centre-post-image
+    height: 300px !important
+  .test-centre-contact-container
+    padding: 2rem
 
   
