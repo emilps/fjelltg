@@ -66,7 +66,12 @@ class TestCentreRoll extends React.Component {
                         <p className="has-text-centered title is-uppercase is-size-4">
                           {post.frontmatter.title}
                         </p>
-                        <p>{post.frontmatter.text}</p>
+                        <p
+                          style={{ maxHeight: '180px', overflow: 'overlay' }}
+                          className="is-size-7-touch"
+                        >
+                          {post.frontmatter.text}
+                        </p>
                       </div>
                       <p
                         className="test-centre-post-date"
