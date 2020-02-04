@@ -604,6 +604,11 @@ $navbar-item-color: white
 .blog-title
   padding: 5rem
 
+.blog-roll-image
+  *
+    height: 315px
+    max-height: 315px
+
 .object-container
     &:nth-child(4n + 1)
       a
@@ -689,6 +694,42 @@ $navbar-item-color: white
   &:hover
     text-decoration: underline
 
+.test-centre-images
+  display: flex
+  *
+    height: 320px
+    width: 100%
+    object-fit: cover
+    flex-basis: 33.34%
+
+.test-centre-contact-container
+  display: flex
+  justify-content: center
+  flex-direction: column
+  align-items: center
+  padding: 8rem
+
+.test-centre-post-date
+  width: 100%
+  text-align: end
+  align-self: 
+
+.test-post-container
+  margin-bottom: 100px !important
+  &:last-child
+    margin-bottom: 0 !important
+
+.test-post-text-container
+  justify-content: space-between
+  display: flex
+  flex-direction: column
+
+.test-centre-post-image
+  height: 350px
+  max-height: 350px
+  
+
+
 // responsiveness
 +tablet-only
   .blog-list-item .featured-thumbnail
@@ -772,5 +813,11 @@ $navbar-item-color: white
       display: flex
       justify-content: center
       align-items: center
+  .test-centre-images
+    flex-direction: column
+  .test-centre-post-image
+    height: 300px !important
+  .test-centre-contact-container
+    padding: 2rem
 
   

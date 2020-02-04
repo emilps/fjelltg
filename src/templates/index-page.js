@@ -46,7 +46,7 @@ export const IndexPageTemplate = ({ title, middleblock, partners }) => (
         {middleblock.title}
       </p>
       <Link
-        to={'/test-center'}
+        to={'/test-centre-page'}
         className="button test-center-button is-link has-text-weight-bold is-uppercase"
         type="submit"
       >

@@ -11,4 +11,3 @@ text: >-
   order to offer comprehensive solutions. FTG therefore often join forces with a
   range of cooperative companies.
 ---
-
