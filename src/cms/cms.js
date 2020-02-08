@@ -15,6 +15,7 @@ import ProductsCategoryPreview from './preview-templates/ProductsCategoryPreview
 import TestCentrePageTemplate from './preview-templates/TestCentrePagePreview';
 import TestCentrePostTemplate from './preview-templates/TestCentrePostPreview';
 import SolutionsCategoryPreview from './preview-templates/SolutionsCategoryPreview';
+import SolutionCategoryPreview from './preview-templates/SolutionCategoryPreview';
 
 import controlComponent from './RelationControl';
 
@@ -37,6 +38,7 @@ CMS.registerPreviewTemplate('productpage', ProductsCategoryPreview);
 CMS.registerPreviewTemplate('testcentre', TestCentrePageTemplate);
 CMS.registerPreviewTemplate('testcentreentry', TestCentrePostTemplate);
 CMS.registerPreviewTemplate('solutionspage', SolutionsCategoryPreview);
+CMS.registerPreviewTemplate('solutioncategory', SolutionCategoryPreview);
 
 CMS.registerPreviewStyle('./../components/all.sass');
 

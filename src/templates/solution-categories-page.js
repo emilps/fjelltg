@@ -15,8 +15,6 @@ export class SolutionsPageTemplate extends React.Component {
       solutionsquote
     } = this.props;
 
-    console.log(this.props);
-
     return (
       <div>
         <PageJumbotron

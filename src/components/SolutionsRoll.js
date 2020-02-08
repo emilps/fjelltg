@@ -12,17 +12,11 @@ export const SolutionsRoll = ({ data, filterByCategory }) => {
   };
 
   const { edges: solutions } = data.allMarkdownRemark;
-  console.log(data);
-
-  console.log(solutions);
-  console.log(filterByCategory);
 
   const categoryFilteredSolutions = filterSolutionsRoll(
     filterByCategory,
     solutions
   );
-
-  console.log(categoryFilteredSolutions);
 
   return (
     <div className="solution-roll-container">
@@ -30,7 +24,6 @@ export const SolutionsRoll = ({ data, filterByCategory }) => {
         categoryFilteredSolutions.map(({ node: solution }) => (
           <div className="solution-roll-product-container" key={solution.id}>
             <Link className="" to={solution.fields.slug}>
-              {console.log(solution.frontmatter.featuredimage)}
               {solution.frontmatter.featuredimage ? (
                 <div className="product-image">
                   <PreviewCompatibleImage
