@@ -9,7 +9,6 @@ baseproducts:
   baseproduct1: Test produktet eller
   baseproduct2: Test produktet eller
   baseproduct3: Ikke Test produkt
-tags:
-  - a
+solutioncategory: Protein Recycling
 ---
 Somnethung

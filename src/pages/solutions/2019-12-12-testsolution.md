@@ -9,10 +9,7 @@ baseproducts:
   baseproduct1: Turbo Disc Dryer
   baseproduct2: Dryer Disc Turbo 2.0
   baseproduct3: Turbo Disc Dryer
-tags:
-  - tag1
-  - tag2
-  - tag3
+solutioncategory: Co2 Capture
 ---
 # Introduction
 
