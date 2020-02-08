@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { TestCentrePageTemplate } from '../../templates/test-centre-page';
 
-const TestCentrePagePreview = ({ entry, widgetFor }) => {
+const TestCentrePagePreview = ({ entry }) => {
   const entryTestCentreImages = entry.getIn(['data', 'testcentreimages']);
   const testCenterImages = entryTestCentreImages
     ? entryTestCentreImages.toJS()
@@ -21,8 +21,7 @@ const TestCentrePagePreview = ({ entry, widgetFor }) => {
 TestCentrePagePreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func
-  }),
-  widgetFor: PropTypes.func
+  })
 };
 
 export default TestCentrePagePreview;

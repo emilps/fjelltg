@@ -15,7 +15,6 @@ import ProductsCategoryPreview from './preview-templates/ProductsCategoryPreview
 import TestCentrePageTemplate from './preview-templates/TestCentrePagePreview';
 import TestCentrePostTemplate from './preview-templates/TestCentrePostPreview';
 
-import previewComponent from './RelationPreview';
 import controlComponent from './RelationControl';
 
 import React from 'react';
