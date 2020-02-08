@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
-import ProductRoll from '../components/ProductRoll';
+import SolutionsRoll from '../components/SolutionsRoll';
 import PageJumbotron from '../components/PageJumbotron';
 import SimpleCompanyQuote from '../components/SimpleCompanyQuote';
 import Content, { HTMLContent } from '../components/Content';
@@ -34,7 +34,7 @@ export const SolutionCategoryTemplate = ({
 
         <div className="about-section">
           <p className="title">Solutions</p>
-          <ProductRoll filterByCategory={'Pressure Vessels'} />
+          <SolutionsRoll filterByCategory={title} />
         </div>
         <SimpleCompanyQuote
           text={'Your partner for mass and heat transfer technology'}

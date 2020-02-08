@@ -230,7 +230,14 @@ collections:
               },
             ],
         }
-      - { label: 'Tags', name: 'tags', widget: 'list' }
+      - {
+          label: 'Solution Category',
+          name: 'solutioncategory',
+          widget: 'relation',
+          collection: 'solutioncategory',
+          searchFields: 'title',
+          valueField: 'title',
+        }
   - name: 'solutioncategory'
     label: 'Solution Categories'
     folder: 'src/pages/solutionCategory'
