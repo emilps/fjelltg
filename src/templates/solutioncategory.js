@@ -6,13 +6,18 @@ import Layout from '../components/Layout';
 import ProductRoll from '../components/ProductRoll';
 import PageJumbotron from '../components/PageJumbotron';
 import SimpleCompanyQuote from '../components/SimpleCompanyQuote';
+import Content, { HTMLContent } from '../components/Content';
 
 export const SolutionCategoryTemplate = ({
   subtitle,
   title,
   helmet,
-  featuredimage
+  featuredimage,
+  texttitle,
+  contentComponent,
+  content
 }) => {
+  const PageContent = contentComponent || Content;
   return (
     <section>
       {helmet || ''}
@@ -22,11 +27,19 @@ export const SolutionCategoryTemplate = ({
           description={subtitle}
           image={featuredimage}
         />
+        <div className="about-section">
+          <p className="title is-size-4">{texttitle}</p>
+          <PageContent className="content" content={content} />
+        </div>
+
+        <div className="about-section">
+          <p className="title">Solutions</p>
+          <ProductRoll filterByCategory={'Pressure Vessels'} />
+        </div>
         <SimpleCompanyQuote
-          text={'Our base products are used in all our tailored solutions'}
-          isMainQuote={false}
+          text={'Your partner for mass and heat transfer technology'}
+          isMainQuote={true}
         />
-        <ProductRoll filterByCategory={title} />
       </div>
     </section>
   );
@@ -36,7 +49,10 @@ SolutionCategoryTemplate.propTypes = {
   subtitle: PropTypes.string,
   title: PropTypes.string,
   helmet: PropTypes.object,
-  featuredimage: PropTypes.object
+  featuredimage: PropTypes.object,
+  texttitle: PropTypes.string,
+  contentComponent: PropTypes.func,
+  content: PropTypes.string
 };
 
 const SolutionCategory = ({ data }) => {
@@ -55,8 +71,11 @@ const SolutionCategory = ({ data }) => {
             />
           </Helmet>
         }
+        contentComponent={HTMLContent}
         title={solutionCategory.frontmatter.title}
         featuredimage={solutionCategory.frontmatter.featuredimage}
+        texttitle={solutionCategory.frontmatter.texttitle}
+        content={solutionCategory.frontmatter.information}
       />
     </Layout>
   );
@@ -79,6 +98,8 @@ export const pageQuery = graphql`
         date
         title
         subtitle
+        texttitle
+        information
         featuredimage {
           childImageSharp {
             fluid(maxWidth: 680, quality: 100) {
