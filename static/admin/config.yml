@@ -53,6 +53,7 @@ collections:
       - { label: 'Subtitle', name: 'subtitle', widget: 'text' }
       - { label: 'Featured Image', name: 'featuredimage', widget: image }
       - { label: 'Text', name: 'text', widget: 'markdown' }
+  
   - name: 'testcentreentry'
     label: 'Test Centre Entries'
     folder: 'src/pages/test-centre-post'
@@ -230,6 +231,23 @@ collections:
             ],
         }
       - { label: 'Tags', name: 'tags', widget: 'list' }
+  - name: 'solutioncategory'
+    label: 'Solution Categories'
+    folder: 'src/pages/solutionCategory'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    fields:
+      - {
+          label: 'Template Key',
+          name: 'templateKey',
+          widget: 'hidden',
+          default: 'solutioncategory',
+        }
+      - { label: 'Header Image', name: 'featuredimage', widget: image }
+      - { label: 'Header Title', name: 'title', widget: 'string' }
+      - { label: 'Header byline', name: 'subtitle', widget: 'text' }
+      - { label: 'Text title', name: 'texttitle', widget: 'string' }
+      - { label: 'Information', name: 'information', widget: 'markdown' }
   - name: 'employee'
     label: 'Employee'
     folder: 'src/pages/contact'
@@ -337,6 +355,20 @@ collections:
           - { label: 'Header byline', name: 'headerbyline', widget: 'string' }
           - { label: 'Header image', name: 'headerimage', widget: image }
           - { label: 'Products Quote', name: 'productsquote', widget: 'string' }
+      - file: 'src/pages/solutions-page/index.md'
+        label: 'Solutions Page'
+        name: 'solutionspage'
+        fields:
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'solution-categories-page',
+            }
+          - { label: 'Header title', name: 'headertitle', widget: 'string' }
+          - { label: 'Header byline', name: 'headerbyline', widget: 'string' }
+          - { label: 'Header image', name: 'headerimage', widget: image }
+          - { label: 'Solutions Quote', name: 'solutionsquote', widget: 'string' }
       - file: 'src/pages/test-centre-page/index.md'
         label: 'Test Centre Page'
         name: 'testcentre'
