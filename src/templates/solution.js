@@ -9,6 +9,7 @@ import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 import PageJumbotron from '../components/PageJumbotron';
 import SimpleCompanyQuote from '../components/SimpleCompanyQuote';
 import Img from 'gatsby-image';
+import RelatedProducts from '../components/RelatedProducts';
 
 export const SolutionTemplate = ({
   contentComponent,
@@ -22,7 +23,8 @@ export const SolutionTemplate = ({
   fullwidthimage,
   description2,
   description3,
-  descriptionimage
+  descriptionimage,
+  relatedproducts
 }) => {
   const PostContent = contentComponent || Content;
   return (
@@ -99,6 +101,10 @@ export const SolutionTemplate = ({
         text={'Your partner for mass and heat transfer technology'}
         isMainQuote={true}
       />
+      <RelatedProducts
+        relatedproducts={relatedproducts}
+        title1={'Base products'}
+      />
     </section>
   );
 };
@@ -117,7 +123,8 @@ SolutionTemplate.propTypes = {
   infobox1: PropTypes.string,
   description2: PropTypes.string,
   description3: PropTypes.string,
-  descriptionimage: PropTypes.oneOfType([PropTypes.string, PropTypes.object])
+  descriptionimage: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
+  relatedproducts: PropTypes.object
 };
 
 const Solution = ({ data }) => {
@@ -147,6 +154,7 @@ const Solution = ({ data }) => {
         description2={solution.frontmatter.description2}
         description3={solution.frontmatter.description3}
         descriptionimage={solution.frontmatter.descriptionimage}
+        relatedproducts={solution.frontmatter.relatedproducts}
       />
     </Layout>
   );
@@ -192,6 +200,41 @@ export const pageQuery = graphql`
           childImageSharp {
             fluid(maxWidth: 1080, quality: 100) {
               ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        relatedproducts {
+          relatedproduct1 {
+            title
+            slug
+            headerimage {
+              childImageSharp {
+                fluid(maxWidth: 580, quality: 100) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+          relatedproduct2 {
+            title
+            slug
+            headerimage {
+              childImageSharp {
+                fluid(maxWidth: 580, quality: 100) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+          relatedproduct3 {
+            title
+            slug
+            headerimage {
+              childImageSharp {
+                fluid(maxWidth: 580, quality: 100) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
             }
           }
         }

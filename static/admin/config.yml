@@ -203,6 +203,44 @@ collections:
       - { label: 'Description 3', name: 'description3', widget: 'markdown' }
       - { label: 'Description background', name: 'descriptionimage', widget: image }
       - {
+        label: 'Related Products',
+        name: 'relatedproducts',
+        widget: 'object',
+        fields:
+          [
+            {
+              label: 'Related Product 1',
+              name: 'relatedproduct1',
+              widget: 'relatedProduct',
+              collection: 'product',
+              searchFields: 'title',
+              valueField: 'title',
+              displayFields: 'title',
+              required: false
+            },
+            {
+              label: 'Related Product 2',
+              name: 'relatedproduct2',
+              widget: 'relatedProduct',
+              collection: 'product',
+              searchFields: 'title',
+              valueField: 'title',
+              displayFields: 'title',
+              required: false
+            },
+            {
+              label: 'Related Product 3',
+              name: 'relatedproduct3',
+              widget: 'relatedProduct',
+              collection: 'product',
+              searchFields: 'title',
+              valueField: 'title',
+              displayFields: 'title',
+              required: false
+            },
+          ],
+        }
+      - {
           label: 'Solution Category',
           name: 'solutioncategory',
           widget: 'relation',

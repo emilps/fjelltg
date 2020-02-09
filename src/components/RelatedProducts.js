@@ -6,7 +6,7 @@ import { graphql, Link } from 'gatsby';
 const RelatedProducts = ({ relatedproducts, title1 }) => (
   <div className="project-related-products">
     <p className="title has-text-centered" style={{ marginBottom: '3rem' }}>
-      Related products
+      {title1}
     </p>
     <div className="columns is-centered">
       {relatedproducts ? (
@@ -22,22 +22,23 @@ const RelatedProducts = ({ relatedproducts, title1 }) => (
                   maxWidth: '550px'
                 }}
               >
-                {typeof relatedproducts[product].fullwidthimage === 'string' ? (
+                {typeof relatedproducts[product].headerimage === 'string' ? (
                   <img
-                    src={relatedproducts[product].fullwidthimage}
+                    src={relatedproducts[product].headerimage}
                     style={{ width: '40%' }}
                   />
                 ) : (
                   <Link
                     to={'/product/' + relatedproducts[product]['slug']}
-                    style={{ width: '80%' }}
+                    style={{ width: '94%' }}
                   >
                     <Img
                       fluid={
-                        relatedproducts[product].fullwidthimage.childImageSharp
+                        relatedproducts[product].headerimage.childImageSharp
                           .fluid
                       }
                       alt={`featured image thumbnail for ${title1}`}
+                      style={{ height: '270px', width: '380px' }}
                     />
                   </Link>
                 )}
