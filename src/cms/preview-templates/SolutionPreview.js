@@ -15,7 +15,7 @@ const SolutionPreview = ({ entry, widgetFor }) => {
 
   return (
     <SolutionTemplate
-      content={widgetFor('body')}
+      // content={widgetFor('body')}
       subtitle={entry.getIn(['data', 'subtitle'])}
       tags={tags && tags.toJS()}
       title={entry.getIn(['data', 'title'])}

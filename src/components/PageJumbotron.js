@@ -28,7 +28,7 @@ const PageJumbotron = ({ title, image, description }) => {
         <div className="black-overlay-opacity-50">
           <div className="jumbotron-centered-elements">
             <h1 className="h1-page-title has-text-centered is-size-3-mobile">
-              {title.toUpperCase()}
+              {title && title.toUpperCase()}
             </h1>
             <hr className="hr-jumbotron" />
             <h3 className="h3-page-subtitle is-size-5-mobile">{description}</h3>

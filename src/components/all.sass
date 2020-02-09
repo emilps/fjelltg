@@ -125,6 +125,8 @@ nav
     position: absolute
     top: 0
     left: 0
+  &.full-width-solution
+    height: 882px
 
 .index-image-text-field
   width: 100vw
@@ -354,6 +356,20 @@ $navbar-item-color: white
   &.description
     @media screen and ( max-width: 768px  )
       padding-bottom: 2rem
+    &.lightblue
+        > ul li 
+          list-style: none
+          padding: 0 20px
+          font-size: 16px
+          &:before
+            content: "\2022"
+            color: #4D7EA8
+            font-weight: 900
+            font-size: 2em
+            display: inline-block
+            width: 1em
+            margin-left: -1em
+            line-height: 0
     
   &.infobox
     padding: 10px 30px
@@ -464,6 +480,36 @@ $navbar-item-color: white
   flex-direction: column
   padding: 30px 30px 30px 0
   align-items: center
+
+.solution-content
+  color: white 
+  @media screen and (min-width: 1024px)
+    width: 960px
+  @media screen and (min-width: 1216px)
+    width: 1152px
+  @media screen and (min-width: 1408px)
+    width: 1344px
+  margin: 0 auto
+  *
+    color: white !important
+  padding-top: 4rem
+  > p
+    font-size: 22px
+  > h1
+    font-size: 46px
+
+  
+  
+
+.solution-centered-elements
+  display: flex
+  flex-direction: column
+  width: 100%
+  height: 882px
+  animation: 0.5s ease-in fade-in
+
+.middle-container
+  margin: 5rem 0 6rem 0
 
 // ObjectRolls containers
 
@@ -758,6 +804,12 @@ $navbar-item-color: white
     padding: 3rem 2rem
   .navbar-dropdown
     display: none
+  .solution-content
+    width: 100%
+    padding: 2rem
+  .solution-container
+    padding: 2rem
+
 // Mobile
 +mobile
   .blog-list-item header
@@ -778,6 +830,8 @@ $navbar-item-color: white
     height: 350px
   .jumbotron-centered-elements
     height: 350px
+  .solution-centered-elements
+    height: 500px
   .h3-page-subtitle
     max-width: 90%
   .project-title-section
@@ -839,5 +893,16 @@ $navbar-item-color: white
     height: 300px !important
   .test-centre-contact-container
     padding: 2rem
-
+  .solution-content
+    width: 100%
+    padding: 2rem
+    > p 
+      font-size: 16px
+    > h1
+      font-size: 32px
+  .solution-container
+    padding: 2rem
+  .index-full-width-image
+    &.full-width-solution
+      height: 500px
   

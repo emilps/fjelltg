@@ -49,7 +49,7 @@ SolutionCategoryTemplate.propTypes = {
   subtitle: PropTypes.string,
   title: PropTypes.string,
   helmet: PropTypes.object,
-  featuredimage: PropTypes.object,
+  featuredimage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   texttitle: PropTypes.string,
   contentComponent: PropTypes.func,
   content: PropTypes.string
