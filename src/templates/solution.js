@@ -52,13 +52,15 @@ export const SolutionTemplate = ({
       </div>
       <div className="fullwidthimage-container">
         {fullwidthimage ? (
-          <PreviewCompatibleImage
-            imageInfo={{
-              image: fullwidthimage,
-              alt: `fullwidthimage for product ${title}`,
-              style: { height: 'auto', maxHeight: '650px' }
-            }}
-          />
+          <div>
+            <PreviewCompatibleImage
+              imageInfo={{
+                image: fullwidthimage,
+                alt: `fullwidthimage for product ${title}`,
+                style: { height: 'auto', maxHeight: '650px' }
+              }}
+            />
+          </div>
         ) : null}
       </div>
       <div className="container solution-container">
@@ -78,11 +80,21 @@ export const SolutionTemplate = ({
           ) : (
             <div>
               {descriptionimage ? (
-                <Img
-                  fluid={descriptionimage.childImageSharp.fluid}
-                  alt={`featured image thumbnail for project ${title}`}
-                  className="index-full-width-image margin-top-0 full-width-solution"
-                />
+                <div>
+                  {typeof fullwidthimage !== 'string' ? (
+                    <Img
+                      fluid={descriptionimage.childImageSharp.fluid}
+                      alt={`featured image thumbnail for project ${title}`}
+                      className="index-full-width-image margin-top-0 full-width-solution"
+                    />
+                  ) : (
+                    <img
+                      src={descriptionimage}
+                      style={{ width: '40%' }}
+                      className="index-full-width-image margin-top-0 full-width-solution"
+                    />
+                  )}
+                </div>
               ) : null}
             </div>
           )}
