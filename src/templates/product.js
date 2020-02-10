@@ -26,7 +26,6 @@ export const ProductTemplate = ({
   helmet
 }) => {
   const PostContent = contentComponent || Content;
-  console.log(productbrochure.relativePath);
 
   return (
     <section>
