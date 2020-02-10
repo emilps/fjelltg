@@ -6,6 +6,8 @@ import Layout from '../components/Layout';
 import Content, { HTMLContent } from '../components/Content';
 import PageJumbotron from '../components/PageJumbotron';
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
+import showdown from 'showdown';
+const converter = new showdown.Converter();
 
 export const ProductTemplate = ({
   contentComponent,
@@ -44,10 +46,13 @@ export const ProductTemplate = ({
                 className={'markdown-container description'}
                 content={description1}
               />
+
               <div className="infobox-container">
-                <PostContent
+                <div
                   className={'markdown-container infobox lightblue'}
-                  content={infobox1}
+                  dangerouslySetInnerHTML={{
+                    __html: converter.makeHtml(infobox1)
+                  }}
                 />
                 {productbrochure ? (
                   <div className="brochure-container">
@@ -92,14 +97,18 @@ export const ProductTemplate = ({
           </div>
           <div className="product-info-section">
             <div className="product-info-section-text">
-              <PostContent
+              <div
                 className={'markdown-container description'}
-                content={description2}
+                dangerouslySetInnerHTML={{
+                  __html: converter.makeHtml(description2)
+                }}
               />
               <div className="infobox-container">
-                <PostContent
+                <div
                   className={'markdown-container infobox darkblue'}
-                  content={infobox2}
+                  dangerouslySetInnerHTML={{
+                    __html: converter.makeHtml(infobox2)
+                  }}
                 />
               </div>
             </div>

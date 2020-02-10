@@ -50,7 +50,7 @@ const SolutionRollQuery = () => (
       query SolutionRollQuery {
         allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___date] }
-          filter: { frontmatter: { templateKey: { eq: "solution" } } }
+          filter: { frontmatter: { templateKey: { eq: "solutioncategory" } } }
         ) {
           edges {
             node {

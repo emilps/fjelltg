@@ -6,77 +6,148 @@ import { graphql, Link } from 'gatsby';
 import Layout from '../components/Layout';
 import Content, { HTMLContent } from '../components/Content';
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
+import PageJumbotron from '../components/PageJumbotron';
+import SimpleCompanyQuote from '../components/SimpleCompanyQuote';
+import Img from 'gatsby-image';
+import RelatedProducts from '../components/RelatedProducts';
+import showdown from 'showdown';
+const converter = new showdown.Converter();
 
 export const SolutionTemplate = ({
-  content,
   contentComponent,
-  solutions,
   subtitle,
-  tags,
   title,
-  baseproducts,
   featuredimage,
-  helmet
+  helmet,
+  mainquote,
+  description1,
+  infobox1,
+  fullwidthimage,
+  description2,
+  description3,
+  descriptionimage,
+  relatedproducts
 }) => {
   const PostContent = contentComponent || Content;
+
   return (
-    <section className="section">
+    <section>
       {helmet || ''}
-      <div className="container content">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-              {title}
-            </h1>
-            <p>{subtitle}</p>
-            {featuredimage ? (
-              <div className="featured-thumbnail">
-                <PreviewCompatibleImage
-                  imageInfo={{
-                    image: featuredimage,
-                    alt: `featured image thumbnail for post ${title}`
-                  }}
-                />
-              </div>
-            ) : null}
-            <p>{solutions}</p>
-            <PostContent content={content} />
-            <h4>Other products</h4>
-            {Object.keys(baseproducts).map((product, index) => (
-              <div key={index} className="is-horizontal-align">
-                <p>{baseproducts[product]}</p>
-              </div>
-            ))}
-            {tags && tags.length ? (
-              <div style={{ marginTop: `4rem` }}>
-                <h4>Tags</h4>
-                <ul className="taglist">
-                  {tags.map(tag => (
-                    <li key={tag + `tag`}>
-                      <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ) : null}
+      <PageJumbotron
+        title={title}
+        image={featuredimage}
+        description={subtitle}
+      />
+      <div className="container solution-container content">
+        <SimpleCompanyQuote text={mainquote} isMainQuote={false} />
+        <div className="product-info-section-text">
+          <div
+            className={'markdown-container description lightblue'}
+            dangerouslySetInnerHTML={{
+              __html: converter.makeHtml(description1)
+            }}
+          />
+          <div className="infobox-container">
+            <div
+              className={'markdown-container infobox lightblue'}
+              dangerouslySetInnerHTML={{
+                __html: converter.makeHtml(infobox1)
+              }}
+            />
           </div>
         </div>
       </div>
+      <div className="fullwidthimage-container">
+        {fullwidthimage ? (
+          <div>
+            <PreviewCompatibleImage
+              imageInfo={{
+                image: fullwidthimage,
+                alt: `fullwidthimage for product ${title}`,
+                style: { height: 'auto', maxHeight: '650px' }
+              }}
+            />
+          </div>
+        ) : null}
+      </div>
+      <div className="container solution-container">
+        <div
+          className={'content middle-container'}
+          dangerouslySetInnerHTML={{
+            __html: converter.makeHtml(description2)
+          }}
+        />
+      </div>
+      <div>
+        <div className="index-image-container margin-top-0">
+          {typeof inputImage === 'string' ? (
+            <img
+              src={descriptionimage}
+              className="index-full-width-image margin-top-0"
+              style={{ maxWidth: '100%' }}
+            />
+          ) : (
+            <div>
+              {descriptionimage ? (
+                <div>
+                  {typeof fullwidthimage !== 'string' ? (
+                    <Img
+                      fluid={descriptionimage.childImageSharp.fluid}
+                      alt={`featured image thumbnail for project ${title}`}
+                      className="index-full-width-image margin-top-0 full-width-solution"
+                    />
+                  ) : (
+                    <img
+                      src={descriptionimage}
+                      style={{ width: '40%' }}
+                      className="index-full-width-image margin-top-0 full-width-solution"
+                    />
+                  )}
+                </div>
+              ) : null}
+            </div>
+          )}
+          <div className="black-overlay-opacity-85">
+            <div className="solution-centered-elements">
+              <div
+                className={'content solution-content'}
+                dangerouslySetInnerHTML={{
+                  __html: converter.makeHtml(description3)
+                }}
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <SimpleCompanyQuote
+        text={'Your partner for mass and heat transfer technology'}
+        isMainQuote={true}
+      />
+      <RelatedProducts
+        relatedproducts={relatedproducts}
+        title1={'Base products'}
+      />
     </section>
   );
 };
 
 SolutionTemplate.propTypes = {
-  content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
   subtitle: PropTypes.string,
   description: PropTypes.string,
   title: PropTypes.string,
   helmet: PropTypes.object,
-  tags: PropTypes.oneOfType([PropTypes.array, PropTypes.object]),
-  baseproducts: PropTypes.object,
   solutions: PropTypes.oneOfType([PropTypes.array, PropTypes.object]),
-  featuredimage: PropTypes.object
+  featuredimage: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
+  mainquote: PropTypes.string,
+  description1: PropTypes.string,
+  fullwidthimage: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
+  infobox1: PropTypes.string,
+  description2: PropTypes.string,
+  description3: PropTypes.string,
+  descriptionimage: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
+  relatedproducts: PropTypes.object
 };
 
 const Solution = ({ data }) => {
@@ -85,9 +156,7 @@ const Solution = ({ data }) => {
   return (
     <Layout>
       <SolutionTemplate
-        content={solution.html}
         contentComponent={HTMLContent}
-        solutions={solution.frontmatter.solutions}
         subtitle={solution.frontmatter.subtitle}
         baseproducts={solution.frontmatter.baseproducts}
         featuredimage={solution.frontmatter.featuredimage}
@@ -100,8 +169,15 @@ const Solution = ({ data }) => {
             />
           </Helmet>
         }
-        tags={solution.frontmatter.tags}
         title={solution.frontmatter.title}
+        mainquote={solution.frontmatter.mainquote}
+        description1={solution.frontmatter.description1}
+        infobox1={solution.frontmatter.infobox1}
+        fullwidthimage={solution.frontmatter.fullwidthimage}
+        description2={solution.frontmatter.description2}
+        description3={solution.frontmatter.description3}
+        descriptionimage={solution.frontmatter.descriptionimage}
+        relatedproducts={solution.frontmatter.relatedproducts}
       />
     </Layout>
   );
@@ -124,16 +200,64 @@ export const pageQuery = graphql`
         title
         subtitle
         solutions
-        tags
-        baseproducts {
-          baseproduct1
-          baseproduct2
-          baseproduct3
-        }
         featuredimage {
           childImageSharp {
-            fluid(maxWidth: 680, quality: 100) {
+            fluid(maxWidth: 1080, quality: 100) {
               ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        mainquote
+        description1
+        infobox1
+        fullwidthimage {
+          childImageSharp {
+            fluid(maxWidth: 1080, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        description2
+        description3
+        descriptionimage {
+          childImageSharp {
+            fluid(maxWidth: 1080, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        relatedproducts {
+          relatedproduct1 {
+            title
+            slug
+            headerimage {
+              childImageSharp {
+                fluid(maxWidth: 580, quality: 100) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+          relatedproduct2 {
+            title
+            slug
+            headerimage {
+              childImageSharp {
+                fluid(maxWidth: 580, quality: 100) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+          relatedproduct3 {
+            title
+            slug
+            headerimage {
+              childImageSharp {
+                fluid(maxWidth: 580, quality: 100) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
             }
           }
         }

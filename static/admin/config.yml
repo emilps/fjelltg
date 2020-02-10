@@ -53,6 +53,7 @@ collections:
       - { label: 'Subtitle', name: 'subtitle', widget: 'text' }
       - { label: 'Featured Image', name: 'featuredimage', widget: image }
       - { label: 'Text', name: 'text', widget: 'markdown' }
+  
   - name: 'testcentreentry'
     label: 'Test Centre Entries'
     folder: 'src/pages/test-centre-post'
@@ -100,7 +101,6 @@ collections:
           searchFields: 'title',
           valueField: 'title',
         }
-      - { label: 'Tags', name: 'tags', widget: 'list' }
 
   - name: 'project'
     label: 'Project'
@@ -192,44 +192,79 @@ collections:
           widget: 'hidden',
           default: 'solution',
         }
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Subtitle', name: 'subtitle', widget: 'string' }
-      - { label: 'Featured Image', name: 'featuredimage', widget: image }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
-      - { label: 'Solutions', name: 'solutions', widget: 'list' }
+      - { label: 'Header Title', name: 'title', widget: 'string' }
+      - { label: 'Header Byline', name: 'subtitle', widget: 'string' }
+      - { label: 'Header Image', name: 'featuredimage', widget: image }
+      - { label: 'Main quote', name: 'mainquote', widget: 'text' }
+      - { label: 'Description 1', name: 'description1', widget: 'markdown' }
+      - { label: 'Infobox 1', name: 'infobox1', widget: 'markdown' }
+      - { label: 'Fullwidth Image', name: 'fullwidthimage', widget: image }
+      - { label: 'Description 2', name: 'description2', widget: 'markdown' }
+      - { label: 'Description 3', name: 'description3', widget: 'markdown' }
+      - { label: 'Description background', name: 'descriptionimage', widget: image }
       - {
-          label: 'Base Products',
-          name: 'baseproducts',
-          widget: 'object',
-          fields:
-            [
-              {
-                label: 'BaseProduct1',
-                name: 'baseproduct1',
-                widget: 'relation',
-                collection: 'product',
-                searchFields: 'title',
-                valueField: 'title',
-              },
-              {
-                label: 'BaseProduct2',
-                name: 'baseproduct2',
-                widget: 'relation',
-                collection: 'product',
-                searchFields: 'title',
-                valueField: 'title',
-              },
-              {
-                label: 'BaseProduct3',
-                name: 'baseproduct3',
-                widget: 'relation',
-                collection: 'product',
-                searchFields: 'title',
-                valueField: 'title',
-              },
-            ],
+        label: 'Related Products',
+        name: 'relatedproducts',
+        widget: 'object',
+        fields:
+          [
+            {
+              label: 'Related Product 1',
+              name: 'relatedproduct1',
+              widget: 'relatedProduct',
+              collection: 'product',
+              searchFields: 'title',
+              valueField: 'title',
+              displayFields: 'title',
+              required: false
+            },
+            {
+              label: 'Related Product 2',
+              name: 'relatedproduct2',
+              widget: 'relatedProduct',
+              collection: 'product',
+              searchFields: 'title',
+              valueField: 'title',
+              displayFields: 'title',
+              required: false
+            },
+            {
+              label: 'Related Product 3',
+              name: 'relatedproduct3',
+              widget: 'relatedProduct',
+              collection: 'product',
+              searchFields: 'title',
+              valueField: 'title',
+              displayFields: 'title',
+              required: false
+            },
+          ],
         }
-      - { label: 'Tags', name: 'tags', widget: 'list' }
+      - {
+          label: 'Solution Category',
+          name: 'solutioncategory',
+          widget: 'relation',
+          collection: 'solutioncategory',
+          searchFields: 'title',
+          valueField: 'title',
+        }
+  - name: 'solutioncategory'
+    label: 'Solution Categories'
+    folder: 'src/pages/solutionCategory'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    fields:
+      - {
+          label: 'Template Key',
+          name: 'templateKey',
+          widget: 'hidden',
+          default: 'solutioncategory',
+        }
+      - { label: 'Header Image', name: 'featuredimage', widget: image }
+      - { label: 'Header Title', name: 'title', widget: 'string' }
+      - { label: 'Header byline', name: 'subtitle', widget: 'text' }
+      - { label: 'Text title', name: 'texttitle', widget: 'string' }
+      - { label: 'Information', name: 'information', widget: 'markdown' }
   - name: 'employee'
     label: 'Employee'
     folder: 'src/pages/contact'
@@ -337,6 +372,20 @@ collections:
           - { label: 'Header byline', name: 'headerbyline', widget: 'string' }
           - { label: 'Header image', name: 'headerimage', widget: image }
           - { label: 'Products Quote', name: 'productsquote', widget: 'string' }
+      - file: 'src/pages/solutions-page/index.md'
+        label: 'Solutions Page'
+        name: 'solutionspage'
+        fields:
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'solution-categories-page',
+            }
+          - { label: 'Header title', name: 'headertitle', widget: 'string' }
+          - { label: 'Header byline', name: 'headerbyline', widget: 'string' }
+          - { label: 'Header image', name: 'headerimage', widget: image }
+          - { label: 'Solutions Quote', name: 'solutionsquote', widget: 'string' }
       - file: 'src/pages/test-centre-page/index.md'
         label: 'Test Centre Page'
         name: 'testcentre'

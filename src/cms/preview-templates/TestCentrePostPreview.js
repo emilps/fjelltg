@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { TestCentrePostTemplate } from '../../templates/test-centre-post';
 
-const TestPostPreview = ({ entry, widgetFor }) => (
+const TestPostPreview = ({ entry }) => (
   <TestCentrePostTemplate
     date={entry.getIn(['data', 'date'])}
     text={entry.getIn(['data', 'text'])}
@@ -14,8 +14,7 @@ const TestPostPreview = ({ entry, widgetFor }) => (
 TestPostPreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func
-  }),
-  widgetFor: PropTypes.func
+  })
 };
 
 export default TestPostPreview;

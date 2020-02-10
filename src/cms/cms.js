@@ -14,8 +14,9 @@ import ContactPagePreview from './preview-templates/ContactPagePreview';
 import ProductsCategoryPreview from './preview-templates/ProductsCategoryPreview';
 import TestCentrePageTemplate from './preview-templates/TestCentrePagePreview';
 import TestCentrePostTemplate from './preview-templates/TestCentrePostPreview';
+import SolutionsCategoryPreview from './preview-templates/SolutionsCategoryPreview';
+import SolutionCategoryPreview from './preview-templates/SolutionCategoryPreview';
 
-import previewComponent from './RelationPreview';
 import controlComponent from './RelationControl';
 
 import React from 'react';
@@ -36,6 +37,8 @@ CMS.registerPreviewTemplate('contact', ContactPagePreview);
 CMS.registerPreviewTemplate('productpage', ProductsCategoryPreview);
 CMS.registerPreviewTemplate('testcentre', TestCentrePageTemplate);
 CMS.registerPreviewTemplate('testcentreentry', TestCentrePostTemplate);
+CMS.registerPreviewTemplate('solutionspage', SolutionsCategoryPreview);
+CMS.registerPreviewTemplate('solutioncategory', SolutionCategoryPreview);
 
 CMS.registerPreviewStyle('./../components/all.sass');
 

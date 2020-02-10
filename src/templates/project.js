@@ -168,7 +168,7 @@ export const pageQuery = graphql`
           relatedproduct1 {
             title
             slug
-            fullwidthimage {
+            headerimage {
               childImageSharp {
                 fluid(maxWidth: 380, quality: 100) {
                   ...GatsbyImageSharpFluid
@@ -179,7 +179,7 @@ export const pageQuery = graphql`
           relatedproduct2 {
             title
             slug
-            fullwidthimage {
+            headerimage {
               childImageSharp {
                 fluid(maxWidth: 380, quality: 100) {
                   ...GatsbyImageSharpFluid
@@ -190,7 +190,7 @@ export const pageQuery = graphql`
           relatedproduct3 {
             title
             slug
-            fullwidthimage {
+            headerimage {
               childImageSharp {
                 fluid(maxWidth: 380, quality: 100) {
                   ...GatsbyImageSharpFluid
