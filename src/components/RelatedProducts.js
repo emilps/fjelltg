@@ -31,6 +31,7 @@ const RelatedProducts = ({ relatedproducts, title1 }) => (
                   <Link
                     to={'/product/' + relatedproducts[product]['slug']}
                     style={{ width: '94%' }}
+                    className="related-product"
                   >
                     <Img
                       fluid={
@@ -38,7 +39,11 @@ const RelatedProducts = ({ relatedproducts, title1 }) => (
                           .fluid
                       }
                       alt={`featured image thumbnail for ${title1}`}
-                      style={{ height: '270px', width: '380px' }}
+                      style={{
+                        height: '270px',
+                        width: '100%',
+                        objectFit: 'cover'
+                      }}
                     />
                   </Link>
                 )}

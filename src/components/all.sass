@@ -110,6 +110,12 @@ nav
   top: 0
   width: 100%
 
+.black-overlay-opacity-85
+  background: rgba(0,0,0, 0.8)
+  position: absolute
+  top: 0
+  width: 100%
+
 .index-image-container
   position: relative
 
@@ -492,7 +498,7 @@ $navbar-item-color: white
   margin: 0 auto
   *
     color: white !important
-  padding-top: 4rem
+  padding-top: 5rem
   > p
     font-size: 22px
   > h1
@@ -809,6 +815,9 @@ $navbar-item-color: white
     padding: 2rem
   .solution-container
     padding: 2rem
+  .related-product
+    * 
+      height: 230px !important
 
 // Mobile
 +mobile
@@ -905,4 +914,7 @@ $navbar-item-color: white
   .index-full-width-image
     &.full-width-solution
       height: 500px
+  .related-product
+    * 
+      height: 170px !important
   

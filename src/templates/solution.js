@@ -86,7 +86,7 @@ export const SolutionTemplate = ({
               ) : null}
             </div>
           )}
-          <div className="black-overlay-opacity-50">
+          <div className="black-overlay-opacity-85">
             <div className="solution-centered-elements">
               <PostContent
                 className="content solution-content"
