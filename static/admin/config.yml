@@ -372,6 +372,20 @@ collections:
           - { label: 'Header byline', name: 'headerbyline', widget: 'string' }
           - { label: 'Header image', name: 'headerimage', widget: image }
           - { label: 'Products Quote', name: 'productsquote', widget: 'string' }
+      - file: 'src/pages/projects/index.md'
+        label: 'Projects Page'
+        name: 'projects'
+        fields:
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'projects',
+            }
+          - { label: 'Header title', name: 'headertitle', widget: 'string' }
+          - { label: 'Header byline', name: 'headerbyline', widget: 'string' }
+          - { label: 'Header image', name: 'headerimage', widget: image }
+          - { label: 'Projects Quote', name: 'projectsquote', widget: 'string' }
       - file: 'src/pages/solutions-page/index.md'
         label: 'Solutions Page'
         name: 'solutionspage'
