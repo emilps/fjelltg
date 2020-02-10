@@ -10,6 +10,8 @@ import PageJumbotron from '../components/PageJumbotron';
 import SimpleCompanyQuote from '../components/SimpleCompanyQuote';
 import Img from 'gatsby-image';
 import RelatedProducts from '../components/RelatedProducts';
+import showdown from 'showdown';
+const converter = new showdown.Converter();
 
 export const SolutionTemplate = ({
   contentComponent,
@@ -27,6 +29,7 @@ export const SolutionTemplate = ({
   relatedproducts
 }) => {
   const PostContent = contentComponent || Content;
+
   return (
     <section>
       {helmet || ''}
@@ -38,14 +41,18 @@ export const SolutionTemplate = ({
       <div className="container solution-container content">
         <SimpleCompanyQuote text={mainquote} isMainQuote={false} />
         <div className="product-info-section-text">
-          <PostContent
+          <div
             className={'markdown-container description lightblue'}
-            content={description1}
+            dangerouslySetInnerHTML={{
+              __html: converter.makeHtml(description1)
+            }}
           />
           <div className="infobox-container">
-            <PostContent
+            <div
               className={'markdown-container infobox lightblue'}
-              content={infobox1}
+              dangerouslySetInnerHTML={{
+                __html: converter.makeHtml(infobox1)
+              }}
             />
           </div>
         </div>
@@ -64,9 +71,11 @@ export const SolutionTemplate = ({
         ) : null}
       </div>
       <div className="container solution-container">
-        <PostContent
-          className="content middle-container"
-          content={description2}
+        <div
+          className={'content middle-container'}
+          dangerouslySetInnerHTML={{
+            __html: converter.makeHtml(description2)
+          }}
         />
       </div>
       <div>
@@ -100,9 +109,11 @@ export const SolutionTemplate = ({
           )}
           <div className="black-overlay-opacity-85">
             <div className="solution-centered-elements">
-              <PostContent
-                className="content solution-content"
-                content={description3}
+              <div
+                className={'content solution-content'}
+                dangerouslySetInnerHTML={{
+                  __html: converter.makeHtml(description3)
+                }}
               />
             </div>
           </div>
