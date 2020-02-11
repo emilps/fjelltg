@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import logo from '../img/ftg_logo_neg.svg';
+import NavbarProductRoll from './NavbarProductRoll';
+import NavbarSolutionRoll from './NavbarSolutionRoll';
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -65,7 +67,7 @@ const Navbar = class extends React.Component {
             <div className="navbar-end has-text-centered">
               <Link
                 className="navbar-item is-light main-navbar-item"
-                to="/project"
+                to="/projects"
               >
                 Reference Projects
               </Link>
@@ -76,23 +78,7 @@ const Navbar = class extends React.Component {
                 >
                   Products
                 </Link>
-                <div className="navbar-dropdown">
-                  <Link className="navbar-item" to="/product">
-                    Pressure Vessels
-                  </Link>
-                  <Link className="navbar-item" to="/product">
-                    Heat Exchangers
-                  </Link>
-                  <Link className="navbar-item" to="/product">
-                    Air Coolers
-                  </Link>
-                  <Link className="navbar-item" to="/product">
-                    Steam Heated Screw Cookers
-                  </Link>
-                  <Link className="navbar-item" to="/product">
-                    Mud & Gas Separators
-                  </Link>
-                </div>
+                <NavbarProductRoll />
               </div>
               <div className="navbar-item has-dropdown is-hoverable">
                 <Link
@@ -101,20 +87,7 @@ const Navbar = class extends React.Component {
                 >
                   Solutions
                 </Link>
-                <div className="navbar-dropdown">
-                  <Link className="navbar-item" to="/solutions">
-                    Greentech and the environment
-                  </Link>
-                  <Link className="navbar-item" to="/solutions">
-                    Protein recycling
-                  </Link>
-                  <Link className="navbar-item" to="/solutions">
-                    Oil & Gas
-                  </Link>
-                  <Link className="navbar-item" to="/solutions">
-                    Co2 Capture
-                  </Link>
-                </div>
+                <NavbarSolutionRoll />
               </div>
               <Link className="navbar-item main-navbar-item" to="/about">
                 About

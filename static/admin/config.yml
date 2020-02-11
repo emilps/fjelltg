@@ -12,31 +12,25 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: 'blog'
-    label: 'Recent updates'
-    folder: 'src/pages/blog'
+  - name: 'employee'
+    label: 'Employee'
+    folder: 'src/pages/contact'
     create: true
+    identifier_field: name
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     fields:
       - {
           label: 'Template Key',
           name: 'templateKey',
           widget: 'hidden',
-          default: 'blog-post',
+          default: 'employee',
         }
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'date', format: "DD.MM.YYYY" }
-      - { label: 'Image', name: 'featuredimage', widget: image }
-      - { label: 'Description', name: 'description', widget: 'text' }
-      - { label: 'Link', name: 'link', widget: 'string' }
-      - { 
-          label: "Social Media", 
-          name: "socialmedia", 
-          widget: "select", 
-          options: ["Instagram", "LinkedIn", "Facebook"],
-          default: ["Instagram"], 
-        }
-
+      - { label: 'Name', name: 'name', widget: 'string' }
+      - { label: 'Position', name: 'position', widget: 'string' }
+      - { label: 'Picture', name: 'picture', widget: image }
+      - { label: 'Phone Number', name: 'phonenumber', widget: 'number' }
+      - { label: 'E-mail', name: 'email', widget: 'string' }
+      - { label: 'LinkedIn', name: 'linkedin', widget: 'string' }
   - name: 'productcategory'
     label: 'Product Categories'
     folder: 'src/pages/productCategory'
@@ -53,26 +47,8 @@ collections:
       - { label: 'Subtitle', name: 'subtitle', widget: 'text' }
       - { label: 'Featured Image', name: 'featuredimage', widget: image }
       - { label: 'Text', name: 'text', widget: 'markdown' }
-  
-  - name: 'testcentreentry'
-    label: 'Test Centre Entries'
-    folder: 'src/pages/test-centre-post'
-    create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-    fields:
-      - {
-          label: 'Template Key',
-          name: 'templateKey',
-          widget: 'hidden',
-          default: 'test-centre-post',
-        }
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'date', format: "DD.MM.YYYY" }
-      - { label: 'Featured Image', name: 'featuredimage', widget: image }
-      - { label: 'Text', name: 'text', widget: 'text' }
-
   - name: 'product'
-    label: 'Product'
+    label: 'Products'
     folder: 'src/pages/product'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
@@ -101,9 +77,8 @@ collections:
           searchFields: 'title',
           valueField: 'title',
         }
-
   - name: 'project'
-    label: 'Project'
+    label: 'Projects'
     folder: 'src/pages/project'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
@@ -173,13 +148,36 @@ collections:
         required: true,
         options:
           [
-             'FishSludge Recovery System', 
-             'Protein Recycling',
-             'Oil & Gas',
-             'Co2 Capture'
+              'FishSludge Recovery System', 
+              'Protein Recycling',
+              'Oil & Gas',
+              'Co2 Capture'
           ],
       }
-
+  - name: 'blog'
+    label: 'Recent updates'
+    folder: 'src/pages/blog'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    fields:
+      - {
+          label: 'Template Key',
+          name: 'templateKey',
+          widget: 'hidden',
+          default: 'blog-post',
+        }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'date', format: "DD.MM.YYYY" }
+      - { label: 'Image', name: 'featuredimage', widget: image }
+      - { label: 'Description', name: 'description', widget: 'text' }
+      - { label: 'Link', name: 'link', widget: 'string' }
+      - { 
+          label: "Social Media", 
+          name: "socialmedia", 
+          widget: "select", 
+          options: ["Instagram", "LinkedIn", "Facebook"],
+          default: ["Instagram"], 
+        }  
   - name: 'solution'
     label: 'Solution'
     folder: 'src/pages/solutions'
@@ -265,29 +263,56 @@ collections:
       - { label: 'Header byline', name: 'subtitle', widget: 'text' }
       - { label: 'Text title', name: 'texttitle', widget: 'string' }
       - { label: 'Information', name: 'information', widget: 'markdown' }
-  - name: 'employee'
-    label: 'Employee'
-    folder: 'src/pages/contact'
+  - name: 'testcentreentry'
+    label: 'Test Centre Entries'
+    folder: 'src/pages/test-centre-post'
     create: true
-    identifier_field: name
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     fields:
       - {
           label: 'Template Key',
           name: 'templateKey',
           widget: 'hidden',
-          default: 'employee',
+          default: 'test-centre-post',
         }
-      - { label: 'Name', name: 'name', widget: 'string' }
-      - { label: 'Position', name: 'position', widget: 'string' }
-      - { label: 'Picture', name: 'picture', widget: image }
-      - { label: 'Phone Number', name: 'phonenumber', widget: 'number' }
-      - { label: 'E-mail', name: 'email', widget: 'string' }
-      - { label: 'LinkedIn', name: 'linkedin', widget: 'string' }
-
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'date', format: "DD.MM.YYYY" }
+      - { label: 'Featured Image', name: 'featuredimage', widget: image }
+      - { label: 'Text', name: 'text', widget: 'text' }
+  
   - name: 'pages'
     label: 'Pages'
     files:
+      - file: 'src/pages/about/index.md'
+        label: 'About'
+        name: 'about'
+        fields:
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'about-page',
+            }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Ingress', name: 'ingress', widget: 'text' }
+          - { label: Image, name: image, widget: image }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+      - file: 'src/pages/contact/index.md'
+        label: 'Contact'
+        name: 'contact'
+        fields:
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'contact-page',
+            }
+          - { label: 'Header title', name: 'headertitle', widget: 'string' }
+          - { label: 'Header byline', name: 'headerbyline', widget: 'string' }
+          - { label: 'Header image', name: 'headerimage', widget: image }
+          - { label: 'Form title', name: 'formtitle', widget: 'string' }
+          - { label: 'Employee title', name: 'employeetitle', widget: 'string' }
+          - { label: 'Address or Place', name: 'mapiframe', widget: 'string' }
       - file: 'src/pages/index.md'
         label: 'Landing Page'
         name: 'index'
@@ -328,36 +353,6 @@ collections:
                   },
                 ],
             }
-      - file: 'src/pages/about/index.md'
-        label: 'About'
-        name: 'about'
-        fields:
-          - {
-              label: 'Template Key',
-              name: 'templateKey',
-              widget: 'hidden',
-              default: 'about-page',
-            }
-          - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Ingress', name: 'ingress', widget: 'text' }
-          - { label: Image, name: image, widget: image }
-          - { label: 'Body', name: 'body', widget: 'markdown' }
-      - file: 'src/pages/contact/index.md'
-        label: 'Contact'
-        name: 'contact'
-        fields:
-          - {
-              label: 'Template Key',
-              name: 'templateKey',
-              widget: 'hidden',
-              default: 'contact-page',
-            }
-          - { label: 'Header title', name: 'headertitle', widget: 'string' }
-          - { label: 'Header byline', name: 'headerbyline', widget: 'string' }
-          - { label: 'Header image', name: 'headerimage', widget: image }
-          - { label: 'Form title', name: 'formtitle', widget: 'string' }
-          - { label: 'Employee title', name: 'employeetitle', widget: 'string' }
-          - { label: 'Address or Place', name: 'mapiframe', widget: 'string' }
       - file: 'src/pages/products/index.md'
         label: 'Products Page'
         name: 'productpage'
@@ -372,6 +367,20 @@ collections:
           - { label: 'Header byline', name: 'headerbyline', widget: 'string' }
           - { label: 'Header image', name: 'headerimage', widget: image }
           - { label: 'Products Quote', name: 'productsquote', widget: 'string' }
+      - file: 'src/pages/projects/index.md'
+        label: 'Projects Page'
+        name: 'projects'
+        fields:
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'projects',
+            }
+          - { label: 'Header title', name: 'headertitle', widget: 'string' }
+          - { label: 'Header byline', name: 'headerbyline', widget: 'string' }
+          - { label: 'Header image', name: 'headerimage', widget: image }
+          - { label: 'Projects Quote', name: 'projectsquote', widget: 'string' }
       - file: 'src/pages/solutions-page/index.md'
         label: 'Solutions Page'
         name: 'solutionspage'

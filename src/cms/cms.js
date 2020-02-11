@@ -8,7 +8,7 @@ import IndexPagePreview from './preview-templates/IndexPagePreview';
 import ProductPreview from './preview-templates/ProductPreview';
 import ProductCategoryPreview from './preview-templates/ProductCategoryPreview';
 import EmployeePreview from './preview-templates/EmployeePreview';
-import ProjectPreview from './preview-templates/ProjectPreview';
+import ProjectPreview from './preview-templates/ProjectsPreview';
 import SolutionPreview from './preview-templates/SolutionPreview';
 import ContactPagePreview from './preview-templates/ContactPagePreview';
 import ProductsCategoryPreview from './preview-templates/ProductsCategoryPreview';
@@ -16,6 +16,7 @@ import TestCentrePageTemplate from './preview-templates/TestCentrePagePreview';
 import TestCentrePostTemplate from './preview-templates/TestCentrePostPreview';
 import SolutionsCategoryPreview from './preview-templates/SolutionsCategoryPreview';
 import SolutionCategoryPreview from './preview-templates/SolutionCategoryPreview';
+import ProjectsPreview from './preview-templates/Projects';
 
 import controlComponent from './RelationControl';
 
@@ -39,6 +40,7 @@ CMS.registerPreviewTemplate('testcentre', TestCentrePageTemplate);
 CMS.registerPreviewTemplate('testcentreentry', TestCentrePostTemplate);
 CMS.registerPreviewTemplate('solutionspage', SolutionsCategoryPreview);
 CMS.registerPreviewTemplate('solutioncategory', SolutionCategoryPreview);
+CMS.registerPreviewTemplate('projects', ProjectsPreview);
 
 CMS.registerPreviewStyle('./../components/all.sass');
 
