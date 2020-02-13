@@ -2,16 +2,18 @@
 templateKey: about-page
 title: Reliable – Innovative – Responsible
 ingress: >-
-  Fjell Technology Group was established in 2002 and is based on more than 40
-  years of experience in high-end engineering and fabrication work from the
-  process industry on and offshore. Today, FTG operates in modern premises at
-  Thormøhlens Gate 49A at Marineholmen in Bergen, as well as installation and
-  service workshop at Straume in Fjell Municipality.
-image: /img/1558427420.banner3.jpg
+  Fjell Technology Group is one of the leading suppliers of technology towards
+  processing equipment for residual raw materials. Deploying such technology for
+  making use of all parts of the fish means that fish processing plants
+  significantly reduce their levels of waste. In addition to working with the
+  fish processing industry, Fjell Technology also delivers technology to recycle
+  sludge from aquaculture and municipal waste plants. The sludge is used as
+  additives in fertiliser products. 
+image: /img/img_3115.jpg
 ---
-### Background
+### About Us
 
-Fjell Technology Group has together with selected partners, developed a process for treatment of waste water, which amongst others can be used in treatment of waste water from fish farming. The process recover suspended and dissolved matter in the waste water, converting this to a valuable dry powder. The process use the best available technologies in each of the process steps and is extremely compact, reliable, automatic and energy efficient. Please check our references for more info. 
+Fjell were established in 2002 and are based on more than 40 years of experience in high-end engineering and fabrication work from the process industry on and offshore. Today, FTG operates in modern premises at Thormøhlens Gate 49A at Marineholmen in Bergen, as well as installation and service workshop at Straume in Fjell Municipality.Fjell Technology Group has together with selected partners, developed a process for treatment of waste water, which amongst others can be used in treatment of waste water from fish farming. The process recover suspended and dissolved matter in the waste water, converting this to a valuable dry powder. The process use the best available technologies in each of the process steps and is extremely compact, reliable, automatic and energy efficient. Please check our references for more info. 
 
 {"widget":"imageblock","text":"FTG has a strategy of having a high level of expertise in engineering and project management. The purpose is to be able to offer R&D for customers and partners, when customers do not have the necessary knowledge.  At the same time, FTG wants to be able to carry out project follow-up and deliveries, in order to offer comprehensive solutions. FTG therefore often join forces with a range of cooperative companies.","image":"/img/img_1726.jpg"}
 
