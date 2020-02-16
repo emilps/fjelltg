@@ -8,8 +8,9 @@ ingress: >-
   Thormøhlens Gate 49A at Marineholmen in Bergen, as well as installation and
   service workshop at Straume in Fjell Municipality.
 testcentreimages:
-  image1: /img/frs-plant-2.png
+  image1: /img/test-fasiliteter-strasume.jpg
   image2: /img/img_1726.jpg
   image3: /img/img_1743.jpg
 contacttitle: Want to use our test facilities?
 ---
+
