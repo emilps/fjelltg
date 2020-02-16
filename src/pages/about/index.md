@@ -29,17 +29,17 @@ Fjell were established in 2000 and are based on more than 40 years of experience
 
 {"widget":"imageblock","text":"FTG has a strategy of having a high level of expertise in engineering and project management. The purpose is to be able to offer R&D for customers and partners, when customers do not have the necessary knowledge.  At the same time, FTG wants to be able to carry out project follow-up and deliveries, in order to offer comprehensive solutions. FTG therefore often join forces with a range of cooperative companies.","image":"/img/oil-gas_1920.jpg"}
 
-{"widget":"imageblock","text":"Fjell Technology Group has its main office in Fjell outside Bergen. There, the company also has a workshop for assembly and small scale production.","image":"/img/smålonane.jpg"}
+{"widget":"imageblock","text":"Fjell Technology Group has its main office in Fjell outside Bergen. There, the company also has a workshop for assembly and small scale production. ","image":"/img/smålonane.jpg"}
 
 ## Facilities
 
-Fjell Technology Group has its main office in Fjell outside Bergen. There, the company also has a workshop for assembly and small scale production.FTG operates in modern premises at Thormøhlens Gate 49A at Marineholmen in Bergen, as well as installation and service workshop at Straume in Fjell Municipality.
+Fjell Technology Group has its main office in Fjell outside Bergen. There, the company also has a workshop for assembly and small scale production. FTG operates in modern premises at Thormøhlens Gate 49A at Marineholmen in Bergen, as well as installation and service workshop at Straume in Fjell Municipality.
 
 The company’s R&D office is located in Bergen City Centre in the R&D cluster Marineholmen, containing Bergen Technology Transfer (BTO), Nyskapningsparken, DNV, GC Rieber and several other companies highly focused on developing next generation technology.
 
 Our collaborational workshop APC Presmet is located in Poland.
 
-{"widget":"imageblock","text":"FTG has a strategy of having a high level of expertise in engineering and project management. The purpose is to be able to offer R&D for customers and partners, when customers do not have the necessary knowledge.  At the same time, FTG wants to be able to carry out project follow-up and deliveries, in order to offer comprehensive solutions. FTG therefore often join forces with a range of cooperative companies.","image":"/img/p30000-051-first-floor.jpg"}
+{"widget":"imageblock","text":"FTG has a strategy of having a high level of expertise in engineering and project management. The purpose is to be able to offer R&D for customers and partners, when customers do not have the necessary knowledge.  At the same time, FTG wants to be able to carry out project follow-up and deliveries, in order to offer comprehensive solutions. FTG therefore often join forces with a range of cooperative companies.","image":"/img/thormøhlensgate.jpg"}
 
 ## Strategy
 
