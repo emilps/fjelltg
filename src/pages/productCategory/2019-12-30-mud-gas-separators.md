@@ -1,7 +1,8 @@
 ---
 templateKey: productcategory
-title: Mud & Gas Separators
-subtitle: Our base products are used in all our tailored solutions
-featuredimage: /img/blog-index.jpg
-text: Our base products are used in absolutely all our tailored solutions
+title: Cooker
+subtitle: Cooker and pre-heater
+featuredimage: /img/koker.jpg
+text: "Fjell designs several versions:\r\n\nSinglestage screw cooker\r\n\nDouble stage screw cooker\r\n\n\r\n\nTypically first stage uses waste heat and second stage low pressure steam. \r\n\n\r\n\nThe two stage solutions give better process control and increase the oil yield from marine and animal raw material."
 ---
+
