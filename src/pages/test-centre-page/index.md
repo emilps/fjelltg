@@ -9,8 +9,8 @@ ingress: >-
   service workshop at Straume in Fjell Municipality.
 testcentreimages:
   image1: /img/test-fasiliteter-strasume.jpg
-  image2: /img/img_1726.jpg
-  image3: /img/img_1743.jpg
+  image2: /img/test-friksjonstørke.jpg
+  image3: /img/test-2.jpg
 contacttitle: Want to use our test facilities?
 ---
 
