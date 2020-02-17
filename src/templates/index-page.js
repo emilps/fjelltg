@@ -14,9 +14,7 @@ export const IndexPageTemplate = ({ title, middleblock, partners }) => (
     <section className="section is-medium">
       <div className="container">
         <div className="content">
-          <p className="has-text-centered title">
-            Your partner for mass and heat transfer technology
-          </p>
+          <p className="has-text-centered title">{title}</p>
         </div>
       </div>
     </section>
