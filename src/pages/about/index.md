@@ -49,6 +49,4 @@ The vision is operationalized through a program for continuous improvement. Befo
 
 FTGs R&D-department also contributes in great extent to research regarding CO2 capture and other projects within Greentech. 
 
-
-
 {"widget":"imageblock","text":"FTG has a strategy of having a high level of expertise in engineering and project management. The purpose is to be able to offer R&D for customers and partners, when customers do not have the necessary knowledge.  At the same time, FTG wants to be able to carry out project follow-up and deliveries, in order to offer comprehensive solutions. FTG therefore often join forces with a range of cooperative companies.","image":"/img/p15776-001-1.jpg"}
