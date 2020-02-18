@@ -5,6 +5,87 @@ import Employees from '../components/Employees';
 import PageJumbotron from '../components/PageJumbotron';
 import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
+import {
+  withScriptjs,
+  withGoogleMap,
+  GoogleMap,
+  Marker
+} from 'react-google-maps';
+
+import { MarkerWithLabel } from 'react-google-maps/lib/components/addons/MarkerWithLabel';
+
+//import { GoogleMap, LoadScript } from '@react-google-maps/api';
+/*
+const MapWithAMarker = () => {
+  return (
+    <LoadScript
+      id="script-loader"
+      googleMapsApiKey="AIzaSyBFNaN_q0RJq6oiK4oMMKTipbIuQLDBfHg"
+    >
+      <GoogleMap
+        id="example-map"
+        center={{
+          lat: -3.745,
+          lng: -38.523
+        }}
+        zoom={2}
+      ></GoogleMap>
+    </LoadScript>
+  );
+};
+*/
+
+const MapWithAMarker = withScriptjs(
+  withGoogleMap(props => (
+    <GoogleMap
+      defaultZoom={11}
+      defaultCenter={new google.maps.LatLng(60.372721, 5.310865)}
+      defaultOptions={{
+        mapTypeControl: true,
+        zoomControl: true,
+        fullscreenControl: true
+      }}
+      disableDefaultUI={false}
+    >
+      <MarkerWithLabel
+        position={{ lat: 60.3651409, lng: 5.1995426 }}
+        labelAnchor={new google.maps.Point(-15, 40)}
+        labelStyle={{
+          fontSize: '15px',
+          color: '#BF2113',
+          textShadow:
+            ' -1px -1px 0 #fff,  1px -1px 0 #fff, -1px 1px 0 #fff,1px 1px 0 #fff'
+        }}
+      >
+        <div
+          style={{
+            maxWidth: '120px'
+          }}
+        >
+          Idrettsvegen 103, 5353 Straume
+        </div>
+      </MarkerWithLabel>
+      <MarkerWithLabel
+        position={{ lat: 60.3820645, lng: 5.3252166 }}
+        labelAnchor={new google.maps.Point(-15, 40)}
+        labelStyle={{
+          fontSize: '15px',
+          color: '#BF2113',
+          textShadow:
+            ' -1px -1px 0 #fff,  1px -1px 0 #fff, -1px 1px 0 #fff,1px 1px 0 #fff'
+        }}
+      >
+        <div
+          style={{
+            maxWidth: '170px'
+          }}
+        >
+          Thormøhlens Gate 49A, N-5006 Bergen, Norway
+        </div>
+      </MarkerWithLabel>
+    </GoogleMap>
+  ))
+);
 
 function encode(data) {
   return Object.keys(data)
@@ -54,6 +135,7 @@ export class ContactPageTemplate extends React.Component {
           image={headerimage}
           description={headerbyline}
         />
+
         <section className="section">
           <div className="container">
             <div className="content">
@@ -128,6 +210,15 @@ export class ContactPageTemplate extends React.Component {
             </div>
           </div>
         </section>
+        <div className="map-container-new">
+          <MapWithAMarker
+            googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyBFNaN_q0RJq6oiK4oMMKTipbIuQLDBfHg&v=3.exp&libraries=geometry,drawing,places"
+            loadingElement={<div style={{ height: `100%` }} />}
+            containerElement={<div style={{ height: `400px` }} />}
+            mapElement={<div style={{ height: `100%` }} />}
+          />
+        </div>
+        {/* 
         <section className="map-container">
           <div
             dangerouslySetInnerHTML={{
@@ -141,6 +232,7 @@ export class ContactPageTemplate extends React.Component {
             }}
           />
         </section>
+        */}
         <section className="is-large">
           <div className="container">
             <h1 className="title has-text-centered management-title">

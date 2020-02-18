@@ -16,7 +16,11 @@ export const Employee = ({
       <div className="employeePicture">
         {picture ? (
           <div
-            className={`${index % 2 == 0 ? 'black-overlay' : 'blue-overlay'}`}
+            className={`${
+              index % 2 == 0
+                ? 'black-overlay-opacity-20'
+                : 'blue-overlay-opacity-20'
+            }`}
           >
             <PreviewCompatibleImage
               imageInfo={{

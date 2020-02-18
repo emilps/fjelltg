@@ -87,7 +87,7 @@ export default class ImageTextBlock extends React.Component {
   render() {
     const { text, image } = this.props;
     return (
-      <div className="columns image-text-block">
+      <div className="columns image-text-block about">
         <p className="column is-half image-text-block-text">{text}</p>
         <img
           className="column is-half remove-padding image-text-block-image"

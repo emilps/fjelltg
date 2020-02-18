@@ -68,7 +68,7 @@ export const HTMLContent = ({ content, className }) => {
 
 const ImageTextBlock = (text, image, reversed, clustered) =>
   `
-  <div class="columns image-text-block ${
+  <div class="columns image-text-block about ${
     reversed ? 'row-reversed' : ''
   } ${clustered}" >
     <p class="column is-half image-text-block-text">

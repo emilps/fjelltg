@@ -221,6 +221,9 @@ nav
 .margin-top-0
   margin-top: 0 !important
 
+.navbar-item img
+  max-height: 2.5rem !important
+
 .navbar-item .icon
   color: $primary
 // Override for use of svg's from https://simpleicons.org/
@@ -592,8 +595,16 @@ $navbar-item-color: white
 
 .black-overlay
   background-color: rgba(27,27,27,0.5)
+
 .blue-overlay
   background-color: rgba(77,126,168,0.5)
+
+.black-overlay-opacity-20
+  background-color: rgba(27,27,27,0.2)
+
+.blue-overlay-opacity-20
+  background-color: rgba(77,126,168,0.2)
+
 
 .submit-button-container
   display: flex
@@ -605,6 +616,10 @@ $navbar-item-color: white
   *
     width: 100%
     height: 400px
+
+.map-container-new
+  height: 450px
+  width: 100%
 
 .management-title
   margin-bottom: 3rem !important
@@ -799,6 +814,9 @@ $navbar-item-color: white
 .test-centre-post-image
   height: 350px
   max-height: 350px
+
+.input, .textarea
+  border-color: #4d7ea8
   
 
 
@@ -886,6 +904,8 @@ $navbar-item-color: white
     margin-left: -16px
     flex-direction: column
     max-height: none
+    &.about
+      margin-left: -2rem
   .image-text-block-text
     padding: 2rem
     margin-bottom: 0 !important
@@ -920,5 +940,7 @@ $navbar-item-color: white
   .related-product
     * 
       height: 170px !important
+  .about-section
+    padding: 2rem 2rem 0 2rem
   
   
