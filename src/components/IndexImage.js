@@ -47,7 +47,7 @@ const IndexImage = () => {
             {title}
           </div>
           <Link to={link} className="button learn-button has-text-weight-bold">
-            <div>Learn more</div>
+            <div className="has-text-weight-bold">See Solution</div>
           </Link>
         </div>
         <div className="index-image-tabs">
