@@ -26,7 +26,7 @@ export const ProductCategoryTemplate = ({
           image={featuredimage}
         />
         <div
-          className={'product-category-section'}
+          className={'product-category-section content'}
           dangerouslySetInnerHTML={{
             __html: converter.makeHtml(text)
           }}
