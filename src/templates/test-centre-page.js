@@ -71,7 +71,9 @@ export const TestCentrePageTemplate = ({
           </div>
           <div>
             <div className="has-text-centered test-centre-contact-container">
-              <p className="title">{contacttitle}</p>
+              <p className="title" style={{ fontSize: '46px' }}>
+                {contacttitle}
+              </p>
               <Link
                 to={'/contact'}
                 className="button submit-button is-link has-text-weight-bold is-uppercase"
