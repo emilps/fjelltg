@@ -106,7 +106,7 @@ export const aboutPageQuery = graphql`
         ingress
         image {
           childImageSharp {
-            fluid(maxWidth: 1080, quality: 64) {
+            fluid(maxWidth: 1480, quality: 100) {
               ...GatsbyImageSharpFluid
             }
           }
