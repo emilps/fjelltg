@@ -54,7 +54,7 @@ class TestCentreRoll extends React.Component {
                       if (node) {
                         node.style.setProperty(
                           'padding',
-                          '4rem 2rem 2rem 2rem',
+                          '4rem 4rem',
                           'important'
                         );
                       }
