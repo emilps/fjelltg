@@ -47,7 +47,9 @@ export const Employee = ({
         <p className="has-text-centered has-text-weight-light">{position}</p>
         <p className="has-text-centered has-text-weight-light">{email}</p>
         <p className="has-text-centered has-text-weight-light">{phoneNumber}</p>
-        <p className="has-text-centered has-text-weight-light">{linkedIn}</p>
+        <a href={linkedIn} className="has-text-centered has-text-weight-light">
+          {linkedIn}
+        </a>
       </div>
     </div>
   );
