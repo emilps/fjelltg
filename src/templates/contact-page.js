@@ -136,7 +136,7 @@ export class ContactPageTemplate extends React.Component {
           description={headerbyline}
         />
 
-        <section className="section">
+        <section className="section" style={{ padding: '3rem 208px' }}>
           <div className="container">
             <div className="content">
               <h1 className="has-text-centered form-title is-size-4">

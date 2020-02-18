@@ -65,12 +65,6 @@ const Navbar = class extends React.Component {
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-end has-text-centered">
-              <Link
-                className="navbar-item is-light main-navbar-item"
-                to="/projects"
-              >
-                Reference Projects
-              </Link>
               <div className="navbar-item has-dropdown is-hoverable">
                 <Link
                   className="navbar-link is-arrowless main-navbar-item"
@@ -89,6 +83,12 @@ const Navbar = class extends React.Component {
                 </Link>
                 <NavbarSolutionRoll />
               </div>
+              <Link
+                className="navbar-item is-light main-navbar-item"
+                to="/projects"
+              >
+                Reference Projects
+              </Link>
               <Link className="navbar-item main-navbar-item" to="/about">
                 About
               </Link>

@@ -439,7 +439,7 @@ $navbar-item-color: white
   padding: 10px 0
 
 .product-roll-container
-  padding: 0 5rem 5rem
+  padding: 0 calc(13rem - 30px) 5rem
   display: flex
   flex-wrap: wrap
   justify-content: space-between
@@ -469,6 +469,13 @@ $navbar-item-color: white
 
 .product-image > *
   max-height: 330px
+
+
+.product-category-section
+  padding: 7rem 13rem 7rem 13rem
+
+.products-category-title
+  padding: 0 13rem
 
 // Solution
 
@@ -588,10 +595,12 @@ $navbar-item-color: white
   display: flex
   justify-content: center
   text-align: center
-  width: 150px
+  width: 200px
+  height: 55px
   color: #fff !important
   background-color: $primary !important
   border-radius: 3px
+  font-size: 22px
 
 .black-overlay
   background-color: rgba(27,27,27,0.5)
@@ -716,7 +725,7 @@ $navbar-item-color: white
 
 .image-text-block
   width: 100vw
-  margin-left: -8rem
+  margin-left: -13rem
   max-height: 350px
   background-color: #EDF2F6
   margin-top: 5rem
@@ -748,7 +757,10 @@ $navbar-item-color: white
   margin-top: 0
 
 .about-section
-  padding: 8rem 8rem 0 8rem
+  padding: 8rem 13rem 0 13rem
+
+.about-title-section
+  padding: 12rem 13rem 8rem 13rem
 
 .navbar-dropdown 
   left: calc( -50% - 1rem )
@@ -942,5 +954,11 @@ $navbar-item-color: white
       height: 170px !important
   .about-section
     padding: 2rem 2rem 0 2rem
+  .about-title-section
+    padding: 2rem
+  .product-category-section
+    padding: 2rem 2rem 2rem 2rem
+  .products-category-title
+    padding: 0 2rem
   
   

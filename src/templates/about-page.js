@@ -21,7 +21,7 @@ export const AboutPageTemplate = ({
       {helmet || ''}
       <div className="">
         <div>
-          <div className="project-title-section">
+          <div className="about-title-section">
             <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
               {title}
             </h1>
@@ -106,7 +106,7 @@ export const aboutPageQuery = graphql`
         ingress
         image {
           childImageSharp {
-            fluid(maxWidth: 1080, quality: 64) {
+            fluid(maxWidth: 1480, quality: 100) {
               ...GatsbyImageSharpFluid
             }
           }

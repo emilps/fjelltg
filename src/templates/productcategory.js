@@ -6,12 +6,15 @@ import Layout from '../components/Layout';
 import ProductRoll from '../components/ProductRoll';
 import PageJumbotron from '../components/PageJumbotron';
 import SimpleCompanyQuote from '../components/SimpleCompanyQuote';
+import showdown from 'showdown';
+const converter = new showdown.Converter();
 
 export const ProductCategoryTemplate = ({
   subtitle,
   title,
   helmet,
-  featuredimage
+  featuredimage,
+  text
 }) => {
   return (
     <section>
@@ -22,10 +25,13 @@ export const ProductCategoryTemplate = ({
           description={subtitle}
           image={featuredimage}
         />
-        <SimpleCompanyQuote
-          text={'Our base products are used in all our tailored solutions'}
-          isMainQuote={false}
+        <div
+          className={'product-category-section content'}
+          dangerouslySetInnerHTML={{
+            __html: converter.makeHtml(text)
+          }}
         />
+        <p className="title products-category-title">Products</p>
         <ProductRoll filterByCategory={title} />
       </div>
     </section>
@@ -54,6 +60,7 @@ const ProductCategory = ({ data }) => {
         }
         title={productCategory.frontmatter.title}
         featuredimage={productCategory.frontmatter.featuredimage}
+        text={productCategory.frontmatter.text}
       />
     </Layout>
   );
@@ -83,6 +90,7 @@ export const pageQuery = graphql`
             }
           }
         }
+        text
       }
     }
   }
