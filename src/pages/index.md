@@ -1,5 +1,12 @@
 ---
 templateKey: index-page
+indexblock:
+  image1: /img/frs-plant-2.png
+  image2: /img/protein-recycling_1920.jpg
+  link1: fjelltg.netlify.com/solutions/2019-12-12-testsolution/
+  link2: fjelltg.netlify.com/solutions/2019-12-17-protein-recycling/
+  title1: Waste water
+  title2: Protein Recycling
 title: Your partner for mass & heat transfer technology
 middleblock:
   title: FJELL TECHNOLOGY TEST CENTRE
@@ -27,20 +34,5 @@ partners:
       link: 'https://cmr.no'
     - image: /img/sintef.png
       link: 'https://cmr.no'
-main:
-  description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
-  heading: Great coffee with no compromises
-  image1:
-    alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
-  image2:
-    alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
-  image3:
-    alt: Coffee beans
-    image: /img/products-grid1.jpg
 ---
+
