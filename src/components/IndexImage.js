@@ -68,7 +68,7 @@ const IndexImage = indexblock => {
       <div className="index-image-text-field">
         <div className="index-image-title-container">
           <div
-            className={`is-size-2 has-text-weight-bold index-image-title is-size-4-mobile has-text-centered ${
+            className={`is-size-2 has-text-weight-bold index-image-title is-size-5-mobile has-text-centered ${
               chosenTab == 1 ? 'water-active' : 'recycle-active'
             }`}
           >
