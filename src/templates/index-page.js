@@ -8,9 +8,14 @@ import BlogRoll from '../components/BlogRoll';
 import IndexImage from '../components/IndexImage';
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 
-export const IndexPageTemplate = ({ title, middleblock, partners }) => (
+export const IndexPageTemplate = ({
+  title,
+  middleblock,
+  partners,
+  indexblock
+}) => (
   <div>
-    <IndexImage />
+    <IndexImage indexblock={indexblock} />
     <section className="section is-medium">
       <div className="container">
         <div className="content">
@@ -77,7 +82,8 @@ IndexPageTemplate.propTypes = {
     partnerimage: PropTypes.array,
     heading: PropTypes.string,
     description: PropTypes.string
-  })
+  }),
+  indexblock: PropTypes.object
 };
 
 const IndexPage = ({ data }) => {
@@ -86,6 +92,7 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <IndexPageTemplate
+        indexblock={frontmatter.indexblock}
         image={frontmatter.image}
         title={frontmatter.title}
         heading={frontmatter.heading}
@@ -112,6 +119,26 @@ export const pageQuery = graphql`
   query IndexPageTemplate {
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
+        indexblock {
+          title1
+          image1 {
+            childImageSharp {
+              fluid(maxWidth: 1080, quality: 80) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+          link1
+          title2
+          image2 {
+            childImageSharp {
+              fluid(maxWidth: 1080, quality: 80) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+          link2
+        }
         title
         middleblock {
           title
