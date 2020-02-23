@@ -3,8 +3,8 @@ templateKey: index-page
 indexblock:
   image1: /img/frs-plant-2.png
   image2: /img/protein-recycling_1920.jpg
-  link1: fjelltg.netlify.com/solutions/2019-12-12-testsolution/
-  link2: fjelltg.netlify.com/solutions/2019-12-17-protein-recycling/
+  link1: 'https://fjelltg.netlify.com/solutions/2019-12-12-testsolution/'
+  link2: 'https://fjelltg.netlify.com/solutions/2019-12-17-protein-recycling/'
   title1: Waste water
   title2: Protein Recycling
 title: Your partner for mass & heat transfer technology
