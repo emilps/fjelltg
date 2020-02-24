@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import { Link } from 'gatsby';
+import Img from 'gatsby-image';
 
-const IndexImage = () => {
+const IndexImage = indexblock => {
   const [chosenTab, setChosenTab] = useState(1);
-  const [title, setTitle] = useState('Waste Water');
-  const [link, setLink] = useState('/project/2019-12-08-new-project/');
+  const [title, setTitle] = useState(indexblock.indexblock.title1);
+  const [link, setLink] = useState(indexblock.indexblock.link1);
 
   React.useEffect(() => {
     const next = (chosenTab + 1) % 2;
@@ -15,40 +16,72 @@ const IndexImage = () => {
   const handleClick = index => {
     setChosenTab(index);
     if (index === 1) {
-      setTitle('Waste Water');
-      setLink('/project/2019-12-08-new-project/');
+      setTitle(indexblock.indexblock.title1);
+      setLink(indexblock.indexblock.link1);
     } else {
-      setTitle('Protein Recycling');
-      setLink('/project/2019-12-09-fourth-project/');
+      setTitle(indexblock.indexblock.title2);
+      setLink(indexblock.indexblock.link2);
     }
   };
 
   return (
     <div className="index-image-container margin-top-0">
-      <img
-        src="/img/FRS-plant-2.png"
-        alt="Waste water"
-        className="index-full-width-image margin-top-0"
-      />
-      <img
-        src="/img/protein-recycling_1920.jpg"
-        alt="Protein Recycling"
-        className={`index-full-width-image image-overlay margin-top-0 ${
-          chosenTab == 1 ? 'recycle-active' : 'water-active'
-        }`}
-      />
+      {typeof indexblock.indexblock.image1 === 'string' ? (
+        <img
+          src={indexblock.indexblock.image1}
+          className="index-full-width-image margin-top-0"
+          style={{ maxWidth: '100%' }}
+        />
+      ) : (
+        <div>
+          {indexblock.indexblock.image1 ? (
+            <Img
+              fluid={indexblock.indexblock.image1.childImageSharp.fluid}
+              alt={indexblock.indexblock.title1}
+              className="index-full-width-image margin-top-0"
+            />
+          ) : null}
+        </div>
+      )}
+      {typeof indexblock.indexblock.image2 === 'string' ? (
+        <img
+          src={indexblock.indexblock.image1}
+          className={`index-full-width-image image-overlay margin-top-0 ${
+            chosenTab == 1 ? 'recycle-active' : 'water-active'
+          }`}
+          style={{ maxWidth: '100%' }}
+        />
+      ) : (
+        <div className="image-overlay index-full-width-image margin-top-0">
+          {indexblock.indexblock.image2 ? (
+            <Img
+              fluid={indexblock.indexblock.image2.childImageSharp.fluid}
+              alt={indexblock.indexblock.title2}
+              className={`index-full-width-image image-overlay margin-top-0 ${
+                chosenTab == 1 ? 'recycle-active' : 'water-active'
+              }`}
+            />
+          ) : null}
+        </div>
+      )}
+
       <div className="index-image-text-field">
         <div className="index-image-title-container">
           <div
-            className={`is-size-2 has-text-weight-bold index-image-title is-size-4-mobile has-text-centered ${
+            className={`is-size-2 has-text-weight-bold index-image-title is-size-5-mobile has-text-centered ${
               chosenTab == 1 ? 'water-active' : 'recycle-active'
             }`}
           >
             {title}
           </div>
-          <Link to={link} className="button learn-button has-text-weight-bold">
+          <a
+            href={link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="button learn-button has-text-weight-bold"
+          >
             <div className="has-text-weight-bold">See Solution</div>
-          </Link>
+          </a>
         </div>
         <div className="index-image-tabs">
           <div
@@ -58,7 +91,7 @@ const IndexImage = () => {
           `}
             onClick={() => handleClick(1)}
           >
-            Waste Water
+            {indexblock.indexblock.title1}
           </div>
 
           <div
@@ -68,7 +101,7 @@ const IndexImage = () => {
           `}
             onClick={() => handleClick(0)}
           >
-            Protein Recycling
+            {indexblock.indexblock.title2}
           </div>
         </div>
       </div>

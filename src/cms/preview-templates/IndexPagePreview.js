@@ -15,6 +15,7 @@ const IndexPagePreview = ({ entry }) => {
         description={data.description}
         partners={data.partners || { partnerimage: [] }}
         middleblock={data.middleblock || {}}
+        indexblock={data.indexblock || {}}
       />
     );
   } else {

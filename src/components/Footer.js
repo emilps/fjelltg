@@ -9,7 +9,7 @@ const Footer = class extends React.Component {
       <footer className="footer has-text-white-ter">
         <div className="content has-text-white-ter">
           <div className="container has-text-white-ter">
-            <div className="columns">
+            <div className="columns blog-columns">
               <div className="column is-4 has-text-centered-mobile">
                 <img
                   src={logo}

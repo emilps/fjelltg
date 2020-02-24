@@ -136,10 +136,10 @@ nav
 
 .index-image-text-field
   width: 100vw
-  height: 150px
+  height: 200px
   color: white
   position: absolute
-  bottom: 6px
+  bottom: 0px
   display: flex
   flex-direction: column
   justify-content: space-between
@@ -169,13 +169,23 @@ nav
   flex-basis: 33.33%
 
 .index-image-tab
-  background-color: rgba(45,45,45,0.7)
+  background-color: rgba(27,27,27,1)
   flex-basis: 50%
+  height: 80px
+  align-items: center
   @include transition(background-color .5s ease)
+  text-decoration: underline
+  display: flex
+  font-size: 20px
+  font-weight: bold
   &.is-active
-    background-color: rgba(45,45,45,1)
+    background-color: rgba(58,58,58,1)
+    text-decoration: none
+    color: rgb(130,130,130)
   &:hover
     cursor: pointer
+    text-decoration: underline
+    color: white
 
 @keyframes image-fade-out
   0%
@@ -196,10 +206,12 @@ nav
     opacity: 1
 
 .index-image-tab-left
-  padding: 12px 0 0 20%
+  padding: 12px 0 12px 20%
 
 .index-image-tab-right
-  padding: 12px 12px 12px 24px
+  padding: 12px 20% 12px 24px
+  justify-content: flex-end
+  display: flex
 
 .btn
   display: inline-block
@@ -866,8 +878,18 @@ $navbar-item-color: white
     margin: 0
   .index-image-title-container
     justify-content: space-around
+  .index-image-text-field
+    height: 160px
   .index-image-tab-left
-    padding: 12px 12px 12px 24px
+    padding: 12px 
+    text-align: center
+  .index-image-tab-right
+    padding: 12px
+    text-align: center
+  .index-image-tab
+    font-size: 16px
+    justify-content: center
+    height: 60px
   .index-full-width-image
     height: 350px
   .jumbotron-centered-elements
@@ -910,6 +932,7 @@ $navbar-item-color: white
           background-color: rgba(77,126,168,0.5)
   .blog-container
     border-bottom: 1px solid $third
+    border-right: none
   .navbar-dropdown
     display: none
   .content .image-text-block
@@ -960,5 +983,8 @@ $navbar-item-color: white
     padding: 2rem 2rem 2rem 2rem
   .products-category-title
     padding: 0 2rem
+  .blog-columns
+    margin-right: 0
+    margin-left: 0
   
   

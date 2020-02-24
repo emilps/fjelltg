@@ -19,7 +19,7 @@ class BlogRoll extends React.Component {
     const { data } = this.props;
     const { edges: posts } = data.allMarkdownRemark;
     return (
-      <div className="columns is-centered">
+      <div className="columns is-centered blog-columns">
         {posts &&
           posts
             .sort(function(a, b) {
