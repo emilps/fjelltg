@@ -1,6 +1,6 @@
 ---
 templateKey: product
-title: Dryer Disc Turbo 2.0
+title: FTG Turbo Disc Dryer
 subtitle: Accommodate a robust and energy efficient drying of Biomasses
 headerimage: /img/td440.jpg
 description1: >-
