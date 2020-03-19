@@ -22,7 +22,7 @@ infobox1: >-
   * Claws act as reinforcement beams in the radial direction, this increase the
   lateral bending strength of the discs, which reduces the risk of leakages in
   the foot welds between discs
-productbrochure: /img/info-om-helfo-utland.pdf
+productbrochure: /img/fjell-td-dryer-vs-rotadisc.pdf
 smallimage: /img/fjelltg_main.jpg
 fullwidthimage: /img/img_8476.jpg
 description2: "## Legacy\n\nIn the year 2000 Fjell Technology Group AS decided to develop a robust and energy efficient disc dryer specially designed for modern manufacturing methods like robotic welding. We had a competent staff with senior personnel having experience from design, manufacturing and installation of about 2000 Stord dryers since the introduction of the technology, wich took place in the late 50ies. \n\n\L\LWe added some young innovative engineers skilled in state of the art engineering design and analysis techniques. The result was the Fjell Turbo Disc Dryer with a unique patented disc design, based on efficient manufacturing techniques."
