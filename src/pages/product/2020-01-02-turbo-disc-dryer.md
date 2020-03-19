@@ -23,8 +23,8 @@ infobox1: >-
   lateral bending strength of the discs, which reduces the risk of leakages in
   the foot welds between discs
 productbrochure: /img/info-om-helfo-utland.pdf
-smallimage: /img/jumbotron.jpg
-fullwidthimage: /img/products-grid2.jpg
+smallimage: /img/fjelltg_main.jpg
+fullwidthimage: /img/img_8476.jpg
 description2: "## Legacy\n\nIn the year 2000 Fjell Technology Group AS decided to develop a robust and energy efficient disc dryer specially designed for modern manufacturing methods like robotic welding. We had a competent staff with senior personnel having experience from design, manufacturing and installation of about 2000 Stord dryers since the introduction of the technology, wich took place in the late 50ies. \n\n\L\LWe added some young innovative engineers skilled in state of the art engineering design and analysis techniques. The result was the Fjell Turbo Disc Dryer with a unique patented disc design, based on efficient manufacturing techniques."
 infobox2: "## Application\n\n* Sludge in Waste Water \n* Treatment Plants\L Fishmeal in both land based and ship installed plants\L \n* Ingredients in the food industry\L\n* Spent grains in distilleries and breweries\L \n* Animal and poultry by-products\L Industrial bio-sludge and mineral sludge\L \n* Replacement rotors and units for old disc dryers"
 productcategory: Fjell Turbo Disc Dryer
