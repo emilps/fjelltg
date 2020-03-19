@@ -1,13 +1,13 @@
 ---
 templateKey: index-page
 indexblock:
-  image1: /img/frs-plant-2.png
-  image2: /img/protein-recycling_1920.jpg
+  image1: /img/p15776-001-1.jpg
+  image2: /img/tørker-prima5.jpg
   link1: 'https://fjelltg.netlify.com/solutions/2019-12-12-testsolution/'
   link2: 'https://fjelltg.netlify.com/solutions/2019-12-17-protein-recycling/'
   title1: Waste water
   title2: Protein Recycling
-title: Your partner for mass & heat transfer technology
+title: Your partner for process technology
 middleblock:
   title: FJELL TECHNOLOGY TEST CENTRE
 partners:
@@ -22,17 +22,7 @@ partners:
       link: 'https://cmr.no'
     - image: /img/sintef.png
       link: 'https://cmr.no'
-    - image: /img/cmr.png
-      link: 'https://cmr.no'
-    - image: /img/equinor.png
-      link: 'https://cmr.no'
-    - image: /img/ntnu.png
-      link: 'https://cmr.no'
-    - image: /img/sintef.png
-      link: 'https://cmr.no'
-    - image: /img/ntnu.png
-      link: 'https://cmr.no'
-    - image: /img/sintef.png
-      link: 'https://cmr.no'
+    - image: /img/thermtech_logo_col.jpg
+      link: 'https://www.thermtech.no/'
 ---
 
