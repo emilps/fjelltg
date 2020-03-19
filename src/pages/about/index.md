@@ -25,7 +25,7 @@ Through the values ​​Reliable – Innovative – Responsible, the pursuit of
 
 Fjell were established in 2000 and are based on more than 40 years of experience in high-end engineering and fabrication work from the process industry on and offshore. In 2012 FTG conducted a strategic decision towards becoming a leading supplier for Greentech. Workshop operations and some of the engineering capacity were demerged into their own companies and sold. FTG retained key personnel, patents, all the knowhow and production facilities. 
 
-{"widget":"imageblock","text":"FTG has a strategy of having a high level of expertise in engineering and project management. The purpose is to be able to offer R&D for customers and partners, when customers do not have the necessary knowledge.  At the same time, FTG wants to be able to carry out project follow-up and deliveries, in order to offer comprehensive solutions. FTG therefore often join forces with a range of cooperative companies.","image":"/img/oil-gas_1920.jpg"}
+{"widget":"imageblock","text":"FTG delivers state of the art equipment to for the best possible utilization of raw material, whether it is fish waste, different types of biorest or municipal sludge.","image":"/img/fjelltg_main.jpg"}
 
 {"widget":"imageblock","text":"Fjell Technology Group has its main office in Fjell outside Bergen. There, the company also has a workshop for assembly and small scale production. ","image":"/img/smålonane.jpg"}
 
@@ -37,7 +37,7 @@ Main office is still located Fjell Municipality outside Bergen. There, the compa
 
  Our collaborational workshop APC Presmet is located in Poland.
 
-{"widget":"imageblock","text":"FTG has a strategy of having a high level of expertise in engineering and project management. The purpose is to be able to offer R&D for customers and partners, when customers do not have the necessary knowledge.  At the same time, FTG wants to be able to carry out project follow-up and deliveries, in order to offer comprehensive solutions. FTG therefore often join forces with a range of cooperative companies.","image":"/img/thormøhlensgate.jpg"}
+{"widget":"imageblock","text":"FTG premises located in Marineholmen in Bergen - in the centre of marin cluster of Norway","image":"/img/thormøhlensgate.jpg"}
 
 ## Strategy
 
@@ -49,4 +49,4 @@ The vision is operationalized through a program for continuous improvement. Befo
 
 FTGs R&D-department also contributes in great extent to research regarding CO2 capture and other projects within Greentech. 
 
-{"widget":"imageblock","text":"FTG has a strategy of having a high level of expertise in engineering and project management. The purpose is to be able to offer R&D for customers and partners, when customers do not have the necessary knowledge.  At the same time, FTG wants to be able to carry out project follow-up and deliveries, in order to offer comprehensive solutions. FTG therefore often join forces with a range of cooperative companies.","image":"/img/p15776-001-1.jpg"}
+{"widget":"imageblock","text":"FTG Test Centre has the necessary equipment to carry out testing and analysis for residual material from most product types and bio residues","image":"/img/test-fasiliteter-strasume.jpg"}
