@@ -1,7 +1,12 @@
 ---
 templateKey: projects
 headertitle: Reference Projects
-headerbyline: Take a look at some of our previous installments! Other product-specific references can be provided on request.
-headerimage: /img/p30000-051-2.jpg
-projectsquote: FjellTG has over xx years of experience with blabla something nice to introduce the reference projects
+headerbyline: >-
+  Take a look at some of our previous installments! Other product-specific
+  references can be provided on request.
+headerimage: /img/img_3115.jpg
+projectsquote: >-
+  40 years experience as supplier of process technology for sludge treatment and
+  resource recycling.
 ---
+
