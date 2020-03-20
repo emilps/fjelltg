@@ -1,12 +1,19 @@
 ---
 templateKey: blog-post
-title: A beginners’ guide to brewing with Chemex
+title: Covid19 - gir utfordringer og læring
 date: 04.01.2017
-featuredimage: /img/frs-plant-2.png
+featuredimage: /img/covid19.jpg
 description: >-
-  Brewing with a Chemex probably seems like a complicated, time-consuming
-  ordeal, but once you get used to the process, it becomes a soothing ritual
-  that's worth the effort every time.
+  Utfordringer = Læring. Fjell blir som alle andre sterkt berørt av de
+  begrensninger som er innført for å begrense spredningen av Covid-19. I Fjell
+  er 90% av oss ansatte i karantene eller hjemmekontor - og vanlig interaksjon
+  internt og mot kunder og samarbeidspartnere er vi avskåret fra. 
+
+  Bruk av videomøter, deling av dokumenter og interaksjon via web baserte
+  plattformer er løsningen. Bratt læringskurve på noen og et stort smil på de
+  fleste, mens utfordringene overkommes. Hvordan skal vi komme tilbake til en
+  normal hverdag når karantenetiden er over? #FRS #sustainablefuture #some #FTG
+  #fjelltechnology #fishsludge #teams #teamspirit
 link: 'https://www.linkedin.com/'
 socialmedia: LinkedIn
 ---
