@@ -1,7 +1,7 @@
 ---
 templateKey: product
 title: 'FTG Turbo Disc Dryer '
-subtitle: Accommodate a robust and energy efficient drying of Biomasses
+subtitle: The robust and energy efficient drying of Biomasses
 headerimage: /img/td440.jpg
 description1: >-
   ## Design
