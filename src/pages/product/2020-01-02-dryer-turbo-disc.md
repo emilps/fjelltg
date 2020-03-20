@@ -1,6 +1,6 @@
 ---
 templateKey: product
-title: FTG Turbo Disc Dryer
+title: 'FTG Turbo Disc Dryer '
 subtitle: Accommodate a robust and energy efficient drying of Biomasses
 headerimage: /img/td440.jpg
 description1: >-
@@ -33,20 +33,26 @@ infobox1: >-
   ## Advantages
 
 
-  * Forged claws can be welded with high precision in a flat position with the
-  use of a robotwelder 
+  Advantages between Fjell TD Dryer vs. other Rotadisc dryers:
 
-  * It can be performed both a visual and a penetrant test prior to assembly 
 
-  * Welds are not exposed to external environment in dryer. Thereby risk for
-  stress corrosion cracking is eliminated 
+  * Forged claws can be welded with high precision in flat position using
+  robots. 
 
-  * Welds do not seal between the pressurised and non-pressurised side. This
-  eliminates the risk of steam leakage
+  * Welds can be inspected with NDT before assembly. 
 
-  * Claws act as reinforcement beams in the radial direction, this increase the
-  lateral bending strength of the discs, which reduces the risk of leakages in
-  the foot welds between discs
+  * Welds are not exposed to the material to be dried, thereby risk for stress
+  corrosion cracking is eliminated. 
+
+  * Welds do not seal between pressurised and non-pressurised side. Thereby risk
+  for steam leakage is eliminated. 
+
+  * Claws act as reinforcement beams in radial direction, thereby increasing the
+  lateral bending strength of the discs, which reduces the risk for leakages in
+  foot welds between discs (big problem with Rotadisc). 
+
+  * Smooth disc surface secures efficient self-cleaning and maximum heat
+  transfer.
 
 
   The distinct difference between the TD dryer and most other disc dryers is
