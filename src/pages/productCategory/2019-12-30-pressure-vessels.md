@@ -6,19 +6,25 @@ subtitle: >-
   deliver fish meal plants for both land and marine use.
 featuredimage: /img/fiskemel-båt.png
 text: >-
+  FTG can design and deliver compact fish meal plants for both land and marine
+  use.
+
+
   Fish meal processing has traditionally consisted of the main steps:
 
 
-  Coagulation,
-   separation and evaporation/drying. The dominating process for half a century has been the Stord Fish Meal Process with the main steps:
-
-  Cooking in steam heated screw cooker,
+  Coagulation, separation and evaporation/drying. 
 
 
-  Pressing in twin screw press and oil separation in centrifuges,
+  The dominating process for half a century has been the Stord Fish Meal Process
+  with the main steps:
 
 
-  Evaporation of stick water in waste heat evaporator
+  * Cooking in steam heated screw cooker,
+
+  * Pressing in twin screw press and oil separation in centrifuges,
+
+  * Evaporation of stick water in waste heat evaporator
 
 
   Drying of press cake and concentrate in disc drier and milling and cooling of
