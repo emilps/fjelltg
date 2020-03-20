@@ -3,8 +3,6 @@ import PropTypes from 'prop-types';
 import { ProductTemplate } from '../../templates/product';
 
 const ProductPreview = ({ entry, widgetFor }) => {
-  const tags = entry.getIn(['data', 'tags']);
-
   return (
     <ProductTemplate
       title={entry.getIn(['data', 'title'])}
@@ -18,7 +16,6 @@ const ProductPreview = ({ entry, widgetFor }) => {
       description2={entry.getIn(['data', 'description2'])}
       infobox2={entry.getIn(['data', 'infobox2'])}
       productcategory={entry.getIn(['data', 'productcategory'])}
-      tags={tags && tags.toJS()}
     />
   );
 };

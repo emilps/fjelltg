@@ -22,7 +22,6 @@ export const ProductTemplate = ({
   infobox2,
   productcategory,
   productbrochure,
-  tags,
   helmet
 }) => {
   const PostContent = contentComponent || Content;
@@ -131,8 +130,7 @@ ProductTemplate.propTypes = {
   description2: PropTypes.string,
   infobox2: PropTypes.string,
   productcategory: PropTypes.string,
-  productbrochure: PropTypes.object,
-  tags: PropTypes.oneOfType([PropTypes.array, PropTypes.object])
+  productbrochure: PropTypes.object
 };
 
 const Product = ({ data }) => {
@@ -158,7 +156,6 @@ const Product = ({ data }) => {
         description2={product.frontmatter.description2}
         infobox2={product.frontmatter.infobox2}
         productcategory={product.frontmatter.productcategory}
-        tags={product.frontmatter.tags}
         productbrochure={product.frontmatter.productbrochure}
       />
     </Layout>
@@ -211,7 +208,6 @@ export const pageQuery = graphql`
         productbrochure {
           publicURL
         }
-        tags
       }
     }
   }

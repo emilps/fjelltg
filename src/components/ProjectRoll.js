@@ -152,7 +152,6 @@ const ProjectRollQuery = () => (
                     }
                   }
                 }
-                tags
               }
             }
           }
