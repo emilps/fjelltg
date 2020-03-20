@@ -47,6 +47,13 @@ infobox1: >-
   * Claws act as reinforcement beams in the radial direction, this increase the
   lateral bending strength of the discs, which reduces the risk of leakages in
   the foot welds between discs
+
+
+  The distinct difference between the TD dryer and most other disc dryers is
+  that staybolt welds (or welds of other means to maintain the integrity of the
+  disc when exposed to internal steam pressure) is entirely on the inside of the
+  disc. Fjell has in its process for drying with disc-driers a patented process
+  solution reducing usage of steam with approx. 40% from normal driers.
 productbrochure: /img/img_5185.jpg
 smallimage: /img/fjelltg_main.jpg
 fullwidthimage: /img/td440.jpg
