@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Covid19 - gir utfordringer og læring
-date: 04.01.2017
+date: 20.03.2020
 featuredimage: /img/covid19.jpg
 description: >-
   Utfordringer = Læring. Fjell blir som alle andre sterkt berørt av de
