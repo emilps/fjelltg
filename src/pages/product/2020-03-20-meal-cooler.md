@@ -17,7 +17,7 @@ description1: >-
   water and air, and for such applications we have developed a special
   indirectly cooled air hygienic air cooler system.
 infobox1: >-
-  The cooler is designed as along drum equipped with an agitator mounted in
+  The cooler is designed as a long drum equipped with an agitator mounted in
   roller bearings on the end plates. 
 
 
