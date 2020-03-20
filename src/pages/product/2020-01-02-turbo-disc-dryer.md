@@ -16,8 +16,6 @@ description1: >-
   Double stage screw cooker
 
 
-
-
   Typically first stage uses waste heat and second stage low pressure steam.
 
 
@@ -32,18 +30,39 @@ description1: >-
   Our cookers are manufactured with a steam heated (up to 10 barge) rotor with
   multiple discs. Indirect heat is gently applied to the residual giving full
   coagulation control and efficiency.
+
+
+  We deliver all the classic sizes of Stord SS type cookers from small units for
+  a few MT raw material per hour to the large SS160/14 rated for 30 MT per
+  hour. 
+
+
+  For new installations, we recommend our special two stage screw cooker system
+  with improved process control and more sensitive energy usage. 
+
+
+  This cooker system has proven to reduce stick water, suspended solids content,
+  give better process control and increase the oil yield from marine and animal
+  raw material.
 infobox1: >-
   ## Advantages
 
 
-  Large heating surface provides optimum heat transfer to residual 
+  Large heating surface provides optimum heat transfer to residual and process
+  contorl 
 
 
-  Extremely compact design
+  Extremely compact design and effective
 
 
   Long life reliablity due to state of the art shafts and bearings (automatic
   oil-lubricated)
+
+
+  Reduces stickwater and suspended solids content
+
+
+  Increase of oil yield
 productbrochure: /img/ftg-brochure-cooker.pdf
 smallimage: /img/koker.jpg
 fullwidthimage: /img/img_1767.jpg
