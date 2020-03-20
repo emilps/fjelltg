@@ -26,113 +26,314 @@ description2: >-
   conditions since the first unit was installed at I.V.A.R – Stavanger in 2001
 relatedproducts:
   relatedproduct1:
-    body: ''
-    description1: "## Design\n\nThe Fjell Turbo Disc Dryer is designed for indirect heating by steam (6-10 bar). The dryer can be delivered for vacuum drying of temperature sensitive raw materials. The largest heating surface is the rotor, but additional heating surface is available as an option on the stator. The product to be dried is slowly, but vigorously, transported from inlet to outlet end by a paddle system mounted on the disc periphery. \L\L\n\nProduct discharge is normally done continuously by a speed controlled extraction screw conveyor. The discs are mounted on a heavy central shaft with a highly efficient condensate removal system integrated. Scraper bars ensure agitation between the discs, which is necessary for an efficient evaporation. The moisture evaporated from the product is collected in a high top vapour dome, and continuously removed. \L\L\n\nDryers can be supplied in all practical sizes, in all common materials of construction (carbon-, stainless-, and duplex steels), and approved and inspected according to the leading international design codes and standards (PED, ASME, JIS, GOST, DNV, Lloyds, Bureau Veritas etc..) The dryer has a unique endurable patented rotor design without traditional welded stays exposed to tear, wear, fatigue and corrosion."
-    description2: "## Legacy\n\nIn the year 2000 Fjell Technology Group AS decided to develop a robust and energy efficient disc dryer specially designed for modern manufacturing methods like robotic welding. We had a competent staff with senior personnel having experience from design, manufacturing and installation of about 2000 Stord dryers since the introduction of the technology, wich took place in the late 50ies. \n\n\L\LWe added some young innovative engineers skilled in state of the art engineering design and analysis techniques. The result was the Fjell Turbo Disc Dryer with a unique patented disc design, based on efficient manufacturing techniques."
-    fullwidthimage: /img/products-grid2.jpg
-    headerimage: /img/chemex.jpg
+    body: |+
+
+    description2: >-
+      ## Legacy
+
+
+      In the year 2000 Fjell Technology Group AS decided to develop a robust and
+      energy efficient disc dryer specially designed for modern manufacturing
+      methods like robotic welding. We had a competent staff with senior
+      personnel having experience from design, manufacturing and installation of
+      about 2000 Stord dryers since the introduction of the technology, wich
+      took place in the late 50ies. 
+
+
+      We added some young innovative engineers skilled in state of the art
+      engineering design and analysis techniques. The result was the Fjell Turbo
+      Disc Dryer with a unique patented disc design, based on efficient
+      manufacturing techniques.
+    fullwidthimage: /img/td440.jpg
+    headerimage: /img/td440.jpg
     infobox1: >-
       ## Advantages
 
 
-      * Forged claws can be welded with high precision in a flat position with
-      the use of a robotwelder 
+      Advantages between Fjell TD Dryer vs. other Rotadisc dryers:
 
-      * It can be performed both a visual and a penetrant test prior to
-      assembly 
 
-      * Welds are not exposed to external environment in dryer. Thereby risk for
-      stress corrosion cracking is eliminated 
+      * Forged claws can be welded with high precision in flat position using
+      robots. 
 
-      * Welds do not seal between the pressurised and non-pressurised side. This
-      eliminates the risk of steam leakage
+      * Welds can be inspected with NDT before assembly. 
 
-      * Claws act as reinforcement beams in the radial direction, this increase
-      the lateral bending strength of the discs, which reduces the risk of
-      leakages in the foot welds between discs
-    infobox2: "## Application\n\n* Sludge in Waste Water \n* Treatment Plants\L Fishmeal in both land based and ship installed plants\L \n* Ingredients in the food industry\L\n* Spent grains in distilleries and breweries\L \n* Animal and poultry by-products\L Industrial bio-sludge and mineral sludge\L \n* Replacement rotors and units for old disc dryers"
-    productbrochure: /img/info-om-helfo-utland.pdf
-    productcategory: Pressure Vessels
+      * Welds are not exposed to the material to be dried, thereby risk for
+      stress corrosion cracking is eliminated. 
+
+      * Welds do not seal between pressurised and non-pressurised side. Thereby
+      risk for steam leakage is eliminated. 
+
+      * Claws act as reinforcement beams in radial direction, thereby increasing
+      the lateral bending strength of the discs, which reduces the risk for
+      leakages in foot welds between discs (big problem with Rotadisc). 
+
+      * Smooth disc surface secures efficient self-cleaning and maximum heat
+      transfer.
+
+
+      The distinct difference between the TD dryer and most other disc dryers is
+      that staybolt welds (or welds of other means to maintain the integrity of
+      the disc when exposed to internal steam pressure) is entirely on the
+      inside of the disc. Fjell has in its process for drying with disc-driers a
+      patented process solution reducing usage of steam with approx. 40% from
+      normal driers.
+    infobox2: >-
+      ## Application
+
+
+      * Sludge in Waste Water 
+
+      * Treatment Plant for fishmeal in both land based and ship installed
+      plants 
+
+      * Ingredients in the food industry
+
+      * Spent grains in distilleries and breweries
+
+      * Animal and poultry by-products for industrial bio-sludge and mineral
+      sludge 
+
+      * Replacement rotors and units for old disc dryers
+    productbrochure: /img/img_5185.jpg
+    productcategory: 'Municipal Waste Water Treatment '
     slug: 2020-01-02-dryer-turbo-disc
-    smallimage: /img/jumbotron.jpg
-    subtitle: Accommodate a robust and energy efficient drying of Biomasses
-    tags:
-      - ''
+    smallimage: /img/fjelltg_main.jpg
+    subtitle: The robust and energy efficient drying of Biomasses
     templateKey: product
-    title: Dryer Disc Turbo 2.0
+    title: 'FTG Turbo Disc Dryer '
+    description1: >-
+      ## Design
+
+
+      The Fjell Turbo Disc Dryer is designed for indirect heating by steam (6-10
+      bar). The dryer can be delivered for vacuum drying of temperature
+      sensitive raw materials. The largest heating surface is the rotor, but
+      additional heating surface is available as an option on the stator. The
+      product to be dried is slowly, but vigorously, transported from inlet to
+      outlet end by a paddle system mounted on the disc periphery. 
+
+
+      Product discharge is normally done continuously by a speed controlled
+      extraction screw conveyor. The discs are mounted on a heavy central shaft
+      with a highly efficient condensate removal system integrated. Scraper bars
+      ensure agitation between the discs, which is necessary for an efficient
+      evaporation. The moisture evaporated from the product is collected in a
+      high top vapour dome, and continuously removed. 
+
+
+      Dryers can be supplied in all practical sizes, in all common materials of
+      construction (carbon-, stainless-, and duplex steels), and approved and
+      inspected according to the leading international design codes and
+      standards (PED, ASME, JIS, GOST, DNV, Lloyds, Bureau Veritas etc..) The
+      dryer has a unique endurable patented rotor design without traditional
+      welded stays exposed to tear, wear, fatigue and corrosion.
   relatedproduct2:
     body: |+
 
-    description1: "## Design\n\nThe Fjell Turbo Disc Dryer is designed for indirect heating by steam (6-10 bar). The dryer can be delivered for vacuum drying of temperature sensitive raw materials. The largest heating surface is the rotor, but additional heating surface is available as an option on the stator. The product to be dried is slowly, but vigorously, transported from inlet to outlet end by a paddle system mounted on the disc periphery. \L\L\n\nProduct discharge is normally done continuously by a speed controlled extraction screw conveyor. The discs are mounted on a heavy central shaft with a highly efficient condensate removal system integrated. Scraper bars ensure agitation between the discs, which is necessary for an efficient evaporation. The moisture evaporated from the product is collected in a high top vapour dome, and continuously removed. \L\L\n\nDryers can be supplied in all practical sizes, in all common materials of construction (carbon-, stainless-, and duplex steels), and approved and inspected according to the leading international design codes and standards (PED, ASME, JIS, GOST, DNV, Lloyds, Bureau Veritas etc..) The dryer has a unique endurable patented rotor design without traditional welded stays exposed to tear, wear, fatigue and corrosion."
-    description2: "## Legacy\n\nIn the year 2000 Fjell Technology Group AS decided to develop a robust and energy efficient disc dryer specially designed for modern manufacturing methods like robotic welding. We had a competent staff with senior personnel having experience from design, manufacturing and installation of about 2000 Stord dryers since the introduction of the technology, wich took place in the late 50ies. \n\n\L\LWe added some young innovative engineers skilled in state of the art engineering design and analysis techniques. The result was the Fjell Turbo Disc Dryer with a unique patented disc design, based on efficient manufacturing techniques."
-    fullwidthimage: /img/products-grid2.jpg
-    headerimage: /img/chemex.jpg
+    description2: >-
+      ## Legacy
+
+
+      In the year 2000 Fjell Technology Group AS decided to develop a robust and
+      energy efficient disc dryer specially designed for modern manufacturing
+      methods like robotic welding. We had a competent staff with senior
+      personnel having experience from design, manufacturing and installation of
+      about 2000 Stord dryers since the introduction of the technology, wich
+      took place in the late 50ies. 
+
+
+      We added some young innovative engineers skilled in state of the art
+      engineering design and analysis techniques. The result was the Fjell Turbo
+      Disc Dryer with a unique patented disc design, based on efficient
+      manufacturing techniques.
+    fullwidthimage: /img/td440.jpg
+    headerimage: /img/td440.jpg
     infobox1: >-
       ## Advantages
 
 
-      * Forged claws can be welded with high precision in a flat position with
-      the use of a robotwelder 
-
-      * It can be performed both a visual and a penetrant test prior to
-      assembly 
-
-      * Welds are not exposed to external environment in dryer. Thereby risk for
-      stress corrosion cracking is eliminated 
-
-      * Welds do not seal between the pressurised and non-pressurised side. This
-      eliminates the risk of steam leakage
-
-      * Claws act as reinforcement beams in the radial direction, this increase
-      the lateral bending strength of the discs, which reduces the risk of
-      leakages in the foot welds between discs
-    infobox2: "## Application\n\n* Sludge in Waste Water \n* Treatment Plants\L Fishmeal in both land based and ship installed plants\L \n* Ingredients in the food industry\L\n* Spent grains in distilleries and breweries\L \n* Animal and poultry by-products\L Industrial bio-sludge and mineral sludge\L \n* Replacement rotors and units for old disc dryers"
-    productbrochure: /img/info-om-helfo-utland.pdf
-    productcategory: Pressure Vessels
-    slug: 2020-01-02-turbo-disc-dryer
-    smallimage: /img/jumbotron.jpg
-    subtitle: >-
-      Engineered to accommodate a robust and energy efficient drying of
-      Biomasses
-    tags:
-      - ''
-    templateKey: product
-    title: Turbo Disc Dryer
-  relatedproduct3:
-    body: ''
-    description1: "## Design\n\nThe Fjell Turbo Disc Dryer is designed for indirect heating by steam (6-10 bar). The dryer can be delivered for vacuum drying of temperature sensitive raw materials. The largest heating surface is the rotor, but additional heating surface is available as an option on the stator. The product to be dried is slowly, but vigorously, transported from inlet to outlet end by a paddle system mounted on the disc periphery. \L\L\n\nProduct discharge is normally done continuously by a speed controlled extraction screw conveyor. The discs are mounted on a heavy central shaft with a highly efficient condensate removal system integrated. Scraper bars ensure agitation between the discs, which is necessary for an efficient evaporation. The moisture evaporated from the product is collected in a high top vapour dome, and continuously removed. \L\L\n\nDryers can be supplied in all practical sizes, in all common materials of construction (carbon-, stainless-, and duplex steels), and approved and inspected according to the leading international design codes and standards (PED, ASME, JIS, GOST, DNV, Lloyds, Bureau Veritas etc..) The dryer has a unique endurable patented rotor design without traditional welded stays exposed to tear, wear, fatigue and corrosion."
-    description2: "## Legacy\n\nIn the year 2000 Fjell Technology Group AS decided to develop a robust and energy efficient disc dryer specially designed for modern manufacturing methods like robotic welding. We had a competent staff with senior personnel having experience from design, manufacturing and installation of about 2000 Stord dryers since the introduction of the technology, wich took place in the late 50ies. \n\n\L\LWe added some young innovative engineers skilled in state of the art engineering design and analysis techniques. The result was the Fjell Turbo Disc Dryer with a unique patented disc design, based on efficient manufacturing techniques."
-    fullwidthimage: /img/products-grid2.jpg
-    headerimage: /img/chemex.jpg
-    infobox1: >-
-      ## Advantages
+      Advantages between Fjell TD Dryer vs. other Rotadisc dryers:
 
 
-      * Forged claws can be welded with high precision in a flat position with
-      the use of a robotwelder 
+      * Forged claws can be welded with high precision in flat position using
+      robots. 
 
-      * It can be performed both a visual and a penetrant test prior to
-      assembly 
+      * Welds can be inspected with NDT before assembly. 
 
-      * Welds are not exposed to external environment in dryer. Thereby risk for
-      stress corrosion cracking is eliminated 
+      * Welds are not exposed to the material to be dried, thereby risk for
+      stress corrosion cracking is eliminated. 
 
-      * Welds do not seal between the pressurised and non-pressurised side. This
-      eliminates the risk of steam leakage
+      * Welds do not seal between pressurised and non-pressurised side. Thereby
+      risk for steam leakage is eliminated. 
 
-      * Claws act as reinforcement beams in the radial direction, this increase
-      the lateral bending strength of the discs, which reduces the risk of
-      leakages in the foot welds between discs
-    infobox2: "## Application\n\n* Sludge in Waste Water \n* Treatment Plants\L Fishmeal in both land based and ship installed plants\L \n* Ingredients in the food industry\L\n* Spent grains in distilleries and breweries\L \n* Animal and poultry by-products\L Industrial bio-sludge and mineral sludge\L \n* Replacement rotors and units for old disc dryers"
-    productbrochure: /img/info-om-helfo-utland.pdf
-    productcategory: Pressure Vessels
+      * Claws act as reinforcement beams in radial direction, thereby increasing
+      the lateral bending strength of the discs, which reduces the risk for
+      leakages in foot welds between discs (big problem with Rotadisc). 
+
+      * Smooth disc surface secures efficient self-cleaning and maximum heat
+      transfer.
+
+
+      The distinct difference between the TD dryer and most other disc dryers is
+      that staybolt welds (or welds of other means to maintain the integrity of
+      the disc when exposed to internal steam pressure) is entirely on the
+      inside of the disc. Fjell has in its process for drying with disc-driers a
+      patented process solution reducing usage of steam with approx. 40% from
+      normal driers.
+    infobox2: >-
+      ## Application
+
+
+      * Sludge in Waste Water 
+
+      * Treatment Plant for fishmeal in both land based and ship installed
+      plants 
+
+      * Ingredients in the food industry
+
+      * Spent grains in distilleries and breweries
+
+      * Animal and poultry by-products for industrial bio-sludge and mineral
+      sludge 
+
+      * Replacement rotors and units for old disc dryers
+    productbrochure: /img/img_5185.jpg
+    productcategory: 'Municipal Waste Water Treatment '
     slug: 2020-01-02-dryer-turbo-disc
-    smallimage: /img/jumbotron.jpg
-    subtitle: Accommodate a robust and energy efficient drying of Biomasses
-    tags:
-      - ''
+    smallimage: /img/fjelltg_main.jpg
+    subtitle: The robust and energy efficient drying of Biomasses
     templateKey: product
-    title: Dryer Disc Turbo 2.0
+    title: 'FTG Turbo Disc Dryer '
+    description1: >-
+      ## Design
+
+
+      The Fjell Turbo Disc Dryer is designed for indirect heating by steam (6-10
+      bar). The dryer can be delivered for vacuum drying of temperature
+      sensitive raw materials. The largest heating surface is the rotor, but
+      additional heating surface is available as an option on the stator. The
+      product to be dried is slowly, but vigorously, transported from inlet to
+      outlet end by a paddle system mounted on the disc periphery. 
+
+
+      Product discharge is normally done continuously by a speed controlled
+      extraction screw conveyor. The discs are mounted on a heavy central shaft
+      with a highly efficient condensate removal system integrated. Scraper bars
+      ensure agitation between the discs, which is necessary for an efficient
+      evaporation. The moisture evaporated from the product is collected in a
+      high top vapour dome, and continuously removed. 
+
+
+      Dryers can be supplied in all practical sizes, in all common materials of
+      construction (carbon-, stainless-, and duplex steels), and approved and
+      inspected according to the leading international design codes and
+      standards (PED, ASME, JIS, GOST, DNV, Lloyds, Bureau Veritas etc..) The
+      dryer has a unique endurable patented rotor design without traditional
+      welded stays exposed to tear, wear, fatigue and corrosion.
+  relatedproduct3:
+    body: |+
+
+    description2: >-
+      ## Legacy
+
+
+      In the year 2000 Fjell Technology Group AS decided to develop a robust and
+      energy efficient disc dryer specially designed for modern manufacturing
+      methods like robotic welding. We had a competent staff with senior
+      personnel having experience from design, manufacturing and installation of
+      about 2000 Stord dryers since the introduction of the technology, wich
+      took place in the late 50ies. 
+
+
+      We added some young innovative engineers skilled in state of the art
+      engineering design and analysis techniques. The result was the Fjell Turbo
+      Disc Dryer with a unique patented disc design, based on efficient
+      manufacturing techniques.
+    fullwidthimage: /img/td440.jpg
+    headerimage: /img/td440.jpg
+    infobox1: >-
+      ## Advantages
+
+
+      Advantages between Fjell TD Dryer vs. other Rotadisc dryers:
+
+
+      * Forged claws can be welded with high precision in flat position using
+      robots. 
+
+      * Welds can be inspected with NDT before assembly. 
+
+      * Welds are not exposed to the material to be dried, thereby risk for
+      stress corrosion cracking is eliminated. 
+
+      * Welds do not seal between pressurised and non-pressurised side. Thereby
+      risk for steam leakage is eliminated. 
+
+      * Claws act as reinforcement beams in radial direction, thereby increasing
+      the lateral bending strength of the discs, which reduces the risk for
+      leakages in foot welds between discs (big problem with Rotadisc). 
+
+      * Smooth disc surface secures efficient self-cleaning and maximum heat
+      transfer.
+
+
+      The distinct difference between the TD dryer and most other disc dryers is
+      that staybolt welds (or welds of other means to maintain the integrity of
+      the disc when exposed to internal steam pressure) is entirely on the
+      inside of the disc. Fjell has in its process for drying with disc-driers a
+      patented process solution reducing usage of steam with approx. 40% from
+      normal driers.
+    infobox2: >-
+      ## Application
+
+
+      * Sludge in Waste Water 
+
+      * Treatment Plant for fishmeal in both land based and ship installed
+      plants 
+
+      * Ingredients in the food industry
+
+      * Spent grains in distilleries and breweries
+
+      * Animal and poultry by-products for industrial bio-sludge and mineral
+      sludge 
+
+      * Replacement rotors and units for old disc dryers
+    productbrochure: /img/img_5185.jpg
+    productcategory: 'Municipal Waste Water Treatment '
+    slug: 2020-01-02-dryer-turbo-disc
+    smallimage: /img/fjelltg_main.jpg
+    subtitle: The robust and energy efficient drying of Biomasses
+    templateKey: product
+    title: 'FTG Turbo Disc Dryer '
+    description1: >-
+      ## Design
+
+
+      The Fjell Turbo Disc Dryer is designed for indirect heating by steam (6-10
+      bar). The dryer can be delivered for vacuum drying of temperature
+      sensitive raw materials. The largest heating surface is the rotor, but
+      additional heating surface is available as an option on the stator. The
+      product to be dried is slowly, but vigorously, transported from inlet to
+      outlet end by a paddle system mounted on the disc periphery. 
+
+
+      Product discharge is normally done continuously by a speed controlled
+      extraction screw conveyor. The discs are mounted on a heavy central shaft
+      with a highly efficient condensate removal system integrated. Scraper bars
+      ensure agitation between the discs, which is necessary for an efficient
+      evaporation. The moisture evaporated from the product is collected in a
+      high top vapour dome, and continuously removed. 
+
+
+      Dryers can be supplied in all practical sizes, in all common materials of
+      construction (carbon-, stainless-, and duplex steels), and approved and
+      inspected according to the leading international design codes and
+      standards (PED, ASME, JIS, GOST, DNV, Lloyds, Bureau Veritas etc..) The
+      dryer has a unique endurable patented rotor design without traditional
+      welded stays exposed to tear, wear, fatigue and corrosion.
 category: FishSludge Recovery System
 ---
 
