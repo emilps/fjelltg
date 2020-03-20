@@ -2,7 +2,7 @@
 templateKey: product
 title: Fjell Cooker
 subtitle: Cookers and pre-heaters
-headerimage: /img/img_1739.jpg
+headerimage: /img/koker.jpg
 description1: >-
   ## Design
 
