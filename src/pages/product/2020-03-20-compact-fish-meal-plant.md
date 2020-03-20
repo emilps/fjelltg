@@ -37,8 +37,14 @@ infobox1: >-
 productbrochure: /img/brochure-compact-fishmeal-plant.pdf
 smallimage: /img/img_5185.jpg
 fullwidthimage: /img/p30000-030-3-1-.jpg
-description2: ' n'
-infobox2: '  n'
+description2: >-
+  FTG will design a complete plant with cooker, twin-screw press, decanter,
+  dryer, conveyors and PLC control system. Evaporation unit and oil polisher may
+  also be delivered. 
+
+
+  Plant can be monitored from tablet, bridge or on the plant.
+infobox2: Complete plant for production of fish meal an oil
 productcategory: Compact Fish Meal Plant
 ---
 
