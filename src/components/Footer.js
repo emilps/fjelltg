@@ -89,7 +89,7 @@ const Footer = class extends React.Component {
                   </p>
                   <p className="has-text-weight-light">
                     GreenTech office:
-                    <br /> Kong Christian Frederiks Plass 3 <br />
+                    <br /> Thormøhlens Gate 49a <br />
                     N-5006 Bergen
                   </p>
                 </section>
