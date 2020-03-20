@@ -3,13 +3,47 @@ templateKey: product
 title: Fjell Cooker
 subtitle: Cookers and pre-heaters
 headerimage: /img/img_1739.jpg
-description1: "## Design\n\n\n\nFjell designs several versions:\r\n\nSinglestage screw cooker\r\n\nDouble stage screw cooker\r\n\n\rTypically first stage uses waste heat and second stage low pressure steam."
-infobox1: >-
-  ## Advantages
+description1: >-
+  ## Design
+
+
+  Fjell designs several versions:
+
+
+  Singlestage screw cooker
+
+
+  Double stage screw cooker
+
+
+
+
+  Typically first stage uses waste heat and second stage low pressure steam.
 
 
   The two stage solutions give better process control and increase the oil yield
   from marine and animal raw material.
+
+
+  Our disc cooker is the best solution for process control and increase oil
+  yield from marine and animal raw material. 
+
+
+  Our cookers are manufactured with a steam heated (up to 10 barge) rotor with
+  multiple discs. Indirect heat is gently applied to the residual giving full
+  coagulation control and efficiency.
+infobox1: >-
+  ## Advantages
+
+
+  Large heating surface provides optimum heat transfer to residual 
+
+
+  Extremely compact design
+
+
+  Long life reliablity due to state of the art shafts and bearings (automatic
+  oil-lubricated)
 productbrochure: /img/ftg-brochure-cooker.pdf
 smallimage: /img/koker.jpg
 fullwidthimage: /img/img_1767.jpg
