@@ -1,7 +1,7 @@
 ---
 templateKey: product
 title: Compact Fish Meal Plant
-subtitle: Complete plant for production of fish meal an oil tralalala
+subtitle: Complete plant for production of fish meal an oil
 headerimage: /img/fiskemel-båt.png
 description1: >-
   FTG can design and deliver fish meal plants for both land and marine use.
