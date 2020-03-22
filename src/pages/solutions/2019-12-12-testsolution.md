@@ -1,65 +1,24 @@
 ---
 templateKey: solution
-title: TestSolution
-subtitle: The best solution
-featuredimage: /img/frs-plant-2.png
+title: Evaporator Technology
+subtitle: 'WHE, MVR and our unique Forced Flash Finisher'
+featuredimage: /img/evaporator.png
 mainquote: >-
-  Fjell Technology Group designs, manufactures and commissions equipment,
-  machinery and processing lines for all type of fish and residual raw material
-  processing
+  Fjell Technology Group was originally established almost 50 years ago as local
+  manufacturer of evaporator stages and tube and shell heat exchangers for Stord
+  Bartz, and produced many hundred stages until year 2000.  Since then we have
+  designed, manufactured and commissioned many complete evaporator systems, both
+  WHE, MVR and our unique Forced Flash Finisher. 
 description1: >-
-  Fjell Technology Group designs, manufactures and commissions equipment,
-  machinery and processing lines for all type of fish and residual raw material
-  processing
-
-
-  * asd
-
-  * asdasd
-
-  * asdsa
-
-
-  Fjell Technology Group designs, manufactures and commissions equipment,
-  machinery and processing lines for all type of fish and residual raw material
-  processing
-
-
-  * asdasd
-
-  * sadasd
-
-  * asdasd
-infobox1: |-
-  ## Infobox
-
-  * test
-  * etets
-  * tsdasda
-  * asdas
-fullwidthimage: /img/frs-plant-2.png
+  Today we focus on cookers and dryer technology, and have chosen to cooperate
+  with EPCON Evaporation Technology AS, and promotes their excellent high grade
+  technology to our customers.
+infobox1: >-
+  The beautiful workmanship of the EPCON High Grade Standard evaporator we have
+  supplied to Sanriku, Ketsenumma – Japan in 2017
+fullwidthimage: /img/evaporator-1024x768.jpg
 description2: >-
-  ## Improvements
-
-
-
-
-  Fjell Technology Group designs, manufactures and commissions equipment,
-  machinery and processing lines for all type of fish and residual raw material
-  processing. Fjell Technology Group designs, manufactures and commissions
-  equipment, machinery and processing lines for all type of fish and residual
-  raw material processing.Fjell Technology Group designs, manufactures and
-  commissions equipment, machinery and processing lines for all type of fish and
-  residual raw material processing
-
-
-  Fjell Technology Group designs, manufactures and commissions equipment,
-  machinery and processing lines for all type of fish and residual raw material
-  processing Fjell Technology Group designs, manufactures and commissions
-  equipment, machinery and processing lines for all type of fish and residual
-  raw material processing
-description3: >-
-  # We can offer
+  ## We can offer
 
 
   Conceptual studies and process simulations with detailed mass and energy
@@ -91,7 +50,10 @@ description3: >-
 
 
   Installation
-descriptionimage: /img/img_1767.jpg
+description3: >-
+  3-D model of the high grade EPCON MVR supplied to Sanriku Fish Meal Plant,
+  Kesenumma – Japan, 2017.
+descriptionimage: /img/epcon-ftg-evaporator-render-993x1024.jpg
 relatedproducts:
   relatedproduct1:
     body: |+
@@ -202,6 +164,6 @@ relatedproducts:
       Engineered to accommodate a robust and energy efficient drying of
       Biomasses
     fullwidthimage: /img/products-grid2.jpg
-solutioncategory: Co2 Capture
+solutioncategory: Protein Recycling
 ---
 
