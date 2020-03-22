@@ -11,7 +11,9 @@ title: Your partner for process technology
 middleblock:
   title: FJELL TECHNOLOGY TEST CENTRE
 partners:
-  description: Fjell Technology Group collaborates with leading research environments
+  description: >-
+    Fjell Technology Group collaborates with leading research environments and
+    preferred partners
   heading: Partners
   partnerimage:
     - image: /img/cmr.png
