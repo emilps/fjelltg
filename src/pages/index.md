@@ -24,5 +24,7 @@ partners:
       link: 'https://cmr.no'
     - image: /img/thermtech_logo_col.jpg
       link: 'https://www.thermtech.no/'
+    - image: /img/epconlogohvit_5.png
+      link: www.epcon.org
 ---
 
