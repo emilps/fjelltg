@@ -2,7 +2,7 @@
 templateKey: solutioncategory
 featuredimage: /img/img_1767.jpg
 title: Protein Recycling
-subtitle: Processes tailored for the unique Fjell Turbo Disc Dryer
+subtitle: 'Fjell Turbo Disc Dryer the corner stone in any fish meal plant '
 texttitle: Introduction
 information: >-
   The indirectly steam heated rotadisc (TST) dryer is invented by Peder Solheim
