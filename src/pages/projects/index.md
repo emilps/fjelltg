@@ -2,11 +2,9 @@
 templateKey: projects
 headertitle: Reference Projects
 headerbyline: >-
-  Take a look at some of our previous installments! Other product-specific
-  references can be provided on request.
+  Take a look at some of our previous
+  installments                                           
 headerimage: /img/img_3115.jpg
-projectsquote: >-
-  40 years experience as supplier of process technology for sludge treatment and
-  resource recycling.
+projectsquote: Other product-specific references can be provided on request.
 ---
 
