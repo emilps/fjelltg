@@ -10,16 +10,6 @@ text: >-
   use.
 
 
-  Fish meal processing has traditionally consisted of the main steps:
-
-
-  Coagulation, separation and evaporation/drying. 
-
-
-  The dominating process for half a century has been the Stord Fish Meal Process
-  with the main steps:
-
-
   * Cooking in steam heated screw cooker,
 
   * Pressing in twin screw press and oil separation in centrifuges,
