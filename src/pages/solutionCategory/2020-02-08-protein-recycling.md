@@ -5,15 +5,14 @@ title: Protein Recycling
 subtitle: 'Fjell Turbo Disc Dryer the corner stone in any fish meal plant '
 texttitle: Introduction
 information: >-
-  The indirectly steam heated rotadisc (TST) dryer is invented by Peder Solheim
-  from Leirvik at the island Stord, Norway in 1955. The dryer was introduced in
-  the fish meal marked in the late 50ies by Stord Bartz, and quickly became a
-  “must” for factories worldwide due to superior energy efficiency, safety,
-  reliability and low odour emissions. The dryer technology, the twin screw
-  press technology and the evaporator technology secured Stord Bartz enormous
-  revenues in these early years. In the year 2000 the original workshop at Stord
-  was closed down and all manufacturing of dryers was moved to Denmark and
-  Poland.
+  The indirectly steam heated rotadisc dryer is invented by Peder Solheim from
+  Leirvik at the island Stord, Norway in 1955. The dryer was introduced in the
+  fish meal marked in the late 50ies by Stord Bartz, and quickly became a “must”
+  for factories worldwide due to superior energy efficiency, safety, reliability
+  and low odour emissions. The dryer technology, the twin screw press technology
+  and the evaporator technology secured Stord Bartz enormous revenues in these
+  early years. In the year 2000 the original workshop at Stord was closed down
+  and all manufacturing of dryers was moved to Denmark and Poland.
 
 
   Fjell Technology Group, is a former supplier to Stord Bartz / Atlas-Stord. In
