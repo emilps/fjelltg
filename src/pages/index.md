@@ -28,5 +28,7 @@ partners:
       link: 'https://www.thermtech.no/'
     - image: /img/epconlogohvit_5.png
       link: www.epcon.org
+    - image: /img/logo.png
+      link: 'https://www.powerandwater.com/'
 ---
 
