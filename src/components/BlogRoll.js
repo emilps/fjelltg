@@ -14,6 +14,10 @@ const mediums = {
   LinkedIn: linkedin
 };
 
+const textFormatter = text => {
+  return text.substring(0, 300) + '...';
+};
+
 class BlogRoll extends React.Component {
   render() {
     const { data } = this.props;
@@ -61,7 +65,9 @@ class BlogRoll extends React.Component {
                     </div>
                     <div className="blog-bottom">
                       <p className="has-text-centered">
-                        {post.frontmatter.description}
+                        {post.frontmatter.description.length > 300
+                          ? textFormatter(post.frontmatter.description)
+                          : post.frontmatter.description}
                       </p>
                       <a
                         className="button submit-button blog-button"
