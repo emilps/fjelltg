@@ -2,7 +2,7 @@
 templateKey: index-page
 indexblock:
   image1: /img/p15776-001-1.jpg
-  image2: /img/tørker-prima5.jpg
+  image2: /img/img_1727.jpg
   link1: 'https://fjelltg.netlify.com/solutions/2019-12-12-testsolution/'
   link2: 'https://fjelltg.netlify.com/solutions/2019-12-17-protein-recycling/'
   title1: Waste water
