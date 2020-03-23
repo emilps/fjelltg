@@ -92,7 +92,10 @@ export const ProjectTemplate = ({
               <p>{description2}</p>
             </div>
           </div>
-          <RelatedProducts relatedproducts={relatedproducts} title1={title1} />
+          <RelatedProducts
+            relatedproducts={relatedproducts}
+            title1={'Related Products'}
+          />
         </div>
       </div>
     </section>
