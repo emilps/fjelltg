@@ -9,15 +9,7 @@ infobox1: >-
   material that is perceived as sticky or “glue-like”.
 
 
-  Benefits of the TMD
-
-  :
-
-
-  * 
-
-
-  Excellent on most material, exceeding on sticky, “glue-like” material
+  The TMD isxcellent on most material, exceeding on sticky, “glue-like” material
 
 
   * Compact process
@@ -41,10 +33,7 @@ fullwidthimage: /img/osan-tmd.jpg
 description2: |-
   The TMD can be applied for the following areas:
 
-  * 
-
-  Bio sludge
-
+  * Bio sludge
   * Municipal waste
   * Fish offal
   * Fish and animal manure
