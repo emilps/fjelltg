@@ -27,7 +27,7 @@ Fjell were established in 2000 and are based on more than 40 years of experience
 
 {"widget":"imageblock","text":"FTG delivers state of the art equipment to for the best possible utilization of raw material, whether it is fish waste, different types of biorest or municipal sludge.","image":"/img/fjelltg_main.jpg"}
 
-{"widget":"imageblock","text":"Fjell Technology Group has its main office in Fjell outside Bergen. There, the company also has a workshop for assembly and small scale production. ","image":"/img/smålonane.jpg"}
+{"widget":"imageblock","text":"As a contribution in the wider context, we have included points 5, 6, 9, 11 and 12 from the UN's sustainability goals in our strategy.","image":"/img/fn-bã¦rekraftsmal.jpg"}
 
 ## Facilities
 
