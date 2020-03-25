@@ -1,6 +1,6 @@
 ---
 templateKey: solutioncategory
-featuredimage: /img/frs.png
+featuredimage: /img/anlegg-erko-1024x558-v2.jpg
 title: 'Waste Water Treatment '
 subtitle: We make value on your waste
 texttitle: Introduction
