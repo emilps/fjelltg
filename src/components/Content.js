@@ -9,18 +9,21 @@ export const HTMLContent = ({ content, className }) => {
     /{"widget":"imageblock","text":"(.+)","image":"(.+)"}/,
     'g'
   );
+
   let newContent = content;
 
   if (typeof content === 'string') {
-    const founds = content.matchAll(regexp) || [];
-
     newContent = content;
     let clusteredBool = false;
     let findingsList = [];
     let clusteredString = '';
 
-    for (const found of founds) {
-      findingsList.push(found);
+    let match;
+
+    while ((match = regexp.exec(content)) !== null) {
+      let parseElement = [match[0]];
+      parseElement.index = match.index;
+      findingsList.push(parseElement);
     }
 
     for (let index = 0; index < findingsList.length; index++) {
@@ -46,6 +49,7 @@ export const HTMLContent = ({ content, className }) => {
           clusteredBool = false;
         }
       }
+
       newContent = newContent.replace(
         element[0],
         ImageTextBlock(
