@@ -653,9 +653,9 @@ $navbar-item-color: white
 
 .test-center-container
   margin: 10rem 0 10rem 0
+  display: -ms-flexbox
+  display: -webkit-flex
   display: flex
-  justify-content: center
-  align-items: center
 
 .test-center-button
   display: flex
@@ -669,9 +669,14 @@ $navbar-item-color: white
   bottom: 0
   margin-bottom: 35px
   font-size: 14px
+  left: 50%
+  margin-left: -75px
 
 .test-center-text
   position: absolute
+  top: 50%
+  margin-top: -1.5rem
+  width: 100%
 
 .partners-container
   background-color: $secondary
