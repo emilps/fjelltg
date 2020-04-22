@@ -50,7 +50,8 @@ class TestCentreRoll extends React.Component {
                   </div>
                   <div
                     className="column is-half has-background-secondary test-post-text-container"
-                    ref={node => {
+                    style={{ maxHeight: '350px' }}
+                    ref={(node) => {
                       if (node) {
                         node.style.setProperty(
                           'padding',
@@ -90,9 +91,9 @@ class TestCentreRoll extends React.Component {
 TestCentreRoll.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
-      edges: PropTypes.array
-    })
-  })
+      edges: PropTypes.array,
+    }),
+  }),
 };
 
 const TestCentreRollQuery = () => (
