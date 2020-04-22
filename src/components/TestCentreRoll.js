@@ -50,7 +50,6 @@ class TestCentreRoll extends React.Component {
                   </div>
                   <div
                     className="column is-half has-background-secondary test-post-text-container"
-                    style={{ maxHeight: '350px' }}
                     ref={(node) => {
                       if (node) {
                         node.style.setProperty(
