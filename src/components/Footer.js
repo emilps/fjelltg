@@ -32,14 +32,14 @@ const Footer = class extends React.Component {
                     <li>
                       <Link
                         to="/"
-                        className="navbar-item has-text-weight-light remove-padding"
+                        className="navbar-item has-text-weight-light remove-padding ie-hover"
                       >
                         Home
                       </Link>
                     </li>
                     <li>
                       <Link
-                        className="navbar-item has-text-weight-light remove-padding"
+                        className="navbar-item has-text-weight-light remove-padding ie-hover"
                         to="/about"
                       >
                         About
@@ -47,7 +47,7 @@ const Footer = class extends React.Component {
                     </li>
                     <li>
                       <Link
-                        className="navbar-item has-text-weight-light remove-padding"
+                        className="navbar-item has-text-weight-light remove-padding ie-hover"
                         to="/project"
                       >
                         Projects
@@ -55,7 +55,7 @@ const Footer = class extends React.Component {
                     </li>
                     <li>
                       <Link
-                        className="navbar-item has-text-weight-light remove-padding"
+                        className="navbar-item has-text-weight-light remove-padding ie-hover"
                         to="/product"
                       >
                         Products
@@ -63,7 +63,7 @@ const Footer = class extends React.Component {
                     </li>
                     <li>
                       <Link
-                        className="navbar-item has-text-weight-light remove-padding"
+                        className="navbar-item has-text-weight-light remove-padding ie-hover"
                         to="/solutions"
                       >
                         Solutions
@@ -71,7 +71,7 @@ const Footer = class extends React.Component {
                     </li>
                     <li>
                       <Link
-                        className="navbar-item has-text-weight-light remove-padding"
+                        className="navbar-item has-text-weight-light remove-padding ie-hover"
                         to="/contact/"
                       >
                         Contact
@@ -102,7 +102,7 @@ const Footer = class extends React.Component {
                       <a
                         title="linkedin"
                         href="https://www.linkedin.com/company/fjell-technology-group-as/"
-                        className="remove-padding navbar-item has-text-weight-light"
+                        className="remove-padding navbar-item has-text-weight-light ie-hover"
                       >
                         LinkedIn
                       </a>
@@ -111,7 +111,7 @@ const Footer = class extends React.Component {
                       <a
                         title="facebook"
                         href="https://www.facebook.com/FjellGreenTech/"
-                        className="remove-padding navbar-item has-text-weight-light"
+                        className="remove-padding navbar-item has-text-weight-light ie-hover"
                       >
                         Facebook
                       </a>
@@ -120,7 +120,7 @@ const Footer = class extends React.Component {
                       <a
                         title="instagram"
                         href="https://www.instagram.com/fjelltechnology/"
-                        className="remove-padding navbar-item has-text-weight-light"
+                        className="remove-padding navbar-item has-text-weight-light ie-hover"
                       >
                         Instagram
                       </a>
