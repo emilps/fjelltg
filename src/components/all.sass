@@ -8,6 +8,7 @@
   -o-transition: $args
   transition: $args
 
+
 // Config vars
 // Kaldi logo brand color: #FD461E
 $kaldi-red: #D64000
@@ -391,7 +392,10 @@ $navbar-item-color: white
             width: 1em
             margin-left: -1em
             line-height: 0
-    
+
+  &.description
+    width: 100%
+
   &.infobox
     padding: 10px 30px
     padding-bottom: 2em
@@ -417,7 +421,6 @@ $navbar-item-color: white
           width: 1em
           margin-left: -1em
           line-height: 1
-
 
     &.darkblue
       background-color: #002060
@@ -653,9 +656,9 @@ $navbar-item-color: white
 
 .test-center-container
   margin: 10rem 0 10rem 0
+  display: -ms-flexbox
+  display: -webkit-flex
   display: flex
-  justify-content: center
-  align-items: center
 
 .test-center-button
   display: flex
@@ -669,9 +672,14 @@ $navbar-item-color: white
   bottom: 0
   margin-bottom: 35px
   font-size: 14px
+  left: 50%
+  margin-left: -75px
 
 .test-center-text
   position: absolute
+  top: 50%
+  margin-top: -1.5rem
+  width: 100%
 
 .partners-container
   background-color: $secondary
@@ -822,8 +830,7 @@ $navbar-item-color: white
 
 .test-centre-post-date
   width: 100%
-  text-align: end
-  align-self: 
+  text-align: right
 
 .test-post-container
   margin-bottom: 100px !important
@@ -834,6 +841,7 @@ $navbar-item-color: white
   justify-content: space-between
   display: flex
   flex-direction: column
+  max-height: 350px
 
 .test-centre-post-image
   height: 350px
@@ -842,7 +850,19 @@ $navbar-item-color: white
 .input, .textarea
   border-color: #4d7ea8
   
+@include desktop 
+    .navbar-item 
+        &.is-hoverable:hover 
+            .navbar-dropdown 
+                display: block
 
+.ie-hover
+  background-color: $primary !important
+
+a.navbar-item
+  &:hover 
+    color: #fff !important
+    background-color: $primary !important
 
 // responsiveness
 +tablet-only

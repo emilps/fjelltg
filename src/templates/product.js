@@ -22,7 +22,7 @@ export const ProductTemplate = ({
   infobox2,
   productcategory,
   productbrochure,
-  helmet
+  helmet,
 }) => {
   const PostContent = contentComponent || Content;
 
@@ -49,7 +49,7 @@ export const ProductTemplate = ({
                 <div
                   className={'markdown-container infobox lightblue'}
                   dangerouslySetInnerHTML={{
-                    __html: converter.makeHtml(infobox1)
+                    __html: converter.makeHtml(infobox1),
                   }}
                 />
                 {productbrochure ? (
@@ -63,6 +63,7 @@ export const ProductTemplate = ({
                         <img
                           src={`https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg`}
                           width="110px"
+                          style={{ height: '90px' }}
                         />
                       </a>
                     </div>
@@ -76,7 +77,7 @@ export const ProductTemplate = ({
                   imageInfo={{
                     image: smallimage,
                     alt: `smallimage for product ${title}`,
-                    style: { height: '269px', width: '410px' }
+                    style: { height: '269px', width: '410px' },
                   }}
                 />
               ) : null}
@@ -88,7 +89,7 @@ export const ProductTemplate = ({
                 imageInfo={{
                   image: fullwidthimage,
                   alt: `fullwidthimage for product ${title}`,
-                  style: { height: 'auto', maxHeight: '650px' }
+                  style: { height: 'auto', maxHeight: '650px' },
                 }}
               />
             ) : null}
@@ -98,14 +99,14 @@ export const ProductTemplate = ({
               <div
                 className={'markdown-container description'}
                 dangerouslySetInnerHTML={{
-                  __html: converter.makeHtml(description2)
+                  __html: converter.makeHtml(description2),
                 }}
               />
               <div className="infobox-container">
                 <div
                   className={'markdown-container infobox darkblue'}
                   dangerouslySetInnerHTML={{
-                    __html: converter.makeHtml(infobox2)
+                    __html: converter.makeHtml(infobox2),
                   }}
                 />
               </div>
@@ -130,7 +131,7 @@ ProductTemplate.propTypes = {
   description2: PropTypes.string,
   infobox2: PropTypes.string,
   productcategory: PropTypes.string,
-  productbrochure: PropTypes.object
+  productbrochure: PropTypes.object,
 };
 
 const Product = ({ data }) => {
@@ -164,8 +165,8 @@ const Product = ({ data }) => {
 
 Product.propTypes = {
   data: PropTypes.shape({
-    markdownRemark: PropTypes.object
-  })
+    markdownRemark: PropTypes.object,
+  }),
 };
 
 export default Product;

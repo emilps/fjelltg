@@ -30,18 +30,6 @@ export const IndexPageTemplate = ({
       <BlogRoll />
     </section>
     <section className="test-center-container index-image-container black-overlay">
-      <PreviewCompatibleImage
-        imageInfo={{
-          image: '/img/p15776-001-1.jpg',
-          alt: `featured image thumbnail for post ${title}`,
-          style: {
-            width: '100%',
-            maxHeight: '270px',
-            objectFit: 'cover',
-            zIndex: '-1'
-          }
-        }}
-      />
       <p
         className="title has-text-white test-center-text has-text-centered is-size-4-mobile	
                   is-uppercase is-size-1"
@@ -55,6 +43,18 @@ export const IndexPageTemplate = ({
       >
         See more
       </Link>
+      <PreviewCompatibleImage
+        imageInfo={{
+          image: '/img/p15776-001-1.jpg',
+          alt: `featured image thumbnail for post ${title}`,
+          style: {
+            width: '100%',
+            maxHeight: '270px',
+            objectFit: 'cover',
+            zIndex: '-1'
+          }
+        }}
+      />
     </section>
     <section className="partners-container has-text-centered">
       <div className="partners-text-container">

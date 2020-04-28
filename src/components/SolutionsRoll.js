@@ -30,7 +30,7 @@ export const SolutionsRoll = ({ data, filterByCategory }) => {
                     imageInfo={{
                       image: solution.frontmatter.featuredimage,
                       alt: `featured image thumbnail for ${solution.frontmatter.title}`,
-                      style: { height: '280px', width: '380px' }
+                      style: { height: '280px', width: '380px' },
                     }}
                   />
                 </div>
@@ -43,10 +43,12 @@ export const SolutionsRoll = ({ data, filterByCategory }) => {
                     width: '60%',
                     height: '1px',
                     padding: '1px',
-                    margin: '20px 0 10px 0'
+                    margin: '20px 0 10px 0',
                   }}
                 ></hr>
-                <p>{solution.frontmatter.title.toUpperCase()}</p>
+                <p style={{ maxWidth: '380px', textAlign: 'center' }}>
+                  {solution.frontmatter.title.toUpperCase()}
+                </p>
               </div>
             </Link>
           </div>
@@ -65,13 +67,13 @@ export const SolutionsRoll = ({ data, filterByCategory }) => {
 SolutionsRoll.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
-      edges: PropTypes.array
-    })
+      edges: PropTypes.array,
+    }),
   }),
-  filterByCategory: PropTypes.string
+  filterByCategory: PropTypes.string,
 };
 
-const SolutionsRollQuery = props => (
+const SolutionsRollQuery = (props) => (
   <StaticQuery
     query={graphql`
       query SolutionsRollQuery {

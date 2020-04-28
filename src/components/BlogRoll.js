@@ -11,10 +11,10 @@ const mediums = {
   Twitter: twitter,
   Facebook: facebook,
   Instagram: instagram,
-  LinkedIn: linkedin
+  LinkedIn: linkedin,
 };
 
-const textFormatter = text => {
+const textFormatter = (text) => {
   return text.substring(0, 300) + '...';
 };
 
@@ -57,14 +57,17 @@ class BlogRoll extends React.Component {
                             image: post.frontmatter.featuredimage,
                             alt: `featured image for post ${post.title}`,
                             imageStyle: {
-                              objectFit: 'cover'
-                            }
+                              objectFit: 'cover',
+                            },
                           }}
                         />
                       ) : null}
                     </div>
                     <div className="blog-bottom">
-                      <p className="has-text-centered">
+                      <p
+                        className="has-text-centered"
+                        style={{ width: '100%' }}
+                      >
                         {post.frontmatter.description.length > 300
                           ? textFormatter(post.frontmatter.description)
                           : post.frontmatter.description}
@@ -88,9 +91,9 @@ class BlogRoll extends React.Component {
 BlogRoll.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
-      edges: PropTypes.array
-    })
-  })
+      edges: PropTypes.array,
+    }),
+  }),
 };
 
 const BlogRollQuery = () => (
