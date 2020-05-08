@@ -1,13 +1,22 @@
 ---
 templateKey: project
 title: 2018 - ERKO Settefisk
-description: >
-  Through a former cooperating company, FTG was requested to design, engineer
-  and install a  process solution to clense the waste water from their RAS
-  facility. We engineered the Fjell Fishsludge Recovery System. 
+description: |+
+  Erko Settefisk was one of our first plants to clean sludge from RAS plants. 
+
 mainimage: /img/greentech_1920.jpg
 title1: Description
 description1: >-
+  At the beginning of such a project, it is important to get the correct data on
+  the outgoing water volumes from the plant and not least the amount of feed.
+
+
+  The amount of salt in the water is also of great importance - to be able to
+  set up solutions for solutes as well as total suspended solids. Finally, it is
+  the degree of cleaning that the customer needs, which then sets the conditions
+  for the choice of equipment and the design.
+
+
   FTG designed and engineered a solution based on three steps:
 
   1: Flocculation - with help from dedicated supplier within electro
@@ -15,7 +24,12 @@ description1: >-
 
   2: Then sentrifuge the dry solids until a sludge of approx. 22%. 
 
-  3: Dry the sludge with a thermo mechanical dryer to above 90% 
+  3: Dry the sludge with a thermo mechanical dryer to above 90%.
+
+
+  Since the commissioning period the sludge drying system has been running
+  problem free - please contact us if any questions regarding setup, solutions
+  or if we in any way can help you
 miniatureimage1: /img/frs.png
 miniatureimage2: /img/p15776-001-1.jpg
 title2: Recycling
@@ -35,6 +49,32 @@ relatedproducts:
   relatedproduct1:
     body: |+
 
+    description1: >-
+      ## Design
+
+
+      The Fjell Turbo Disc Dryer is designed for indirect heating by steam (6-10
+      bar). The dryer can be delivered for vacuum drying of temperature
+      sensitive raw materials. The largest heating surface is the rotor, but
+      additional heating surface is available as an option on the stator. The
+      product to be dried is slowly, but vigorously, transported from inlet to
+      outlet end by a paddle system mounted on the disc periphery. 
+
+
+      Product discharge is normally done continuously by a speed controlled
+      extraction screw conveyor. The discs are mounted on a heavy central shaft
+      with a highly efficient condensate removal system integrated. Scraper bars
+      ensure agitation between the discs, which is necessary for an efficient
+      evaporation. The moisture evaporated from the product is collected in a
+      high top vapour dome, and continuously removed. 
+
+
+      Dryers can be supplied in all practical sizes, in all common materials of
+      construction (carbon-, stainless-, and duplex steels), and approved and
+      inspected according to the leading international design codes and
+      standards (PED, ASME, JIS, GOST, DNV, Lloyds, Bureau Veritas etc..) The
+      dryer has a unique endurable patented rotor design without traditional
+      welded stays exposed to tear, wear, fatigue and corrosion.
     description2: >-
       ## Legacy
 
@@ -109,35 +149,35 @@ relatedproducts:
     subtitle: The robust and energy efficient drying of Biomasses
     templateKey: product
     title: 'FTG Turbo Disc Dryer '
-    description1: >-
-      ## Design
-
-
-      The Fjell Turbo Disc Dryer is designed for indirect heating by steam (6-10
-      bar). The dryer can be delivered for vacuum drying of temperature
-      sensitive raw materials. The largest heating surface is the rotor, but
-      additional heating surface is available as an option on the stator. The
-      product to be dried is slowly, but vigorously, transported from inlet to
-      outlet end by a paddle system mounted on the disc periphery. 
-
-
-      Product discharge is normally done continuously by a speed controlled
-      extraction screw conveyor. The discs are mounted on a heavy central shaft
-      with a highly efficient condensate removal system integrated. Scraper bars
-      ensure agitation between the discs, which is necessary for an efficient
-      evaporation. The moisture evaporated from the product is collected in a
-      high top vapour dome, and continuously removed. 
-
-
-      Dryers can be supplied in all practical sizes, in all common materials of
-      construction (carbon-, stainless-, and duplex steels), and approved and
-      inspected according to the leading international design codes and
-      standards (PED, ASME, JIS, GOST, DNV, Lloyds, Bureau Veritas etc..) The
-      dryer has a unique endurable patented rotor design without traditional
-      welded stays exposed to tear, wear, fatigue and corrosion.
   relatedproduct2:
     body: |+
 
+    description1: >-
+      ## Design
+
+
+      The Fjell Turbo Disc Dryer is designed for indirect heating by steam (6-10
+      bar). The dryer can be delivered for vacuum drying of temperature
+      sensitive raw materials. The largest heating surface is the rotor, but
+      additional heating surface is available as an option on the stator. The
+      product to be dried is slowly, but vigorously, transported from inlet to
+      outlet end by a paddle system mounted on the disc periphery. 
+
+
+      Product discharge is normally done continuously by a speed controlled
+      extraction screw conveyor. The discs are mounted on a heavy central shaft
+      with a highly efficient condensate removal system integrated. Scraper bars
+      ensure agitation between the discs, which is necessary for an efficient
+      evaporation. The moisture evaporated from the product is collected in a
+      high top vapour dome, and continuously removed. 
+
+
+      Dryers can be supplied in all practical sizes, in all common materials of
+      construction (carbon-, stainless-, and duplex steels), and approved and
+      inspected according to the leading international design codes and
+      standards (PED, ASME, JIS, GOST, DNV, Lloyds, Bureau Veritas etc..) The
+      dryer has a unique endurable patented rotor design without traditional
+      welded stays exposed to tear, wear, fatigue and corrosion.
     description2: >-
       ## Legacy
 
@@ -212,35 +252,35 @@ relatedproducts:
     subtitle: The robust and energy efficient drying of Biomasses
     templateKey: product
     title: 'FTG Turbo Disc Dryer '
-    description1: >-
-      ## Design
-
-
-      The Fjell Turbo Disc Dryer is designed for indirect heating by steam (6-10
-      bar). The dryer can be delivered for vacuum drying of temperature
-      sensitive raw materials. The largest heating surface is the rotor, but
-      additional heating surface is available as an option on the stator. The
-      product to be dried is slowly, but vigorously, transported from inlet to
-      outlet end by a paddle system mounted on the disc periphery. 
-
-
-      Product discharge is normally done continuously by a speed controlled
-      extraction screw conveyor. The discs are mounted on a heavy central shaft
-      with a highly efficient condensate removal system integrated. Scraper bars
-      ensure agitation between the discs, which is necessary for an efficient
-      evaporation. The moisture evaporated from the product is collected in a
-      high top vapour dome, and continuously removed. 
-
-
-      Dryers can be supplied in all practical sizes, in all common materials of
-      construction (carbon-, stainless-, and duplex steels), and approved and
-      inspected according to the leading international design codes and
-      standards (PED, ASME, JIS, GOST, DNV, Lloyds, Bureau Veritas etc..) The
-      dryer has a unique endurable patented rotor design without traditional
-      welded stays exposed to tear, wear, fatigue and corrosion.
   relatedproduct3:
     body: |+
 
+    description1: >-
+      ## Design
+
+
+      The Fjell Turbo Disc Dryer is designed for indirect heating by steam (6-10
+      bar). The dryer can be delivered for vacuum drying of temperature
+      sensitive raw materials. The largest heating surface is the rotor, but
+      additional heating surface is available as an option on the stator. The
+      product to be dried is slowly, but vigorously, transported from inlet to
+      outlet end by a paddle system mounted on the disc periphery. 
+
+
+      Product discharge is normally done continuously by a speed controlled
+      extraction screw conveyor. The discs are mounted on a heavy central shaft
+      with a highly efficient condensate removal system integrated. Scraper bars
+      ensure agitation between the discs, which is necessary for an efficient
+      evaporation. The moisture evaporated from the product is collected in a
+      high top vapour dome, and continuously removed. 
+
+
+      Dryers can be supplied in all practical sizes, in all common materials of
+      construction (carbon-, stainless-, and duplex steels), and approved and
+      inspected according to the leading international design codes and
+      standards (PED, ASME, JIS, GOST, DNV, Lloyds, Bureau Veritas etc..) The
+      dryer has a unique endurable patented rotor design without traditional
+      welded stays exposed to tear, wear, fatigue and corrosion.
     description2: >-
       ## Legacy
 
@@ -315,32 +355,6 @@ relatedproducts:
     subtitle: The robust and energy efficient drying of Biomasses
     templateKey: product
     title: 'FTG Turbo Disc Dryer '
-    description1: >-
-      ## Design
-
-
-      The Fjell Turbo Disc Dryer is designed for indirect heating by steam (6-10
-      bar). The dryer can be delivered for vacuum drying of temperature
-      sensitive raw materials. The largest heating surface is the rotor, but
-      additional heating surface is available as an option on the stator. The
-      product to be dried is slowly, but vigorously, transported from inlet to
-      outlet end by a paddle system mounted on the disc periphery. 
-
-
-      Product discharge is normally done continuously by a speed controlled
-      extraction screw conveyor. The discs are mounted on a heavy central shaft
-      with a highly efficient condensate removal system integrated. Scraper bars
-      ensure agitation between the discs, which is necessary for an efficient
-      evaporation. The moisture evaporated from the product is collected in a
-      high top vapour dome, and continuously removed. 
-
-
-      Dryers can be supplied in all practical sizes, in all common materials of
-      construction (carbon-, stainless-, and duplex steels), and approved and
-      inspected according to the leading international design codes and
-      standards (PED, ASME, JIS, GOST, DNV, Lloyds, Bureau Veritas etc..) The
-      dryer has a unique endurable patented rotor design without traditional
-      welded stays exposed to tear, wear, fatigue and corrosion.
 category: Protein Recycling
 ---
 
