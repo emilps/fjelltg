@@ -6,7 +6,7 @@ indexblock:
   link1: >-
     https://fjelltg.netlify.app/solutionCategory/2020-02-08-greentech-and-the-environment/
   link2: 'https://fjelltg.netlify.com/solutionCategory/2020-02-08-protein-recycling/'
-  title1: Waste water
+  title1: 'Waste water '
   title2: Protein Recycling
 title: Your partner for process technology
 middleblock:
