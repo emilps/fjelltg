@@ -49,312 +49,103 @@ relatedproducts:
   relatedproduct1:
     body: |+
 
-    description1: >-
-      ## Design
-
-
-      The Fjell Turbo Disc Dryer is designed for indirect heating by steam (6-10
-      bar). The dryer can be delivered for vacuum drying of temperature
-      sensitive raw materials. The largest heating surface is the rotor, but
-      additional heating surface is available as an option on the stator. The
-      product to be dried is slowly, but vigorously, transported from inlet to
-      outlet end by a paddle system mounted on the disc periphery. 
-
-
-      Product discharge is normally done continuously by a speed controlled
-      extraction screw conveyor. The discs are mounted on a heavy central shaft
-      with a highly efficient condensate removal system integrated. Scraper bars
-      ensure agitation between the discs, which is necessary for an efficient
-      evaporation. The moisture evaporated from the product is collected in a
-      high top vapour dome, and continuously removed. 
-
-
-      Dryers can be supplied in all practical sizes, in all common materials of
-      construction (carbon-, stainless-, and duplex steels), and approved and
-      inspected according to the leading international design codes and
-      standards (PED, ASME, JIS, GOST, DNV, Lloyds, Bureau Veritas etc..) The
-      dryer has a unique endurable patented rotor design without traditional
-      welded stays exposed to tear, wear, fatigue and corrosion.
-    description2: >-
-      ## Legacy
-
-
-      In the year 2000 Fjell Technology Group AS decided to develop a robust and
-      energy efficient disc dryer specially designed for modern manufacturing
-      methods like robotic welding. We had a competent staff with senior
-      personnel having experience from design, manufacturing and installation of
-      about 2000 Stord dryers since the introduction of the technology, wich
-      took place in the late 50ies. 
-
-
-      We added some young innovative engineers skilled in state of the art
-      engineering design and analysis techniques. The result was the Fjell Turbo
-      Disc Dryer with a unique patented disc design, based on efficient
-      manufacturing techniques.
-    fullwidthimage: /img/td440.jpg
-    headerimage: /img/td440.jpg
-    infobox1: >-
-      ## Advantages
-
-
-      Advantages between Fjell TD Dryer vs. other Rotadisc dryers:
-
-
-      * Forged claws can be welded with high precision in flat position using
-      robots. 
-
-      * Welds can be inspected with NDT before assembly. 
-
-      * Welds are not exposed to the material to be dried, thereby risk for
-      stress corrosion cracking is eliminated. 
-
-      * Welds do not seal between pressurised and non-pressurised side. Thereby
-      risk for steam leakage is eliminated. 
-
-      * Claws act as reinforcement beams in radial direction, thereby increasing
-      the lateral bending strength of the discs, which reduces the risk for
-      leakages in foot welds between discs (big problem with Rotadisc). 
-
-      * Smooth disc surface secures efficient self-cleaning and maximum heat
-      transfer.
-
-
-      The distinct difference between the TD dryer and most other disc dryers is
-      that staybolt welds (or welds of other means to maintain the integrity of
-      the disc when exposed to internal steam pressure) is entirely on the
-      inside of the disc. Fjell has in its process for drying with disc-driers a
-      patented process solution reducing usage of steam with approx. 40% from
-      normal driers.
-    infobox2: >-
-      ## Application
-
-
-      * Sludge in Waste Water 
-
-      * Treatment Plant for fishmeal in both land based and ship installed
-      plants 
-
-      * Ingredients in the food industry
-
-      * Spent grains in distilleries and breweries
-
-      * Animal and poultry by-products for industrial bio-sludge and mineral
-      sludge 
-
-      * Replacement rotors and units for old disc dryers
-    productbrochure: /img/img_5185.jpg
-    productcategory: 'Municipal Waste Water Treatment '
-    slug: 2020-01-02-dryer-turbo-disc
-    smallimage: /img/fjelltg_main.jpg
-    subtitle: The robust and energy efficient drying of Biomasses
+    description2: "Soneco uses a low-carbon, low-voltage source of power to obtain the safe and controlled generation of water treatment reagents on-site.\r\n\n\rReactive water treatment reagents are metered precisely and directly into the process stream – simply by varying the electric current that is applied to the electrodes, in a controlled and calculated manner. This novel, fast and controllable treatment system uses a state-of-the-art, in-house designed Power Control System (PSU) to ensure fine-control of the system and its ancillaries and ensuring high-efficiency and reliability."
+    fullwidthimage: /img/fjell-osan-1-002-.jpg
+    headerimage: /img/fjell-osan-3.jpg
+    infobox1: "* Small, robust and modular configuration allowing high flow volumes\r\n* Compact design aimed at high viscosity liquids\r\n* No liquid chemical or polymer required for coagulation and pH correction\r\n* Highly dewatered sludge production\r\n* Supplied as a factory-built, plug-and-play solution\r\n* Easily installed alone, or retro-fitted to existing overloaded/underperforming plants\r\n* Easy-change electrode plates\r\n* Available with on-line parameter monitoring and control\r\n* Includes adaptive control and remote access monitoring, control and automation"
+    infobox2: "Pre-biological treatment for Load Reduction\r\n\nTreatment of Recalcitrant Organics\r\n\nPhosphorus and Nutrient Removal\r\n\nTertiary & Quaternary Treatment\r\n\nWater Recovery & Re-use\r\n\nSludge Enrichment"
+    productbrochure: /img/soneco-db-series-technical-specification-2019-1.pdf
+    productcategory: Fish Sludge Treatment
+    slug: 2020-03-23-flocculation-unit
+    smallimage: /img/fjell-osan-3.jpg
+    subtitle: 'Electro flocculation for enriching sludge from 0,1% DS to approx. 5% DS'
     templateKey: product
-    title: 'FTG Turbo Disc Dryer '
+    title: Flocculation Unit
+    description1: >-
+      Combining electrolysis and ultrasound in a single reactor provides
+      unparalleled water treatment performance and efficiency for safe and
+      effective electrochemical reagent generation on-site. The DB Series of
+      reactors have wide-ranging treatment capabilities, simply by changing the
+      electrode material.
   relatedproduct2:
     body: |+
 
-    description1: >-
-      ## Design
-
-
-      The Fjell Turbo Disc Dryer is designed for indirect heating by steam (6-10
-      bar). The dryer can be delivered for vacuum drying of temperature
-      sensitive raw materials. The largest heating surface is the rotor, but
-      additional heating surface is available as an option on the stator. The
-      product to be dried is slowly, but vigorously, transported from inlet to
-      outlet end by a paddle system mounted on the disc periphery. 
-
-
-      Product discharge is normally done continuously by a speed controlled
-      extraction screw conveyor. The discs are mounted on a heavy central shaft
-      with a highly efficient condensate removal system integrated. Scraper bars
-      ensure agitation between the discs, which is necessary for an efficient
-      evaporation. The moisture evaporated from the product is collected in a
-      high top vapour dome, and continuously removed. 
-
-
-      Dryers can be supplied in all practical sizes, in all common materials of
-      construction (carbon-, stainless-, and duplex steels), and approved and
-      inspected according to the leading international design codes and
-      standards (PED, ASME, JIS, GOST, DNV, Lloyds, Bureau Veritas etc..) The
-      dryer has a unique endurable patented rotor design without traditional
-      welded stays exposed to tear, wear, fatigue and corrosion.
     description2: >-
-      ## Legacy
-
-
-      In the year 2000 Fjell Technology Group AS decided to develop a robust and
-      energy efficient disc dryer specially designed for modern manufacturing
-      methods like robotic welding. We had a competent staff with senior
-      personnel having experience from design, manufacturing and installation of
-      about 2000 Stord dryers since the introduction of the technology, wich
-      took place in the late 50ies. 
-
-
-      We added some young innovative engineers skilled in state of the art
-      engineering design and analysis techniques. The result was the Fjell Turbo
-      Disc Dryer with a unique patented disc design, based on efficient
-      manufacturing techniques.
-    fullwidthimage: /img/td440.jpg
-    headerimage: /img/td440.jpg
-    infobox1: >-
-      ## Advantages
-
-
-      Advantages between Fjell TD Dryer vs. other Rotadisc dryers:
-
-
-      * Forged claws can be welded with high precision in flat position using
-      robots. 
-
-      * Welds can be inspected with NDT before assembly. 
-
-      * Welds are not exposed to the material to be dried, thereby risk for
-      stress corrosion cracking is eliminated. 
-
-      * Welds do not seal between pressurised and non-pressurised side. Thereby
-      risk for steam leakage is eliminated. 
-
-      * Claws act as reinforcement beams in radial direction, thereby increasing
-      the lateral bending strength of the discs, which reduces the risk for
-      leakages in foot welds between discs (big problem with Rotadisc). 
-
-      * Smooth disc surface secures efficient self-cleaning and maximum heat
-      transfer.
-
-
-      The distinct difference between the TD dryer and most other disc dryers is
-      that staybolt welds (or welds of other means to maintain the integrity of
-      the disc when exposed to internal steam pressure) is entirely on the
-      inside of the disc. Fjell has in its process for drying with disc-driers a
-      patented process solution reducing usage of steam with approx. 40% from
-      normal driers.
+      Dewatering Decanters are continuously operating horizontal solid-wall bowl
+      centrifuges for maximum dewatering requirements of municipal and
+      industrial wastewater sludge. The frame is of open design with either
+      gravity or pressure discharge of the clarified phase.
+    fullwidthimage: /img/p15776-001-1.jpg
+    headerimage: /img/gea-environmental-decanter-prime_tcm11-23288.jpg
+    infobox1: "Dewatering efficiency with decanter:\r\n\n\n\nLow  power consumption down to 0.7 kWh/m³/h\r\n\nHigh g-force for maximum dewatering \r\n\nGentle feed geometry for optimum flocculation and low wear \r\n\nAll product-contacting parts are made of stainless steel \r\n\nLowest  space requirement (m³/h per m²)\r\n\nEasy to operate and maintain"
     infobox2: >-
-      ## Application
-
-
-      * Sludge in Waste Water 
-
-      * Treatment Plant for fishmeal in both land based and ship installed
-      plants 
-
-      * Ingredients in the food industry
-
-      * Spent grains in distilleries and breweries
-
-      * Animal and poultry by-products for industrial bio-sludge and mineral
-      sludge 
-
-      * Replacement rotors and units for old disc dryers
-    productbrochure: /img/img_5185.jpg
-    productcategory: 'Municipal Waste Water Treatment '
-    slug: 2020-01-02-dryer-turbo-disc
-    smallimage: /img/fjelltg_main.jpg
-    subtitle: The robust and energy efficient drying of Biomasses
+      A decanter needs little to none maintenance and can be flexibly configured
+      for individual requirements
+    productbrochure: /img/gea-environmental-decanter-prime_tcm11-23288.jpg
+    productcategory: Fish Sludge Treatment
+    slug: 2020-03-23-decanter
+    smallimage: /img/frs.jpg
+    subtitle: ' A decanter is a continuously operating centrifuge  developed specifically for the requirements of sludge (pre-) dewatering. '
     templateKey: product
-    title: 'FTG Turbo Disc Dryer '
+    title: Decanter
+    description1: >-
+      A decanter can be flexibly configured for highly complex processes with
+      individual requirements and large capacities.
   relatedproduct3:
     body: |+
 
-    description1: >-
-      ## Design
+    description2: |-
+      The TMD can be applied for the following areas:
 
-
-      The Fjell Turbo Disc Dryer is designed for indirect heating by steam (6-10
-      bar). The dryer can be delivered for vacuum drying of temperature
-      sensitive raw materials. The largest heating surface is the rotor, but
-      additional heating surface is available as an option on the stator. The
-      product to be dried is slowly, but vigorously, transported from inlet to
-      outlet end by a paddle system mounted on the disc periphery. 
-
-
-      Product discharge is normally done continuously by a speed controlled
-      extraction screw conveyor. The discs are mounted on a heavy central shaft
-      with a highly efficient condensate removal system integrated. Scraper bars
-      ensure agitation between the discs, which is necessary for an efficient
-      evaporation. The moisture evaporated from the product is collected in a
-      high top vapour dome, and continuously removed. 
-
-
-      Dryers can be supplied in all practical sizes, in all common materials of
-      construction (carbon-, stainless-, and duplex steels), and approved and
-      inspected according to the leading international design codes and
-      standards (PED, ASME, JIS, GOST, DNV, Lloyds, Bureau Veritas etc..) The
-      dryer has a unique endurable patented rotor design without traditional
-      welded stays exposed to tear, wear, fatigue and corrosion.
-    description2: >-
-      ## Legacy
-
-
-      In the year 2000 Fjell Technology Group AS decided to develop a robust and
-      energy efficient disc dryer specially designed for modern manufacturing
-      methods like robotic welding. We had a competent staff with senior
-      personnel having experience from design, manufacturing and installation of
-      about 2000 Stord dryers since the introduction of the technology, wich
-      took place in the late 50ies. 
-
-
-      We added some young innovative engineers skilled in state of the art
-      engineering design and analysis techniques. The result was the Fjell Turbo
-      Disc Dryer with a unique patented disc design, based on efficient
-      manufacturing techniques.
-    fullwidthimage: /img/td440.jpg
-    headerimage: /img/td440.jpg
+      * Bio sludge
+      * Municipal waste
+      * Fish offal
+      * Fish and animal manure
+      * Organic products
+      * Proteins
+      * Blood
+    fullwidthimage: /img/osan-tmd.jpg
+    headerimage: /img/tmd.png
     infobox1: >-
-      ## Advantages
+      This dryer is excellent on most types of material, but truly unique on
+      material that is perceived as sticky or “glue-like”.
 
 
-      Advantages between Fjell TD Dryer vs. other Rotadisc dryers:
+      The TMD isxcellent on most material, exceeding on sticky, “glue-like”
+      material
 
 
-      * Forged claws can be welded with high precision in flat position using
-      robots. 
+      * Compact process
 
-      * Welds can be inspected with NDT before assembly. 
+      * Mobile unit available (20’ container footprint)
 
-      * Welds are not exposed to the material to be dried, thereby risk for
-      stress corrosion cracking is eliminated. 
+      * Fundamentally hazard free process
 
-      * Welds do not seal between pressurised and non-pressurised side. Thereby
-      risk for steam leakage is eliminated. 
+      * High-energy efficiency (>95%)
 
-      * Claws act as reinforcement beams in radial direction, thereby increasing
-      the lateral bending strength of the discs, which reduces the risk for
-      leakages in foot welds between discs (big problem with Rotadisc). 
+      * No steam, hot oil or hot air required
 
-      * Smooth disc surface secures efficient self-cleaning and maximum heat
-      transfer.
+      * Simple installation
 
+      * Automatic control system during operation
 
-      The distinct difference between the TD dryer and most other disc dryers is
-      that staybolt welds (or welds of other means to maintain the integrity of
-      the disc when exposed to internal steam pressure) is entirely on the
-      inside of the disc. Fjell has in its process for drying with disc-driers a
-      patented process solution reducing usage of steam with approx. 40% from
-      normal driers.
+      * Can eliminate mold and bacteria in dried material
     infobox2: >-
-      ## Application
-
-
-      * Sludge in Waste Water 
-
-      * Treatment Plant for fishmeal in both land based and ship installed
-      plants 
-
-      * Ingredients in the food industry
-
-      * Spent grains in distilleries and breweries
-
-      * Animal and poultry by-products for industrial bio-sludge and mineral
-      sludge 
-
-      * Replacement rotors and units for old disc dryers
-    productbrochure: /img/img_5185.jpg
-    productcategory: 'Municipal Waste Water Treatment '
-    slug: 2020-01-02-dryer-turbo-disc
-    smallimage: /img/fjelltg_main.jpg
-    subtitle: The robust and energy efficient drying of Biomasses
+      Fjell RAS Sludge drying system is a fully automated system, with minimal
+      need for supervision. Unlike most other sludge drying technologies, Fjell
+      RAS Sludge Dryers do not require the addition of polymer (plastic), or
+      other additives. This provides an environmentally friendly end product
+      (fertilizer), while drying is more cost effective.
+    productbrochure: /img/ftg-kunder-presentasjon-tørkeprosess-ras-flyer.pdf
+    productcategory: Fish Sludge Treatment
+    slug: 2020-03-23-thermo-mechanical-dryer
+    smallimage: /img/frs.jpg
+    subtitle: >-
+      The TMD is the dryer for materials categorized as difficult or sticky to
+      dry
     templateKey: product
-    title: 'FTG Turbo Disc Dryer '
-category: Protein Recycling
+    title: 'Thermo Mechanical Dryer '
+    description1: "The TMD process is patented and has shown excellent results on materials with sticky behaviour during drying. In the TMD the heat required for the evaporation is generated directly in the material by a high-speed rotor.\r Technolgy is owned by Thermtech AS\n\nFTG is the only supplier for TMD towards fish farmers (RAS - and flow-through plants) in Norway."
+category: FishSludge Recovery System
 ---
 
