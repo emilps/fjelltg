@@ -60,7 +60,7 @@ infobox1: >-
   disc when exposed to internal steam pressure) is entirely on the inside of the
   disc. Fjell has in its process for drying with disc-driers a patented process
   solution reducing usage of steam with approx. 40% from normal driers.
-productbrochure: /img/fjell-td-dryer-vs-rotadisc.pdf
+productbrochure: ''
 smallimage: /img/fjelltg_main.jpg
 fullwidthimage: /img/td440.jpg
 description2: >-
