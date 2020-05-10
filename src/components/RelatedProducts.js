@@ -12,6 +12,16 @@ const RelatedProducts = ({ relatedproducts, title1 }) => {
     setIsIE(/*@cc_on!@*/ false || !!document.documentMode);
   }, []);
 
+  if (relatedproducts) {
+    if (
+      relatedproducts['relatedproduct1'] === null &&
+      relatedproducts['relatedproduct2'] === null &&
+      relatedproducts['relatedproduct3'] === null
+    ) {
+      relatedproducts = null;
+    }
+  }
+
   return (
     <div className="project-related-products">
       <p className="title has-text-centered" style={{ marginBottom: '3rem' }}>

@@ -7,7 +7,7 @@ import { List, Map, fromJS } from 'immutable';
 import { reactSelectStyles } from 'netlify-cms-ui-default';
 
 function optionToString(option) {
-  return option && option.value ? option.value : '';
+  return option && option.value ? option.value : null;
 }
 
 function convertToOption(raw) {
@@ -26,11 +26,11 @@ function getSelectedValue({ value, options, isMultiple }) {
     }
 
     return selectedOptions
-      .map(i => options.find(o => o.value === (i.value || i)))
+      .map((i) => options.find((o) => o.value === (i.value || i)))
       .filter(Boolean)
       .map(convertToOption);
   } else {
-    let title = '';
+    let title = null;
     if (value) {
       if (value.size) {
         title = value.toJS().title;
@@ -55,7 +55,7 @@ export default class RelationControl extends React.Component {
     queryHits: PropTypes.oneOfType([PropTypes.array, PropTypes.object]),
     classNameWrapper: PropTypes.string.isRequired,
     setActiveStyle: PropTypes.func.isRequired,
-    setInactiveStyle: PropTypes.func.isRequired
+    setInactiveStyle: PropTypes.func.isRequired,
   };
 
   shouldComponentUpdate(nextProps) {
@@ -79,15 +79,15 @@ export default class RelationControl extends React.Component {
       const hits = queryHits.get(forID);
       if (value) {
         const listValue = List.isList(value) ? value : List([value]);
-        listValue.forEach(val => {
+        listValue.forEach((val) => {
           const hit = hits.find(
-            i => this.parseNestedFields(i.data, valueField) === val
+            (i) => this.parseNestedFields(i.data, valueField) === val
           );
           if (hit) {
             onChange(value, {
               [field.get('name')]: {
-                [field.get('collection')]: { [val]: hit.data }
-              }
+                [field.get('collection')]: { [val]: hit.data },
+              },
             });
           }
         });
@@ -95,7 +95,7 @@ export default class RelationControl extends React.Component {
     }
   }
 
-  handleChange = selectedOption => {
+  handleChange = (selectedOption) => {
     const { onChange, field } = this.props;
     let value;
     let metadata;
@@ -106,9 +106,9 @@ export default class RelationControl extends React.Component {
         (!isEmpty(selectedOption) && {
           [field.get('name')]: {
             [field.get('collection')]: {
-              [last(value)]: last(selectedOption).data
-            }
-          }
+              [last(value)]: last(selectedOption).data,
+            },
+          },
         }) ||
         {};
       onChange(fromJS(value), metadata);
@@ -116,8 +116,8 @@ export default class RelationControl extends React.Component {
       value = optionToString(selectedOption);
       metadata = selectedOption && {
         [field.get('name')]: {
-          [field.get('collection')]: { [value]: selectedOption.data }
-        }
+          [field.get('collection')]: { [value]: selectedOption.data },
+        },
       };
       onChange(value, metadata);
     }
@@ -137,18 +137,18 @@ export default class RelationControl extends React.Component {
     return f;
   };
 
-  parseHitOptions = hits => {
+  parseHitOptions = (hits) => {
     const { field } = this.props;
 
     const valueField = field.get('valueField');
     const displayField = field.get('displayFields') || field.get('valueField');
 
-    return hits.map(hit => {
+    return hits.map((hit) => {
       let labelReturn;
       if (List.isList(displayField)) {
         labelReturn = displayField
           .toJS()
-          .map(key => this.parseNestedFields(hit.data, key))
+          .map((key) => this.parseNestedFields(hit.data, key))
           .join(' ');
       } else {
         labelReturn = this.parseNestedFields(hit.data, displayField);
@@ -158,7 +158,7 @@ export default class RelationControl extends React.Component {
         data: hit.data,
         value: hit.data,
         label: labelReturn,
-        slug: hit.slug
+        slug: hit.slug,
       };
     });
   };
@@ -195,7 +195,7 @@ export default class RelationControl extends React.Component {
       classNameWrapper,
       setActiveStyle,
       setInactiveStyle,
-      queryHits
+      queryHits,
     } = this.props;
 
     const isMultiple = field.get('multiple', false);
@@ -207,7 +207,7 @@ export default class RelationControl extends React.Component {
     const selectedValue = getSelectedValue({
       options,
       value,
-      isMultiple
+      isMultiple,
     });
 
     return (
