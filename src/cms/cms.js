@@ -19,6 +19,10 @@ import SolutionCategoryPreview from './preview-templates/SolutionCategoryPreview
 import ProjectsPreview from './preview-templates/Projects';
 
 import controlComponent from './RelationControl';
+import withFileControl from './FileControl';
+import previewComponent from './FilePreview';
+
+const fileControlComponent = withFileControl();
 
 import React from 'react';
 import PropTypes from 'prop-types';
@@ -45,6 +49,12 @@ CMS.registerPreviewTemplate('projects', ProjectsPreview);
 CMS.registerPreviewStyle('./../components/all.sass');
 
 CMS.registerWidget('relatedProduct', controlComponent);
+CMS.registerWidget(
+  'customfiles',
+  fileControlComponent,
+  previewComponent,
+  withFileControl
+);
 
 CMS.registerEditorComponent({
   // Internal id of the component
@@ -54,7 +64,7 @@ CMS.registerEditorComponent({
   // Fields the user need to fill out when adding an instance of the component
   fields: [
     { name: 'text', label: 'Text field', widget: 'text' },
-    { name: 'image', label: 'Image', widget: 'image' }
+    { name: 'image', label: 'Image', widget: 'image' },
   ],
   // Pattern to identify a block as being an instance of this component
   pattern: /{"widget":"imageblock","text":"(.+)","image":"(.+)"}/,
@@ -64,7 +74,7 @@ CMS.registerEditorComponent({
 
     return {
       text: match[1],
-      image: match[2]
+      image: match[2],
     };
   },
   // Function to create a text block from an instance of this component
@@ -72,15 +82,15 @@ CMS.registerEditorComponent({
     return JSON.stringify({
       widget: 'imageblock',
       text: obj.text,
-      image: obj.image
+      image: obj.image,
     });
     // return 'imageblock ' + obj.text + '+' + obj.image;
   },
   // Preview output for this component. Can either be a string or a React component
   // (component gives better render performance)
-  toPreview: obj => {
+  toPreview: (obj) => {
     return <ImageTextBlock text={obj.text} image={obj.image} />;
-  }
+  },
 });
 
 export default class ImageTextBlock extends React.Component {
@@ -101,7 +111,7 @@ export default class ImageTextBlock extends React.Component {
 
 ImageTextBlock.propTypes = {
   text: PropTypes.string,
-  image: PropTypes.oneOfType([PropTypes.object, PropTypes.string])
+  image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
 };
 
 window.___loader = { enqueue: () => {}, hovering: () => {} };
