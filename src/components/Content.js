@@ -70,8 +70,25 @@ export const HTMLContent = ({ content, className }) => {
   );
 };
 
-const ImageTextBlock = (text, image, reversed, clustered) =>
-  `
+const ImageTextBlock = (text, image, reversed, clustered) => {
+  if (/*@cc_on!@*/ false || !!document.documentMode) {
+    return `
+  <div class="columns image-text-block about ${
+    reversed ? 'row-reversed' : ''
+  } ${clustered}" >
+    <p class="column is-half image-text-block-text">
+      ${text}
+    </p>
+    <div
+        class='compat-object-fit column is-half ie11 remove-padding image-text-block-image'
+        style="
+          background-image: url('${image}'); height: 350px
+        "
+      ></div>
+  </div>
+  `;
+  }
+  return `
   <div class="columns image-text-block about ${
     reversed ? 'row-reversed' : ''
   } ${clustered}" >
@@ -81,14 +98,14 @@ const ImageTextBlock = (text, image, reversed, clustered) =>
     <img class="column is-half remove-padding image-text-block-image" src="${image}" style="object-fit: cover;" />
   </div>
   `;
-
+};
 const Content = ({ content, className }) => (
   <div className={className}>{content}</div>
 );
 
 Content.propTypes = {
   content: PropTypes.node,
-  className: PropTypes.string
+  className: PropTypes.string,
 };
 
 HTMLContent.propTypes = Content.propTypes;
