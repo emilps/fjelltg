@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Img from 'gatsby-image';
 
 const PreviewCompatibleImage = ({ imageInfo }) => {
-  const [isIE, setIsIE] = useState(true);
+  const [isIE, setIsIE] = useState(false);
 
   useEffect(() => {
     setIsIE(/*@cc_on!@*/ false || !!document.documentMode);
