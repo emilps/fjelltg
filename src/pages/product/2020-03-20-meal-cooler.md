@@ -11,7 +11,6 @@ infobox1: >-
 
   Hot meal is stirred through the cooler, while we use a cetrifugal fan to draw
   a counterflow of cool air.
-productbrochure: /img/brochure-cooler.pdf
 smallimage: /img/mealcooler-1024x576-1-.jpg
 fullwidthimage: /img/mealcooler-3.png
 description2: >-
