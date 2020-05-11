@@ -1,10 +1,16 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import './all.sass';
 import showdown from 'showdown';
 const converter = new showdown.Converter();
 
 export const HTMLContent = ({ content, className }) => {
+  const [isIE, setIsIE] = useState(false);
+
+  useEffect(() => {
+    setIsIE(/*@cc_on!@*/ false || !!document.documentMode);
+  }, []);
+
   const regexp = RegExp(
     /{"widget":"imageblock","text":"(.+)","image":"(.+)"}/,
     'g'
@@ -56,7 +62,8 @@ export const HTMLContent = ({ content, className }) => {
           JSON.parse(element[0]).text,
           JSON.parse(element[0]).image,
           index % 2 == 1,
-          clusteredString
+          clusteredString,
+          isIE
         )
       );
     }
@@ -70,8 +77,8 @@ export const HTMLContent = ({ content, className }) => {
   );
 };
 
-const ImageTextBlock = (text, image, reversed, clustered) => {
-  if (/*@cc_on!@*/ false || !!document.documentMode) {
+const ImageTextBlock = (text, image, reversed, clustered, isIE) => {
+  if (isIE) {
     return `
   <div class="columns image-text-block about ${
     reversed ? 'row-reversed' : ''
