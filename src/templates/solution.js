@@ -26,7 +26,7 @@ export const SolutionTemplate = ({
   description2,
   description3,
   descriptionimage,
-  relatedproducts
+  relatedproducts,
 }) => {
   const PostContent = contentComponent || Content;
 
@@ -44,14 +44,14 @@ export const SolutionTemplate = ({
           <div
             className={'markdown-container description lightblue'}
             dangerouslySetInnerHTML={{
-              __html: converter.makeHtml(description1)
+              __html: converter.makeHtml(description1),
             }}
           />
           <div className="infobox-container">
             <div
               className={'markdown-container infobox lightblue'}
               dangerouslySetInnerHTML={{
-                __html: converter.makeHtml(infobox1)
+                __html: converter.makeHtml(infobox1),
               }}
             />
           </div>
@@ -64,7 +64,7 @@ export const SolutionTemplate = ({
               imageInfo={{
                 image: fullwidthimage,
                 alt: `fullwidthimage for product ${title}`,
-                style: { height: 'auto', maxHeight: '650px' }
+                style: { height: '100vh', maxHeight: '650px' },
               }}
             />
           </div>
@@ -74,7 +74,7 @@ export const SolutionTemplate = ({
         <div
           className={'content middle-container'}
           dangerouslySetInnerHTML={{
-            __html: converter.makeHtml(description2)
+            __html: converter.makeHtml(description2),
           }}
         />
       </div>
@@ -112,7 +112,7 @@ export const SolutionTemplate = ({
               <div
                 className={'content solution-content'}
                 dangerouslySetInnerHTML={{
-                  __html: converter.makeHtml(description3)
+                  __html: converter.makeHtml(description3),
                 }}
               />
             </div>
@@ -147,7 +147,7 @@ SolutionTemplate.propTypes = {
   description2: PropTypes.string,
   description3: PropTypes.string,
   descriptionimage: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
-  relatedproducts: PropTypes.object
+  relatedproducts: PropTypes.object,
 };
 
 const Solution = ({ data }) => {
@@ -185,8 +185,8 @@ const Solution = ({ data }) => {
 
 Solution.propTypes = {
   data: PropTypes.shape({
-    markdownRemark: PropTypes.object
-  })
+    markdownRemark: PropTypes.object,
+  }),
 };
 
 export default Solution;
