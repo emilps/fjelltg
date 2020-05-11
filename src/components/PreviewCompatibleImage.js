@@ -19,8 +19,6 @@ const PreviewCompatibleImage = ({ imageInfo }) => {
   } = imageInfo;
 
   if (!!image && !!image.childImageSharp && !ignoreIE && isIE) {
-    console.log('IE version');
-
     return (
       <div
         className={'compat-object-fit ' + classNames}
@@ -33,7 +31,6 @@ const PreviewCompatibleImage = ({ imageInfo }) => {
   }
 
   if (!!image && !!image.childImageSharp) {
-    //console.log(image.childImageSharp.fluid.src);
     return (
       <Img
         style={style}
@@ -56,8 +53,6 @@ const PreviewCompatibleImage = ({ imageInfo }) => {
   }
 
   if (!!image && typeof image === 'string' && !ignoreIE && isIE) {
-    console.log('IE version');
-
     return (
       <div
         className={'compat-object-fit ' + classNames}
