@@ -7,6 +7,7 @@ import Layout from '../components/Layout';
 import Content, { HTMLContent } from '../components/Content';
 import Img from 'gatsby-image';
 import RelatedProducts from '../components/RelatedProducts';
+import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 
 export const ProjectTemplate = ({
   description,
@@ -19,7 +20,7 @@ export const ProjectTemplate = ({
   mainimage,
   miniatureimage1,
   miniatureimage2,
-  relatedproducts
+  relatedproducts,
 }) => {
   return (
     <section>
@@ -41,10 +42,13 @@ export const ProjectTemplate = ({
                     style={{ maxHeight: '720px', width: '100%' }}
                   />
                 ) : (
-                  <Img
-                    fluid={mainimage.childImageSharp.fluid}
-                    alt={`featured image thumbnail for project ${title1}`}
-                    style={{ maxHeight: '720px' }}
+                  <PreviewCompatibleImage
+                    imageInfo={{
+                      image: mainimage,
+                      alt: `featured image thumbnail for project ${title1}`,
+                      style: { maxHeight: '720px' },
+                      classNames: 'ie11-project-main-image',
+                    }}
                   />
                 )}
               </div>
@@ -113,7 +117,7 @@ ProjectTemplate.propTypes = {
   mainimage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   miniatureimage1: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   miniatureimage2: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-  relatedproducts: PropTypes.object
+  relatedproducts: PropTypes.object,
 };
 
 const Project = ({ data }) => {
@@ -149,8 +153,8 @@ const Project = ({ data }) => {
 
 Project.propTypes = {
   data: PropTypes.shape({
-    markdownRemark: PropTypes.object
-  })
+    markdownRemark: PropTypes.object,
+  }),
 };
 
 export default Project;
