@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Img from 'gatsby-image';
+import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 
 const PageJumbotron = ({ title, image, description }) => {
   const inputImage = image !== '' ? image : `/img/blog-index.jpg`;
@@ -17,10 +18,12 @@ const PageJumbotron = ({ title, image, description }) => {
         ) : (
           <div>
             {inputImage ? (
-              <Img
-                fluid={inputImage.childImageSharp.fluid}
-                alt={`featured image thumbnail for project ${title}`}
-                className="index-full-width-image margin-top-0"
+              <PreviewCompatibleImage
+                imageInfo={{
+                  image: inputImage,
+                  alt: `featured image thumbnail for project ${title}`,
+                  classNames: 'index-full-width-image margin-top-0',
+                }}
               />
             ) : null}
           </div>
@@ -42,7 +45,7 @@ const PageJumbotron = ({ title, image, description }) => {
 PageJumbotron.propTypes = {
   title: PropTypes.string,
   description: PropTypes.string,
-  image: PropTypes.oneOfType([PropTypes.object, PropTypes.string])
+  image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
 };
 
 export default PageJumbotron;
