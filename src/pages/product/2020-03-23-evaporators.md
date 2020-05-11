@@ -13,7 +13,6 @@ infobox1: >-
   Today we focus on cookers and dryer technology, and have chosen to cooperate
   with EPCON Evaporation Technology AS, and promotes their excellent high grade
   technology to our customers.
-productbrochure: /img/epcon_products_services_brochure.pdf
 smallimage: /img/evaporator-1024x768.jpg
 fullwidthimage: /img/epcon-ftg-evaporator-render.jpg
 description2: >-
