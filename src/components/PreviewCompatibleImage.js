@@ -55,6 +55,20 @@ const PreviewCompatibleImage = ({ imageInfo }) => {
     );
   }
 
+  if (!!image && typeof image === 'string' && !ignoreIE && isIE) {
+    console.log('IE version');
+
+    return (
+      <div
+        className={'compat-object-fit ' + classNames}
+        style={{
+          backgroundImage: 'url(' + image + ')',
+          ...style,
+        }}
+      ></div>
+    );
+  }
+
   if (!!image && typeof image === 'string')
     return <img style={style} className={classNames} src={image} alt={alt} />;
 
