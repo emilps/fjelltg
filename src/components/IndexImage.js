@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import { Link } from 'gatsby';
 import Img from 'gatsby-image';
+import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 
-const IndexImage = indexblock => {
+const IndexImage = (indexblock) => {
   const [chosenTab, setChosenTab] = useState(1);
   const [title, setTitle] = useState(indexblock.indexblock.title1);
   const [link, setLink] = useState(indexblock.indexblock.link1);
@@ -13,7 +14,7 @@ const IndexImage = indexblock => {
     return () => clearTimeout(id);
   }, [chosenTab]);
 
-  const handleClick = index => {
+  const handleClick = (index) => {
     setChosenTab(index);
     if (index === 1) {
       setTitle(indexblock.indexblock.title1);
@@ -35,10 +36,12 @@ const IndexImage = indexblock => {
       ) : (
         <div>
           {indexblock.indexblock.image1 ? (
-            <Img
-              fluid={indexblock.indexblock.image1.childImageSharp.fluid}
-              alt={indexblock.indexblock.title1}
-              className="index-full-width-image margin-top-0"
+            <PreviewCompatibleImage
+              imageInfo={{
+                image: indexblock.indexblock.image1,
+                alt: indexblock.indexblock.title1,
+                classNames: 'index-full-width-image margin-top-0',
+              }}
             />
           ) : null}
         </div>
@@ -54,12 +57,14 @@ const IndexImage = indexblock => {
       ) : (
         <div className="image-overlay index-full-width-image margin-top-0">
           {indexblock.indexblock.image2 ? (
-            <Img
-              fluid={indexblock.indexblock.image2.childImageSharp.fluid}
-              alt={indexblock.indexblock.title2}
-              className={`index-full-width-image image-overlay margin-top-0 ${
-                chosenTab == 1 ? 'recycle-active' : 'water-active'
-              }`}
+            <PreviewCompatibleImage
+              imageInfo={{
+                image: indexblock.indexblock.image2,
+                alt: indexblock.indexblock.title2,
+                classNames: `index-full-width-image image-overlay margin-top-0 ${
+                  chosenTab == 1 ? 'recycle-active' : 'water-active'
+                }`,
+              }}
             />
           ) : null}
         </div>
