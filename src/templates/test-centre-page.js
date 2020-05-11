@@ -12,7 +12,7 @@ export const TestCentrePageTemplate = ({
   headertitle,
   ingress,
   testcentreimages,
-  contacttitle
+  contacttitle,
 }) => {
   return (
     <section>
@@ -35,8 +35,8 @@ export const TestCentrePageTemplate = ({
                     width: '100%',
                     maxHeight: '320px',
                     objectFit: 'cover',
-                    zIndex: '-1'
-                  }
+                    zIndex: '-1',
+                  },
                 }}
               />
             )}
@@ -49,8 +49,8 @@ export const TestCentrePageTemplate = ({
                     width: '100%',
                     maxHeight: '100%',
                     objectFit: 'cover',
-                    zIndex: '-1'
-                  }
+                    zIndex: '-1',
+                  },
                 }}
               />
             )}
@@ -63,8 +63,8 @@ export const TestCentrePageTemplate = ({
                     width: '100%',
                     maxHeight: '320px',
                     objectFit: 'cover',
-                    zIndex: '-1'
-                  }
+                    zIndex: '-1',
+                  },
                 }}
               />
             )}
@@ -108,14 +108,11 @@ TestCentrePageTemplate.propTypes = {
   ingress: PropTypes.string,
   contacttitle: PropTypes.string,
   testcentreimages: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-  helmet: PropTypes.object
+  helmet: PropTypes.object,
 };
 
 const TestCentrePage = ({ data }) => {
   const { frontmatter } = data.markdownRemark;
-
-  console.log(frontmatter.testcentreimages);
-
   return (
     <Layout>
       <TestCentrePageTemplate
@@ -138,9 +135,9 @@ const TestCentrePage = ({ data }) => {
 TestCentrePage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
-      frontmatter: PropTypes.object
-    })
-  })
+      frontmatter: PropTypes.object,
+    }),
+  }),
 };
 
 export default TestCentrePage;

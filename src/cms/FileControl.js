@@ -182,8 +182,6 @@ export default function withFileControl({ forImage } = {}) {
     };
 
     handleRemove = (e) => {
-      console.log('------------------- Testiong this -----------');
-
       e.preventDefault();
       this.props.onClearMediaControl(this.controlID);
       return this.props.onChange(null);
