@@ -18,13 +18,13 @@ partners:
   heading: Partners
   partnerimage:
     - image: /img/cmr.png
-      link: 'https://cmr.no'
+      link: 'https://protech.no'
     - image: /img/equinor.png
-      link: 'https://cmr.no'
+      link: 'https://equinor.com'
     - image: /img/ntnu.png
-      link: 'https://cmr.no'
+      link: 'https://ntnu.no'
     - image: /img/sintef.png
-      link: 'https://cmr.no'
+      link: 'https://sintef.no'
     - image: /img/thermtech_logo_col.jpg
       link: 'https://www.thermtech.no/'
 ---
