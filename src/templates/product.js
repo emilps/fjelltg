@@ -89,7 +89,7 @@ export const ProductTemplate = ({
                 imageInfo={{
                   image: fullwidthimage,
                   alt: `fullwidthimage for product ${title}`,
-                  style: { height: 'auto', maxHeight: '650px' },
+                  style: { height: '100vh', maxHeight: '650px' },
                 }}
               />
             ) : null}

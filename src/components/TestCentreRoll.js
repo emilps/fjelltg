@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link, graphql, StaticQuery } from 'gatsby';
+import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 import Img from 'gatsby-image';
 
 class TestCentreRoll extends React.Component {
@@ -30,12 +31,12 @@ class TestCentreRoll extends React.Component {
                   <div className="column is-half">
                     {post.frontmatter.featuredimage ? (
                       <div>
-                        <Img
-                          className="test-centre-post-image"
-                          fluid={
-                            post.frontmatter.featuredimage.childImageSharp.fluid
-                          }
-                          alt={`featured image thumbnail for post ${post.title}`}
+                        <PreviewCompatibleImage
+                          imageInfo={{
+                            classNames: 'test-centre-post-image',
+                            image: post.frontmatter.featuredimage,
+                            alt: `featured image thumbnail for post ${post.title}`,
+                          }}
                         />
                       </div>
                     ) : (

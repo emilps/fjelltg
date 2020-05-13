@@ -10,6 +10,7 @@ const FeatureGrid = ({ gridItems }) => (
           key={index}
           className="column is-one-fifth-desktop is-one-third-tablet remove-padding"
         >
+          {(item.ignoreIE = true)}
           <a href={item.link} className="partner-logo">
             <PreviewCompatibleImage imageInfo={item} />
           </a>
@@ -22,9 +23,9 @@ FeatureGrid.propTypes = {
   gridItems: PropTypes.arrayOf(
     PropTypes.shape({
       image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-      text: PropTypes.string
+      text: PropTypes.string,
     })
-  )
+  ),
 };
 
 export default FeatureGrid;

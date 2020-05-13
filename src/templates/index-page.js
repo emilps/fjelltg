@@ -12,7 +12,7 @@ export const IndexPageTemplate = ({
   title,
   middleblock,
   partners,
-  indexblock
+  indexblock,
 }) => (
   <div>
     <IndexImage indexblock={indexblock} />
@@ -51,8 +51,9 @@ export const IndexPageTemplate = ({
             width: '100%',
             maxHeight: '270px',
             objectFit: 'cover',
-            zIndex: '-1'
-          }
+            zIndex: '-1',
+            height: '270px',
+          },
         }}
       />
     </section>
@@ -81,9 +82,9 @@ IndexPageTemplate.propTypes = {
   partners: PropTypes.shape({
     partnerimage: PropTypes.array,
     heading: PropTypes.string,
-    description: PropTypes.string
+    description: PropTypes.string,
   }),
-  indexblock: PropTypes.object
+  indexblock: PropTypes.object,
 };
 
 const IndexPage = ({ data }) => {
@@ -108,9 +109,9 @@ const IndexPage = ({ data }) => {
 IndexPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
-      frontmatter: PropTypes.object
-    })
-  })
+      frontmatter: PropTypes.object,
+    }),
+  }),
 };
 
 export default IndexPage;

@@ -12,7 +12,7 @@ export const AboutPageTemplate = ({
   content,
   contentComponent,
   ingress,
-  image
+  image,
 }) => {
   const PageContent = contentComponent || Content;
 
@@ -33,12 +33,19 @@ export const AboutPageTemplate = ({
                 imageInfo={{
                   image: image,
                   alt: `featured image thumbnail for post ${title}`,
+                  classNames: 'about-fullwidth',
                   imageStyle: {
                     width: '100vw',
                     maxHeight: '720px',
                     objectFit: 'cover',
-                    zIndex: '-1'
-                  }
+                    zIndex: '-1',
+                  },
+                  style: {
+                    width: '100vw',
+                    maxHeight: '520px',
+                    objectFit: 'cover',
+                    zIndex: '-1',
+                  },
                 }}
               />
             )}
@@ -67,7 +74,7 @@ AboutPageTemplate.propTypes = {
   contentComponent: PropTypes.func,
   ingress: PropTypes.string,
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-  helmet: PropTypes.object
+  helmet: PropTypes.object,
 };
 
 const AboutPage = ({ data }) => {
@@ -92,7 +99,7 @@ const AboutPage = ({ data }) => {
 };
 
 AboutPage.propTypes = {
-  data: PropTypes.object.isRequired
+  data: PropTypes.object.isRequired,
 };
 
 export default AboutPage;

@@ -697,6 +697,7 @@ $navbar-item-color: white
     max-width: 160px
     width: 160px !important
     max-height: 160px
+    
 
 .blog-container
   min-height: 670px
@@ -863,6 +864,29 @@ a.navbar-item
   &:hover 
     color: #fff !important
     background-color: $primary !important
+
+
+.ie-card
+  height: 100%
+  width: 100%
+  position: relative
+  overflow: hidden
+  float: left
+  img
+    height: auto
+    width: 100%
+    top: 50%
+    left: 50%
+    position: relative
+    transform: translate(-50%, 0)
+
+.compat-object-fit 
+  background-size: cover
+  background-position: center center
+  &.about-fullwidth
+    height: 100vh
+  &.ie11-project-main-image
+    height: 100vh
 
 // responsiveness
 +tablet-only

@@ -2,13 +2,14 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link, graphql, StaticQuery } from 'gatsby';
 import Img from 'gatsby-image';
+import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 
 const filterValues = {
   ALL: 'All',
   WASTE_WATER: 'FishSludge Recovery System',
   PROTEIN_RECYCLING: 'Protein Recycling',
   OIL_GAS: 'Oil & Gas',
-  CO2_CAPTURE: 'Co2 Capture'
+  CO2_CAPTURE: 'Co2 Capture',
 };
 
 class ProjectRoll extends React.Component {
@@ -16,7 +17,7 @@ class ProjectRoll extends React.Component {
     super(props);
     this.state = {
       selectedItem: 0,
-      filter: filterValues.ALL
+      filter: filterValues.ALL,
     };
   }
 
@@ -24,10 +25,10 @@ class ProjectRoll extends React.Component {
     this.setState({ selectedItem: index, filter });
   };
 
-  filterProjects = projects => {
+  filterProjects = (projects) => {
     if (this.state.filter !== filterValues.ALL) {
       const filteredProjects = projects.filter(
-        project => project.node.frontmatter.category === this.state.filter
+        (project) => project.node.frontmatter.category === this.state.filter
       );
       return filteredProjects;
     } else {
@@ -78,20 +79,19 @@ class ProjectRoll extends React.Component {
                     <div className="column is-half">
                       {project.frontmatter.mainimage ? (
                         <div>
-                          <Img
-                            style={{ height: '400px' }}
-                            fluid={
-                              project.frontmatter.mainimage.childImageSharp
-                                .fluid
-                            }
-                            alt={`featured image thumbnail for project ${project.title}`}
+                          <PreviewCompatibleImage
+                            imageInfo={{
+                              image: project.frontmatter.mainimage,
+                              alt: `featured image thumbnail for project ${project.title}`,
+                              style: { height: '400px' },
+                            }}
                           />
                         </div>
                       ) : null}
                     </div>
                     <div
                       className="column is-half has-text-centered is-vertical-center has-background-secondary"
-                      ref={node => {
+                      ref={(node) => {
                         if (node) {
                           node.style.setProperty(
                             'padding',
@@ -121,9 +121,9 @@ class ProjectRoll extends React.Component {
 ProjectRoll.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
-      edges: PropTypes.array
-    })
-  })
+      edges: PropTypes.array,
+    }),
+  }),
 };
 
 const ProjectRollQuery = () => (

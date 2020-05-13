@@ -1,10 +1,16 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import './all.sass';
 import showdown from 'showdown';
 const converter = new showdown.Converter();
 
 export const HTMLContent = ({ content, className }) => {
+  const [isIE, setIsIE] = useState(false);
+
+  useEffect(() => {
+    setIsIE(/*@cc_on!@*/ false || !!document.documentMode);
+  }, []);
+
   const regexp = RegExp(
     /{"widget":"imageblock","text":"(.+)","image":"(.+)"}/,
     'g'
@@ -56,7 +62,8 @@ export const HTMLContent = ({ content, className }) => {
           JSON.parse(element[0]).text,
           JSON.parse(element[0]).image,
           index % 2 == 1,
-          clusteredString
+          clusteredString,
+          isIE
         )
       );
     }
@@ -70,8 +77,25 @@ export const HTMLContent = ({ content, className }) => {
   );
 };
 
-const ImageTextBlock = (text, image, reversed, clustered) =>
-  `
+const ImageTextBlock = (text, image, reversed, clustered, isIE) => {
+  if (isIE) {
+    return `
+  <div class="columns image-text-block about ${
+    reversed ? 'row-reversed' : ''
+  } ${clustered}" >
+    <p class="column is-half image-text-block-text">
+      ${text}
+    </p>
+    <div
+        class='compat-object-fit column is-half ie11 remove-padding image-text-block-image'
+        style="
+          background-image: url('${image}'); height: 350px
+        "
+      ></div>
+  </div>
+  `;
+  }
+  return `
   <div class="columns image-text-block about ${
     reversed ? 'row-reversed' : ''
   } ${clustered}" >
@@ -81,14 +105,14 @@ const ImageTextBlock = (text, image, reversed, clustered) =>
     <img class="column is-half remove-padding image-text-block-image" src="${image}" style="object-fit: cover;" />
   </div>
   `;
-
+};
 const Content = ({ content, className }) => (
   <div className={className}>{content}</div>
 );
 
 Content.propTypes = {
   content: PropTypes.node,
-  className: PropTypes.string
+  className: PropTypes.string,
 };
 
 HTMLContent.propTypes = Content.propTypes;
