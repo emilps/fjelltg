@@ -25,6 +25,7 @@ export const ProductTemplate = ({
   helmet,
 }) => {
   const PostContent = contentComponent || Content;
+  console.log('Test');
 
   return (
     <section>
