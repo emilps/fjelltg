@@ -145,7 +145,10 @@ const Product = ({ data }) => {
         helmet={
           <Helmet titleTemplate="%s | Product">
             <title>{`${product.frontmatter.title}`}</title>
-            <meta name="description" content={`some description`} />
+            <meta
+              name="description"
+              content={`${product.frontmatter.subtitle}`}
+            />
           </Helmet>
         }
         title={product.frontmatter.title}

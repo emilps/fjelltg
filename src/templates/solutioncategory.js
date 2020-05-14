@@ -15,7 +15,7 @@ export const SolutionCategoryTemplate = ({
   featuredimage,
   texttitle,
   contentComponent,
-  content
+  content,
 }) => {
   const PageContent = contentComponent || Content;
   return (
@@ -52,7 +52,7 @@ SolutionCategoryTemplate.propTypes = {
   featuredimage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   texttitle: PropTypes.string,
   contentComponent: PropTypes.func,
-  content: PropTypes.string
+  content: PropTypes.string,
 };
 
 const SolutionCategory = ({ data }) => {
@@ -63,11 +63,11 @@ const SolutionCategory = ({ data }) => {
       <SolutionCategoryTemplate
         subtitle={solutionCategory.frontmatter.subtitle}
         helmet={
-          <Helmet titleTemplate="%s | solutionCategory">
+          <Helmet titleTemplate="%s | SolutionCategory">
             <title>{`${solutionCategory.frontmatter.title}`}</title>
             <meta
               name="text"
-              content={`${solutionCategory.frontmatter.text}`}
+              content={`${solutionCategory.frontmatter.subtitle}`}
             />
           </Helmet>
         }
@@ -83,8 +83,8 @@ const SolutionCategory = ({ data }) => {
 
 SolutionCategory.propTypes = {
   data: PropTypes.shape({
-    markdownRemark: PropTypes.object
-  })
+    markdownRemark: PropTypes.object,
+  }),
 };
 
 export default SolutionCategory;

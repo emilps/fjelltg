@@ -13,7 +13,7 @@ const mediums = {
   Twitter: twitter,
   Facebook: facebook,
   Instagram: instagram,
-  LinkedIn: linkedin
+  LinkedIn: linkedin,
 };
 
 export const BlogPostTemplate = ({
@@ -23,7 +23,7 @@ export const BlogPostTemplate = ({
   helmet,
   date,
   featuredimage,
-  socialmedia
+  socialmedia,
 }) => {
   return (
     <section className="section">
@@ -45,7 +45,7 @@ export const BlogPostTemplate = ({
                 imageInfo={{
                   image: featuredimage,
                   alt: `featured image for post ${title}`,
-                  imageStyle: { height: '315px' }
+                  imageStyle: { height: '315px' },
                 }}
               />
             </div>
@@ -69,7 +69,7 @@ BlogPostTemplate.propTypes = {
   link: PropTypes.string,
   date: PropTypes.string,
   featuredimage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-  socialmedia: PropTypes.oneOfType([PropTypes.object, PropTypes.string])
+  socialmedia: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
 };
 
 const BlogPost = ({ data }) => {
@@ -99,8 +99,8 @@ const BlogPost = ({ data }) => {
 
 BlogPost.propTypes = {
   data: PropTypes.shape({
-    markdownRemark: PropTypes.object
-  })
+    markdownRemark: PropTypes.object,
+  }),
 };
 
 export default BlogPost;

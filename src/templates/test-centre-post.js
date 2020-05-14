@@ -9,7 +9,7 @@ export const TestCentrePostTemplate = ({
   title,
   date,
   featuredimage,
-  text
+  text,
 }) => {
   return (
     <div className="is-parent column is-12">
@@ -29,7 +29,7 @@ export const TestCentrePostTemplate = ({
         </div>
         <div
           className="column is-half has-background-secondary test-post-text-container"
-          ref={node => {
+          ref={(node) => {
             if (node) {
               node.style.setProperty('padding', '2rem', 'important');
             }
@@ -51,7 +51,7 @@ TestCentrePostTemplate.propTypes = {
   helmet: PropTypes.object,
   text: PropTypes.string,
   date: PropTypes.string,
-  featuredimage: PropTypes.oneOfType([PropTypes.object, PropTypes.string])
+  featuredimage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
 };
 
 const TestCentrePost = ({ data }) => {
@@ -60,7 +60,7 @@ const TestCentrePost = ({ data }) => {
     <Layout>
       <TestCentrePostTemplate
         helmet={
-          <Helmet titleTemplate="%s | Blog">
+          <Helmet titleTemplate="%s | Test Centre">
             <title>{`${post.frontmatter.title}`}</title>
             <meta
               name="description"
@@ -79,8 +79,8 @@ const TestCentrePost = ({ data }) => {
 
 TestCentrePost.propTypes = {
   data: PropTypes.shape({
-    markdownRemark: PropTypes.object
-  })
+    markdownRemark: PropTypes.object,
+  }),
 };
 
 export default TestCentrePost;

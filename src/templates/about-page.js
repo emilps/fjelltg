@@ -83,7 +83,7 @@ const AboutPage = ({ data }) => {
     <Layout>
       <AboutPageTemplate
         helmet={
-          <Helmet titleTemplate="%s | Blog">
+          <Helmet titleTemplate="%s | About">
             <title>{`${post.frontmatter.title}`}</title>
             <meta name="description" content={`${post.frontmatter.ingress}`} />
           </Helmet>

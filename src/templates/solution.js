@@ -165,7 +165,7 @@ const Solution = ({ data }) => {
             <title>{`${solution.frontmatter.title}`}</title>
             <meta
               name="description"
-              content={`${solution.frontmatter.description}`}
+              content={`${solution.frontmatter.subtitle}`}
             />
           </Helmet>
         }

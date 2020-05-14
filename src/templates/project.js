@@ -128,7 +128,7 @@ const Project = ({ data }) => {
       <ProjectTemplate
         description={project.frontmatter.description}
         helmet={
-          <Helmet titleTemplate="%s | Projects">
+          <Helmet titleTemplate="%s | Project">
             <title>{`${project.frontmatter.title}`}</title>
             <meta
               name="description"
