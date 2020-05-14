@@ -27,6 +27,9 @@ infobox1: >-
   * Automatic control system during operation
 
   * Can eliminate mold and bacteria in dried material
+productbrochures:
+  - file: /img/ftg-kunder-presentasjon-tørkeprosess-ras-flyer.pdf
+    title: PRODUCT BROCHURE
 productbrochure: /img/ftg-kunder-presentasjon-tørkeprosess-ras-flyer.pdf
 smallimage: /img/frs.jpg
 fullwidthimage: /img/osan-tmd.jpg

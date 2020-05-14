@@ -62,9 +62,7 @@ infobox1: >-
   solution reducing usage of steam with approx. 40% from normal driers.
 productbrochures:
   - file: /img/fjell-td-dryer-vs-rotadisc.pdf
-    title: Turbodisc 40x40
-  - file: /img/fjell-td-dryer-vs-rotadisc.pdf
-    title: Turbodisc 50x50
+    title: PRODUCT BROCHURE
 productbrochure: /img/fjell-td-dryer-vs-rotadisc.pdf
 smallimage: /img/fjelltg_main.jpg
 fullwidthimage: /img/td440.jpg
