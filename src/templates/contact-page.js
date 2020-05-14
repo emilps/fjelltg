@@ -275,7 +275,7 @@ const ContactPage = ({ data }) => {
     <Layout>
       <ContactPageTemplate
         helmet={
-          <Helmet titleTemplate="%s | Contact Us">
+          <Helmet titleTemplate="Contact Us | %s">
             <title>{`${frontmatter.headertitle}`}</title>
             <meta name="description" content={`${frontmatter.headerbyline}`} />
           </Helmet>

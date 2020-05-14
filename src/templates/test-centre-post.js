@@ -60,7 +60,7 @@ const TestCentrePost = ({ data }) => {
     <Layout>
       <TestCentrePostTemplate
         helmet={
-          <Helmet titleTemplate="%s | Test Centre">
+          <Helmet titleTemplate="Test Centre | %s">
             <title>{`${post.frontmatter.title}`}</title>
             <meta
               name="description"

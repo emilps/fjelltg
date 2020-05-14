@@ -63,7 +63,7 @@ const SolutionCategory = ({ data }) => {
       <SolutionCategoryTemplate
         subtitle={solutionCategory.frontmatter.subtitle}
         helmet={
-          <Helmet titleTemplate="%s | SolutionCategory">
+          <Helmet titleTemplate="SolutionCategory | %s">
             <title>{`${solutionCategory.frontmatter.title}`}</title>
             <meta
               name="text"
