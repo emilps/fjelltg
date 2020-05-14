@@ -5,6 +5,7 @@ import ProductCategoryRoll from '../components/ProductCategoryRoll';
 import PageJumbotron from '../components/PageJumbotron';
 import SimpleCompanyQuote from '../components/SimpleCompanyQuote';
 import { graphql } from 'gatsby';
+import Helmet from 'react-helmet';
 
 export class ProductsPageTemplate extends React.Component {
   render() {
@@ -12,11 +13,13 @@ export class ProductsPageTemplate extends React.Component {
       headertitle,
       headerimage,
       headerbyline,
-      productsquote
+      productsquote,
+      helmet,
     } = this.props;
 
     return (
       <div>
+        {helmet || ''}
         <PageJumbotron
           title={headertitle}
           image={headerimage}
@@ -43,7 +46,8 @@ ProductsPageTemplate.propTypes = {
   headerimage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   headertitle: PropTypes.string,
   headerbyline: PropTypes.string,
-  productsquote: PropTypes.string
+  productsquote: PropTypes.string,
+  helmet: PropTypes.object,
 };
 
 const ProductsPage = ({ data }) => {
@@ -52,6 +56,12 @@ const ProductsPage = ({ data }) => {
   return (
     <Layout>
       <ProductsPageTemplate
+        helmet={
+          <Helmet titleTemplate="%s">
+            <title>{`${frontmatter.headertitle}`}</title>
+            <meta name="description" content={`Product categories`} />
+          </Helmet>
+        }
         headerimage={frontmatter.headerimage}
         headertitle={frontmatter.headertitle}
         headerbyline={frontmatter.headerbyline}
@@ -64,9 +74,9 @@ const ProductsPage = ({ data }) => {
 ProductsPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
-      frontmatter: PropTypes.object
-    })
-  })
+      frontmatter: PropTypes.object,
+    }),
+  }),
 };
 
 export default ProductsPage;

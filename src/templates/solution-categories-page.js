@@ -5,6 +5,7 @@ import SolutionRoll from '../components/SolutionRoll';
 import PageJumbotron from '../components/PageJumbotron';
 import SimpleCompanyQuote from '../components/SimpleCompanyQuote';
 import { graphql } from 'gatsby';
+import Helmet from 'react-helmet';
 
 export class SolutionsPageTemplate extends React.Component {
   render() {
@@ -12,11 +13,13 @@ export class SolutionsPageTemplate extends React.Component {
       headertitle,
       headerimage,
       headerbyline,
-      solutionsquote
+      solutionsquote,
+      helmet,
     } = this.props;
 
     return (
       <div>
+        {helmet || ''}
         <PageJumbotron
           title={headertitle}
           image={headerimage}
@@ -43,7 +46,8 @@ SolutionsPageTemplate.propTypes = {
   headerimage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   headertitle: PropTypes.string,
   headerbyline: PropTypes.string,
-  solutionsquote: PropTypes.string
+  solutionsquote: PropTypes.string,
+  helmet: PropTypes.object,
 };
 
 const SolutionsPage = ({ data }) => {
@@ -52,6 +56,12 @@ const SolutionsPage = ({ data }) => {
   return (
     <Layout>
       <SolutionsPageTemplate
+        helmet={
+          <Helmet titleTemplate="%s">
+            <title>{`${frontmatter.headertitle}`}</title>
+            <meta name="description" content={`${frontmatter.headerbyline}`} />
+          </Helmet>
+        }
         headerimage={frontmatter.headerimage}
         headertitle={frontmatter.headertitle}
         headerbyline={frontmatter.headerbyline}
@@ -64,9 +74,9 @@ const SolutionsPage = ({ data }) => {
 SolutionsPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
-      frontmatter: PropTypes.object
-    })
-  })
+      frontmatter: PropTypes.object,
+    }),
+  }),
 };
 
 export default SolutionsPage;

@@ -5,6 +5,7 @@ import PageJumbotron from '../components/PageJumbotron';
 import SimpleCompanyQuote from '../components/SimpleCompanyQuote';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
+import Helmet from 'react-helmet';
 
 export class ProjectPageTemplate extends React.Component {
   render() {
@@ -12,11 +13,13 @@ export class ProjectPageTemplate extends React.Component {
       headertitle,
       headerimage,
       headerbyline,
-      projectsquote
+      projectsquote,
+      helmet,
     } = this.props;
 
     return (
       <div>
+        {helmet || ''}
         <PageJumbotron
           title={headertitle}
           image={headerimage}
@@ -43,7 +46,8 @@ ProjectPageTemplate.propTypes = {
   headerimage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   headertitle: PropTypes.string,
   headerbyline: PropTypes.string,
-  projectsquote: PropTypes.string
+  projectsquote: PropTypes.string,
+  helmet: PropTypes.object,
 };
 
 const ProjectsPage = ({ data }) => {
@@ -52,6 +56,12 @@ const ProjectsPage = ({ data }) => {
   return (
     <Layout>
       <ProjectPageTemplate
+        helmet={
+          <Helmet titleTemplate="%s">
+            <title>{`${frontmatter.headertitle}`}</title>
+            <meta name="description" content={`${frontmatter.headerbyline}`} />
+          </Helmet>
+        }
         headerimage={frontmatter.headerimage}
         headertitle={frontmatter.headertitle}
         headerbyline={frontmatter.headerbyline}
@@ -64,9 +74,9 @@ const ProjectsPage = ({ data }) => {
 ProjectsPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
-      frontmatter: PropTypes.object
-    })
-  })
+      frontmatter: PropTypes.object,
+    }),
+  }),
 };
 
 export default ProjectsPage;
