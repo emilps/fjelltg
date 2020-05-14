@@ -64,10 +64,15 @@ collections:
       - { label: 'Header Image', name: 'headerimage', widget: image }
       - { label: 'Description 1', name: 'description1', widget: 'markdown' }
       - { label: 'Infobox 1', name: 'infobox1', widget: 'markdown' }
-      - { label: 'Product Brochure', 
-          name: 'productbrochure', 
-          widget: 'customfiles', 
-          required: false
+      - {
+          label: Product Brochures,
+          name: productbrochures,
+          widget: list,
+          fields:
+            [
+              { label: Title, name: title, widget: string, pattern: ['.{1,30}', "There is a maximum limit of 30 characters"] },
+              { label: File, name: file, widget: customfiles },
+            ],
         }
       - { label: 'Small Image', name: 'smallimage', widget: image }
       - { label: 'Fullwidth Image', name: 'fullwidthimage', widget: image }

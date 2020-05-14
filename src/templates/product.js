@@ -21,7 +21,7 @@ export const ProductTemplate = ({
   infobox1,
   infobox2,
   productcategory,
-  productbrochure,
+  productbrochures,
   helmet,
 }) => {
   const PostContent = contentComponent || Content;
@@ -52,23 +52,24 @@ export const ProductTemplate = ({
                     __html: converter.makeHtml(infobox1),
                   }}
                 />
-                {productbrochure ? (
-                  <div className="brochure-container">
-                    <div className="brochure-container-info">
-                      <h4>{title}</h4>
-                      <h3>PRODUCT BROCHURE</h3>
+                {productbrochures &&
+                  productbrochures.map((brochure, index) => (
+                    <div key={index} className="brochure-container">
+                      <div className="brochure-container-info">
+                        <h4>{title}</h4>
+                        <h3>{brochure.title}</h3>
+                      </div>
+                      <div className="brochure-container-icon">
+                        <a href={brochure.file.publicURL} download>
+                          <img
+                            src={`https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg`}
+                            width="110px"
+                            style={{ height: '90px' }}
+                          />
+                        </a>
+                      </div>
                     </div>
-                    <div className="brochure-container-icon">
-                      <a href={productbrochure.publicURL} download>
-                        <img
-                          src={`https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg`}
-                          width="110px"
-                          style={{ height: '90px' }}
-                        />
-                      </a>
-                    </div>
-                  </div>
-                ) : null}
+                  ))}
               </div>
             </div>
             <div className="smallimage-container">
@@ -131,7 +132,7 @@ ProductTemplate.propTypes = {
   description2: PropTypes.string,
   infobox2: PropTypes.string,
   productcategory: PropTypes.string,
-  productbrochure: PropTypes.object,
+  productbrochures: PropTypes.array,
 };
 
 const Product = ({ data }) => {
@@ -157,7 +158,7 @@ const Product = ({ data }) => {
         description2={product.frontmatter.description2}
         infobox2={product.frontmatter.infobox2}
         productcategory={product.frontmatter.productcategory}
-        productbrochure={product.frontmatter.productbrochure}
+        productbrochures={product.frontmatter.productbrochures}
       />
     </Layout>
   );
@@ -206,8 +207,11 @@ export const pageQuery = graphql`
         description2
         infobox2
         productcategory
-        productbrochure {
-          publicURL
+        productbrochures {
+          title
+          file {
+            publicURL
+          }
         }
       }
     }
