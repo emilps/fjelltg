@@ -63,6 +63,9 @@ infobox1: >-
 
 
   Increase of oil yield
+productbrochures:
+  - file: /img/ftg-brochure-cooker.pdf
+    title: PRODUCT BROCHURE
 productbrochure: /img/ftg-brochure-cooker.pdf
 smallimage: /img/koker.jpg
 fullwidthimage: /img/img_1767.jpg
