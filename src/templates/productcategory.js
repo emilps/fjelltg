@@ -14,7 +14,7 @@ export const ProductCategoryTemplate = ({
   title,
   helmet,
   featuredimage,
-  text
+  text,
 }) => {
   return (
     <section>
@@ -28,7 +28,7 @@ export const ProductCategoryTemplate = ({
         <div
           className={'product-category-section content'}
           dangerouslySetInnerHTML={{
-            __html: converter.makeHtml(text)
+            __html: converter.makeHtml(text),
           }}
         />
         <p className="title products-category-title">Products</p>
@@ -42,7 +42,7 @@ ProductCategoryTemplate.propTypes = {
   subtitle: PropTypes.string,
   title: PropTypes.string,
   helmet: PropTypes.object,
-  featuredimage: PropTypes.object
+  featuredimage: PropTypes.object,
 };
 
 const ProductCategory = ({ data }) => {
@@ -53,9 +53,12 @@ const ProductCategory = ({ data }) => {
       <ProductCategoryTemplate
         subtitle={productCategory.frontmatter.subtitle}
         helmet={
-          <Helmet titleTemplate="%s | ProductCategory">
+          <Helmet titleTemplate="ProductCategory | %s">
             <title>{`${productCategory.frontmatter.title}`}</title>
-            <meta name="text" content={`${productCategory.frontmatter.text}`} />
+            <meta
+              name="text"
+              content={`${productCategory.frontmatter.subtitle}`}
+            />
           </Helmet>
         }
         title={productCategory.frontmatter.title}
@@ -68,8 +71,8 @@ const ProductCategory = ({ data }) => {
 
 ProductCategory.propTypes = {
   data: PropTypes.shape({
-    markdownRemark: PropTypes.object
-  })
+    markdownRemark: PropTypes.object,
+  }),
 };
 
 export default ProductCategory;

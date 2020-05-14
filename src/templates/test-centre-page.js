@@ -117,7 +117,7 @@ const TestCentrePage = ({ data }) => {
     <Layout>
       <TestCentrePageTemplate
         helmet={
-          <Helmet titleTemplate="%s | Test centre">
+          <Helmet titleTemplate="%s">
             <title>{`${frontmatter.headertitle}`}</title>
             <meta name="description" content={`${frontmatter.ingress}`} />
           </Helmet>

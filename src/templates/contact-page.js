@@ -4,12 +4,13 @@ import Layout from '../components/Layout';
 import Employees from '../components/Employees';
 import PageJumbotron from '../components/PageJumbotron';
 import { graphql } from 'gatsby';
+import Helmet from 'react-helmet';
 import PropTypes from 'prop-types';
 import {
   withScriptjs,
   withGoogleMap,
   GoogleMap,
-  Marker
+  Marker,
 } from 'react-google-maps';
 
 import { MarkerWithLabel } from 'react-google-maps/lib/components/addons/MarkerWithLabel';
@@ -36,14 +37,14 @@ const MapWithAMarker = () => {
 */
 
 const MapWithAMarker = withScriptjs(
-  withGoogleMap(props => (
+  withGoogleMap((props) => (
     <GoogleMap
       defaultZoom={11}
       defaultCenter={new google.maps.LatLng(60.372721, 5.310865)}
       defaultOptions={{
         mapTypeControl: true,
         zoomControl: true,
-        fullscreenControl: true
+        fullscreenControl: true,
       }}
       disableDefaultUI={false}
     >
@@ -54,12 +55,12 @@ const MapWithAMarker = withScriptjs(
           fontSize: '15px',
           color: '#BF2113',
           textShadow:
-            ' -1px -1px 0 #fff,  1px -1px 0 #fff, -1px 1px 0 #fff,1px 1px 0 #fff'
+            ' -1px -1px 0 #fff,  1px -1px 0 #fff, -1px 1px 0 #fff,1px 1px 0 #fff',
         }}
       >
         <div
           style={{
-            maxWidth: '120px'
+            maxWidth: '120px',
           }}
         >
           Idrettsvegen 103, 5353 Straume
@@ -72,12 +73,12 @@ const MapWithAMarker = withScriptjs(
           fontSize: '15px',
           color: '#BF2113',
           textShadow:
-            ' -1px -1px 0 #fff,  1px -1px 0 #fff, -1px 1px 0 #fff,1px 1px 0 #fff'
+            ' -1px -1px 0 #fff,  1px -1px 0 #fff, -1px 1px 0 #fff,1px 1px 0 #fff',
         }}
       >
         <div
           style={{
-            maxWidth: '170px'
+            maxWidth: '170px',
           }}
         >
           Thormøhlens Gate 49A, N-5006 Bergen, Norway
@@ -89,7 +90,7 @@ const MapWithAMarker = withScriptjs(
 
 function encode(data) {
   return Object.keys(data)
-    .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+    .map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
     .join('&');
 }
 
@@ -99,11 +100,11 @@ export class ContactPageTemplate extends React.Component {
     this.state = { isValidated: false };
   }
 
-  handleChange = e => {
+  handleChange = (e) => {
     this.setState({ [e.target.name]: e.target.value });
   };
 
-  handleSubmit = e => {
+  handleSubmit = (e) => {
     e.preventDefault();
     const form = e.target;
     fetch('/', {
@@ -111,11 +112,11 @@ export class ContactPageTemplate extends React.Component {
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
       body: encode({
         'form-name': form.getAttribute('name'),
-        ...this.state
-      })
+        ...this.state,
+      }),
     })
       .then(() => navigate(form.getAttribute('action')))
-      .catch(error => alert(error));
+      .catch((error) => alert(error));
   };
 
   render() {
@@ -125,11 +126,13 @@ export class ContactPageTemplate extends React.Component {
       headerbyline,
       formtitle,
       employeetitle,
-      mapiframe
+      mapiframe,
+      helmet,
     } = this.props;
 
     return (
       <div>
+        {helmet || ''}
         <PageJumbotron
           title={headertitle}
           image={headerimage}
@@ -261,7 +264,8 @@ ContactPageTemplate.propTypes = {
   headerbyline: PropTypes.string,
   formtitle: PropTypes.string,
   employeetitle: PropTypes.string,
-  mapiframe: PropTypes.string
+  mapiframe: PropTypes.string,
+  helmet: PropTypes.object,
 };
 
 const ContactPage = ({ data }) => {
@@ -270,6 +274,12 @@ const ContactPage = ({ data }) => {
   return (
     <Layout>
       <ContactPageTemplate
+        helmet={
+          <Helmet titleTemplate="Contact Us | %s">
+            <title>{`${frontmatter.headertitle}`}</title>
+            <meta name="description" content={`${frontmatter.headerbyline}`} />
+          </Helmet>
+        }
         headerimage={frontmatter.headerimage}
         headertitle={frontmatter.headertitle}
         headerbyline={frontmatter.headerbyline}
@@ -284,9 +294,9 @@ const ContactPage = ({ data }) => {
 ContactPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
-      frontmatter: PropTypes.object
-    })
-  })
+      frontmatter: PropTypes.object,
+    }),
+  }),
 };
 
 export default ContactPage;
