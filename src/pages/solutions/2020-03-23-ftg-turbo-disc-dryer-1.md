@@ -2,7 +2,7 @@
 templateKey: solution
 title: 'FTG Turbo Disc Dryer '
 subtitle: The robust and energy efficient drying of Biomasses
-featuredimage: /img/td-tørke.png
+featuredimage: /img/fjelltg_main.jpg
 mainquote: >-
   Sludge in Waste Water Treatment Plant and by-products for industrial
   bio-sludge and mineral sludge 
