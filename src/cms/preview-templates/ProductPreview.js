@@ -10,7 +10,7 @@ const ProductPreview = ({ entry, widgetFor }) => {
       title={entry.getIn(['data', 'title'])}
       subtitle={entry.getIn(['data', 'subtitle'])}
       headerimage={entry.getIn(['data', 'headerimage'])}
-      description1={widgetFor('description1')}
+      description1={entry.getIn(['data', 'description1'])}
       infobox1={entry.getIn(['data', 'infobox1'])}
       productbrochures={brochures || []}
       smallimage={entry.getIn(['data', 'smallimage'])}

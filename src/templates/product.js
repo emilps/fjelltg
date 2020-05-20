@@ -40,11 +40,12 @@ export const ProductTemplate = ({
         <div className="product-content-section">
           <div className="product-info-section">
             <div className="product-info-section-text">
-              <PostContent
+              <div
                 className={'markdown-container description'}
-                content={description1}
+                dangerouslySetInnerHTML={{
+                  __html: converter.makeHtml(description1),
+                }}
               />
-
               <div className="infobox-container">
                 <div
                   className={'markdown-container infobox lightblue'}
