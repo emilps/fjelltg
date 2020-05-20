@@ -3,7 +3,14 @@ templateKey: product
 title: 'Thermo Mechanical Dryer '
 subtitle: The TMD is the dryer for materials categorized as difficult or sticky to dry
 headerimage: /img/tmd.png
-description1: "The TMD process is patented and has shown excellent results on materials with sticky behaviour during drying. In the TMD the heat required for the evaporation is generated directly in the material by a high-speed rotor.\r Technolgy is owned by Thermtech AS\n\nFTG is the only supplier for TMD towards fish farmers (RAS - and flow-through plants) in Norway."
+description1: >-
+  The TMD process is patented and has shown excellent results on materials with
+  sticky behaviour during drying. In the TMD the heat required for the
+  evaporation is generated directly in the material by a high-speed rotor.
+   Technology is owned by Thermtech AS
+
+  FTG is the exclusive supplier for TMD towards fish farmers (RAS - and
+  flow-through plants) in Norway.
 infobox1: >-
   This dryer is excellent on most types of material, but truly unique on
   material that is perceived as sticky or “glue-like”.
@@ -30,7 +37,6 @@ infobox1: >-
 productbrochures:
   - file: /img/ftg-kunder-presentasjon-tørkeprosess-ras-flyer.pdf
     title: PRODUCT BROCHURE
-productbrochure: /img/ftg-kunder-presentasjon-tørkeprosess-ras-flyer.pdf
 smallimage: /img/frs.jpg
 fullwidthimage: /img/osan-tmd.jpg
 description2: |-
