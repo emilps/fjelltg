@@ -106,12 +106,12 @@ collections:
       - {
           label: 'Second Description',
           name: 'description1',
-          widget: 'text',
+          widget: 'markdown',
         }
       - { label: 'First Miniature Image', name: 'miniatureimage1', widget: image }
       - { label: 'Second Miniature Image', name: 'miniatureimage2', widget: image }
       - { label: 'Third Title', name: 'title2', widget: 'string' }
-      - { label: 'Third Description', name: 'description2', widget: 'text' }
+      - { label: 'Third Description', name: 'description2', widget: 'markdown' }
       - {
         label: 'Related Products',
         name: 'relatedproducts',

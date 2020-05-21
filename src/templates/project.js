@@ -8,6 +8,8 @@ import Content, { HTMLContent } from '../components/Content';
 import Img from 'gatsby-image';
 import RelatedProducts from '../components/RelatedProducts';
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
+import showdown from 'showdown';
+const converter = new showdown.Converter();
 
 export const ProjectTemplate = ({
   description,
@@ -59,7 +61,12 @@ export const ProjectTemplate = ({
               <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
                 {title1}
               </h1>
-              <p>{description1}</p>
+              <div
+                className={'markdown-container description'}
+                dangerouslySetInnerHTML={{
+                  __html: converter.makeHtml(description1),
+                }}
+              />
               <div className="columns project-miniature-images">
                 {miniatureimage1 ? (
                   <div className="column is-two-fifths">
@@ -93,7 +100,12 @@ export const ProjectTemplate = ({
               <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
                 {title2}
               </h1>
-              <p>{description2}</p>
+              <div
+                className={'markdown-container description'}
+                dangerouslySetInnerHTML={{
+                  __html: converter.makeHtml(description2),
+                }}
+              />
             </div>
           </div>
           <RelatedProducts
