@@ -14,44 +14,38 @@ description1: >-
 miniatureimage1: /img/img_1726.jpg
 miniatureimage2: /img/img_1767.jpg
 title2: Cooker
-description2: "Fjell Technology Group designs, manufactures and commissions equipment, machinery and processing lines for all type of fish and residual raw material processing. We can offer:\n•\tConceptual studies and process simulations with detailed mass and energy balance\n•\tProcess design complete fish meal plants from 25 TPD – 1000 TPD Capacity\n•\tPilot testing\n•\tPlant layout in detailed 3-D\n•\tDesign and manufacture of own process equipment.\n•\tSpecification and procurement of other process equipment\n•\tConstruction Management\n•\tFabrication\n•\tProcurement\n•\tInstallation\n•\tCommissioning\n"
+description2: >-
+  Fjell Technology Group designs, manufactures and commissions equipment,
+  machinery and processing lines for all type of fish and residual raw material
+  processing. We can offer:
+
+
+  *  Conceptual studies and process simulations with detailed mass and energy
+  balance
+
+  *  Process design complete fish meal plants from 25 TPD – 1000 TPD Capacity
+
+  *  Pilot testing
+
+  *  Plant layout in detailed 3-D
+
+  *  Design and manufacture of own process equipment.
+
+  *  Specification and procurement of other process equipment
+
+  *  Construction Management
+
+  *  Fabrication
+
+  *  Procurement
+
+  *  Installation
+
+  *  Commissioning
 relatedproducts:
   relatedproduct1:
     body: |+
 
-    description2: "## Legacy\n\nIn the year 2000 Fjell Technology Group AS decided to develop a robust and energy efficient rotor desgin specially designed for modern manufacturing methods like robotic welding. We had a competent staff with senior personnel having experience from design, manufacturing and installation of about 2000 Stord dryers since the introduction of the technology, wich took place in the late 50ies. \n\n\L\LWe added some young innovative engineers skilled in state of the art engineering design and analysis techniques. The result was the Fjell Turbo Disc Dryer with a unique patented disc design, based on efficient manufacturing techniques."
-    fullwidthimage: /img/img_1767.jpg
-    headerimage: /img/koker.jpg
-    infobox1: >-
-      ## Advantages
-
-
-      Large heating surface provides optimum heat transfer to residual and
-      process contorl 
-
-
-      Extremely compact design and effective
-
-
-      Long life reliablity due to state of the art shafts and bearings
-      (automatic oil-lubricated)
-
-
-      Reduces stickwater and suspended solids content
-
-
-      Increase of oil yield
-    infobox2: "## Application\n\n* Treatment Plants\L Fishmeal in both land based and ship installed plants\L \n* Ingredients in the food industry\L\n* Replacement rotors and units for cookers"
-    productbrochure: /img/ftg-brochure-cooker.pdf
-    productbrochures:
-      - file: /img/ftg-brochure-cooker.pdf
-        title: PRODUCT BROCHURE
-    productcategory: Cooker
-    slug: 2020-01-02-turbo-disc-dryer
-    smallimage: /img/koker.jpg
-    subtitle: Cookers and pre-heaters
-    templateKey: product
-    title: Fjell Cooker
     description1: >-
       ## Design
 
@@ -93,9 +87,68 @@ relatedproducts:
       This cooker system has proven to reduce stick water, suspended solids
       content, give better process control and increase the oil yield from
       marine and animal raw material.
+    description2: "## Legacy\n\nIn the year 2000 Fjell Technology Group AS decided to develop a robust and energy efficient rotor desgin specially designed for modern manufacturing methods like robotic welding. We had a competent staff with senior personnel having experience from design, manufacturing and installation of about 2000 Stord dryers since the introduction of the technology, wich took place in the late 50ies. \n\n\L\LWe added some young innovative engineers skilled in state of the art engineering design and analysis techniques. The result was the Fjell Turbo Disc Dryer with a unique patented disc design, based on efficient manufacturing techniques."
+    fullwidthimage: /img/img_1767.jpg
+    headerimage: /img/koker.jpg
+    infobox1: >-
+      ## Advantages
+
+
+      Large heating surface provides optimum heat transfer to residual and
+      process contorl 
+
+
+      Extremely compact design and effective
+
+
+      Long life reliablity due to state of the art shafts and bearings
+      (automatic oil-lubricated)
+
+
+      Reduces stickwater and suspended solids content
+
+
+      Increase of oil yield
+    infobox2: "## Application\n\n* Treatment Plants\L Fishmeal in both land based and ship installed plants\L \n* Ingredients in the food industry\L\n* Replacement rotors and units for cookers"
+    productbrochure: /img/ftg-brochure-cooker.pdf
+    productbrochures:
+      - file: /img/ftg-brochure-cooker.pdf
+        title: PRODUCT BROCHURE
+    productcategory: Cooker
+    slug: 2020-01-02-turbo-disc-dryer
+    smallimage: /img/koker.jpg
+    subtitle: Cookers and pre-heaters
+    templateKey: product
+    title: Fjell Cooker
   relatedproduct2:
     body: |+
 
+    description1: >-
+      ## Design
+
+
+      The Fjell Turbo Disc Dryer is designed for indirect heating by steam (6-10
+      bar). The dryer can be delivered for vacuum drying of temperature
+      sensitive raw materials. The largest heating surface is the rotor, but
+      additional heating surface is available as an option on the stator. The
+      product to be dried is slowly, but vigorously, transported from inlet to
+      outlet end by a paddle system mounted on the disc periphery. 
+
+
+      Product discharge is normally done continuously by a speed controlled
+      extraction screw conveyor. The discs are mounted on a heavy central shaft
+      with a highly efficient condensate removal system integrated. Scraper bars
+      ensure agitation between the discs, which is necessary for an efficient
+      evaporation. The moisture evaporated from the product is collected in a
+      high top vapour dome, and continuously removed. 
+
+
+      Dryers can be supplied in all practical sizes, in all common materials of
+      construction (carbon-, stainless-, and duplex steels), and approved and
+      inspected according to the leading international design codes and
+      standards (PED, ASME, JIS, GOST, DNV, Lloyds, Bureau Veritas etc..) The
+      dryer has a unique endurable patented rotor design without traditional
+      welded stays exposed to tear, wear, fatigue and corrosion.
     description2: >-
       ## Legacy
 
@@ -175,32 +228,6 @@ relatedproducts:
     subtitle: The robust and energy efficient drying of Biomasses
     templateKey: product
     title: 'FTG Turbo Disc Dryer '
-    description1: >-
-      ## Design
-
-
-      The Fjell Turbo Disc Dryer is designed for indirect heating by steam (6-10
-      bar). The dryer can be delivered for vacuum drying of temperature
-      sensitive raw materials. The largest heating surface is the rotor, but
-      additional heating surface is available as an option on the stator. The
-      product to be dried is slowly, but vigorously, transported from inlet to
-      outlet end by a paddle system mounted on the disc periphery. 
-
-
-      Product discharge is normally done continuously by a speed controlled
-      extraction screw conveyor. The discs are mounted on a heavy central shaft
-      with a highly efficient condensate removal system integrated. Scraper bars
-      ensure agitation between the discs, which is necessary for an efficient
-      evaporation. The moisture evaporated from the product is collected in a
-      high top vapour dome, and continuously removed. 
-
-
-      Dryers can be supplied in all practical sizes, in all common materials of
-      construction (carbon-, stainless-, and duplex steels), and approved and
-      inspected according to the leading international design codes and
-      standards (PED, ASME, JIS, GOST, DNV, Lloyds, Bureau Veritas etc..) The
-      dryer has a unique endurable patented rotor design without traditional
-      welded stays exposed to tear, wear, fatigue and corrosion.
 category: Protein Recycling
 ---
 
