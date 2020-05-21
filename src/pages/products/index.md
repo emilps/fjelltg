@@ -1,7 +1,7 @@
 ---
 templateKey: product-categories-page
 headertitle: Products
-headerbyline: Category overview'
+headerbyline: Category overview
 headerimage: /img/fiskemel-båt.png
 productsquote: >-
   We will always propose solutions that represent the optimum trade off between
