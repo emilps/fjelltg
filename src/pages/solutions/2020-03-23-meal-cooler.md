@@ -30,7 +30,7 @@ description2: >-
 
   Low costs for installation and maintanance
 description3: Cooling of meal products
-descriptionimage: /img/p30000-051-0004.jpg
+descriptionimage: /img/p30000-051-0004-lite.jpg
 relatedproducts:
   relatedproduct1:
     body: |+
