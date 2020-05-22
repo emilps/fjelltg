@@ -10,7 +10,7 @@ const Thanks = () => (
           <h1>Thank you!</h1>
           <p>You will be contacted as soon as possible!</p>
           <p>In the meantime, you can check out our other projects</p>
-          <Link className="button" to={'/project'}>
+          <Link className="button" to={'/projects'}>
             Bring me there
           </Link>
         </div>
