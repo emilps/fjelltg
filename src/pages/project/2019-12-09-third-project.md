@@ -2,7 +2,7 @@
 templateKey: project
 title: '2019 - PRIMA PROTEIN - EGERSUND, NORWAT'
 description: Cooker and Dryers
-mainimage: /img/img_8476.jpg
+mainimage: /img/img_8476-lite.jpg
 title1: FJELL TD650 DRYERS
 description1: >-
   For Prima Protein fish meal plant located in Egersund in Norway we have
@@ -11,8 +11,8 @@ description1: >-
 
   This fishmeal plant has a capasity of approx. 750 tonnes of raw materials per
   day. 
-miniatureimage1: /img/img_1726.jpg
-miniatureimage2: /img/img_1767.jpg
+miniatureimage1: /img/img_1726-lite.jpg
+miniatureimage2: /img/img_1767-lite.jpg
 title2: Cooker
 description2: >-
   Fjell Technology Group designs, manufactures and commissions equipment,
