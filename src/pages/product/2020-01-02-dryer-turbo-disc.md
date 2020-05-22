@@ -63,9 +63,8 @@ infobox1: >-
 productbrochures:
   - file: /img/fjell-td-dryer-vs-rotadisc.pdf
     title: PRODUCT BROCHURE
-productbrochure: /img/fjell-td-dryer-vs-rotadisc.pdf
 smallimage: /img/fjelltg_main.jpg
-fullwidthimage: /img/td440.jpg
+fullwidthimage: /img/flowsheet-sludge-full-drying.jpg
 description2: >-
   ## Legacy
 
