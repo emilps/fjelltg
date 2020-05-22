@@ -2,7 +2,7 @@
 templateKey: product
 title: Evaporators
 subtitle: 'WHE, MVR and Forced Flash Finisher'
-headerimage: /img/evaporator.png
+headerimage: /img/evaporator-lite.png
 description1: >-
   Fjell Technology Group was originally established almost 50 years ago as local
   manufacturer of evaporator stages and tube and shell heat exchangers for Stord
