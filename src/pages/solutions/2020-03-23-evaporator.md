@@ -2,7 +2,7 @@
 templateKey: solution
 title: Evaporator
 subtitle: 'WHE, MVR and Forced Flash Finisher'
-featuredimage: /img/evaporator.png
+featuredimage: /img/evaporator-lite.png
 mainquote: >-
   Fjell Technology Group was originally established almost 50 years ago as local
   manufacturer of evaporator stages and tube and shell heat exchangers for Stord
@@ -56,31 +56,6 @@ relatedproducts:
   relatedproduct1:
     body: |+
 
-    headerimage: /img/td440.jpg
-    infobox2: >-
-      ## Application
-
-
-      * Sludge in Waste Water 
-
-      * Treatment Plant for fishmeal in both land based and ship installed
-      plants 
-
-      * Ingredients in the food industry
-
-      * Spent grains in distilleries and breweries
-
-      * Animal and poultry by-products for industrial bio-sludge and mineral
-      sludge 
-
-      * Replacement rotors and units for old disc dryers
-    productbrochure: /img/img_5185.jpg
-    productcategory: 'Municipal Waste Water Treatment '
-    slug: 2020-01-02-dryer-turbo-disc
-    smallimage: /img/fjelltg_main.jpg
-    templateKey: product
-    title: 'FTG Turbo Disc Dryer '
-    subtitle: The robust and energy efficient drying of Biomasses
     description1: >-
       ## Design
 
@@ -107,6 +82,23 @@ relatedproducts:
       standards (PED, ASME, JIS, GOST, DNV, Lloyds, Bureau Veritas etc..) The
       dryer has a unique endurable patented rotor design without traditional
       welded stays exposed to tear, wear, fatigue and corrosion.
+    description2: >-
+      ## Legacy
+
+
+      In the year 2000 Fjell Technology Group AS decided to develop a robust and
+      energy efficient disc dryer specially designed for modern manufacturing
+      methods like robotic welding. We had a competent staff with senior
+      personnel having experience from design, manufacturing and installation of
+      about 2000 Stord dryers since the introduction of the technology, wich
+      took place in the late 50ies. 
+
+
+      We added some young innovative engineers skilled in state of the art
+      engineering design and analysis techniques. The result was the Fjell Turbo
+      Disc Dryer with a unique patented disc design, based on efficient
+      manufacturing techniques.
+    headerimage: /img/td440.jpg
     infobox1: >-
       ## Advantages
 
@@ -139,35 +131,34 @@ relatedproducts:
       inside of the disc. Fjell has in its process for drying with disc-driers a
       patented process solution reducing usage of steam with approx. 40% from
       normal driers.
+    infobox2: >-
+      ## Application
+
+
+      * Sludge in Waste Water 
+
+      * Treatment Plant for fishmeal in both land based and ship installed
+      plants 
+
+      * Ingredients in the food industry
+
+      * Spent grains in distilleries and breweries
+
+      * Animal and poultry by-products for industrial bio-sludge and mineral
+      sludge 
+
+      * Replacement rotors and units for old disc dryers
+    productbrochure: /img/img_5185.jpg
+    productcategory: 'Municipal Waste Water Treatment '
+    slug: 2020-01-02-dryer-turbo-disc
+    smallimage: /img/fjelltg_main.jpg
+    templateKey: product
+    title: 'FTG Turbo Disc Dryer '
+    subtitle: The robust and energy efficient drying of Biomasses
     fullwidthimage: /img/td440.jpg
-    description2: >-
-      ## Legacy
-
-
-      In the year 2000 Fjell Technology Group AS decided to develop a robust and
-      energy efficient disc dryer specially designed for modern manufacturing
-      methods like robotic welding. We had a competent staff with senior
-      personnel having experience from design, manufacturing and installation of
-      about 2000 Stord dryers since the introduction of the technology, wich
-      took place in the late 50ies. 
-
-
-      We added some young innovative engineers skilled in state of the art
-      engineering design and analysis techniques. The result was the Fjell Turbo
-      Disc Dryer with a unique patented disc design, based on efficient
-      manufacturing techniques.
   relatedproduct2:
     body: |+
 
-    headerimage: /img/koker.jpg
-    infobox2: "## Application\n\n* Treatment Plants\L Fishmeal in both land based and ship installed plants\L \n* Ingredients in the food industry\L\n* Replacement rotors and units for cookers"
-    productbrochure: /img/ftg-brochure-cooker.pdf
-    productcategory: Cooker
-    slug: 2020-01-02-turbo-disc-dryer
-    smallimage: /img/koker.jpg
-    templateKey: product
-    title: Fjell Cooker
-    subtitle: Cookers and pre-heaters
     description1: >-
       ## Design
 
@@ -209,6 +200,8 @@ relatedproducts:
       This cooker system has proven to reduce stick water, suspended solids
       content, give better process control and increase the oil yield from
       marine and animal raw material.
+    description2: "## Legacy\n\nIn the year 2000 Fjell Technology Group AS decided to develop a robust and energy efficient rotor desgin specially designed for modern manufacturing methods like robotic welding. We had a competent staff with senior personnel having experience from design, manufacturing and installation of about 2000 Stord dryers since the introduction of the technology, wich took place in the late 50ies. \n\n\L\LWe added some young innovative engineers skilled in state of the art engineering design and analysis techniques. The result was the Fjell Turbo Disc Dryer with a unique patented disc design, based on efficient manufacturing techniques."
+    headerimage: /img/koker.jpg
     infobox1: >-
       ## Advantages
 
@@ -228,20 +221,18 @@ relatedproducts:
 
 
       Increase of oil yield
+    infobox2: "## Application\n\n* Treatment Plants\L Fishmeal in both land based and ship installed plants\L \n* Ingredients in the food industry\L\n* Replacement rotors and units for cookers"
+    productbrochure: /img/ftg-brochure-cooker.pdf
+    productcategory: Cooker
+    slug: 2020-01-02-turbo-disc-dryer
+    smallimage: /img/koker.jpg
+    templateKey: product
+    title: Fjell Cooker
+    subtitle: Cookers and pre-heaters
     fullwidthimage: /img/img_1767.jpg
-    description2: "## Legacy\n\nIn the year 2000 Fjell Technology Group AS decided to develop a robust and energy efficient rotor desgin specially designed for modern manufacturing methods like robotic welding. We had a competent staff with senior personnel having experience from design, manufacturing and installation of about 2000 Stord dryers since the introduction of the technology, wich took place in the late 50ies. \n\n\L\LWe added some young innovative engineers skilled in state of the art engineering design and analysis techniques. The result was the Fjell Turbo Disc Dryer with a unique patented disc design, based on efficient manufacturing techniques."
   relatedproduct3:
     body: |+
 
-    headerimage: /img/mealcooler-2.png
-    infobox2: Cooling of fish meal
-    productbrochure: /img/brochure-cooler.pdf
-    productcategory: Compact Fish Meal Plant
-    slug: 2020-03-20-meal-cooler
-    smallimage: /img/mealcooler-1024x576-1-.jpg
-    templateKey: product
-    title: Meal cooler
-    subtitle: Cooling of fish meal
     description1: >-
       We design and manufacture meal cooler system specially adopted for the
       local requirements. 
@@ -255,6 +246,13 @@ relatedproducts:
       temperatures it can be challenging to meet local requirements for
       emissions to water and air, and for such applications we have developed a
       special indirectly cooled air hygienic air cooler system.
+    description2: >-
+      To avoid condenstation meal should be cooled to approx. 15 degrees above
+      ambient temperatures
+
+
+      Low costs for installation and maintanance
+    headerimage: /img/mealcooler-2.png
     infobox1: >-
       The cooler is designed as a long drum equipped with an agitator mounted in
       roller bearings on the end plates. 
@@ -262,13 +260,15 @@ relatedproducts:
 
       Hot meal is stirred through the cooler, while we use a cetrifugal fan to
       draw a counterflow of cool air.
+    infobox2: Cooling of fish meal
+    productbrochure: /img/brochure-cooler.pdf
+    productcategory: Compact Fish Meal Plant
+    slug: 2020-03-20-meal-cooler
+    smallimage: /img/mealcooler-1024x576-1-.jpg
+    templateKey: product
+    title: Meal cooler
+    subtitle: Cooling of fish meal
     fullwidthimage: /img/mealcooler-3.png
-    description2: >-
-      To avoid condenstation meal should be cooled to approx. 15 degrees above
-      ambient temperatures
-
-
-      Low costs for installation and maintanance
 solutioncategory: Protein Recycling
 ---
 
