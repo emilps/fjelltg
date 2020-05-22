@@ -9,7 +9,7 @@ ingress: >-
   fish processing industry, Fjell Technology also delivers technology to recycle
   sludge from aquaculture and municipal waste plants. The sludge is used as
   additives in fertiliser products. 
-image: /img/img_3115.jpg
+image: /img/img_3115-lite-2.jpg
 ---
 ### About Us
 
@@ -19,7 +19,7 @@ FTG put a great importance to the HSEQ work and keeps continuous focus on high q
 
 Through the values ​​Reliable – Innovative – Responsible, the pursuit of the vision is implemented. FTG will deliver innovative and sustainable products and processing plants to ensure tomorrow’s solutions.
 
-{"widget":"imageblock","text":"FTG has a strategy of having a high level of expertise in engineering and project management. The purpose is to be able to offer R&D for customers and partners, when customers do not have the necessary knowledge.  At the same time, FTG wants to be able to carry out project follow-up and deliveries, in order to offer comprehensive solutions. FTG therefore often join forces with a range of cooperative companies.","image":"/img/img_1727.jpg"}
+{"widget":"imageblock","text":"FTG has a strategy of having a high level of expertise in engineering and project management. The purpose is to be able to offer R&D for customers and partners, when customers do not have the necessary knowledge.  At the same time, FTG wants to be able to carry out project follow-up and deliveries, in order to offer comprehensive solutions. FTG therefore often join forces with a range of cooperative companies.","image":"/img/img_1727-lite.jpg"}
 
 ### History
 
@@ -49,4 +49,4 @@ The vision is operationalized through a program for continuous improvement. Befo
 
 FTGs R&D-department also contributes in great extent to research regarding CO2 capture and other projects within Greentech. 
 
-{"widget":"imageblock","text":"FTG Test Centre has the necessary equipment to carry out testing and analysis for residual material from most product types and bio residues","image":"/img/test-fasiliteter-strasume.jpg"}
+{"widget":"imageblock","text":"FTG Test Centre has the necessary equipment to carry out testing and analysis for residual material from most product types and bio residues","image":"/img/test-fasiliteter-strasume-lite.jpg"}
