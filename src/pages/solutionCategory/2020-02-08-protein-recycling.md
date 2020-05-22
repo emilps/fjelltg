@@ -1,6 +1,6 @@
 ---
 templateKey: solutioncategory
-featuredimage: /img/img_8476.jpg
+featuredimage: /img/img_8476-lite.jpg
 title: Protein Recycling
 subtitle: 'Fjell Turbo Disc Dryer the corner stone in any fish meal plant '
 texttitle: Introduction
