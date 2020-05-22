@@ -57,7 +57,7 @@ infobox1: >-
   disc when exposed to internal steam pressure) is entirely on the inside of the
   disc. Fjell has in its process for drying with disc-driers a patented process
   solution reducing usage of steam with approx. 40% from normal driers.
-fullwidthimage: /img/img_1727.jpg
+fullwidthimage: /img/img_1727-lite.jpg
 description2: |-
   Standard Range Fjell Turbo Disc Dryers
 
@@ -71,7 +71,7 @@ description2: |-
 
   Replacement rotors and units for old disc dryers
 description3: The robust and energy efficient drying of Biomasses
-descriptionimage: /img/hele-anlegget-prima.jpg
+descriptionimage: /img/hele-anlegget-prima-lite.jpg
 solutioncategory: 'Waste Water Treatment '
 ---
 
