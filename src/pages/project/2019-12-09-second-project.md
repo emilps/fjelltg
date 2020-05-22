@@ -2,7 +2,7 @@
 templateKey: project
 title: '2014 - SANKI in TOKYO, JAPAN'
 description: 'Waste Heat Evaporator: Capacity 36 TPH to Japan`s leading FishMeal Factory'
-mainimage: /img/evaporator.png
+mainimage: /img/evaporator-lite.png
 title1: SANKI
 description1: >-
   Evaporation plants are required whenever in a process, water or any other
@@ -22,7 +22,7 @@ description1: >-
   significantly. The evaporator is heated by the vapour from the dryers, so the
   energy is more or less at no cost.
 miniatureimage1: /img/waste-heat-evaporator-tokyo.jpg
-miniatureimage2: /img/img_1767.jpg
+miniatureimage2: /img/img_1767-lite.jpg
 title2: SANKI
 description2: >-
   Fjell Technology Group designs, manufactures and commissions equipment,
