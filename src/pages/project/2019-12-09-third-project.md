@@ -1,6 +1,6 @@
 ---
 templateKey: project
-title: '2019 - PRIMA PROTEIN - EGERSUND, NORWAT'
+title: '2019 - PRIMA PROTEIN - EGERSUND, NORWAY'
 description: Cooker and Dryers
 mainimage: /img/img_8476-lite.jpg
 title1: FJELL TD650 DRYERS
