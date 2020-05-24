@@ -1,14 +1,14 @@
 ---
 templateKey: product
 title: Evaporators
-subtitle: 'WHE, MVR and Forced Flash Finisher'
+subtitle: 'WHE, and Forced Flash Finisher'
 headerimage: /img/evaporator-lite.png
 description1: >-
   Fjell Technology Group was originally established almost 50 years ago as local
   manufacturer of evaporator stages and tube and shell heat exchangers for Stord
   Bartz, and produced many hundred stages until year 2000.  Since then we have
   designed, manufactured and commissioned many complete evaporator systems, both
-  WHE, MVR and our unique Forced Flash Finisher.
+  WHE and our unique Forced Flash Finisher.
 infobox1: >-
   Today we focus on cookers and dryer technology, and have chosen to cooperate
   with EPCON Evaporation Technology AS, and promotes their excellent high grade
