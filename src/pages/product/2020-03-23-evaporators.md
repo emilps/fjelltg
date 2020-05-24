@@ -11,13 +11,13 @@ description1: >-
   WHE and our unique Forced Flash Finisher.
 infobox1: >-
   Today we focus on cookers and dryer technology, and have chosen to cooperate
-  with EPCON Evaporation Technology AS, and promotes their excellent high grade
-  technology to our customers.
-smallimage: /img/evaporator-1024x768.jpg
+  with EPCON Evaporation Technology AS for deliveries of MVR Evaporators, and
+  promotes their excellent high grade technology to our customers.
+smallimage: /img/whe.jpg
 fullwidthimage: /img/waste-heat-evaporator-Tokyo.jpg
 description2: >-
-  The beautiful workmanship of the EPCON High Grade Standard evaporator we have
-  supplied to Sanriku, Ketsenumma – Japan in 2017
+  The beautiful workmanship of the evaporators we have supplied to Sanriku,
+  Ketsenumma – Japan in 2017
 infobox2: >-
   ## We can offer
 
