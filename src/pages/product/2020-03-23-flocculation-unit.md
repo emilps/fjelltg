@@ -1,7 +1,9 @@
 ---
 templateKey: product
 title: Flocculation Unit
-subtitle: 'Electro flocculation for enriching sludge from 0,1% DS to approx. 5% DS'
+subtitle: >-
+  From Power&Water, UK - we can provide electro flocculation for enriching
+  sludge from 0,1% DS to approx. 5% DS
 headerimage: /img/fjell-osan-3-lite.jpg
 description1: >-
   Combining electrolysis and ultrasound in a single reactor provides
