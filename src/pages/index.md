@@ -4,8 +4,8 @@ indexblock:
   image1: /img/p15776-001-1-lite.jpg
   image2: /img/img_1727-lite.jpg
   link1: >-
-    https://fjelltg.netlify.app/solutionCategory/2020-02-08-greentech-and-the-environment/
-  link2: 'https://fjelltg.netlify.com/solutionCategory/2020-02-08-protein-recycling/'
+    https://fjelltg.no/solutionCategory/2020-02-08-greentech-and-the-environment/
+  link2: 'https://fjelltg.no/solutionCategory/2020-02-08-protein-recycling/'
   title1: 'Waste water '
   title2: Protein Recycling
 title: Your partner for process technology
