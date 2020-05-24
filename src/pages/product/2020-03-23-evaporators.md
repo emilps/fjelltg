@@ -14,7 +14,7 @@ infobox1: >-
   with EPCON Evaporation Technology AS, and promotes their excellent high grade
   technology to our customers.
 smallimage: /img/evaporator-1024x768.jpg
-fullwidthimage: /img/epcon-ftg-evaporator-render.jpg
+fullwidthimage: /img/waste-heat-evaporator-Tokyo.jpg
 description2: >-
   The beautiful workmanship of the EPCON High Grade Standard evaporator we have
   supplied to Sanriku, Ketsenumma – Japan in 2017
