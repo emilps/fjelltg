@@ -14,7 +14,7 @@ description: >-
   fleste, mens utfordringene overkommes. Hvordan skal vi komme tilbake til en
   normal hverdag når karantenetiden er over? #FRS #sustainablefuture #some #FTG
   #fjelltechnology #fishsludge #teams #teamspirit
-link: 'https://www.linkedin.com/'
+link: 'https://www.linkedin.com/feed/update/urn:li:activity:6660781101159710720'
 socialmedia: LinkedIn
 ---
 
