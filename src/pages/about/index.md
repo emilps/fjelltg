@@ -39,7 +39,9 @@ Main office is still located Fjell Municipality outside Bergen. There, the compa
 
 {"widget":"imageblock","text":"FTG premises located in Marineholmen in Bergen - in the centre of marin cluster of Norway","image":"/img/thormøhlensgate.jpg"}
 
-## Strategy
+## Strategy and Vision
+
+Fjell Technology Group will strive to make the world a little bit greener.
 
 FTG has a strategy of having a high level of expertise in engineering and project management. The purpose is to be able to offer R&D for customers and partners, when customers do not have the necessary knowledge.  At the same time, FTG wants to be able to carry out project follow-up and deliveries, in order to offer comprehensive solutions. FTG therefore often join forces with a range of cooperative companies.
 
@@ -49,4 +51,4 @@ The vision is operationalized through a program for continuous improvement. Befo
 
 FTGs R&D-department also contributes in great extent to research regarding CO2 capture and other projects within Greentech. 
 
-{"widget":"imageblock","text":"FTG Test Centre has the necessary equipment to carry out testing and analysis for residual material from most product types and bio residues","image":"/img/test-fasiliteter-strasume-lite.jpg"}
+{"widget":"imageblock","text":"FTG Test Centre has the necessary equipment to carry out testing and analysis for residual material from most product types and bio residues","image":"/img/co2-1.jpg"}
