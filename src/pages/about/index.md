@@ -27,7 +27,7 @@ Fjell were established in 2000 and are based on more than 40 years of experience
 
 {"widget":"imageblock","text":"FTG delivers state of the art equipment to for the best possible utilization of raw material, whether it is fish waste, different types of biorest or municipal sludge.","image":"/img/fjelltg_main.jpg"}
 
-{"widget":"imageblock","text":"As a contribution in the wider context, we have included points 5, 6, 9, 11 and 12 from the UN's sustainability goals in our strategy.","image":"/img/fn-bã¦rekraftsmal.jpg"}
+{"widget":"imageblock","text":"As a contribution in the wider context, we have included points 5, 9, 11 and 12 from the UN's sustainability goals in our strategy.\nFTG aims to promote equality and prevent discrimination in the working environment.\nFTG budgets with at least 10% of revenue in innovation to develop tomorrow's solutions.\nFTG must strive to only offer sustainable solutions to customers.\nFTG is to be a pioneer in reducing consumption to operate the plants.\n","image":"/img/fn-bã¦rekraftsmal.jpg"}
 
 ## Facilities
 
