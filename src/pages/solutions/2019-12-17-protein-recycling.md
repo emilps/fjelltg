@@ -37,6 +37,27 @@ description1: >-
   disc when exposed to internal steam pressure) is entirely on the inside of the
   disc. Fjell has in its process for drying with disc-driers a patented process
   solution reducing usage of steam with approx. 40% from normal driers.
+
+
+  Model TD150 - Heating surface 150m2
+
+
+  Model TD200 - Heating surface 200m2
+
+
+  Model TD 300 - Heating surface 300m2
+
+
+  Model TD400 - Heating surface 400m2
+
+
+  Model TD500 - Heating surface 500m2
+
+
+  Model TD600 - Heating surface 600m2
+
+
+  Model TD650 - Heating surface 650m2
 infobox1: >-
   Advantages between Fjell TD Dryer vs. other Rotadisc dryers:
 
@@ -57,8 +78,8 @@ infobox1: >-
   foot welds between discs (big problem with Rotadisc). 
 
   * Smooth disc surface secures efficient self-cleaning and maximum heat
-  transfer.
-fullwidthimage: /img/td-størrelser.png
+  transfer
+fullwidthimage: /img/fjelltg_main.jpg
 description2: >-
   Standard Range Fjell Turbo Disc Dryers are corresponding to fishmeal plants
   from 25TPD to 650TPD
