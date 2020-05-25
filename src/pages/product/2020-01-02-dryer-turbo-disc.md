@@ -29,6 +29,13 @@ description1: >-
   (PED, ASME, JIS, GOST, DNV, Lloyds, Bureau Veritas etc..) The dryer has a
   unique endurable patented rotor design without traditional welded stays
   exposed to tear, wear, fatigue and corrosion.
+
+
+  The distinct difference between the TD dryer and most other disc dryers is
+  that staybolt welds (or welds of other means to maintain the integrity of the
+  disc when exposed to internal steam pressure) is entirely on the inside of the
+  disc. Fjell has in its process for drying with disc-driers a patented process
+  solution reducing usage of steam with approx. 40% from normal driers.
 infobox1: >-
   ## Advantages
 
@@ -53,13 +60,6 @@ infobox1: >-
 
   * Smooth disc surface secures efficient self-cleaning and maximum heat
   transfer.
-
-
-  The distinct difference between the TD dryer and most other disc dryers is
-  that staybolt welds (or welds of other means to maintain the integrity of the
-  disc when exposed to internal steam pressure) is entirely on the inside of the
-  disc. Fjell has in its process for drying with disc-driers a patented process
-  solution reducing usage of steam with approx. 40% from normal driers.
 productbrochures:
   - file: /img/fjell-td-dryer-vs-rotadisc.pdf
     title: PRODUCT BROCHURE
