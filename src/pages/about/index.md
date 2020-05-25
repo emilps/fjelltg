@@ -5,8 +5,9 @@ ingress: >-
   Fjell Technology Group is one of the leading suppliers of technology towards
   processing equipment for residual raw materials. Deploying such technology for
   making use of all parts of the fish means that fish processing plants
-  significantly reduce their levels of waste. In addition to working with the
-  fish processing industry, Fjell Technology also delivers technology to recycle
+  significantly reduce their levels of waste as well as providing the best
+  solutions for the "second value chain". In addition to working with the fish
+  processing industry, Fjell Technology also delivers technology to recycle
   sludge from aquaculture and municipal waste plants. The sludge is used as
   additives in fertiliser products. 
 image: /img/img_3115-lite-2.jpg
@@ -27,7 +28,7 @@ Fjell were established in 2000 and are based on more than 40 years of experience
 
 {"widget":"imageblock","text":"FTG delivers state of the art equipment to for the best possible utilization of raw material, whether it is fish waste, different types of biorest or municipal sludge.","image":"/img/fjelltg_main.jpg"}
 
-{"widget":"imageblock","text":"As a contribution in the wider context, we have included points 5, 9, 11 and 12 from the UN's sustainability goals in our strategy.\nFTG aims to promote equality and prevent discrimination in the working environment.\nFTG budgets with at least 10% of revenue in innovation to develop tomorrow's solutions.\nFTG must strive to only offer sustainable solutions to customers.\nFTG is to be a pioneer in reducing consumption to operate the plants.\n","image":"/img/fn-bã¦rekraftsmal.jpg"}
+{"widget":"imageblock","text":"As a contribution in the wider context, we have included points 5, 9, 11 and 12 from the UN's sustainability goals in our strategy.\\nFTG aims to promote equality and prevent discrimination in the working environment.\\nFTG budgets with at least 10% of revenue in innovation to develop tomorrow's solutions.\\nFTG must strive to only offer sustainable solutions to customers.\\nFTG is to be a pioneer in reducing consumption to operate the plants.\\n","image":"/img/fn-bã¦rekraftsmal.jpg"}
 
 ## Facilities
 
