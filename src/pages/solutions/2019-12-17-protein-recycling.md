@@ -59,18 +59,9 @@ infobox1: >-
   disc. Fjell has in its process for drying with disc-driers a patented process
   solution reducing usage of steam with approx. 40% from normal driers.
 fullwidthimage: /img/td-størrelser.png
-description2: |-
-  Standard Range Fjell Turbo Disc Dryers
-
-  The number of discs can be adjusted according to customer requirements.
-
-  The Stator jacket can increase the heating surface about 10%.
-
-  Nominal weight is estimated with 8 mm disc thickness.
-
-
-
-  Replacement rotors and units for old disc dryers
+description2: >-
+  Standard Range Fjell Turbo Disc Dryers are corresponding to fishmeal plants
+  from 25TPD to 650TPD
 description3: The robust and energy efficient drying of Biomasses
 descriptionimage: /img/hele-anlegget-prima-lite.jpg
 relatedproducts:
