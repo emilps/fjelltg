@@ -20,6 +20,6 @@ description2: >-
 
   Low costs for installation and maintanance
 infobox2: Cooling of fish meal
-productcategory: Compact Fish Meal Plant
+productcategory: Fish Meal Plant
 ---
 
