@@ -61,7 +61,7 @@ infobox1: >-
   * Smooth disc surface secures efficient self-cleaning and maximum heat
   transfer.
 productbrochures:
-  - file: /img/fjell-td-dryer-vs-rotadisc.pdf
+  - file: /img/fjell-turbo-disc-dryer-brochure.pdf
     title: PRODUCT BROCHURE
 smallimage: /img/fjelltg_main.jpg
 fullwidthimage: /img/flowsheet-sludge-full-drying.jpg
