@@ -16,10 +16,7 @@ infobox1: >-
 smallimage: /img/whe.jpg
 fullwidthimage: /img/waste-heat-evaporator-Tokyo.jpg
 description2: >-
-  The beautiful workmanship of the evaporators we have supplied to Sanriku,
-  Ketsenumma – Japan in 2017
-infobox2: >-
-  ## We can offer
+  We can offer
 
 
   Conceptual studies and process simulations with detailed mass and energy
@@ -51,6 +48,9 @@ infobox2: >-
 
 
   Installation
+infobox2: >-
+  The beautiful workmanship of the evaporators we have supplied to Sanriku,
+  Ketsenumma – Japan in 2017
 productcategory: Fish Meal Plant
 ---
 
