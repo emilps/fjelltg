@@ -61,9 +61,8 @@ infobox1: >-
   disc. Fjell has in its process for drying with disc-driers a patented process
   solution reducing usage of steam with approx. 40% from normal driers.
 productbrochures:
-  - file: /img/fjell-td-dryer-vs-rotadisc.pdf
+  - file: /img/fjell-turbo-disc-dryer-brochure.pdf
     title: PRODUCT BROCHURE
-productbrochure: /img/fjell-td-dryer-vs-rotadisc.pdf
 smallimage: /img/fjelltg_main.jpg
 fullwidthimage: /img/td440.jpg
 description2: >-
