@@ -49,6 +49,11 @@ description2: >-
   engineering design and analysis techniques. The result was the Fjell Turbo
   Disc Dryer with a unique patented disc design, based on efficient
   manufacturing techniques.
+
+
+  Problems with leakage after som wear and tear on the welds are practically
+  eliminated, as we have experienced zero leakage on our discs produced after
+  year 2000.
 infobox2: |-
   ## Application
 
