@@ -2,7 +2,7 @@
 templateKey: product
 title: FTG Turbo Disc Dryer
 subtitle: The robust and energy efficient drying of Biomasses
-headerimage: /img/td440.jpg
+headerimage: /img/fjelltg_main.jpg
 description1: >-
   ## Design
 
@@ -29,6 +29,36 @@ description1: >-
   (PED, ASME, JIS, GOST, DNV, Lloyds, Bureau Veritas etc..) The dryer has a
   unique endurable patented rotor design without traditional welded stays
   exposed to tear, wear, fatigue and corrosion.
+
+
+  The distinct difference between the TD dryer and most other disc dryers is
+  that staybolt welds (or welds of other means to maintain the integrity of the
+  disc when exposed to internal steam pressure) is entirely on the inside of the
+  disc. Fjell has in its process for drying with disc-driers a patented process
+  solution reducing usage of steam with approx. 40% from normal driers.
+
+
+  **Mass and Energy Balance** 
+
+
+  All fismeal plants are being calculated based on given numbers for quantity to
+  be processed. This calculation are set up in a Mass and Energy Balance Scheme
+  to specify dimensions on all equipment and piping. 
+
+
+  **Flowsheet**
+
+
+  After finalizing a M&E balance we produce a flowsheet and 3D drawing to
+  optimize the tradeoff betwen size, quality in materials and cost. 
+
+
+  **P&ID** 
+
+
+  Together with client or yard, we produce all necessarry drawings and plan all
+  interfaces for easy assembly and use. Of course PLC system are included - and
+  can be integrated to most common PLC systems (for global control)
 infobox1: >-
   ## Advantages
 
@@ -53,18 +83,11 @@ infobox1: >-
 
   * Smooth disc surface secures efficient self-cleaning and maximum heat
   transfer.
-
-
-  The distinct difference between the TD dryer and most other disc dryers is
-  that staybolt welds (or welds of other means to maintain the integrity of the
-  disc when exposed to internal steam pressure) is entirely on the inside of the
-  disc. Fjell has in its process for drying with disc-driers a patented process
-  solution reducing usage of steam with approx. 40% from normal driers.
 productbrochures:
   - file: /img/fjell-turbo-disc-dryer-brochure.pdf
     title: PRODUCT BROCHURE
-smallimage: /img/fjelltg_main.jpg
-fullwidthimage: /img/td440.jpg
+smallimage: /img/td-tørke-lite.png
+fullwidthimage: /img/tørker-prima5.jpg
 description2: >-
   ## Legacy
 
@@ -81,6 +104,11 @@ description2: >-
   engineering design and analysis techniques. The result was the Fjell Turbo
   Disc Dryer with a unique patented disc design, based on efficient
   manufacturing techniques.
+
+
+  Problems with leakage after som wear and tear on the welds are practically
+  eliminated, as we have experienced zero leakage on our discs produced after
+  year 2000.
 infobox2: |-
 
 
