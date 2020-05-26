@@ -10,8 +10,8 @@ infobox1: >-
 productbrochures:
   - file: /img/fjell-td-dryer-vs-rotadisc.pdf
     title: PRODUCT BROCHURE
-smallimage: /img/fjelltg_main.jpg
-fullwidthimage: /img/td440.jpg
+smallimage: /img/img_5185.jpg
+fullwidthimage: /img/p30000-030-3-1-.jpg
 description2: >-
   ## Legacy
 
