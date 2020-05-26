@@ -1,69 +1,15 @@
 ---
 templateKey: product
-title: 'FTG Turbo Disc Dryer '
-subtitle: The robust and energy efficient drying of Biomasses
-headerimage: /img/td440.jpg
-description1: >-
-  ## Design
-
-
-  The Fjell Turbo Disc Dryer is designed for indirect heating by steam (6-10
-  bar). The dryer can be delivered for vacuum drying of temperature sensitive
-  raw materials. The largest heating surface is the rotor, but additional
-  heating surface is available as an option on the stator. The product to be
-  dried is slowly, but vigorously, transported from inlet to outlet end by a
-  paddle system mounted on the disc periphery. 
-
-
-  Product discharge is normally done continuously by a speed controlled
-  extraction screw conveyor. The discs are mounted on a heavy central shaft with
-  a highly efficient condensate removal system integrated. Scraper bars ensure
-  agitation between the discs, which is necessary for an efficient evaporation.
-  The moisture evaporated from the product is collected in a high top vapour
-  dome, and continuously removed. 
-
-
-  Dryers can be supplied in all practical sizes, in all common materials of
-  construction (carbon-, stainless-, and duplex steels), and approved and
-  inspected according to the leading international design codes and standards
-  (PED, ASME, JIS, GOST, DNV, Lloyds, Bureau Veritas etc..) The dryer has a
-  unique endurable patented rotor design without traditional welded stays
-  exposed to tear, wear, fatigue and corrosion.
+title: FTG Compact Fishmeal Plant
+subtitle: Compact solution for production of fishmeal and oil
+headerimage: /img/fiskemel-båt.png
+description1: "## Design\n\nAll equipment designed and engineered to fit in tigh locations as on vessels but also on smaller locations on land. \n\nFjell cooperate with pultiple partners to offer the best available technologies assembled together as compactly as possible without compromising quality. With FTG's solution for a compact fishmeal plant, it will be possible to place the plant in the immediate vicinity from the slaughteries and ensure optimum quality of raw material.\n\nThe compact solutions most often consists of grinder, boiler, press, decanter/tricanter, dryer, hammermill and cooler. FTG process solution ensure the optimum trade-off of size, quality on materials and energy effectiveness. \n\n**Description**\r\n\nGrinding as a first step ensures that even bits of residue are passed on - and not least is the first barrier to fishing hooks and other elements that are not wanted in the further process\n\nThe screw cooker is designed as a large slowly rotating screw conveyor with steam heated outer pipe and hollow steam heated flighting allowing heating of the raw material to about 90°C to secure complete coagulation. \n\nDepending on layout coagulated material is then pressed through a screwpress for squeezing out liquids, and the press cake is dropped or conveyed directly into the drier.\r\n\nThe liquid from the press is directed to the tricanter, which in one single step is able to separate the liquid into solids, stickwater and fish oil. \n\nEvaporating of stickwater are optional but recommended to take out the last 6-7% protein that is water soluble and thus valuable as they provide a better quality of the meal.\n\nThe drier evaporates the water from the solids. The combination of gentle rotation and evaporations result in a fishmeal with approx. 10 % residual water.\r\n\nVapour from the driers is drawn out and treated in a seawater scrubber together with ventilation air and vapour from the other process equipment. (optional)\r\n\nWarm and bony fish meal is conveyed to the hammer mill before cooling and transporting to meal silo as reservoir for bagging.  Transport may be by means of cooling screw conveyors or pneumatic system."
 infobox1: >-
-  ## Advantages
-
-
-  Advantages between Fjell TD Dryer vs. other Rotadisc dryers:
-
-
-  * Forged claws can be welded with high precision in flat position using
-  robots. 
-
-  * Welds can be inspected with NDT before assembly. 
-
-  * Welds are not exposed to the material to be dried, thereby risk for stress
-  corrosion cracking is eliminated. 
-
-  * Welds do not seal between pressurised and non-pressurised side. Thereby risk
-  for steam leakage is eliminated. 
-
-  * Claws act as reinforcement beams in radial direction, thereby increasing the
-  lateral bending strength of the discs, which reduces the risk for leakages in
-  foot welds between discs (big problem with Rotadisc). 
-
-  * Smooth disc surface secures efficient self-cleaning and maximum heat
-  transfer.
-
-
-  The distinct difference between the TD dryer and most other disc dryers is
-  that staybolt welds (or welds of other means to maintain the integrity of the
-  disc when exposed to internal steam pressure) is entirely on the inside of the
-  disc. Fjell has in its process for drying with disc-driers a patented process
-  solution reducing usage of steam with approx. 40% from normal driers.
+  Typical compact plants have a capacity range of between 15 to 250 tons of raw
+  materials per day.
 productbrochures:
   - file: /img/fjell-td-dryer-vs-rotadisc.pdf
     title: PRODUCT BROCHURE
-productbrochure: /img/fjell-td-dryer-vs-rotadisc.pdf
 smallimage: /img/fjelltg_main.jpg
 fullwidthimage: /img/td440.jpg
 description2: >-
