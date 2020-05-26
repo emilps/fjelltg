@@ -39,6 +39,32 @@ description1: >-
   solution reducing usage of steam with approx. 40% from normal driers.
 
 
+  **Mass and Energy Balance** 
+
+
+  All MWWT plants are being calculated based on given numbers for quantity to be
+  processed. This calculation are set up in a Mass and Energy Balance Scheme to
+  specify dimensions on all equipment and piping. 
+
+
+  **Flowsheet**
+
+
+  After finalizing a M&E balance we produce a flowsheet and 3D drawing to
+  optimize the tradeoff betwen size, quality in materials and cost. 
+
+
+  **P&ID** 
+
+
+  Together with client or yard, we produce all necessarry drawings and plan all
+  interfaces for easy assembly and use. Of course PLC system are included - and
+  can be integrated to most common PLC systems (for global control)
+
+
+  **Standard sizes**
+
+
   Model TD150 - Heating surface 150m2
 
 
