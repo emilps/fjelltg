@@ -74,22 +74,7 @@ productbrochures:
     title: PRODUCT BROCHURE
 smallimage: /img/img_5185.jpg
 fullwidthimage: /img/p30000-030-3-1-.jpg
-description2: >-
-  ## Legacy
-
-
-  In the year 2000 Fjell Technology Group AS decided to develop a robust and
-  energy efficient disc dryer specially designed for modern manufacturing
-  methods like robotic welding. We had a competent staff with senior personnel
-  having experience from design, manufacturing and installation of about 2000
-  Stord dryers since the introduction of the technology, wich took place in the
-  late 50ies. 
-
-
-  We added some young innovative engineers skilled in state of the art
-  engineering design and analysis techniques. The result was the Fjell Turbo
-  Disc Dryer with a unique patented disc design, based on efficient
-  manufacturing techniques.
+description2: "**Mass and Energy Balance** \r\n\nAll fishmeal plants are being calculated based on given numbers for rest raw material to be processed. This calculation are set up in a Mass and Energy Balance Scheme to specify dimensions on all equipment and piping. \n\n**Flowsheet**\n\nAfter finalizing a M&E balance we produce a flowsheet and 3D drawing to optimize the tradeoff betwen size, quality in materials and cost. \n\n**P&ID** \n\nTogether with client or yard, we produce all necessarry drawings and plan all interfaces for easy assembly and use. Of course PLC system are included - and can be integrated to most common PLC systems (for global control)"
 infobox2: |-
 
 
