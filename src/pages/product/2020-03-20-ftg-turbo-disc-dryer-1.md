@@ -3,12 +3,74 @@ templateKey: product
 title: FTG Compact Fishmeal Plant
 subtitle: Compact solution for production of fishmeal and oil
 headerimage: /img/fiskemel-båt.png
-description1: "## Design\n\nAll equipment designed and engineered to fit in tigh locations as on vessels but also on smaller locations on land. \n\nFjell cooperate with pultiple partners to offer the best available technologies assembled together as compactly as possible without compromising quality. With FTG's solution for a compact fishmeal plant, it will be possible to place the plant in the immediate vicinity from the slaughteries and ensure optimum quality of raw material.\n\nThe compact solutions most often consists of grinder, boiler, press, decanter/tricanter, dryer, hammermill and cooler. FTG process solution ensure the optimum trade-off of size, quality on materials and energy effectiveness. \n\n**Description**\r\n\nGrinding as a first step ensures that even bits of residue are passed on - and not least is the first barrier to fishing hooks and other elements that are not wanted in the further process\n\nThe screw cooker is designed as a large slowly rotating screw conveyor with steam heated outer pipe and hollow steam heated flighting allowing heating of the raw material to about 90°C to secure complete coagulation. \n\nDepending on layout coagulated material is then pressed through a screwpress for squeezing out liquids, and the press cake is dropped or conveyed directly into the drier.\r\n\nThe liquid from the press is directed to the tricanter, which in one single step is able to separate the liquid into solids, stickwater and fish oil. \n\nEvaporating of stickwater are optional but recommended to take out the last 6-7% protein that is water soluble and thus valuable as they provide a better quality of the meal.\n\nThe drier evaporates the water from the solids. The combination of gentle rotation and evaporations result in a fishmeal with approx. 10 % residual water.\r\n\nVapour from the driers is drawn out and treated in a seawater scrubber together with ventilation air and vapour from the other process equipment. (optional)\r\n\nWarm and bony fish meal is conveyed to the hammer mill before cooling and transporting to meal silo as reservoir for bagging.  Transport may be by means of cooling screw conveyors or pneumatic system."
+description1: >-
+  ## Design
+
+
+  All equipment designed and engineered to fit in tigh locations as on vessels
+  but also on smaller locations on land. 
+
+
+  Fjell cooperate with pultiple partners to offer the best available
+  technologies assembled together as compactly as possible without compromising
+  quality. With FTG's solution for a compact fishmeal plant, it will be possible
+  to place the plant in the immediate vicinity from the slaughteries and ensure
+  optimum quality of raw material.
+
+
+  The compact solutions most often consists of grinder, boiler, press,
+  decanter/tricanter, dryer, hammermill and cooler. FTG process solution ensure
+  the optimum trade-off of size, quality on materials and energy effectiveness. 
+
+
+  **Description**
+
+
+  Grinding as a first step ensures that even bits of residue are passed on - and
+  not least is the first barrier to fishing hooks and other elements that are
+  not wanted in the further process
+
+
+  The screw cooker is designed as a large slowly rotating screw conveyor with
+  steam heated outer pipe and hollow steam heated flighting allowing heating of
+  the raw material to about 90°C to secure complete coagulation. 
+
+
+  Depending on layout coagulated material is then pressed through a screwpress
+  for squeezing out liquids, and the press cake is dropped or conveyed directly
+  into the drier.
+
+
+  The liquid from the press is directed to the tricanter, which in one single
+  step is able to separate the liquid into solids, stickwater and fish oil. 
+
+
+  Oil can be further treated in a polisher for optimum quality.
+
+
+  Evaporating of stickwater are optional but recommended to take out the last
+  6-7% protein that is water soluble and thus valuable as they provide a better
+  quality of the meal.
+
+
+  The drier evaporates the water from the solids. The combination of gentle
+  rotation and evaporations result in a fishmeal with approx. 10 % residual
+  water.
+
+
+  Vapour from the driers is drawn out and treated in a seawater scrubber
+  together with ventilation air and vapour from the other process equipment.
+  (optional)
+
+
+  Warm and bony fish meal is conveyed to the hammer mill before cooling and
+  transporting to meal silo as reservoir for bagging.  Transport may be by means
+  of cooling screw conveyors or pneumatic system.
 infobox1: >-
   Typical compact plants have a capacity range of between 15 to 250 tons of raw
   materials per day.
 productbrochures:
-  - file: /img/fjell-td-dryer-vs-rotadisc.pdf
+  - file: /img/fjell-turbo-disc-dryer-brochure.pdf
     title: PRODUCT BROCHURE
 smallimage: /img/img_5185.jpg
 fullwidthimage: /img/p30000-030-3-1-.jpg
