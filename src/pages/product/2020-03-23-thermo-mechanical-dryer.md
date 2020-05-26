@@ -11,12 +11,6 @@ description1: >-
 
   FTG is the exclusive supplier for TMD towards fish farmers (RAS - and
   flow-through plants) in Norway.
-infobox1: >-
-  This dryer is excellent on most types of material, but truly unique on
-  material that is perceived as sticky or “glue-like”.
-
-
-  The TMD isxcellent on most material, exceeding on sticky, “glue-like” material
 
 
   * Compact process
@@ -34,11 +28,17 @@ infobox1: >-
   * Automatic control system during operation
 
   * Can eliminate mold and bacteria in dried material
+infobox1: >-
+  This dryer is excellent on most types of material, but truly unique on
+  material that is perceived as sticky or “glue-like”.
+
+
+  The TMD isxcellent on most material, exceeding on sticky, “glue-like” material
 productbrochures:
   - file: /img/ftg-kunder-presentasjon-tørkeprosess-ras-flyer.pdf
     title: PRODUCT BROCHURE
 smallimage: /img/frs.jpg
-fullwidthimage: /img/osan-tmd.jpg
+fullwidthimage: /img/tmd.png
 description2: |-
   The TMD can be applied for the following areas:
 
