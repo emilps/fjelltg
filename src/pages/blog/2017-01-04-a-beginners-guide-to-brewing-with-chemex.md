@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: 40-Års JUBILEUM SOM INDUSTRIBYGGER
 date: 28.03.2020
-featuredimage: /img/3.-lgm-ivar-4.jpg
+featuredimage: /img/leifg-1-199x300.jpg
 description: >-
   40-ÅRS JUBILEUM SOM INDUSTRIBYGGER
 
