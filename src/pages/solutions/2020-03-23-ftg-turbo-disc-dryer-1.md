@@ -2,7 +2,7 @@
 templateKey: solution
 title: 'FTG Turbo Disc Dryer '
 subtitle: The robust and energy efficient drying of Biomasses
-featuredimage: /img/fjelltg_main.jpg
+featuredimage: /img/minorga.jpg
 mainquote: >-
   Sludge in Waste Water Treatment Plant and by-products for industrial
   bio-sludge and mineral sludge 
@@ -88,31 +88,6 @@ relatedproducts:
     body: |+
 
     headerimage: /img/fjelltg_main.jpg
-    infobox2: >-
-
-
-      ## Application
-
-
-      * Sludge in Waste Water 
-
-      * Treatment Plant for fishmeal in both land based and ship installed
-      plants 
-
-      * Ingredients in the food industry
-
-      * Spent grains in distilleries and breweries
-
-      * Animal and poultry by-products for industrial bio-sludge and mineral
-      sludge 
-
-      * Replacement rotors and units for old disc dryers
-    productbrochures:
-      - file: /img/fjell-turbo-disc-dryer-brochure.pdf
-        title: PRODUCT BROCHURE
-    productcategory: Fish Meal Plant
-    slug: 2020-03-20-ftg-turbo-disc-dryer
-    smallimage: /img/td-tørke-lite.png
     templateKey: product
     title: FTG Turbo Disc Dryer
     subtitle: The robust and energy efficient drying of Biomasses
@@ -220,6 +195,31 @@ relatedproducts:
       Problems with leakage after som wear and tear on the welds are practically
       eliminated, as we have experienced zero leakage on our discs produced
       after year 2000.
+    infobox2: >-
+
+
+      ## Application
+
+
+      * Sludge in Waste Water 
+
+      * Treatment Plant for fishmeal in both land based and ship installed
+      plants 
+
+      * Ingredients in the food industry
+
+      * Spent grains in distilleries and breweries
+
+      * Animal and poultry by-products for industrial bio-sludge and mineral
+      sludge 
+
+      * Replacement rotors and units for old disc dryers
+    productbrochures:
+      - file: /img/fjell-turbo-disc-dryer-brochure.pdf
+        title: PRODUCT BROCHURE
+    productcategory: Fish Meal Plant
+    slug: 2020-03-20-ftg-turbo-disc-dryer
+    smallimage: /img/td-tørke-lite.png
 solutioncategory: 'Waste Water Treatment '
 ---
 
