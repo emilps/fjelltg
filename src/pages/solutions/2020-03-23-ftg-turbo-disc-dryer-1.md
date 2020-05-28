@@ -77,7 +77,7 @@ infobox1: >-
 
   * Smooth disc surface secures efficient self-cleaning and maximum heat
   transfer.
-fullwidthimage: /img/flowsheet-sludge-full-drying.jpg
+fullwidthimage: /img/minorga.jpg
 description2: >-
   Standard Range Fjell Turbo Disc Dryers are from  200 kg evaporation per hour
   to 5000 kg per hour
