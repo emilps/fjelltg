@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
-title: Manufacturing of Fjell FRS system
-date: 28.03.2020
+title: 300 Followers on Instagram!
+date: 28.05.2020
 featuredimage: /img/instagram-22.05.2020-2.jpg
 description: >-
   I dag rundet Fjell Technology Group 300 følgere på Instagram . Vi setter stor
