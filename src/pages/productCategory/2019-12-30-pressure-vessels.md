@@ -1,9 +1,7 @@
 ---
 templateKey: productcategory
-title: Fish Meal Plant for ships
-subtitle: >-
-  Complete plant for production of fish meal an oil - FTG  can design and
-  deliver fish meal plants for both land and marine use.
+title: Onboard Fish Meal Plant
+subtitle: Complete plant for onboard production of fish meal an oil
 featuredimage: /img/fiskemel-båt.png
 text: >-
   FTG can design and deliver fish meal plants for ships - ready to be installed
