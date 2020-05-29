@@ -14,8 +14,8 @@ text: >-
   the sea.
 
 
-  The FTG Fishsludge Recovery System (FRS) system can dry sludge from 0.1 per
-  cent Dry Matter (DM) and up to 99 per cent DM. 
+  The TMD Fishsludge Recovery System (FRS) can dry sludge from 0.1 per cent Dry
+  Matter (DM) and up to 99 per cent DM. 
 
 
   We use award-winning technology without chemical polymer for the purification
