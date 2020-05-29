@@ -1,7 +1,7 @@
 ---
 templateKey: product
-title: FTG Compact Fishmeal Plant
-subtitle: Compact solution for production of fishmeal and oil
+title: FTG Onboard Fishmeal Plant
+subtitle: A compact solution for production of fishmeal and oil onboard a vessel
 headerimage: /img/fiskemel-båt.png
 description1: >-
   ## Design
