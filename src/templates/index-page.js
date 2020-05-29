@@ -45,7 +45,7 @@ export const IndexPageTemplate = ({
       </Link>
       <PreviewCompatibleImage
         imageInfo={{
-          image: '/img/p15776-001-1.jpg',
+          image: middleblock.image2,
           alt: `featured image thumbnail for post ${title}`,
           style: {
             width: '100%',
@@ -143,6 +143,13 @@ export const pageQuery = graphql`
         title
         middleblock {
           title
+          image2 {
+            childImageSharp {
+              fluid(maxWidth: 1080, quality: 80) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
         }
         partners {
           partnerimage {
