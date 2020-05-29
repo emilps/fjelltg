@@ -6,7 +6,7 @@ featuredimage: /img/3.-lgm-ivar-4.jpg
 description: >-
   Fjell Technology Groups (FTG) CEO Leif Gunnar Madsen celebrates 40 years as
   entrepreneur. There is a Norwegian saying which tells that life starts when
-  you reach the age of 66 years. That far from true for this vital man.
+  you reach the age of 66 years. That is far from true for this vital man.
 
   It is now 40 years since he played a central role in establishing the company
   Fjell Group, as a key employee in the Stord-Bartz enterprise. Stord-Bartz was
