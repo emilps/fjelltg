@@ -10,6 +10,7 @@ indexblock:
   title2: Protein Recycling
 title: Your partner for process technology
 middleblock:
+  image2: /img/p15776-001-1-lite.jpg
   title: FJELL TECHNOLOGY TEST CENTRE
 partners:
   description: >-
