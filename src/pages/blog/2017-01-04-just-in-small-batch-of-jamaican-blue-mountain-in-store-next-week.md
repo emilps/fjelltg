@@ -1,13 +1,19 @@
 ---
 templateKey: blog-post
-title: 300 Followers on Instagram!
-date: 28.05.2020
-featuredimage: /img/300-følgere.jpg
+title: Fjell FRS TMD - Sludge Recycling Systems on their way to Norway
+date: 03.06.2020
+featuredimage: /img/skids-fra-litauen.jpg
 description: >-
-  Today we reached 300 followers on Instagram. That is worth a little
-  celebration. We value every follower  both here on Facebook and on Instagram.
-  Have a look at @fjelltechnology and see photos and stories from new projects,
-  everyday life at work, snowstorms in May and much more. 
+  I forrige uke ble 2 skids med Fjell FRS TMD slamtørkeanlegg for hhv. Andfjord
+  Salmon og Astafjord Smolt A/S sendt ut på landeveien i retning Norge. Det
+  nærmer seg nå at anleggene skal installeres og testkjøres hos kunde, noe vi
+  ser veldig frem til.   
+    
+  Fjell TMD Sludge Drying Systems skids on their way to Norway. These two Fjell
+  FRS TMD Sludge Drying systems will  soon be delivered to our customers
+  Andfjord Salmon and Astafjord Smolt.
+
+  #sirkulærøkonomi #bærekraftig #lakserviktigfornorge
 link: 'https://www.facebook.com/FjellGreenTech/'
 socialmedia: Facebook
 ---
