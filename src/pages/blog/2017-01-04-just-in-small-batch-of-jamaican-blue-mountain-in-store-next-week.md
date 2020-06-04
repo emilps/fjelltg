@@ -1,19 +1,17 @@
 ---
 templateKey: blog-post
-title: Fjell FRS TMD - Sludge Recycling Systems on their way to Norway
-date: 03.06.2020
-featuredimage: /img/skids-fra-litauen.jpg
+title: 'Social gathering at Fjell Technology Group. '
+date: 04.06.2020
+featuredimage: /img/lønningspils-mai-2.jpg
 description: >-
-  I forrige uke ble 2 skids med Fjell FRS TMD slamtørkeanlegg for hhv. Andfjord
-  Salmon og Astafjord Smolt A/S sendt ut på landeveien i retning Norge. Det
-  nærmer seg nå at anleggene skal installeres og testkjøres hos kunde, noe vi
-  ser veldig frem til.   
-    
-  Fjell TMD Sludge Drying Systems skids on their way to Norway. These two Fjell
-  FRS TMD Sludge Drying systems will  soon be delivered to our customers
-  Andfjord Salmon and Astafjord Smolt.
+  At the end of last month the employees of Fjell Technology Group and Compact
+  Carbon Capture had our first social gathering since the Corona outbreak in
+  Norway. We had much to celebrate. Fjell has landed several contracts in the
+  last months, one of our employees became a father for the first time, and 3
+  new highly skilled project leaders have joined the company. And not to
+  forget,  it was a sunny day  
 
-  #sirkulærøkonomi #bærekraftig #lakserviktigfornorge
+  #lønningspils #greentech #sirkulærbergen
 link: 'https://www.facebook.com/FjellGreenTech/'
 socialmedia: Facebook
 ---
