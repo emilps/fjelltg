@@ -28,7 +28,7 @@ Fjell were established in 2000 and are based on more than 40 years of experience
 
 {"widget":"imageblock","text":"FTG delivers state of the art equipment to for the best possible utilization of raw material, whether it is fish waste, different types of biorest or municipal sludge.","image":"/img/fjelltg_main.jpg"}
 
-{"widget":"imageblock","text":"As a contribution in the wider context, we have included points 5, 9, 11 and 12 from the UN's sustainability goals in our strategy.\\nFTG aims to promote equality and prevent discrimination in the working environment.\\nFTG budgets with at least 10% of revenue in innovation to develop tomorrow's solutions.\\nFTG must strive to only offer sustainable solutions to customers.\\nFTG is to be a pioneer in reducing consumption to operate the plants.\\n","image":"/img/fn-bã¦rekraftsmal.jpg"}
+{"widget":"imageblock","text":"As a contribution in the wider context, we have included points 5, 9, 11 and 12 from the UN's sustainability goals in our strategy.\\\\nFTG aims to promote equality and prevent discrimination in the working environment.\\\\nFTG budgets with at least 10% of revenue in innovation to develop tomorrow's solutions.\\\\nFTG must strive to only offer sustainable solutions to customers.\\\\nFTG is to be a pioneer in reducing consumption to operate the plants.\\\\n","image":"/img/fn-bã¦rekraftsmal.jpg"}
 
 ## Facilities
 
@@ -52,4 +52,4 @@ The vision is operationalized through a program for continuous improvement. Befo
 
 FTGs R&D-department also contributes in great extent to research regarding CO2 capture and other projects within Greentech. 
 
-{"widget":"imageblock","text":"FTG Test Centre has the necessary equipment to carry out testing and analysis for residual material from most product types and bio residues","image":"/img/co2-1.jpg"}
+{"widget":"imageblock","text":"VALUES AND HSEQ: Fjell Technology Group has Responsibility, Innovativ and Reliable as our core values. To live up to these values, we place a strong focus on HSEQ. We will build trust with our clients and we will create security, well being ad predictability forour emplyees. \nFor FTG it is important to work preventively and systematically with HSEQ, and we believe that this work will strengthen our competitveness. \nWe deliver all our products according to customers expectations and according to statutory requirements and technical standards. \nLast but not least: we strive to be environmental friendly, meaning we sort our waste, we are identifying our environmental aspects for an improvement plan and we make demands on our suppliers. ","image":"/img/3.-lgm-ivar-4.jpg"}
