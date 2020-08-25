@@ -11,15 +11,20 @@ mainquote: >-
 description1: >-
   Fjell Technology Group has a unique combination of long experience and high
   competence, and is a leader in research and development in the industry. We
-  can supply in equipment the full range from small setfish plants, to post
-  smolt plants, land-based food fish plants and semi-closed and closed plants in
-  the sea.
+  can supply in equipment the full range from hatcheries, to smolt farms , to
+  post-smolt farms,  to land-based ongrowing fish plants and semi-closed and
+  closed ongrowing fish farms in the sea.
 
 
-  We use award-winning technology without chemical polymer for the purification
-  stage of waste water from drum filter and possibly biofilter
-  (electrocoagulation) and wastewater sludge from the purification stage with
-  tested and reliable technology from partners.
+  We use award-winning technology without the use of chemical polymer for the
+  purification stage of waste water from drum filter and biofilters (electro
+  coagulation). We dewater and dry the wastewater sludge from the purification
+  stage with tested and reliable in-house technology and from collaboration
+  partnes. The TMD dryer is our standard processing equipment for drying,
+  sanitising and stabilizing the sludge. Fish sludge is extremely difficult to
+  dry efficaciously due to variations in fatty acids composition and a
+  troublesome glue phase. the TMD dryer handles this obstacles without any
+  problems.
 infobox1: >-
   The FTG Fishsludge Recovery System (FRS) system can dry sludge from 0.1 per
   cent Dry Matter (DM) and up to 99 per cent DM.
