@@ -1,13 +1,15 @@
 ---
 templateKey: blog-post
-title: 'Fjell Technology Group received the ISO 9001 Certificate '
-date: 15.07.2020
-featuredimage: /img/kiwa-na_9001.png
+title: 'Fjell FRS TMD Sludge Recovery System '
+date: 25.08.2020
+featuredimage: /img/osan.jpg
 description: >-
-  ISO 9001 Sertifisering på plass for Fjell Technology Group. 
+  Fjell FRS TMD Sludge Recovery system in its final installation phase. At the
+  picture you see the FRS TMD Sludge Dryer system. The complete Sludge Recovery
+  System purify the waste water (high capture rate & without polymer), dewater
+  the sludge and in it its last stage dry the sludge up to 95% dry matter.  
 
-  In the beginnig of July this year, Fjell Technology Group received the ISO
-  9001 certificate.
+  #circulareconomy #greentechnology #lakserviktigfornorge
 link: 'https://www.facebook.com/FjellGreenTech/'
 socialmedia: Facebook
 ---
