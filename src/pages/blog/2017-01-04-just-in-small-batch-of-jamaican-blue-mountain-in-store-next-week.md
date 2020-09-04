@@ -1,15 +1,19 @@
 ---
 templateKey: blog-post
 title: 'Fjell FRS TMD Sludge Recovery System '
-date: 25.08.2020
-featuredimage: /img/osan.jpg
+date: 04.09.2020
+featuredimage: /img/astafjord-på-vei-04.09.2020.jpg
 description: >-
-  Fjell FRS TMD Sludge Recovery system in its final installation phase. At the
-  picture you see the FRS TMD Sludge Dryer system. The complete Sludge Recovery
-  System purify the waste water (high capture rate & without polymer), dewater
-  the sludge and in it its last stage dry the sludge up to 95% dry matter.  
+  Fjell FRS TMD, markedets mest driftssikre og best ytende Slamtørkesystem,
+  lastes om bord i trailer for transport til Astafjord Smolt A/S
 
-  #circulareconomy #greentechnology #lakserviktigfornorge
+
+  Fjell FRS TMD - Sludge Dryer System, loaded on to a truck for transport to
+  Astafjord Smolt in Gratangen. A short drive of only 1603 km. The best
+  performing and most Reliant Sludge Dryer system in the market. 
+
+
+  #bærekraftig #greentech #havbruk
 link: 'https://www.facebook.com/FjellGreenTech/'
 socialmedia: Facebook
 ---
