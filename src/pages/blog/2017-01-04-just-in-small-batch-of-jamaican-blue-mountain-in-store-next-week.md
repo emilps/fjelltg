@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: 'Fjell FRS TMD Sludge Recovery System '
+title: Fjell FRS TMD Sludge Recovery System  on its way to Astafjordsmolt
 date: 04.09.2020
 featuredimage: /img/astafjord-på-vei-04.09.2020.jpg
 description: >-
