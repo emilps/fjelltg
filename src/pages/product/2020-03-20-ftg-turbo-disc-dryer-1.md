@@ -13,12 +13,12 @@ description1: >-
 
   Fjell cooperate with pultiple partners to offer the best available
   technologies assembled together as compactly as possible without compromising
-  quality. With FTG's solution for a compact fishmeal plant, it will be possible
-  to place the plant in the immediate vicinity from the slaughteries and ensure
-  optimum quality of raw material.
+  quality. With FTG's solution for a complete fishmeal plant, it will be
+  possible to place the plant in the immediate vicinity from the slaughteries
+  and ensure optimum quality of raw material.
 
 
-  The compact solutions most often consists of grinder, boiler, press,
+  The small sized solutions most often consists of grinder, boiler, press,
   decanter/tricanter, dryer, hammermill and cooler. FTG process solution ensure
   the optimum trade-off of size, quality on materials and energy effectiveness. 
 
@@ -67,8 +67,8 @@ description1: >-
   transporting to meal silo as reservoir for bagging.  Transport may be by means
   of cooling screw conveyors or pneumatic system.
 infobox1: >-
-  Typical compact plants have a capacity range of between 15 to 250 tons of raw
-  materials per day.
+  Typical onboard fishmeal plants have a capacity range of between 60 to 250
+  tons of raw materials per day.
 productbrochures:
   - file: /img/fjell-turbo-disc-dryer-brochure.pdf
     title: PRODUCT BROCHURE
