@@ -86,6 +86,6 @@ infobox2: |-
   * Spent grains in distilleries and breweries
   * Animal and poultry by-products for industrial bio-sludge and mineral sludge 
   * Replacement rotors and units for old disc dryers
-productcategory: Compact Fish Meal Plant
+productcategory: Onboard Fish Meal Plant
 ---
 
