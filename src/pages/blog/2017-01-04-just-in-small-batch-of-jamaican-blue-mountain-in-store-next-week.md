@@ -1,19 +1,15 @@
 ---
 templateKey: blog-post
-title: Fjell FRS TMD Sludge Recovery System  on its way to Astafjordsmolt
-date: 04.09.2020
-featuredimage: /img/astafjord-på-vei-04.09.2020.jpg
+title: Meet Paal!  Fjell technology Groups new Project engineer
+date: 07.10.2020
+featuredimage: /img/1.jpg
 description: >-
-  Fjell FRS TMD, markedets mest driftssikre og best ytende Slamtørkesystem,
-  lastes om bord i trailer for transport til Astafjord Smolt A/S
+  Meet Paal our new Project engineer. He has a bachelor from his home city
+  Bergen and a BEng Honours from UMIST in Manchester.
 
-
-  Fjell FRS TMD - Sludge Dryer System, loaded on to a truck for transport to
-  Astafjord Smolt in Gratangen. A short drive of only 1603 km. The best
-  performing and most Reliant Sludge Dryer system in the market. 
-
-
-  #bærekraftig #greentech #havbruk
+  He has a solid career and work experience from design, qualification, and
+  technical production supervision within materials, welding and mechanical
+  discipline for subsea oil and gas, R&D and industry.
 link: 'https://www.facebook.com/FjellGreenTech/'
 socialmedia: Facebook
 ---
