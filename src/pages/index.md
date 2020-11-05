@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 indexblock:
-  image1: /img/p15776-001-1-lite.jpg
+  image1: /img/frs-.jpg
   image2: /img/img_1727-lite.jpg
   link1: >-
     https://fjelltg.no/solutionCategory/2020-02-08-greentech-and-the-environment/
