@@ -1,15 +1,9 @@
 ---
 templateKey: blog-post
-title: Meet Paal!  Fjell technology Groups new Project engineer
-date: 07.10.2020
-featuredimage: /img/1.jpg
-description: >-
-  Meet Paal our new Project engineer. He has a bachelor from his home city
-  Bergen and a BEng Honours from UMIST in Manchester.
-
-  He has a solid career and work experience from design, qualification, and
-  technical production supervision within materials, welding and mechanical
-  discipline for subsea oil and gas, R&D and industry.
+title: Start up of another Fjell TMD Sludge Drying System in beautiful surroundings
+date: 10.11.2020
+featuredimage: /img/gratangen-astafjord-1.jpg
+description: "Beautiful morning (a bit cold \U0001F976) in Gratangen at Astafjord Smolt. Fjell Technology Group is on sitewhere to do the final preparations before we start up their new Fjell FRS TMD Sludge Drying System.\n#sirkulærøkonomi #renthav #lakserviktigfornorge"
 link: 'https://www.facebook.com/FjellGreenTech/'
 socialmedia: Facebook
 ---
