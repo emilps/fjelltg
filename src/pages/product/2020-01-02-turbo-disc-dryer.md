@@ -64,7 +64,7 @@ infobox1: >-
 
   Increase of oil yield
 productbrochures:
-  - file: /img/ftg-brochure-cooker.pdf
+  - file: /img/leaflet-fjell-ss-cookers.pdf
     title: PRODUCT BROCHURE
 smallimage: /img/double-stage-cooker.png
 fullwidthimage: /img/koker.jpg
