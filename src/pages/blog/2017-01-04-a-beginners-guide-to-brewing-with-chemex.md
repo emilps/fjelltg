@@ -3,7 +3,7 @@ templateKey: blog-post
 title: >-
   FTG er topp 29 på Deloittes kåring av årets raskest voksende
   teknologiselskaper
-date: 05.11.2020
+date: 19.11.2020
 featuredimage: /img/deloitte-topp-50-2020.jpg
 description: >-
   FTG er topp 29 på Deloittes kåring av årets raskest voksende
