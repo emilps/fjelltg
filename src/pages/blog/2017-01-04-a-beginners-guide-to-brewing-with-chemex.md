@@ -1,10 +1,14 @@
 ---
 templateKey: blog-post
-title: Baker Hughes is acquiring Compact Carbon Capture (3C)
+title: >-
+  FTG er topp 29 på Deloittes kåring av årets raskest voksende
+  teknologiselskaper
 date: 05.11.2020
-featuredimage: /img/3c-i-industriell-skala-1024x468-1-.jpg
-description: Baker Hughes is acquiring Compact Carbon Capture (3C)
-link: 'https://www.linkedin.com/feed/update/urn:li:activity:6729389508426518529'
+featuredimage: /img/deloitte-topp-50-2020.jpg
+description: >-
+  FTG er topp 29 på Deloittes kåring av årets raskest voksende
+  teknologiselskaper
+link: 'https://www.linkedin.com/feed/update/urn:li:activity:6735121351499124736'
 socialmedia: LinkedIn
 ---
 
