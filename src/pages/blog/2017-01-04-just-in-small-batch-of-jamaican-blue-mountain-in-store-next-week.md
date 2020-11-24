@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Oppkjøpet som skal redde verden
 date: 24.11.2020
-featuredimage: /img/3c-co2-fangst-anlegg-vs-konvensjonelt-anlegg.jpg
+featuredimage: /img/asbjorn-og-leif-gunnar-1024x576.jpg
 description: >-
   Les den spennende og imponerende historien bak bergensselskapet Fjell
   Technology Group (FTG) sin satsing på utvikling av revolusjonerende
