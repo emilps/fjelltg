@@ -1,14 +1,11 @@
 ---
 templateKey: blog-post
-title: >-
-  FTG er topp 29 på Deloittes kåring av årets raskest voksende
-  teknologiselskaper
+title: FTG signerer ny ordre på produksjons av fiskemelsanlegg til frysetråler
 date: 19.11.2020
-featuredimage: /img/deloitte-topp-50-2020.jpg
-description: >-
-  FTG er topp 29 på Deloittes kåring av årets raskest voksende
-  teknologiselskaper
-link: 'https://www.linkedin.com/feed/update/urn:li:activity:6735121351499124736'
+featuredimage: /img/jfk1.png
+description: FTG signerer ny ordre på produksjons av fiskemelsanlegg til frysetråler
+link: >-
+  https://www.linkedin.com/posts/halvard-madsen_ftg-fjelltech-innovative-activity-6744158369482862592-RXQY
 socialmedia: LinkedIn
 ---
 
