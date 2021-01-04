@@ -1,12 +1,11 @@
 ---
 templateKey: blog-post
-title: 'New contract signed by Fjell Technology Group '
-date: 14.12.2020
-featuredimage: /img/jfk.jpg
-description: >-
-  Last week (50) Fjell Technology Group (FTG) signed a new contract with the
-  Faeroese shipping company JFK. FTG shall deliver a complete 70 TPD Fjell Fish-
-  meal &- oil plant for JFKs new factory trawler, with delivery in 2022.  
+title: 400 Followers Reached on Instagram!
+date: 04.01.2021
+featuredimage: /img/400-følgere-04.01.2020.jpg
+description: |-
+  Today @fjelltechnology reached 400 followers! Thank you all!
+  We wish you the very best for the year 2021!
 link: 'https://www.facebook.com/FjellGreenTech/'
 socialmedia: Facebook
 ---
