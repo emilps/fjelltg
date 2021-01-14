@@ -81,7 +81,7 @@ const IndexImage = (indexblock) => {
           </div>
           <a
             href={link}
-            target="_blank"
+            target="_self"
             rel="noopener noreferrer"
             className="button learn-button has-text-weight-bold"
           >
