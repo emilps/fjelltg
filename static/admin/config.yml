@@ -354,6 +354,7 @@ collections:
               fields:
                 [
                   { label: Title, name: title, widget: string },
+                  { label: Image, name: 'image2', widget: image }
                 ],
             }
           - {

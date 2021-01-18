@@ -30,6 +30,60 @@ description1: >-
   (PED, ASME, JIS, GOST, DNV, Lloyds, Bureau Veritas etc..) The dryer has a
   unique endurable patented rotor design without traditional welded stays
   exposed to tear, wear, fatigue and corrosion.
+
+
+  The distinct difference between the TD dryer and most other disc dryers is
+  that staybolt welds (or welds of other means to maintain the integrity of the
+  disc when exposed to internal steam pressure) is entirely on the inside of the
+  disc. Fjell has in its process for drying with disc-driers a patented process
+  solution reducing usage of steam with approx. 40% from normal driers.
+
+
+  **Mass and Energy Balance** 
+
+
+  All MWWT plants are being calculated based on given numbers for quantity to be
+  processed. This calculation are set up in a Mass and Energy Balance Scheme to
+  specify dimensions on all equipment and piping. 
+
+
+  **Flowsheet**
+
+
+  After finalizing a M&E balance we produce a flowsheet and 3D drawing to
+  optimize the tradeoff betwen size, quality in materials and cost. 
+
+
+  **P&ID** 
+
+
+  Together with client or yard, we produce all necessarry drawings and plan all
+  interfaces for easy assembly and use. Of course PLC system are included - and
+  can be integrated to most common PLC systems (for global control)
+
+
+  **Standard sizes**
+
+
+  Model TD150 - Heating surface 150m2
+
+
+  Model TD200 - Heating surface 200m2
+
+
+  Model TD 300 - Heating surface 300m2
+
+
+  Model TD400 - Heating surface 400m2
+
+
+  Model TD500 - Heating surface 500m2
+
+
+  Model TD600 - Heating surface 600m2
+
+
+  Model TD650 - Heating surface 650m2
 infobox1: >-
   Advantages between Fjell TD Dryer vs. other Rotadisc dryers:
 
@@ -50,27 +104,11 @@ infobox1: >-
   foot welds between discs (big problem with Rotadisc). 
 
   * Smooth disc surface secures efficient self-cleaning and maximum heat
-  transfer.
-
-
-  The distinct difference between the TD dryer and most other disc dryers is
-  that staybolt welds (or welds of other means to maintain the integrity of the
-  disc when exposed to internal steam pressure) is entirely on the inside of the
-  disc. Fjell has in its process for drying with disc-driers a patented process
-  solution reducing usage of steam with approx. 40% from normal driers.
-fullwidthimage: /img/td-størrelser.png
-description2: |-
-  Standard Range Fjell Turbo Disc Dryers
-
-  The number of discs can be adjusted according to customer requirements.
-
-  The Stator jacket can increase the heating surface about 10%.
-
-  Nominal weight is estimated with 8 mm disc thickness.
-
-
-
-  Replacement rotors and units for old disc dryers
+  transfer
+fullwidthimage: /img/fjelltg_main.jpg
+description2: >-
+  Standard Range Fjell Turbo Disc Dryers are corresponding to fishmeal plants
+  from 25TPD to 650TPD
 description3: The robust and energy efficient drying of Biomasses
 descriptionimage: /img/hele-anlegget-prima-lite.jpg
 relatedproducts:

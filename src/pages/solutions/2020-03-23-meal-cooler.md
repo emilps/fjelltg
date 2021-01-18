@@ -6,15 +6,7 @@ featuredimage: /img/mealcooler-2.png
 mainquote: >-
   We design and manufacture meal cooler system specially adopted for the local
   requirements. 
-description1: >-
-  In our own region there are normally sufficient cooling water and cold ambient
-  air, which makes this process design pretty straight forward.
-
-
-  In sensitive areas with restricted cooling water supply and high ambient
-  temperatures it can be challenging to meet local requirements for emissions to
-  water and air, and for such applications we have developed a special
-  indirectly cooled air hygienic air cooler system.
+description1: "To avoid condensation in dried fishmeal, it is important to have correct cooling - before storing in tanks, sacks or bigbags.\r\n\nWe offer solutions every need - whether it is in warm regions (Asia) or on fishing boats designed for fishing in Arctic regions.\n\nIn sensitive areas with restricted cooling water supply and high ambient temperatures it can be challenging to meet local requirements for emissions to water and air, and for such applications we have developed a special indirectly cooled air hygienic air cooler system."
 infobox1: >-
   The cooler is designed as a long drum equipped with an agitator mounted in
   roller bearings on the end plates. 
@@ -24,18 +16,30 @@ infobox1: >-
   a counterflow of cool air.
 fullwidthimage: /img/mealcooler-3.png
 description2: >-
-  To avoid condenstation meal should be cooled to approx. 15 degrees above
-  ambient temperatures
-
-
-  Low costs for installation and maintanance
-description3: Cooling of meal products
+  All FTG coolers are designed for as low costs as possible in installation and
+  maintanance
+description3: >-
+  Example of 3D design of mealcooler silo intended for both use onshore and on
+  vessels.
 descriptionimage: /img/p30000-051-0004-lite.jpg
 relatedproducts:
   relatedproduct1:
     body: |+
 
+    description1: >-
+      Fjell Technology Group was originally established almost 50 years ago as
+      local manufacturer of evaporator stages and tube and shell heat exchangers
+      for Stord Bartz, and produced many hundred stages until year 2000.  Since
+      then we have designed, manufactured and commissioned many complete
+      evaporator systems, both WHE, MVR and our unique Forced Flash Finisher.
+    description2: >-
+      The beautiful workmanship of the EPCON High Grade Standard evaporator we
+      have supplied to Sanriku, Ketsenumma – Japan in 2017
     headerimage: /img/evaporator-lite.png
+    infobox1: >-
+      Today we focus on cookers and dryer technology, and have chosen to
+      cooperate with EPCON Evaporation Technology AS, and promotes their
+      excellent high grade technology to our customers.
     infobox2: >-
       ## We can offer
 
@@ -71,24 +75,11 @@ relatedproducts:
       Installation
     productcategory: Fish Meal Plant
     slug: 2020-03-23-evaporators
-    smallimage: /img/evaporator-1024x768.jpg
     templateKey: product
     title: Evaporators
-    subtitle: 'WHE, MVR and Forced Flash Finisher'
-    description1: >-
-      Fjell Technology Group was originally established almost 50 years ago as
-      local manufacturer of evaporator stages and tube and shell heat exchangers
-      for Stord Bartz, and produced many hundred stages until year 2000.  Since
-      then we have designed, manufactured and commissioned many complete
-      evaporator systems, both WHE, MVR and our unique Forced Flash Finisher.
-    infobox1: >-
-      Today we focus on cookers and dryer technology, and have chosen to
-      cooperate with EPCON Evaporation Technology AS, and promotes their
-      excellent high grade technology to our customers.
     fullwidthimage: /img/epcon-ftg-evaporator-render.jpg
-    description2: >-
-      The beautiful workmanship of the EPCON High Grade Standard evaporator we
-      have supplied to Sanriku, Ketsenumma – Japan in 2017
+    smallimage: /img/evaporator-1024x768.jpg
+    subtitle: 'WHE, MVR and Forced Flash Finisher'
   relatedproduct2:
     body: |+
 

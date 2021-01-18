@@ -16,7 +16,7 @@ export default class SolutionIndexPage extends React.Component {
           />
           <SimpleCompanyQuote
             text={
-              'FjellTG has over xx years of experience with blabla something nice to introduce the reference projects'
+              'Fjell Technology Group has more than 40 years of experience and development of process technology within mass and heat transfer'
             }
             isMainQuote={false}
           />

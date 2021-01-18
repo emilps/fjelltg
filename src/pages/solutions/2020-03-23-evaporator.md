@@ -10,12 +10,12 @@ mainquote: >-
   designed, manufactured and commissioned many complete evaporator systems, both
   WHE, MVR and our unique Forced Flash Finisher.
 description1: >-
-  Today we focus on cookers and dryer technology, and have chosen to cooperate
-  with EPCON Evaporation Technology AS, and promotes their excellent high grade
-  technology to our customers.
-infobox1: >-
   The beautiful workmanship of the EPCON High Grade Standard evaporator we have
   supplied to Sanriku, Ketsenumma – Japan in 2017
+infobox1: >-
+  Today we focus on cookers and dryer technology, and have chosen to cooperate
+  with EPCON Evaporation Technology AS, and promotes their excellent high grade
+  technology to our customers when MVR is proposed.
 fullwidthimage: /img/evaporator-1024x768.jpg
 description2: >-
   ## We can offer

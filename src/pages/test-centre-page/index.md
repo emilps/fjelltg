@@ -10,8 +10,7 @@ ingress: >-
   can facilitate testing with cooperate partners and universities.
 testcentreimages:
   image1: /img/test-fasiliteter-strasume-lite.jpg
-  image2: /img/test-friksjonstørke-lite.jpg
+  image2: /img/test-friksjonstorke-lite.jpg
   image3: /img/test-2-lite.jpg
 contacttitle: Want to use our test facilities?
 ---
-
