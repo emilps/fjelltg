@@ -1,11 +1,9 @@
 ---
 templateKey: blog-post
-title: 400 Followers Reached on Instagram!
-date: 04.01.2021
-featuredimage: /img/400-følgere-04.01.2020.jpg
-description: |-
-  Today @fjelltechnology reached 400 followers! Thank you all!
-  We wish you the very best for the year 2021!
+title: Finally back in the office
+date: 21.01.2021
+featuredimage: /img/office-days.jpg
+description: "Nice to be back in the office again. Meeting colleagues, and hopefully soon customers,  gives me energy, and puts a constant smile on mye face. \U0001F973"
 link: 'https://www.facebook.com/FjellGreenTech/'
 socialmedia: Facebook
 ---
