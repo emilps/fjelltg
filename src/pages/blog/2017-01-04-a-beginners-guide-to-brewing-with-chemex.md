@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: First delivery in 2021 for Fjell Technology
-date: 14.12.2020
+date: 04.02.2021
 featuredimage: /img/20210129_174104.jpg
 description: >-
   First delivery in 2021 - a TD650 DiscDryer on the way to customer in Norway.
