@@ -1,13 +1,17 @@
 ---
 templateKey: blog-post
-title: TD 650 2600 Turbo Disc Dryer departing our factory
-date: 04.02.2021
-featuredimage: /img/td-650-2600-turbo-disc-dryer-på-vei-fra-fabrikk.jpg
+title: Fjell FRS TMD150 Sludge Dryer System - The most robust solution in the market!
+date: 10.03.2021
+featuredimage: /img/andfjord-frs-tmd2.jpg
 description: >-
-  A TD 650 2600 Turbo Disc Dryer is departing our factory. It is heading for its
-  new home at a state of the art fish meal & oil plant in Norway.
+  FJELL FRS TMD150 Sludge Dryer System soon to be shipped to our customer
+  Andfjord Salmon. The TMD dryer is the most robust solution for fish sludge in
+  the market. It handles the lack of fibres, varying ratio of feed residues vs
+  feces and the troublesome glue phase of the sludge. In addition it demands
+  minimal maintainance and supervision from the fish farmer.
 
-  #greentechnology #havfiske #norwegianfisheries
+
+  #sirkulærøkonomi #resirculatingaquaculture #circulareconomy
 link: 'https://www.facebook.com/FjellGreenTech/'
 socialmedia: Facebook
 ---
