@@ -1,16 +1,16 @@
 ---
 templateKey: project
-title: '2019 - PRIMA PROTEIN - EGERSUND, NORWAY'
+title: '2019/2021 - PRIMA PROTEIN - EGERSUND, NORWAY'
 description: Cooker and Dryers
 mainimage: /img/img_8476-lite.jpg
-title1: FJELL TD650 DRYERS
+title1: FJELL 3 X TD650 DRYERS
 description1: >-
   For Prima Protein fish meal plant located in Egersund in Norway we have
-  delivered our largest dryers yet - Two 16 meters long TD650 dryers - total
-  evaporation capasity of almost 10 cubic meters per hour. 
+  delivered our largest dryers yet - Two 16 meters long TD650 dryers were
+  commissioned in 2019, and their third dryer was commissioned in 2021. 
 
-  This fishmeal plant has a capasity of approx. 750 tonnes of raw materials per
-  day. 
+  This fishmeal plant has a total capasity of approx. 1050 tonnes of raw
+  materials per day.
 miniatureimage1: /img/img_1726-lite.jpg
 miniatureimage2: /img/img_1767-lite.jpg
 title2: Cooker
