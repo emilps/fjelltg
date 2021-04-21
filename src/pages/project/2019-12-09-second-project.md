@@ -30,28 +30,28 @@ description2: >-
   processing. We can offer:
 
 
-  *  Conceptual studies and process simulations with detailed mass and energy
+  * Conceptual studies and process simulations with detailed mass and energy
   balance
 
-  *  Process design complete fish meal plants from 25 TPD – 1000 TPD Capacity
+  * Process design complete fish meal plants from 60 TPD – 1000 TPD Capacity
 
-  *  Pilot testing
+  * Pilot testing
 
-  *  Plant layout in detailed 3-D
+  * Plant layout in detailed 3-D
 
-  *  Design and manufacture of own process equipment.
+  * Design and manufacture of own process equipment.
 
-  *  Specification and procurement of other process equipment
+  * Specification and procurement of other process equipment
 
-  *  Construction Management
+  * Construction Management
 
-  *  Fabrication
+  * Fabrication
 
-  *  Procurement
+  * Procurement
 
-  *  Installation
+  * Installation
 
-  *  Commissioning
+  * Commissioning
 relatedproducts:
   relatedproduct1:
     body: |+
