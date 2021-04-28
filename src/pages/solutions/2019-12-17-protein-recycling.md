@@ -108,7 +108,7 @@ infobox1: >-
 fullwidthimage: /img/fjelltg_main.jpg
 description2: >-
   Standard Range Fjell Turbo Disc Dryers are corresponding to fishmeal plants
-  from 25TPD to 650TPD
+  from 60TPD to 650TPD
 description3: The robust and energy efficient drying of Biomasses
 descriptionimage: /img/hele-anlegget-prima-lite.jpg
 relatedproducts:
