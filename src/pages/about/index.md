@@ -2,14 +2,16 @@
 templateKey: about-page
 title: Reliable – Innovative – Responsible
 ingress: >-
-  Fjell Technology Group is one of the leading suppliers of technology towards
-  processing equipment for residual raw materials. Deploying such technology for
-  making use of all parts of the fish means that fish processing plants
-  significantly reduce their levels of waste as well as providing the best
-  solutions for the "second value chain". In addition to working with the fish
-  processing industry, Fjell Technology also delivers technology to recycle
-  sludge from aquaculture and municipal waste plants. The sludge is used as
-  additives in fertiliser products. 
+  Fjell Technology Group Fjell has anchored in its strategy to be an important
+  contributor in the circular economy within residual waste. Today Fjell is one
+  of the leading suppliers of technology towards processing equipment for
+  residual raw materials. Deploying such technology for making use of all parts
+  of the fish means that fish processing plants significantly reduce their
+  levels of waste as well as providing the best solutions for the "second value
+  chain". In addition to working with the fish processing industry, Fjell
+  Technology also delivers technology to recycle sludge from aquaculture and
+  municipal waste plants. The sludge is used as additives in fertiliser
+  products. 
 image: /img/img_3115-lite-2.jpg
 ---
 ### About Us
@@ -52,4 +54,4 @@ The vision is operationalized through a program for continuous improvement. Befo
 
 FTGs R&D-department also contributes in great extent to research regarding CO2 capture and other projects within Greentech. 
 
-{"widget":"imageblock","text":"VALUES AND HSEQ: Fjell Technology Group has Responsibility, Innovativ and Reliable as our core values. To live up to these values, we place a strong focus on HSEQ. We will build trust with our clients and we will create security, well being ad predictability forour emplyees. \\nFor FTG it is important to work preventively and systematically with HSEQ, and we believe that this work will strengthen our competitveness. \\nWe deliver all our products according to customers expectations and according to statutory requirements and technical standards. \\nLast but not least: we strive to be environmental friendly, meaning we sort our waste, we are identifying our environmental aspects for an improvement plan and we make demands on our suppliers. ","image":"/img/3.-lgm-ivar-4.jpg"}
+{"widget":"imageblock","text":"VALUES AND HSEQ: Fjell Technology Group has Responsibility, Innovativ and Reliable as our core values. To live up to these values, we place a strong focus on HSEQ. We will build trust with our clients and we will create security, well being ad predictability forour emplyees. \\\\nFor FTG it is important to work preventively and systematically with HSEQ, and we believe that this work will strengthen our competitveness. \\\\nWe deliver all our products according to customers expectations and according to statutory requirements and technical standards. \\\\nLast but not least: we strive to be environmental friendly, meaning we sort our waste, we are identifying our environmental aspects for an improvement plan and we make demands on our suppliers. ","image":"/img/3.-lgm-ivar-4.jpg"}
