@@ -54,9 +54,9 @@ The vision is operationalized through a program for continuous improvement. Befo
 
 FTGs R&D-department also contributes in great extent to research regarding CO2 capture and other projects within Greentech. 
 
-{"widget":"imageblock","text":"VALUES AND HSEQ: Fjell Technology Group has Responsibility, Innovativ and Reliable as our core values. To live up to these values, we place a strong focus on HSEQ. We will build trust with our clients and we will create security, well being ad predictability forour emplyees. \\\\\\\\nFor FTG it is important to work preventively and systematically with HSEQ, and we believe that this work will strengthen our competitveness. \\\\\\\\nWe deliver all our products according to customers expectations and according to statutory requirements and technical standards. \\\\\\\\nLast but not least: we strive to be environmental friendly, meaning we sort our waste, we are identifying our environmental aspects for an improvement plan and we make demands on our suppliers. ","image":"/img/3.-lgm-ivar-4.jpg"}
+{"widget":"imageblock","text":"VALUES AND HSEQ: Fjell Technology Group has Responsibility, Innovativ and Reliable as our core values. To live up to these values, we place a strong focus on HSEQ. We will build trust with our clients and we will create security, well being ad predictability forour emplyees. \\\\\\\\\\\\\\\\nFor FTG it is important to work preventively and systematically with HSEQ, and we believe that this work will strengthen our competitveness. \\\\\\\\\\\\\\\\nWe deliver all our products according to customers expectations and according to statutory requirements and technical standards. \\\\\\\\\\\\\\\\nLast but not least: we strive to be environmental friendly, meaning we sort our waste, we are identifying our environmental aspects for an improvement plan and we make demands on our suppliers. ","image":"/img/3.-lgm-ivar-4.jpg"}
 
-![](/img/tafjord2.jpg)
+![Protecting the environment is all about keeping as much of nature untouched by human activity as possible. Fjell Technology Group (FTG) aims to minimize our companys envronmental footprint as much as possible at all times. We will through innovation, competence and skills develop technology based solutions that make a contribution to reduce the environmental impact of our customers. Such technology based solutions could be to improve and increase utilization of  residue products, recycling waste into becoming resources, technology that increases the value and market for a former waste or residue product, og energy consumption optimalization. Fjell Technology Group also aim to make a positive impact on the environmental footprint of our suppliers..  ](/img/tafjord2.jpg)
 
 ## QHSE-policy Fjell Technology Group AS
 
@@ -66,15 +66,11 @@ Fjell Technology Group AS has a strong focus on safeguarding HSE in our operatio
 
 For Fjell Technology Group AS, it is important to work preventively and systematically with HSE, and we believe that this work strengthens our competitiveness. As a minimum, we meet the requirements of the Act relating to HSE, and look at opportunities to meet HSE-related needs beyond the regulated requirements.  
 
- 
-
 **QUALITY**
 
 We shall do our utmost to deliver the work according to the customer's wishes and shall at all times know and comply with the requirements of the legislation and technical standards.
 
 We will focus on continuously improving. Our employees will contribute to this by being solution-oriented and innovative. We will frequenty check the market for new opportunities and ensure that our employees have the right expertise.
-
-
 
 **EXTERNAL ENVIRONMENT**
 
@@ -83,9 +79,5 @@ We shall always focus on working in a way that minimizes our companys environmen
 We will be an environmentally friendly and resource-conscious company. Fjell Technology Group will annually identify and review our environmental aspects, and make plans to improve our environmental performance. We shall know the environmental regulations and always comply with this. 
 
 We will set requirements for our suppliers, and together we will make sure to reduce our environmental impacts.
-
- 
-
-
 
 ##
