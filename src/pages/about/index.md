@@ -56,6 +56,8 @@ FTGs R&D-department also contributes in great extent to research regarding CO2 c
 
 {"widget":"imageblock","text":"VALUES AND HSEQ: Fjell Technology Group has Responsibility, Innovativ and Reliable as our core values. To live up to these values, we place a strong focus on HSEQ. We will build trust with our clients and we will create security, well being ad predictability forour emplyees. \\\\\\\\nFor FTG it is important to work preventively and systematically with HSEQ, and we believe that this work will strengthen our competitveness. \\\\\\\\nWe deliver all our products according to customers expectations and according to statutory requirements and technical standards. \\\\\\\\nLast but not least: we strive to be environmental friendly, meaning we sort our waste, we are identifying our environmental aspects for an improvement plan and we make demands on our suppliers. ","image":"/img/3.-lgm-ivar-4.jpg"}
 
+![](/img/tafjord2.jpg)
+
 ## QHSE-policy Fjell Technology Group AS
 
 **HSE**
