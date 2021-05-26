@@ -1,9 +1,12 @@
 ---
 templateKey: blog-post
-title: 'Fjell Technology Group at HAVEXPO 2021 '
-date: 26.03.2021
-featuredimage: /img/havexpo.jpg
-description: "Thank you to all that visited our stand, followed our two webinars or joined us for a meeting. It was a positive experience to be part of HAVEXPO 2021.\nWe wish you all a nice weekend and a relaxing Easter\U0001F423\n\n#sirkulærøkonomi #resirculatingaquaculture #circulareconomy"
+title: 'Fjell Turbo Disc Dryer 350-2080 '
+date: 26.05.2021
+featuredimage: /img/2-stk-td-350-2080-tørker.jpg
+description: >-
+  Two Turbo Disc dryers that is planned used in an European Municipal Wastewater
+  Treatment Plant to dry municpal sludge. 
+   #circulareconomy #wastewatertreatment #wastewatertreatmentplant
 link: 'https://www.facebook.com/Fjelltechnologygroup'
 socialmedia: Facebook
 ---
