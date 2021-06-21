@@ -7,7 +7,7 @@ description1: >-
   ## Design
 
 
-  Fjell designs several versions:
+  Fjell designs several versions of:
 
 
   **\- Singlestage screw cooker**
