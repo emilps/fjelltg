@@ -7,18 +7,18 @@ description1: >-
   ## Design
 
 
-  All equipment designed and engineered to fit in tigh locations as on vessels
-  but also on smaller locations on land. 
+  The equipment is designed and engineered to fit in tight locations, which
+  makes it perfect for vessels, as well as smaller locations on land. 
 
 
-  Fjell cooperate with pultiple partners to offer the best available
+  Fjell cooperate with multiple partners to offer the best available
   technologies assembled together as compactly as possible without compromising
   quality. With FTG's solution for a complete fishmeal plant, it will be
   possible to place the plant in the immediate vicinity from the slaughteries
-  and ensure optimum quality of raw material.
+  thus ensuring optimum quality of raw material.
 
 
-  The small sized solutions most often consists of grinder, boiler, press,
+  The small sized solutions usually consists of grinder, boiler, press,
   decanter/tricanter, dryer, hammermill and cooler. FTG process solution ensure
   the optimum trade-off of size, quality on materials and energy effectiveness. 
 
@@ -27,8 +27,8 @@ description1: >-
 
 
   Grinding as a first step ensures that even bits of residue are passed on - and
-  not least is the first barrier to fishing hooks and other elements that are
-  not wanted in the further process
+  is important as the first barrier to fishing hooks and other elements that are
+  not wanted in the further process.
 
 
   The screw cooker is designed as a large slowly rotating screw conveyor with
