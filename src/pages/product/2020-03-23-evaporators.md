@@ -16,38 +16,38 @@ infobox1: >-
 smallimage: /img/whe.jpg
 fullwidthimage: /img/waste-heat-evaporator-Tokyo.jpg
 description2: >-
-  We can offer
+  We can offer:
 
 
-  Conceptual studies and process simulations with detailed mass and energy
-  balance
+  **Conceptual studies and process simulations with detailed mass and energy
+  balance**
 
 
-  Process design
+  **Process design**
 
 
-  Pilot testing
+  **Pilot testing**
 
 
-  Plant layout in detailed 3-D
+  **Plant layout in detailed 3-D**
 
 
-  Design and manufacture of own process equipment.
+  **Design and manufacture of own process equipment.**
 
 
-  Specification and procurement of other process equipment
+  **Specification and procurement of other process equipment**
 
 
-  Construction Management
+  **Construction Management**
 
 
-  Fabrication
+  **Fabrication**
 
 
-  Procurement
+  **Procurement**
 
 
-  Installation
+  **Installation**
 infobox2: >-
   The beautiful workmanship of the evaporators we have supplied to Sanriku,
   Ketsenumma – Japan in 2017
