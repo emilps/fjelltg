@@ -13,24 +13,32 @@ description1: >-
   material.
 
 
-  * Small, robust and modular configuration allowing high flow volumes
+  \* Small, robust and modular configuration allowing high flow volumes
 
-  * Compact design aimed at high viscosity liquids
 
-  * No liquid chemical or polymer required for coagulation and pH correction
+  \* Compact design aimed at high viscosity liquids
 
-  * Highly dewatered sludge production
 
-  * Supplied as a factory-built, plug-and-play solution
+  \* No liquid chemical or polymer required for coagulation and pH correction
 
-  * Easily installed alone, or retro-fitted to existing
+
+  \* Highly dewatered sludge production
+
+
+  \* Supplied as a factory-built, plug-and-play solution
+
+
+  \* Easily installed alone, or retro-fitted to existing
   overloaded/underperforming plants
 
-  * Easy-change electrode plates
 
-  * Available with on-line parameter monitoring and control
+  \* Easy-change electrode plates
 
-  * Includes adaptive control and remote access monitoring, control and
+
+  \* Available with on-line parameter monitoring and control
+
+
+  \* Includes adaptive control and remote access monitoring, control and
   automation
 infobox1: Download brochure from P&W here
 productbrochures:
