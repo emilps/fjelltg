@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Salten Marine Resource Aquaculture Sludge Drying Hub
+title: Fjell Technology Group employees spent a day cleaning ocean plastic
 date: 18.06.2021
 featuredimage: /img/plastrydding-3.jpg
 description: >-
