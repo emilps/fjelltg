@@ -9,7 +9,7 @@ featuredimage: /img/anlegg-erko-1024x558-v2.jpg
 text: >-
   Fjell Technology Group has a unique combination of long experience and high
   competence, and is a leader in research and development in the industry. We
-  can supply  Equipment in the full range from small smolt farms, to post-smolt
+  can supply equipment in the full range from small smolt farms, to post-smolt
   farms, land-based ongrowing fish plants, and semi-closed and closed ongrowing
   farms in the sea.
 
@@ -31,8 +31,8 @@ text: >-
   composition of the sludge.
 
 
-  The dried sludge is Perfect ass a part ingredrient in the  Production of
-  agrigultural  fertilizers,as it is Rich in nitrogen and phosphorus. Fjell's
+  The dried sludge is perfect as a part ingredient in the production of
+  agrigultural fertilizers, as it is rich in nitrogen and phosphorus. Fjell's
   technology contributes to a circular economy by recycling vital nutrients from
   the wastewater.
 
