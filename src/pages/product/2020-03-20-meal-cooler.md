@@ -5,10 +5,10 @@ subtitle: Cooling of meal products
 headerimage: /img/mealcooler-2.png
 description1: >-
   To avoid condensation in dried fishmeal, it is important to have correct
-  cooling - before storing in tanks, sacks or bigbags.
+  cooling - before storing it in tanks, sacks or bigbags.
 
 
-  We offer solutions every need - whether it is in warm regions (Asia) or on
+  We offer solutions for every need - whether it is in warm regions (Asia) or on
   fishing boats designed for fishing in Arctic regions.
 
 
@@ -21,7 +21,7 @@ infobox1: >-
   roller bearings on the end plates. 
 
 
-  Hot meal is stirred through the cooler, while we use a cetrifugal fan to draw
+  Hot meal is stirred through the cooler, while we use a centrifugal fan to draw
   a counterflow of cool air.
 smallimage: /img/mealcooler-2.png
 fullwidthimage: /img/mealcooler-3.png
