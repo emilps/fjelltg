@@ -10,10 +10,10 @@ description1: >-
   Fjell designs several versions:
 
 
-  Singlestage screw cooker
+  **\- Singlestage screw cooker**
 
 
-  Double stage screw cooker
+  **\- Double stage screw cooker**
 
 
   Typically first stage uses waste heat and second stage low pressure steam.
