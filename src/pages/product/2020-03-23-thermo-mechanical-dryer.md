@@ -13,21 +13,21 @@ description1: >-
   flow-through plants) in Norway.
 
 
-  * Compact process
+  * **\*** Compact process
 
-  * Mobile unit available (20’ container footprint)
+  * **\*** Mobile unit available (20’ container footprint)
 
-  * Fundamentally hazard free process
+  * **\*** Fundamentally hazard free process
 
-  * High-energy efficiency (>95%)
+  * **\*** High-energy efficiency (>95%)
 
-  * No steam, hot oil or hot air required
+  * **\*** No steam, hot oil or hot air required
 
-  * Simple installation
+  * **\*** Simple installation
 
-  * Automatic control system during operation
+  * **\*** Automatic control system during operation
 
-  * Can eliminate mold and bacteria in dried material
+  * **\*** Can eliminate mold and bacteria in dried material
 infobox1: >-
   This dryer is excellent on most types of material, but truly unique on
   material that is perceived as sticky or “glue-like”.
@@ -42,13 +42,13 @@ fullwidthimage: /img/tmd.png
 description2: |-
   The TMD can be applied for the following areas:
 
-  * Bio sludge
-  * Municipal waste
-  * Fish offal
-  * Fish and animal manure
-  * Organic products
-  * Proteins
-  * Blood
+  * **\*** Bio sludge
+  * **\*** Municipal waste
+  * **\*** Fish offal
+  * **\*** Fish and animal manure
+  * **\*** Organic products
+  * **\*** Proteins
+  * **\*** Blood
 infobox2: >-
   Fjell RAS Sludge drying system is a fully automated system, with minimal need
   for supervision. Unlike most other sludge drying technologies, Fjell RAS
