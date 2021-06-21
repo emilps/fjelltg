@@ -2,9 +2,9 @@
 templateKey: productcategory
 title: 'Municipal Waste Water Treatment '
 subtitle: >-
-  Drying of sludge from Municipal Waste Water Treatment Plants - we are
-  converting sludge into a valuable resource
-featuredimage: /img/ivar-490x397.jpg
+  Drying of sludge from Municipal Waste Water Treatment Plants - converting
+  sludge into a valuable resource
+featuredimage: /img/ivar-390x316.jpg
 text: "Biosludges and MWW sludges are known to be extremely tricky to dry because of their tendency to transform to a  glue phase. Municipal WasteWater sludge is generally an extremely tough application with severe wear and tear on the drying equipment, but the Fjell Turbo Disc Dryer has proven to resist these extreme conditions since the first unit was installed in 2001.\n\nThe distinct difference between the TD dryer and most other disc dryers is that staybolt welds (or welds of other means to maintain the integrity of the disc when exposed to internal steam pressure) is entirely on the inside of the disc.  By using Fjell TD dryer together with our patented process solution, the steam consumption can be reduced by up to 40% compared to a standard dryer. Fjell Technology Group offers following dryer solutions for sludge:\n\n* Part drying in Fjell Turbo Disc Dryer followed by incineration\n* Full drying in Fjell Turbo Disc Dryer\n* Full drying in TMD friction dryer\n* Part drying in Fjell Turbo Disc Dryer followed by full drying in TMD friction dryer\n\nIn part drying, or scalping, the challenge is often the content of chlorides and acids, which can cause severe corrosion problems with the rotor. A particularly annoying problem in the industry has been stress corrosion cracking in welds. This is avoided in the Fjell Turbo Disc Dryer because of the unique design and manufacture:\n\n•\tWelds not exposed to external environment in dryer, thereby risk for stress corrosion cracking is eliminated.\n\n•\tWelds do not seal between pressurized and non-pressurized side. Thereby risk for steam leakage is eliminated.\n\n•\tClaws act as reinforcement beams in radial direction, thereby increasing the lateral bending strength of the discs, which reduces the risk for stress corrosion cracking in foot welds between discs.\n\nWe have a proven record of delivering such processes to plants in Norway, Italy, Saudi-Arabia and Japan."
 ---
 
