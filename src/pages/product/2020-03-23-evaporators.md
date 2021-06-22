@@ -2,7 +2,7 @@
 templateKey: product
 title: Evaporators
 subtitle: 'WHE, and Forced Flash Finisher'
-headerimage: /img/evaporator-lite.png
+headerimage: /img/evaporator-lite-optim.png
 description1: >-
   Fjell Technology Group was originally established almost 50 years ago as local
   manufacturer of evaporator stages and tube and shell heat exchangers for Stord
@@ -13,8 +13,8 @@ infobox1: >-
   Today we focus on cookers and dryer technology, and have chosen to cooperate
   with EPCON Evaporation Technology AS for deliveries of MVR Evaporators, and
   promotes their excellent high grade technology to our customers.
-smallimage: /img/whe.jpg
-fullwidthimage: /img/waste-heat-evaporator-Tokyo.jpg
+smallimage: /img/whe-optim.jpg
+fullwidthimage: /img/waste-heat-evaporator-tokyo-optim.jpg
 description2: >-
   We can offer:
 
