@@ -2,7 +2,7 @@
 templateKey: product
 title: 'Thermo Mechanical Dryer '
 subtitle: The TMD is the dryer for materials categorized as difficult or sticky to dry
-headerimage: /img/tmd.png
+headerimage: /img/tmd-optim.png
 description1: >-
   The TMD process is patented and has shown excellent results on materials with
   sticky behaviour during drying. In the TMD the heat required for the
@@ -38,7 +38,7 @@ productbrochures:
   - file: /img/ftg-kunder-presentasjon-tørkeprosess-ras-flyer.pdf
     title: PRODUCT BROCHURE
 smallimage: /img/frs.jpg
-fullwidthimage: /img/tmd.png
+fullwidthimage: /img/tmd-optim.png
 description2: |-
   The TMD can be applied for the following areas:
 
