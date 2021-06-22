@@ -31,8 +31,8 @@ infobox1: >-
 productbrochures:
   - file: /img/fjell-turbo-disc-dryer-brochure.pdf
     title: PRODUCT BROCHURE
-smallimage: /img/ivar-1-.jpg
-fullwidthimage: /img/flowsheet-sludge-full-drying.jpg
+smallimage: /img/flowsheet-sludge-full-drying.jpg
+fullwidthimage: /img/ivar-1-.jpg
 description2: >-
   ## Legacy
 
