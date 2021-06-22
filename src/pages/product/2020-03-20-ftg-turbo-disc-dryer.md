@@ -2,7 +2,7 @@
 templateKey: product
 title: FTG Turbo Disc Dryer
 subtitle: The robust and energy efficient drying of Biomasses
-headerimage: /img/fjelltg_main.jpg
+headerimage: /img/fjelltg_main-optim.jpg
 description1: >-
   ## Design
 
@@ -86,7 +86,7 @@ infobox1: >-
 productbrochures:
   - file: /img/fjell-turbo-disc-dryer-brochure.pdf
     title: PRODUCT BROCHURE
-smallimage: /img/td-tørke-lite.png
+smallimage: /img/td-tørke-lite-optim.png
 fullwidthimage: /img/tørker-prima5.jpg
 description2: >-
   ## Legacy
