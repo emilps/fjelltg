@@ -4,7 +4,7 @@ title: Fish Meal Plant
 subtitle: >-
   State of the art equipment for the most effective transformation of rest-raw
   material to meal and oil
-featuredimage: /img/fish-meal-plant-1000x262px.jpg
+featuredimage: /img/fish-meal-plant-4mp.jpg
 text: >-
   Complete plant for production of fish meal an oil - FTG  can design and
   deliver fish meal plants for both land and marine use.
