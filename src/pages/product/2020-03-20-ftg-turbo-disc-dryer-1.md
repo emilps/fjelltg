@@ -72,8 +72,8 @@ infobox1: >-
 productbrochures:
   - file: /img/fjell-turbo-disc-dryer-brochure.pdf
     title: PRODUCT BROCHURE
-smallimage: /img/img_5185-optim.jpg
-fullwidthimage: /img/fiskemel-båt-2.png
+smallimage: /img/fiskemel-båt-2.png
+fullwidthimage: /img/img_5185-optim.jpg
 description2: "**Mass and Energy Balance** \r\n\nAll fishmeal plants are being calculated based on given numbers for rest raw material to be processed. This calculation are set up in a Mass and Energy Balance Scheme to specify dimensions on all equipment and piping. \n\n**Flowsheet**\n\nAfter finalizing a M&E balance we produce a flowsheet and 3D drawing to optimize the tradeoff betwen size, quality in materials and cost. \n\n**P&ID** \n\nTogether with client or yard, we produce all necessarry drawings and plan all interfaces for easy assembly and use. Of course PLC system are included - and can be integrated to most common PLC systems (for global control)"
 infobox2: |-
 
