@@ -5,7 +5,7 @@ subtitle: >-
   Fjell Technology Group recycles sludge from aquaculture facilities and
   municipal wastewater plants. The sludge is used as an additive in fertiliser
   or other agricultural products. 
-featuredimage: /img/anlegg-erko-1024x558-v2.jpg
+featuredimage: /img/anlegg-erko-optim.jpg
 text: >-
   Fjell Technology Group has a unique combination of long experience and high
   competence, and is a leader in research and development in the industry. We
