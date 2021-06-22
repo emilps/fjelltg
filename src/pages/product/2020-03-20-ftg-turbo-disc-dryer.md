@@ -86,8 +86,8 @@ infobox1: >-
 productbrochures:
   - file: /img/fjell-turbo-disc-dryer-brochure.pdf
     title: PRODUCT BROCHURE
-smallimage: /img/td-tørke-lite-optim.png
-fullwidthimage: /img/tørker-prima5.jpg
+smallimage: /img/tørker-prima5.jpg
+fullwidthimage: /img/td-tørke-lite.png
 description2: >-
   ## Legacy
 
