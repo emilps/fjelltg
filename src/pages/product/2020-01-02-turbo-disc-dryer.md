@@ -66,8 +66,8 @@ infobox1: >-
 productbrochures:
   - file: /img/leaflet-fjell-ss-cookers.pdf
     title: PRODUCT BROCHURE
-smallimage: /img/double-stage-cooker.png
-fullwidthimage: /img/koker.jpg
+smallimage: /img/double-stage-cooker-optim.png
+fullwidthimage: /img/koker-optim.jpg
 description2: "## Legacy\n\nIn the year 2000 Fjell Technology Group AS decided to develop a robust and energy efficient rotor desgin specially designed for modern manufacturing methods like robotic welding. We had a competent staff with senior personnel having experience from design, manufacturing and installation of about 2000 Stord dryers since the introduction of the technology, wich took place in the late 50ies. \n\n\L\LWe added some young innovative engineers skilled in state of the art engineering design and analysis techniques. The result was the Fjell Turbo Disc Dryer with a unique patented disc design, based on efficient manufacturing techniques.\n\nProblems with leakage after som wear and tear on the welds are practically eliminated, as we have experienced zero leakage on our discs produced after year 2000."
 infobox2: "## Application\n\n* Treatment Plants\L Fishmeal in both land based and ship installed plants \n* Ingredients in the food industry\n* Replacement rotors and units for cookers"
 productcategory: Fish Meal Plant
