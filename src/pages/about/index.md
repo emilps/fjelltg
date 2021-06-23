@@ -12,7 +12,7 @@ ingress: >-
   Technology also delivers technology to recycle sludge from aquaculture and
   municipal waste plants. The sludge is used as additives in fertiliser
   products. 
-image: /img/img_3115-lite-2.jpg
+image: /img/fish-meal-plant-optim.jpg
 ---
 ### About Us
 
@@ -22,15 +22,15 @@ FTG put a great importance to the HSEQ work and keeps continuous focus on high q
 
 Through the values ​​Reliable – Innovative – Responsible, the pursuit of the vision is implemented. FTG will deliver innovative and sustainable products and processing plants to ensure tomorrow’s solutions.
 
-{"widget":"imageblock","text":"FTG has a strategy of having a high level of expertise in engineering and project management. The purpose is to be able to offer R&D for customers and partners, when customers do not have the necessary knowledge.  At the same time, FTG wants to be able to carry out project follow-up and deliveries, in order to offer comprehensive solutions. FTG therefore often join forces with a range of cooperative companies.","image":"/img/img_1727-lite.jpg"}
+{"widget":"imageblock","text":"FTG has a strategy of having a high level of expertise in engineering and project management. The purpose is to be able to offer R&D for customers and partners, when customers do not have the necessary knowledge.  At the same time, FTG wants to be able to carry out project follow-up and deliveries, in order to offer comprehensive solutions. FTG therefore often join forces with a range of cooperative companies.","image":"/img/img_1727-lite-optim.jpg"}
 
 ### History
 
 Fjell were established in 2000 and are based on more than 40 years of experience in high-end engineering and fabrication work from the process industry on and offshore. In 2012 FTG conducted a strategic decision towards becoming a leading supplier for Greentech. Workshop operations and some of the engineering capacity were demerged into their own companies and sold. FTG retained key personnel, patents, all the knowhow and production facilities. 
 
-{"widget":"imageblock","text":"FTG delivers state of the art equipment to for the best possible utilization of raw material, whether it is fish waste, different types of biorest or municipal sludge.","image":"/img/fjelltg_main.jpg"}
+{"widget":"imageblock","text":"FTG delivers state of the art equipment to for the best possible utilization of raw material, whether it is fish waste, different types of biorest or municipal sludge.","image":"/img/fjelltg_main-image.jpg"}
 
-{"widget":"imageblock","text":"As a contribution in the wider context, we have included points 5, 9, 11 and 12 from the UN's sustainability goals in our strategy. FTG aims to promote equality and prevent discrimination in the working environment. FTG budgets with at least 10% of revenue in innovation to develop tomorrow's solutions. FTG must strive to only offer sustainable solutions to customers. FTG is to be a pioneer in reducing consumption to operate the plants.","image":"/img/fn-bã¦rekraftsmal.jpg"}
+{"widget":"imageblock","text":"As a contribution in the wider context, we have included points 5, 9, 11 and 12 from the UN's sustainability goals in our strategy. FTG aims to promote equality and prevent discrimination in the working environment. FTG budgets with at least 10% of revenue in innovation to develop tomorrow's solutions. FTG must strive to only offer sustainable solutions to customers. FTG is to be a pioneer in reducing consumption to operate the plants.","image":"/img/fn-bã¦rekraftsmal-optim.jpg"}
 
 ## Facilities
 
@@ -40,7 +40,7 @@ Main office is still located Fjell Municipality outside Bergen. There, the compa
 
  Our collaborational workshop APC Presmet is located in Poland.
 
-{"widget":"imageblock","text":"FTG premises located in Marineholmen in Bergen - in the centre of marin cluster of Norway","image":"/img/thormøhlensgate.jpg"}
+{"widget":"imageblock","text":"FTG premises located in Marineholmen in Bergen - in the centre of marin cluster of Norway","image":"/img/hovedkontor-optim.jpg"}
 
 ## Strategy and Vision
 
@@ -54,9 +54,9 @@ The vision is operationalized through a program for continuous improvement. Befo
 
 FTGs R&D-department also contributes in great extent to research regarding CO2 capture and other projects within Greentech. 
 
-{"widget":"imageblock","text":"VALUES AND HSEQ: Fjell Technology Group has Responsibility, Innovativ and Reliable as our core values. To live up to these values, we place a strong focus on HSEQ. We will build trust with our clients and we will create security, well being ad predictability forour emplyees. For FTG it is important to work preventively and systematically with HSEQ, and we believe that this work will strengthen our competitveness. We deliver all our products according to customers expectations and according to statutory requirements and technical standards.Last but not least: we strive to be environmental friendly, meaning we sort our waste, we are identifying our environmental aspects for an improvement plan and we make demands on our suppliers. ","image":"/img/3.-lgm-ivar-4.jpg"}
+{"widget":"imageblock","text":"VALUES AND HSEQ: Fjell Technology Group has Responsibility, Innovativ and Reliable as our core values. To live up to these values, we place a strong focus on HSEQ. We will build trust with our clients and we will create security, well being ad predictability forour emplyees. For FTG it is important to work preventively and systematically with HSEQ, and we believe that this work will strengthen our competitveness. We deliver all our products according to customers expectations and according to statutory requirements and technical standards.Last but not least: we strive to be environmental friendly, meaning we sort our waste, we are identifying our environmental aspects for an improvement plan and we make demands on our suppliers. ","image":"/img/3.-lgm-ivar-4-optim.jpg"}
 
-![Protecting the environment is all about keeping as much of nature untouched by human activity as possible. Fjell Technology Group (FTG) aims to minimize our companys envronmental footprint as much as possible at all times. We will through innovation, competence and skills develop technology based solutions that make a contribution to reduce the environmental impact of our customers. Such technology based solutions could be to improve and increase utilization of  residue products, recycling waste into becoming resources, technology that increases the value and market for a former waste or residue product, og energy consumption optimalization. Fjell Technology Group also aim to make a positive impact on the environmental footprint of our suppliers.  ](/img/tafjord2.jpg "UNTOUCHED NATURE")
+![Protecting the environment is all about keeping as much of nature untouched by human activity as possible. Fjell Technology Group (FTG) aims to minimize our companys envronmental footprint as much as possible at all times. We will through innovation, competence and skills develop technology based solutions that make a contribution to reduce the environmental impact of our customers. Such technology based solutions could be to improve and increase utilization of  residue products, recycling waste into becoming resources, technology that increases the value and market for a former waste or residue product, og energy consumption optimalization. Fjell Technology Group also aim to make a positive impact on the environmental footprint of our suppliers.  ](/img/tafjord-optim.jpg "UNTOUCHED NATURE")
 
 ## QHSE-policy Fjell Technology Group AS
 
