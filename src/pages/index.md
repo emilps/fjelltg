@@ -1,8 +1,8 @@
 ---
 templateKey: index-page
 indexblock:
-  image1: /img/frs-.jpg
-  image2: /img/img_1727-lite.jpg
+  image1: /img/frs-forside-optim.jpg
+  image2: /img/img_1727-lite-forside.jpg
   link1: >-
     https://fjelltg.no/solutionCategory/2020-02-08-greentech-and-the-environment/
   link2: 'https://fjelltg.no/solutionCategory/2020-02-08-protein-recycling/'
@@ -10,7 +10,7 @@ indexblock:
   title2: Protein Recycling
 title: Your partner for process technology
 middleblock:
-  image2: /img/20200914_083019.jpg
+  image2: /img/20200914_083019-forside.jpg
   title: FJELL TECHNOLOGY TEST CENTRE
 partners:
   description: >-
@@ -18,15 +18,15 @@ partners:
     preferred partners
   heading: Partners
   partnerimage:
-    - image: /img/cmr.png
+    - image: /img/cmr-optim.png
       link: 'https://protech.no'
-    - image: /img/equinor.png
+    - image: /img/equinor-optim.png
       link: 'https://equinor.com'
-    - image: /img/ntnu.png
+    - image: /img/ntnu-optim.png
       link: 'https://ntnu.no'
-    - image: /img/sintef.png
+    - image: /img/sintef-optim.png
       link: 'https://sintef.no'
-    - image: /img/thermtech_logo_col.jpg
+    - image: /img/thermtech_logo_col-optim.jpg
       link: 'https://www.thermtech.no/'
 ---
 
