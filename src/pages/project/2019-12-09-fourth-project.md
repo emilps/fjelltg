@@ -34,7 +34,7 @@ description1: >-
   problem free - please [contact us](https://www.fjelltg.no/contact/) if any
   questions regarding setup, solutions or if we in any way can help you.
 miniatureimage1: /img/frs.png
-miniatureimage2: /img/p15776-001-1-lite.jpg
+miniatureimage2: /img/p15776-001-1-mini.jpg
 title2: Opportunities
 description2: >-
   The machinery can be installed at any land-based fish farming facility or
