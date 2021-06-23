@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Fjell Technology Group employees spent a day cleaning ocean plastic
 date: 18.06.2021
-featuredimage: /img/plastrydding-3.jpg
+featuredimage: /img/plastrydding-3-1-.jpg
 description: >-
   In the beginning of June Fjell Technology Group employees spent working hours
   to clean beaches for ocean plastic. We did this together with
