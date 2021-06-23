@@ -1,6 +1,6 @@
 ---
 templateKey: solutioncategory
-featuredimage: /img/anlegg-erko-1024x558-v2.jpg
+featuredimage: /img/anlegg-erko-880x479.jpg
 title: 'Waste Water Treatment '
 subtitle: We are converting sludge into a valuable resource
 texttitle: Introduction
