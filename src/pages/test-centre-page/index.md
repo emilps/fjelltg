@@ -9,8 +9,9 @@ ingress: >-
   substances. FTG has facilities for testing on different types of technology or
   can facilitate testing with cooperate partners and universities.
 testcentreimages:
-  image1: /img/test-fasiliteter-strasume-lite.jpg
-  image2: /img/test-friksjonstorke-lite.jpg
-  image3: /img/test-2-lite.jpg
+  image1: /img/test-fasiliteter-strasume-lite-optim.jpg
+  image2: /img/test-friksjonstorke-lite-optim.jpg
+  image3: /img/test-2-lite-optim-2.jpg
 contacttitle: Want to use our test facilities?
 ---
+
