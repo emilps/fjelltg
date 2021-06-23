@@ -4,7 +4,7 @@ title: 2018 - ERKO Settefisk
 description: |+
   Erko Settefisk was one of our first plants to clean sludge from RAS plants. 
 
-mainimage: /img/greentech_1920-optim.jpg
+mainimage: /img/greentech_1920-main.jpg
 title1: Description
 description1: >-
   At the beginning of such a project, it is important to get the correct data on
