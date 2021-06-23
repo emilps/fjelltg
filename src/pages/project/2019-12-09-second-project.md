@@ -2,7 +2,7 @@
 templateKey: project
 title: '2014 - SANKI in TOKYO, JAPAN'
 description: 'Waste Heat Evaporator: Capacity 36 TPH to Japan`s leading FishMeal Factory'
-mainimage: /img/evaporator-lite.png
+mainimage: /img/evaporator-main.jpg
 title1: SANKI
 description1: >-
   Evaporation plants are required in a process whenever water or any other
@@ -23,8 +23,8 @@ description1: >-
   proteins from the stick water and increases the quality of the meal
   significantly. The evaporator is heated by the vapour from the dryers, so the
   energy is more or less at no cost.
-miniatureimage1: /img/waste-heat-evaporator-tokyo.jpg
-miniatureimage2: /img/img_1767-lite.jpg
+miniatureimage1: /img/waste-heat-evaporator-tokyo-mini.jpg
+miniatureimage2: /img/fjell-cooker-mini.jpg
 title2: SANKI
 description2: >-
   Fjell Technology Group designs, manufactures and commissions equipment,
@@ -68,6 +68,15 @@ relatedproducts:
   relatedproduct1:
     body: |+
 
+    description1: >-
+      Fjell Technology Group was originally established almost 50 years ago as
+      local manufacturer of evaporator stages and tube and shell heat exchangers
+      for Stord Bartz, and produced many hundred stages until year 2000.  Since
+      then we have designed, manufactured and commissioned many complete
+      evaporator systems, both WHE, MVR and our unique Forced Flash Finisher.
+    description2: >-
+      The beautiful workmanship of the EPCON High Grade Standard evaporator we
+      have supplied to Sanriku, Ketsenumma – Japan in 2017
     fullwidthimage: /img/epcon-ftg-evaporator-render.jpg
     headerimage: /img/evaporator.png
     infobox1: >-
@@ -110,17 +119,8 @@ relatedproducts:
     productcategory: Fish Meal Plant
     slug: 2020-03-23-evaporators
     smallimage: /img/evaporator-1024x768.jpg
-    templateKey: product
-    description1: >-
-      Fjell Technology Group was originally established almost 50 years ago as
-      local manufacturer of evaporator stages and tube and shell heat exchangers
-      for Stord Bartz, and produced many hundred stages until year 2000.  Since
-      then we have designed, manufactured and commissioned many complete
-      evaporator systems, both WHE, MVR and our unique Forced Flash Finisher.
-    description2: >-
-      The beautiful workmanship of the EPCON High Grade Standard evaporator we
-      have supplied to Sanriku, Ketsenumma – Japan in 2017
     subtitle: 'WHE, MVR and Forced Flash Finisher'
+    templateKey: product
     title: Evaporators
 category: Protein Recycling
 ---
