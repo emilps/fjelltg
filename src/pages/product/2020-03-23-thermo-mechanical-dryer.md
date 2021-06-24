@@ -7,7 +7,9 @@ description1: >-
   The TMD process is patented and has shown excellent results on materials with
   sticky behaviour during drying. In the TMD the heat required for the
   evaporation is generated directly in the material by a high-speed rotor.
-   Technology is owned by Thermtech AS
+
+  The technology is owned by Thermtech AS.
+
 
   FTG is the exclusive supplier for TMD towards fish farmers (RAS - and
   flow-through plants) in Norway.
@@ -33,7 +35,8 @@ infobox1: >-
   material that is perceived as sticky or “glue-like”.
 
 
-  The TMD isxcellent on most material, exceeding on sticky, “glue-like” material
+  The TMD is excellent on most material, excelling on sticky, “glue-like”
+  material.
 productbrochures:
   - file: /img/ftg-kunder-presentasjon-tørkeprosess-ras-flyer.pdf
     title: PRODUCT BROCHURE
