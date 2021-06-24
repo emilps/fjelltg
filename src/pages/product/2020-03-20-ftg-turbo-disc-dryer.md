@@ -27,8 +27,8 @@ description1: >-
   construction (carbon-, stainless-, and duplex steels), and approved and
   inspected according to the leading international design codes and standards
   (PED, ASME, JIS, GOST, DNV, Lloyds, Bureau Veritas etc..) The dryer has a
-  unique endurable patented rotor design without traditional welded stays
-  exposed to tear, wear, fatigue and corrosion.
+  unique endurable patented rotor design without traditional welding, which
+  stays exposed to tear, wear, fatigue and corrosion.
 
 
   The distinct difference between the TD dryer and most other disc dryers is
@@ -94,10 +94,10 @@ description2: >-
 
   In the year 2000 Fjell Technology Group AS decided to develop a robust and
   energy efficient disc dryer specially designed for modern manufacturing
-  methods like robotic welding. We had a competent staff with senior personnel
-  having experience from design, manufacturing and installation of about 2000
-  Stord dryers since the introduction of the technology, wich took place in the
-  late 50ies. 
+  methods like robotic welding. We had a competent staff including senior
+  personnel with experience from design, manufacturing and the installation of
+  about 2000 Stord dryers since the introduction of the technology, which took
+  place in the late fifties. 
 
 
   We added some young innovative engineers skilled in state of the art
@@ -106,7 +106,7 @@ description2: >-
   manufacturing techniques.
 
 
-  Problems with leakage after som wear and tear on the welds are practically
+  Problems with leakage after some wear and tear on the welds are practically
   eliminated, as we have experienced zero leakage on our discs produced after
   year 2000.
 infobox2: |-
