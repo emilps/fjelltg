@@ -35,7 +35,7 @@ infobox1: >-
   material that is perceived as sticky or “glue-like”.
 
 
-  The TMD is excellent on most material, excelling on sticky, “glue-like”
+  The TMD is excellent on most material, exceeding on sticky, “glue-like”
   material.
 productbrochures:
   - file: /img/ftg-kunder-presentasjon-tørkeprosess-ras-flyer.pdf
