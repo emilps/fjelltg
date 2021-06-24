@@ -26,7 +26,7 @@ Through the values ​​Reliable – Innovative – Responsible, the pursuit of
 
 ### History
 
-Fjell were established in 2000 and are based on more than 40 years of experience in high-end engineering and fabrication work from the process industry on and offshore. In 2012 FTG conducted a strategic decision towards becoming a leading supplier for Greentech. Workshop operations and some of the engineering capacity were demerged into their own companies and sold. FTG retained key personnel, patents, all the knowhow and production facilities. 
+Fjell was established in 2000 and is based on more than 40 years of experience in high-end engineering and fabrication work from the process industry on and offshore. In 2012 FTG conducted a strategic decision towards becoming a leading supplier for Greentech. Workshop operations and some of the engineering capacity were demerged into their own companies and sold. FTG retained key personnel, patents, all the knowhow and production facilities. 
 
 {"widget":"imageblock","text":"FTG delivers state of the art equipment to for the best possible utilization of raw material, whether it is fish waste, different types of biorest or municipal sludge.","image":"/img/fjelltg_main-image.jpg"}
 
@@ -46,11 +46,13 @@ Main office is still located Fjell Municipality outside Bergen. There, the compa
 
 Fjell Technology Group will strive to make the world a little bit greener.
 
-FTG has a strategy of having a high level of expertise in engineering and project management. The purpose is to be able to offer R&D for customers and partners, when customers do not have the necessary knowledge.  At the same time, FTG wants to be able to carry out project follow-up and deliveries, in order to offer comprehensive solutions. FTG therefore often join forces with a range of cooperative companies.
+FTG has a strategy of having high levels of expertise in engineering and project management. The purpose is to be able to offer R&D for customers and partners, when customers do not have the necessary knowledge.  At the same time, FTG wants to be able to carry out project follow-up and deliveries, in order to offer comprehensive solutions. FTG therefore often join forces with a range of cooperative companies.
 
 Through incremental improvement, as well as occasionally radical solutions, the products in 2020 have a top-of-the-range standard. This applies to both material improvements and technical design – so that energy efficiency and lifetime are optimized.
 
-The vision is operationalized through a program for continuous improvement. Before the work is started, an understanding of specified delivery is ensured. Task and risk are defined, while at the same time setting an agreed plan for progress, requirements and expectations. Not least risk is defined in connection with execution. In order to ensure delivery, management follows closely on various KPIs, as well as learning after completion. Process descriptions and plans is key to ensure a delivery better than expectations.
+The vision is operationalized through a program for continuous improvement. Before the work is started, an understanding of specified delivery is ensured. Tasks and risks are defined, while at the same time setting an agreed plan for progress, requirements and expectations. Importantly, risk is defined in connection with execution. 
+
+In order to ensure delivery, management follows closely on various KPIs, as well as learning after completion. Process descriptions and plans is key to ensure a delivery better than expectations.
 
 FTGs R&D-department also contributes in great extent to research regarding CO2 capture and other projects within Greentech. 
 
@@ -74,7 +76,7 @@ We will focus on continuously improving. Our employees will contribute to this b
 
 **EXTERNAL ENVIRONMENT**
 
-We shall always focus on working in a way that minimizes our companys environmental footprint. The waste will be sorte with the aim of maximizing the potential for recycling our waste. We will prevent pollution by trying to find new solutions to reduce our waste. 
+We shall always focus on working in a way that minimizes our companys environmental footprint. The waste will be sorted with the aim of maximizing the potential for recycling our waste. We will prevent pollution by trying to find new solutions to reduce our waste. 
 
 We will be an environmentally friendly and resource-conscious company. Fjell Technology Group will annually identify and review our environmental aspects, and make plans to improve our environmental performance. We shall know the environmental regulations and always comply with this. 
 
