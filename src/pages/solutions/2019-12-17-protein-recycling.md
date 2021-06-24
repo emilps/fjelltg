@@ -2,7 +2,7 @@
 templateKey: solution
 title: 'FTG Turbo Disc Dryer '
 subtitle: The robust and energy efficient drying of Biomasses
-featuredimage: /img/td-tørke-lite.png
+featuredimage: /img/td-tørke-header-optim.png
 mainquote: >-
   Residuals for fishmeal in both land based and ship installed plants.
   Ingredients in the food industry. Spent grains in distilleries and breweries.
@@ -105,12 +105,12 @@ infobox1: >-
 
   * Smooth disc surface secures efficient self-cleaning and maximum heat
   transfer
-fullwidthimage: /img/fjelltg_main.jpg
+fullwidthimage: /img/fjelltg_main-optim.jpg
 description2: >-
   Standard Range Fjell Turbo Disc Dryers are corresponding to fishmeal plants
   from 60TPD to 650TPD
 description3: The robust and energy efficient drying of Biomasses
-descriptionimage: /img/hele-anlegget-prima-lite.jpg
+descriptionimage: /img/hele-anlegget-prima-lite-optim.jpg
 relatedproducts:
   relatedproduct1:
     body: |+
