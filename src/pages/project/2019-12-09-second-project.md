@@ -7,14 +7,14 @@ title1: SANKI
 description1: >-
   Evaporation plants are required in a process whenever water or any other
   solvent has to be removed, concentration has to be increased or volume
-  reduced. Fjell Technology Group may supply various types of evaporators. Each
+  reduced. Fjell Technology Group can supply various types of evaporators. Each
   type offers its own benefit, and the most suitable type is selected in each
   case with consideration of the main process parameters, scaling tendency,
   product thermal sensitivity, annual operating hours and accessibility for
-  maintenance. FTG also design smart solutions for cleaning the evaporator.
+  maintenance. FTG also designs smart solutions for cleaning the evaporator.
 
 
-  To ensure a long life cycle, FTG evaporators are made of the most adequate
+  To ensure a long life cycle, FTG evaporators are made of the most sufficient
   materials of construction such as stainless steel, duplex steel and nickel
   alloys.
 
