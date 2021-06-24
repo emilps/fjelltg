@@ -6,23 +6,21 @@ subtitle: >-
   material to meal and oil
 featuredimage: /img/fish-meal-plant-optim.jpg
 text: >-
-  Complete plant for production of fish meal an oil - FTG  can design and
-  deliver fish meal plants for both land and marine use.
+  Complete plant for production of fish meal and oil - FTG  can design and
+  deliver compact fish meal plants for both land and marine use. 
 
 
-  FTG can design and deliver compact fish meal plants for both land and marine
-  use.
+  With FTG's fish meal plant you get:
 
 
-  * Cooking in steam heated screw cooker,
+  * Cooking in steam heated screw cooker
 
-  * Pressing in twin screw press and oil separation in centrifuges,
+  * Pressing in twin screw press and oil separation in centrifuges
 
   * Evaporation of stick water in waste heat evaporator
 
-
-  Drying of press cake and concentrate in disc drier before milling and cooling
-  of meal
+  * Drying of press cake and concentrate in disc drier before milling and
+  cooling of meal
 
 
   The process requirements depend on the freshness of the catch, type of fish,
