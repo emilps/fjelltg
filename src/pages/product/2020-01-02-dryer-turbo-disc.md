@@ -3,7 +3,62 @@ templateKey: product
 title: 'FTG Turbo Disc Dryer '
 subtitle: The robust and energy efficient drying of Biomasses
 headerimage: /img/ftg-turbo-disc-dryer-2.jpg
-description1: "## Design\n\nThe Fjell Turbo Disc Dryer is designed for indirect heating by steam (6-10 bar). The dryer can be delivered for vacuum drying of temperature sensitive raw materials. The largest heating surface is the rotor, but additional heating surface is available as an option on the stator. The product to be dried is slowly, but vigorously, transported from inlet to outlet end by a paddle system mounted on the disc periphery. \n\nProduct discharge is normally done continuously by a speed controlled extraction screw conveyor. The discs are mounted on a heavy central shaft with a highly efficient condensate removal system integrated. Scraper bars ensure agitation between the discs, which is necessary for an efficient evaporation. The moisture evaporated from the product is collected in a high top vapour dome, and continuously removed. \n\nDryers can be supplied in all practical sizes, in all common materials of construction (carbon-, stainless-, and duplex steels), and approved and inspected according to the leading international design codes and standards (PED, ASME, JIS, GOST, DNV, Lloyds, Bureau Veritas etc..) The dryer has a unique endurable patented rotor design without traditional welded stays exposed to tear, wear, fatigue and corrosion.\n\nThe distinct difference between the TD dryer and most other disc dryers is that staybolt welds (or welds of other means to maintain the integrity of the disc when exposed to internal steam pressure) is entirely on the inside of the disc. Fjell has in its process for drying with disc-driers a patented process solution reducing usage of steam with approx. 40% from normal driers.\n\n**Mass and Energy Balance** \r\n\nAll MWWT plants are being calculated based on given numbers for quantity to be processed. This calculation are set up in a Mass and Energy Balance Scheme to specify dimensions on all equipment and piping. \r\n\n**Flowsheet**\r\n\nAfter finalizing a M&E balance we produce a flowsheet and 3D drawing to optimize the tradeoff betwen size, quality in materials and cost. \r\n\n**P&ID** \r\n\nTogether with client or yard, we produce all necessarry drawings and plan all interfaces for easy assembly and use. Of course PLC system are included - and can be integrated to most common PLC systems (for global control)"
+description1: >-
+  ## Design
+
+
+  The Fjell Turbo Disc Dryer is designed for indirect heating by steam (6-10
+  bar). The dryer can be delivered for vacuum drying of temperature sensitive
+  raw materials. The largest heating surface is the rotor, but additional
+  heating surface is available as an option on the stator. The product to be
+  dried is slowly, but vigorously, transported from inlet to outlet end by a
+  paddle system mounted on the disc periphery. 
+
+
+  Product discharge is normally done continuously by a speed controlled
+  extraction screw conveyor. The discs are mounted on a heavy central shaft with
+  a highly efficient condensate removal system integrated. Scraper bars ensure
+  agitation between the discs, which is necessary for an efficient evaporation.
+  The moisture evaporated from the product is collected in a high top vapour
+  dome, and continuously removed. 
+
+
+  Dryers can be supplied in all practical sizes, in all common materials of
+  construction (carbon-, stainless-, and duplex steels), and approved and
+  inspected according to the leading international design codes and standards
+  (PED, ASME, JIS, GOST, DNV, Lloyds, Bureau Veritas etc..) The dryer has a
+  unique endurable patented rotor design without traditional welding, which
+  stays exposed to tear, wear, fatigue and corrosion.
+
+
+  The distinct difference between the TD dryer and most other disc dryers is
+  that staybolt welds (or welds of other means to maintain the integrity of the
+  disc when exposed to internal steam pressure) is entirely on the inside of the
+  disc. Fjell has in its process for drying with disc-driers a patented process
+  solution reducing usage of steam with approx. 40% from normal driers.
+
+
+  **Mass and Energy Balance** 
+
+
+  All MWWT plants are being calculated based on given numbers for quantity to be
+  processed. This calculation are set up in a Mass and Energy Balance Scheme to
+  specify dimensions on all equipment and piping. 
+
+
+  **Flowsheet**
+
+
+  After finalizing a M&E balance we produce a flowsheet and 3D drawing to
+  optimize the tradeoff between size, quality in materials and cost. 
+
+
+  **P&ID** 
+
+
+  Together with client or yard, we produce all necessarry drawings and plan all
+  interfaces for easy assembly and use. Of course PLC system are included - and
+  can be integrated in most common PLC systems (for global control).
 infobox1: >-
   ## Advantages
 
@@ -38,11 +93,11 @@ description2: >-
 
 
   In the year 2000 Fjell Technology Group AS decided to develop a robust and
-  energy efficient disc dryer specially designed for modern manufacturing
-  methods like robotic welding. We had a competent staff with senior personnel
-  having experience from design, manufacturing and installation of about 2000
-  Stord dryers since the introduction of the technology, wich took place in the
-  late 50ies. 
+  energy efficient disc dryer especially designed for modern manufacturing
+  methods like robotic welding. We had a competent staff including senior
+  personnel withexperience from design, manufacturing and the installation of
+  about 2000 Stord dryers since the introduction of the technology, which took
+  place in the late fifties. 
 
 
   We added some young innovative engineers skilled in state of the art
@@ -51,7 +106,7 @@ description2: >-
   manufacturing techniques.
 
 
-  Problems with leakage after som wear and tear on the welds are practically
+  Problems with leakage after some wear and tear on the welds are practically
   eliminated, as we have experienced zero leakage on our discs produced after
   year 2000.
 infobox2: |-
