@@ -95,7 +95,7 @@ description2: >-
 
   Together with client or yard, we produce all necessarry drawings and plan all
   interfaces for easy assembly and use. Of course PLC system are included - and
-  can be integrated in the majority of common PLC systems (for global control)
+  can be integrated into the majority of common PLC systems (for global control)
 infobox2: |-
 
 
