@@ -12,10 +12,10 @@ description1: >-
 
 
   Fjell cooperate with multiple partners to offer the best available
-  technologies assembled together as compactly as possible without compromising
+  technologies assembled as compactly as possible without compromising the
   quality. With FTG's solution for a complete fishmeal plant, it will be
   possible to place the plant in the immediate vicinity from the slaughteries
-  thus ensuring optimum quality of raw material.
+  which ensures optimum quality of raw material.
 
 
   The small sized solutions usually consists of grinder, boiler, press,
@@ -48,7 +48,7 @@ description1: >-
   Oil can be further treated in a polisher for optimum quality.
 
 
-  Evaporating of stickwater are optional but recommended to take out the last
+  Evaporating of stickwater is optional but recommended to take out the last
   6-7% protein that is water soluble and thus valuable as they provide a better
   quality of the meal.
 
@@ -74,7 +74,28 @@ productbrochures:
     title: PRODUCT BROCHURE
 smallimage: /img/fiskemel-båt-2.png
 fullwidthimage: /img/img_5185-optim-1-.jpg
-description2: "**Mass and Energy Balance** \r\n\nAll fishmeal plants are being calculated based on given numbers for rest raw material to be processed. This calculation are set up in a Mass and Energy Balance Scheme to specify dimensions on all equipment and piping. \n\n**Flowsheet**\n\nAfter finalizing a M&E balance we produce a flowsheet and 3D drawing to optimize the tradeoff betwen size, quality in materials and cost. \n\n**P&ID** \n\nTogether with client or yard, we produce all necessarry drawings and plan all interfaces for easy assembly and use. Of course PLC system are included - and can be integrated to most common PLC systems (for global control)"
+description2: >-
+  **Mass and Energy Balance** 
+
+
+  All fishmeal plants are being calculated based on given numbers for rest raw
+  material to be processed. This calculation are set up in a Mass and Energy
+  Balance Scheme to specify dimensions on all equipment and piping. 
+
+
+  **Flowsheet**
+
+
+  After finalizing a M&E balance we produce a flowsheet and 3D drawing to
+  optimize the tradeoff betwen size, quality in materials and cost. 
+
+
+  **P&ID** 
+
+
+  Together with client or yard, we produce all necessarry drawings and plan all
+  interfaces for easy assembly and use. Of course PLC system are included - and
+  can be integrated in the majority of common PLC systems (for global control)
 infobox2: |-
 
 
