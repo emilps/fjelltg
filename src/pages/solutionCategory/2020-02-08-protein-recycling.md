@@ -2,7 +2,7 @@
 templateKey: solutioncategory
 featuredimage: /img/flowsheet-sludge-full-drying-header.jpg
 title: Protein Recycling
-subtitle: 'Fjell Turbo Disc Dryer the corner stone in any fish meal plant '
+subtitle: 'Fjell Turbo Disc Dryer- the corner stone in any fish meal plant '
 texttitle: Introduction
 information: >-
   **Today:** FTG is the leading player in delivering energy-optimized plants on
@@ -21,9 +21,9 @@ information: >-
   parchment flour and oil over the next few years.
 
 
-  **Background:** The indirectly steam heated rotadisc dryer is invented by
-  Peder Solheim from Leirvik at the island Stord, Norway in 1955. The dryer was
-  introduced in the fish meal marked in the late 50ties by Stord Bartz, and
+  **Background:** The indirect steam heated rotadisc dryer is invented by Peder
+  Solheim from Leirvik at the island Stord, Norway in 1955. The dryer was
+  introduced in the fish meal market in the late 50ties by Stord Bartz, and
   quickly became a “must” for factories worldwide due to superior energy
   efficiency, safety, reliability and low odour emissions. 
 
@@ -31,7 +31,7 @@ information: >-
   Fjell Technology Group, is a former supplier to Stord Bartz / Atlas-Stord. In
   the year 2000 we hired a group of key-personnel from Atlas-Stord with
   altogether 150 years of experience from market, process design and machine
-  design to develop a new generation Disc Dryers named Fjell Turbo Disc Dryer
+  design to develop a new generation of Disc Dryers named Fjell Turbo Disc Dryer
   (TD dryer). 
 
 
