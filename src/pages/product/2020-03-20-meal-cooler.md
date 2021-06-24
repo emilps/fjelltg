@@ -26,8 +26,8 @@ infobox1: >-
 smallimage: /img/mealcooler-2-optim.png
 fullwidthimage: /img/mealcooler-3-optim.png
 description2: >-
-  All FTG coolers are designed to have as low costs as possible in installation
-  and maintenance.
+  All FTG coolers are designed to make the costs of installation and maintenance
+  as low as possible.
 infobox2: The picture shows the agitator on the inside of a cooler
 productcategory: Fish Meal Plant
 ---
