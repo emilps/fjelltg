@@ -8,15 +8,14 @@ text: >-
   in areas with limited space. 
 
 
-  * Cooking in steam heated screw cooker,
+  * Cooking in steam heated screw cooker
 
-  * Pressing in twin screw press and oil separation in centrifuges,
+  * Pressing in twin screw press and oil separation in centrifuges
 
   * Evaporation of stick water in waste heat evaporator
 
-
-  Drying of press cake and concentrate in disc drier and milling and cooling of
-  meal
+  * Drying of press cake and concentrate in disc drier and milling and cooling
+  of meal
 
 
   The process requirements depend on the freshness of the catch, type of fish,
