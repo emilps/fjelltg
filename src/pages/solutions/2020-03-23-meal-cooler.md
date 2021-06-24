@@ -16,8 +16,8 @@ infobox1: >-
   a counterflow of cool air.
 fullwidthimage: /img/mealcooler-3.png
 description2: >-
-  All FTG coolers are designed for as low costs as possible in installation and
-  maintanance
+  All FTG coolers are designed to make the costs of installation and maintanance
+  as low as possible.
 description3: >-
   Example of 3D design of mealcooler silo intended for both use onshore and on
   vessels.
