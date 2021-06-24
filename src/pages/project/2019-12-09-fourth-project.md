@@ -8,7 +8,7 @@ mainimage: /img/greentech_1920-main.jpg
 title1: Description
 description1: >-
   At the beginning of such a project, it is important to get the correct data on
-  the outgoing water volumes from the plant and not least the amount of feed.
+  the outgoing water volumes from the plant and especially the amount of feed.
 
 
   The amount of salt in the water is also of great importance - to be able to
@@ -31,8 +31,9 @@ description1: >-
 
 
   Since the commissioning period the sludge drying system has been running
-  problem free - please [contact us](https://www.fjelltg.no/contact/) if any
-  questions regarding setup, solutions or if we in any way can help you.
+  problem free - please [contact us](https://www.fjelltg.no/contact/) if you
+  have any questions regarding setup, solutions or if we can help you in any
+  way.
 miniatureimage1: /img/frs.png
 miniatureimage2: /img/p15776-001-1-mini.jpg
 title2: Opportunities
