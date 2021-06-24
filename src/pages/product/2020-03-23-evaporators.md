@@ -12,7 +12,7 @@ description1: >-
 infobox1: >-
   Today we focus on cookers and dryer technology, and have chosen to cooperate
   with EPCON Evaporation Technology AS for deliveries of MVR Evaporators, and
-  promotes their excellent high grade technology to our customers.
+  promote their excellent high grade technology to our customers.
 smallimage: /img/whe-optim.jpg
 fullwidthimage: /img/waste-heat-evaporator-tokyo-optim.jpg
 description2: >-
