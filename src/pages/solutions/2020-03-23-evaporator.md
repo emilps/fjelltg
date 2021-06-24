@@ -16,7 +16,7 @@ infobox1: >-
   Today we focus on cookers and dryer technology, and have chosen to cooperate
   with EPCON Evaporation Technology AS, and promotes their excellent high grade
   technology to our customers when MVR is proposed.
-fullwidthimage: /img/epcon-ftg-evaporator-render-optim.jpg
+fullwidthimage: /img/evaporator-880-optim.jpg
 description2: >-
   ## We can offer
 
@@ -51,7 +51,7 @@ description2: >-
 
   Installation
 description3: Epcon MVR Design drawing
-descriptionimage: /img/evaporator-880-optim.jpg
+descriptionimage: /img/epcon-ftg-evaporator-render-optim.jpg
 relatedproducts:
   relatedproduct1:
     body: |+
