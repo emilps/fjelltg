@@ -28,8 +28,8 @@ description1: >-
   construction (carbon-, stainless-, and duplex steels), and approved and
   inspected according to the leading international design codes and standards
   (PED, ASME, JIS, GOST, DNV, Lloyds, Bureau Veritas etc..) The dryer has a
-  unique endurable patented rotor design without traditional welded stays
-  exposed to tear, wear, fatigue and corrosion.
+  unique endurable patented rotor design without traditional welding, which
+  stays exposed to tear, wear, fatigue and corrosion.
 
 
   The distinct difference between the TD dryer and most other disc dryers is
@@ -51,7 +51,7 @@ description1: >-
 
 
   After finalizing a M&E balance we produce a flowsheet and 3D drawing to
-  optimize the tradeoff betwen size, quality in materials and cost. 
+  optimize the tradeoff between size, quality in materials and cost. 
 
 
   **P&ID** 
@@ -59,7 +59,7 @@ description1: >-
 
   Together with client or yard, we produce all necessarry drawings and plan all
   interfaces for easy assembly and use. Of course PLC system are included - and
-  can be integrated to most common PLC systems (for global control)
+  can be integrated in most common PLC systems (for global control)
 
 
   **Standard sizes**
