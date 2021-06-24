@@ -2,7 +2,7 @@
 templateKey: solution
 title: Evaporator
 subtitle: 'WHE, MVR and Forced Flash Finisher'
-featuredimage: /img/evaporator-lite.png
+featuredimage: /img/evaporator-lite-optim.png
 mainquote: >-
   Fjell Technology Group was originally established almost 50 years ago as local
   manufacturer of evaporator stages and tube and shell heat exchangers for Stord
@@ -16,7 +16,7 @@ infobox1: >-
   Today we focus on cookers and dryer technology, and have chosen to cooperate
   with EPCON Evaporation Technology AS, and promotes their excellent high grade
   technology to our customers when MVR is proposed.
-fullwidthimage: /img/evaporator-1024x768.jpg
+fullwidthimage: /img/epcon-ftg-evaporator-render-optim.jpg
 description2: >-
   ## We can offer
 
@@ -51,7 +51,7 @@ description2: >-
 
   Installation
 description3: Epcon MVR Design drawing
-descriptionimage: /img/epcon-ftg-evaporator-render.jpg
+descriptionimage: /img/evaporator-880-optim.jpg
 relatedproducts:
   relatedproduct1:
     body: |+
