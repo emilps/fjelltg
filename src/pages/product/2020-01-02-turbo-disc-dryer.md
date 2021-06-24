@@ -19,12 +19,9 @@ description1: >-
   Typically first stage uses waste heat and second stage low pressure steam.
 
 
-  The two stage solutions give better process control and increase the oil yield
-  from marine and animal raw material.
-
-
   Our disc cooker is the best solution for process control and increasing oil
-  yield from marine and animal raw material. 
+  yield from marine and animal raw material. The two stage solutions give better
+  process control.
 
 
   Our cookers are manufactured with a steam heated (up to 10 barge) rotor with
