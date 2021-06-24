@@ -21,7 +21,7 @@ description2: >-
 description3: >-
   Example of 3D design of mealcooler silo intended for both use onshore and on
   vessels.
-descriptionimage: /img/p30000-051-0004-lite.jpg
+descriptionimage: /img/p30000-051-0004-lite-optim.jpg
 relatedproducts:
   relatedproduct1:
     body: |+
