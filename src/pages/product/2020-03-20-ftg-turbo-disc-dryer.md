@@ -50,7 +50,7 @@ description1: >-
 
 
   After finalizing a M&E balance we produce a flowsheet and 3D drawing to
-  optimize the tradeoff betwen size, quality in materials and cost. 
+  optimize the tradeoff between size, quality in materials and cost. 
 
 
   **P&ID** 
