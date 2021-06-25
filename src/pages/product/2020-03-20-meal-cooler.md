@@ -2,7 +2,7 @@
 templateKey: product
 title: Meal cooler
 subtitle: Cooling of meal products
-headerimage: /img/mealcooler-1024x576-1-.jpg
+headerimage: /img/mealcooler-880-optim.jpg
 description1: >-
   To avoid condensation in dried fishmeal, it is important to have correct
   cooling - before storing it in tanks, sacks or bigbags.
