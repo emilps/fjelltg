@@ -2,7 +2,7 @@
 templateKey: solution
 title: 'FTG Turbo Disc Dryer '
 subtitle: The robust and energy efficient drying of Biomasses
-featuredimage: /img/td-tørke-header-optim.png
+featuredimage: /img/ftg-turbo-disc-dryer-2.jpg
 mainquote: >-
   Residuals for fishmeal in both land based and ship installed plants.
   Ingredients in the food industry. Spent grains in distilleries and breweries.
