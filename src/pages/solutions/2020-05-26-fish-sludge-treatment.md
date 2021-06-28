@@ -4,7 +4,7 @@ title: Fish Sludge Treatment
 subtitle: >-
   Fjell Technology Group recycles sludge from aquaculture facilities and
   municipal wastewater plants. 
-featuredimage: /img/anlegg-erko-1024x558-v2.jpg
+featuredimage: /img/anlegg-erko-880x479.jpg
 mainquote: >-
   The sludge is used as an additive in fertiliser or other agricultural
   products. 
@@ -28,7 +28,7 @@ description1: >-
 infobox1: >-
   The FTG Fishsludge Recovery System (FRS) system can dry sludge from 0.1 per
   cent Dry Matter (DM) and up to 99 per cent DM.
-fullwidthimage: /img/p15776-001-1-lite.jpg
+fullwidthimage: /img/p15776-001-1-optim.jpg
 description2: >-
   Fish sludge is very demanding to dry but the TMD mill is specifically adapted
   to this challenging, fiberless material and its high fat content. Particularly
@@ -53,7 +53,7 @@ description3: >-
 
   TMD is offered with Thermtech (technology owner) and partner - electro
   flocculation is offered with Power & Water as partner.
-descriptionimage: /img/anlegg-erko-1024x558-v2.jpg
+descriptionimage: /img/anlegg-erko-880x479.jpg
 solutioncategory: 'Waste Water Treatment '
 ---
 
