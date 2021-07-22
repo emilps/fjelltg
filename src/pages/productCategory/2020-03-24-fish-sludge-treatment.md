@@ -27,9 +27,9 @@ text: >-
   Although Fish sludge can be very demanding to dry, this is not a problem for
   the TMD mill as it is especially adapted to this challenging, fiberless
   material and its high fat content. Particularly the glue phase can be a
-  problem, however **the patented TMD mill is robust and resistant**. The
-  Fishsludge system is also not sensitive to plant changes in biomass,
-  waterflow, or in the composition of the sludge.
+  problem, however the patented TMD mill is robust and resistant. The Fishsludge
+  system is also not sensitive to plant changes in biomass, waterflow, or in the
+  composition of the sludge.
 
 
   The dried sludge is perfect as a part ingredient in the production of
