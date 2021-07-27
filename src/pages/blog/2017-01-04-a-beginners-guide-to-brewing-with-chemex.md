@@ -1,14 +1,11 @@
 ---
 templateKey: blog-post
-title: FAT of Fjell Vacuum Condensator System
+title: Fjell Technology Group employees out cleaning ocean plastic
 date: 26.07.2021
-featuredimage: /img/vakuumkondensator-1.jpg
+featuredimage: /img/plastrydding-3-1-.jpg
 description: >-
-  Our CTO, Dr. Asbjörn Strand at the premises of one of our production sites,
-  EMEKO in Lithuania. He is there to take part in a factory acceptance test
-  (FAT) of a Fjell Vacuume Condensator. The Vacuum Condensator will be part of
-  the new revolutionary processing plant of AFYREN NEOXY, in Carling
-  Saint-Avold, France, with planned start up in 2022.
+  Fjell Technology employees spent a full day out cleaning plastic along the
+  Bergen area shoreline. 500 kg of plastic were removed. 
 link: >-
   https://www.linkedin.com/posts/halvard-madsen_ftg-fjelltech-innovative-activity-6744158369482862592-RXQY
 socialmedia: LinkedIn
