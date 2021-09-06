@@ -1,16 +1,15 @@
 ---
 templateKey: blog-post
-title: Pressure test of a TD300 duplex rotor at ABC Presmet.
-date: 26.07.2021
-featuredimage: /img/trykktesting-av-rotor7.jpg
+title: Worlds first fish sludge hub
+date: 06.09.2021
+featuredimage: /img/salten-marine-sep-01.jpg
 description: >-
-  Our CTO, Dr. Asbjørn Strand, last week visited the factory of our strategic
-  collaboration partner APC Presmet. The reason for the visit was to inspect the
-  pressure test of a Fjell TD300 duplex rotor (TD300). The rotor will be put
-  under vacuum and filled with 99.9% water. 
+  What is probably the world’s first Fish Sludge Dryer Hub is starting to take
+  form. 4 different smolt farms will in the coming years deliver fish sludge to
+  Salten Marine Resource. The Fjell FRS TMD Fish Sludge Dryer Plant is delivered
+  by Fjell Technology Group.
 
-  The Turbo Disc dryer is 1 of total 5 dryers to be delivered to HVC Dordrecht
-  in the Netherlands in the period 2021-2024.
+  #sirkulærøkonomi #circulareconomy #wastewatertreatment
 link: 'https://www.facebook.com/Fjelltechnologygroup'
 socialmedia: Facebook
 ---
