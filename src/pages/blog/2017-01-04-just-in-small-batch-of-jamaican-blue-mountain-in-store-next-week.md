@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Worlds first fish sludge hub
+title: Worlds first Fish Sludge Drying hub
 date: 06.09.2021
 featuredimage: /img/salten-marine-sep-01.jpg
 description: >-
