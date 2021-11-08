@@ -1,15 +1,22 @@
 ---
 templateKey: blog-post
-title: World's first Fish Sludge Drying hub
-date: 06.09.2021
-featuredimage: /img/salten-marine-sep-01.jpg
+title: >-
+  Another Eco Capture Wastewater Treatment System is on its way to Norwegian
+  smoltfarm
+date: 08.11.2021
+featuredimage: /img/video-p-w.jpg
 description: >-
-  What is probably the world’s first Fish Sludge Dryer Hub is starting to take
-  form. 4 different smolt farms will in the coming years deliver fish sludge to
-  Salten Marine Resource. The Fjell FRS TMD Fish Sludge Dryer Plant is delivered
-  by Fjell Technology Group.
+  Another Fjell P&W ECO Capture System is on its way to a salmon smoltfarm in
+  Norway. The ECO Capture system is the environmental friendly solution for
+  treatment of wastewater from aquaculture. 
 
-  #sirkulærøkonomi #circulareconomy #wastewatertreatment
+  The ECO Capture system offers high capture rate without the use of polymers or
+  other chemicals. The system that is loaded on the truck in this video has a
+  capacity of above 100 m3 wastewater per hour.  On the video you see the SONECO
+  electrocoagulation units of the Eco Capture System.
+
+  #circulareconomy #wastewatertreatment #wastewatertreatmentplant
+  #miljøteknologi
 link: 'https://www.facebook.com/Fjelltechnologygroup'
 socialmedia: Facebook
 ---
