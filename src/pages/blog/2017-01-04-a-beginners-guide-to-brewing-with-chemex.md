@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Heavy equipment demands large lifting cranes
 date: 08.11.2021
-featuredimage: /img/td300-2000-og-løftekran-hvc.jpg
+featuredimage: /img/td300-2000-og-loftekran-hvc.jpg
 description: >-
   A Fjell TD300 2000 Turbo Disc Dryer lifted into its new home at a municipal
   wastewater treatment plant in Holland. 
