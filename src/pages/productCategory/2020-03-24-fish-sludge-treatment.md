@@ -26,8 +26,7 @@ text: >-
   capture rate.**
 
 
-  {"widget":"imageblock","text":"Fjell P&W Eco Capture
-  System","image":"/img/5.jpg"}
+  ![](/img/5.jpg "Fjell P&W Eco Capture System")
 
 
   **Award-winning technology** without the use of chemicals or polymer for
@@ -50,13 +49,12 @@ text: >-
   \- Low-Cost Capture System: low investment cost and moderate capture rate
 
 
+  ![Fjell Low Cost Capture System](/img/render-sf-116540-01.jpg)
+
+
   Combining well proved technology of bandfilters and decanter sentrifuges. This
   system offers high hydraulic treatment capacity combined with acceptable
   capture rate, and low investment costs.
-
-
-  {"widget":"imageblock","text":"Fjell Low Cost Capture
-  System","image":"/img/render-sf-116540-01.jpg"}
 
 
   All the above wastewater treatment solutions can be combined with Fjell
