@@ -26,11 +26,13 @@ text: >-
   capture rate.**
 
 
+  {"widget":"imageblock","text":"Fjell P&W Eco Capture
+  System","image":"/img/5.jpg"}
+
+
   **Award-winning technology** without the use of chemicals or polymer for
   structuring the wastewater. Combined with the best separation and dewatering
   technology in the market.
-
-
 
 
   2. **High Capture Separation System: highest possible capture rate**
@@ -64,8 +66,5 @@ text: >-
 
 
   ![](/img/2020-11-11-19.27.56.jpg "Fjell FRS TMD Sludge Dryer System")
-
-
-  ![]()
 ---
 
