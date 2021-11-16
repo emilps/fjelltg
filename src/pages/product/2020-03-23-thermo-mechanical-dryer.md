@@ -38,7 +38,7 @@ infobox1: >-
   The TMD is excellent on most material, exceeding on sticky, “glue-like”
   material.
 productbrochures:
-  - file: /img/ftg-kunder-presentasjon-tørkeprosess-ras-flyer.pdf
+  - file: /img/a4-folder-sludgedryer.pdf
     title: PRODUCT BROCHURE
 smallimage: /img/frs.jpg
 fullwidthimage: /img/osan-tmd-beskjørt.jpg
