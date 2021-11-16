@@ -1,9 +1,7 @@
 ---
 templateKey: product
-title: Flocculation Unit
-subtitle: >-
-  From Power&Water, UK - we can provide electro flocculation for enriching
-  sludge from 0,1% DS to approx. 5% DS
+title: Electro Coagulation system - the eco-friendly wastewater treatment.
+subtitle: 'Achieve high capture rate without the use of polymers and chemicals. '
 headerimage: /img/fjell-osan-3-header-optim.jpg
 description1: >-
   Combining electrolysis and ultrasound in a single reactor provides
