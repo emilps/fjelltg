@@ -6,48 +6,6 @@ subtitle: >-
   municipal wastewater plants. The sludge is used as an additive in fertiliser
   or other agricultural products. 
 featuredimage: /img/anlegg-erko-880x479.jpg
-text: >-
-  Fjell Technology Group has a unique combination of long experience and high
-  competence, and is a leader in research and development in the industry. **We
-  can supply equipment in full range from small smolt farms, to post-smolt
-  farms, land-based ongrowing fish plants, and semi-closed and closed ongrowing
-  farms in the sea.**
-
-
-  The TMD Fishsludge Recovery System (FRS) can dry sludge from 0.1 per cent Dry
-  Matter (DM) and up to 99 per cent DM. 
-
-
-  We use **award-winning technology** without the use of chemical polymer for
-  the purification stage of wastewater from drum filter and possibly biofilter
-  (electro coagulation). Wastewater-sludge from the purification stage is then
-  dewatered and dried with tested and reliable technology. .
-
-
-  Although Fish sludge can be very demanding to dry, this is not a problem for
-  the TMD mill as it is especially adapted to this challenging, fiberless
-  material and its high fat content. Particularly the glue phase can be a
-  problem, however the patented TMD mill is robust and resistant. The Fishsludge
-  system is also not sensitive to plant changes in biomass, waterflow, or in the
-  composition of the sludge.
-
-
-  The dried sludge is perfect as a part ingredient in the production of
-  agrigultural fertilizers, as it is rich in nitrogen and phosphorus. Fjell's
-  technology contributes to a circular economy by recycling vital nutrients from
-  the wastewater.
-
-
-  **The solution helps fish farmers and municipal waste plants minimize the need
-  for waste management and transport, which cuts both costs and emissions from
-  production and treatment processes.**
-
-
-  **The plant requires minimal maintenance and supervision and delivers stable
-  hygienized and stabilized sludge.**
-
-
-  TMD is offered with Thermtech (technology owner) and partner - electro
-  flocculation is offered with Power & Water as partner.
+text: "Fjell Technology Group has a unique combination of long experience and high competence, and is a leader in research and development in the industry. **We can supply equipment in full range from small smolt farms, to post-smolt farms, land-based ongrowing fish plants, and semi-closed and closed ongrowing farms in the sea.**\n\nT**Fjell Technology Group has a unique combination of long experience and high competence**, and is a leader in research and development in the industry. We can supply equipment in full range from hatcheries, to smolt farms , to post-smolt farms,  to land-based ongrowing fish plants and semi-closed and closed ongrowing fish farms in the sea.\n\nFjell Technology Group offer 3 main types of solutions for treatment of aquaculture wastewater: \n\n1. **Fjell P&W ECO Capture System: environmentally friendly solution with high capture rate.**\n\n**Award-winning technology** without the use of chemicals or polymer for structuring the wastewater. Combined with the best separation and dewatering technology in the market.\n\n{\"widget\":\"imageblock\",\"image\":\"/img/om2.jpg\"}\n\n2. **High Capture Separation System: highest possible capture rate**\n\nComplete automated system for structuring the wastewater, separation (thickening) and dewatering with capture rate as high as 90-95%. Brings wastewater with dry matter content (DM) of about 0,1%DM up to above 20% DM. \n\n![](/img/5-trinns-separasjonssystem.png \"5-step High Capture Separation System\")\n\n\r\n\n\\- Low-Cost Capture System: low investment cost and moderate capture rate\r\n\n\r\n\n\r\n\nCombining well proved technology of bandfilters and decanter sentrifuges. This system offers high hydraulic treatment capacity combined with acceptable capture rate, and low investment costs.\n\n{\"widget\":\"imageblock\",\"text\":\"Fjell Low Cost Capture System\",\"image\":\"/img/render-sf-116540-01.jpg\"}\n\n \n\nAll the above wastewater treatment solutions can be combined with Fjell Technology's complete range of Sludge Dryer Systems. All solutions are scalable in the full range from small smolt farms up to large ongrowing fish farms."
 ---
 
