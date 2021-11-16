@@ -1,6 +1,6 @@
 ---
 templateKey: product
-title: Electro Coagulation system - the eco-friendly wastewater treatment.
+title: SONECO Electro Coagulation System - the eco-friendly wastewater treatment.
 subtitle: 'Achieve high capture rate without the use of polymers and chemicals. '
 headerimage: /img/fjell-osan-3-header-optim.jpg
 description1: >-
