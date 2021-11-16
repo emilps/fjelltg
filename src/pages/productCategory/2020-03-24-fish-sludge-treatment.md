@@ -11,7 +11,7 @@ text: >-
   farms in the sea.**
 
 
-  T**Fjell Technology Group has a unique combination of long experience and high
+  **Fjell Technology Group has a unique combination of long experience and high
   competence**, and is a leader in research and development in the industry. We
   can supply equipment in full range from hatcheries, to smolt farms , to
   post-smolt farms,  to land-based ongrowing fish plants and semi-closed and
@@ -31,7 +31,6 @@ text: >-
   technology in the market.
 
 
-  {"widget":"imageblock","image":"/img/om2.jpg"}
 
 
   2. **High Capture Separation System: highest possible capture rate**
