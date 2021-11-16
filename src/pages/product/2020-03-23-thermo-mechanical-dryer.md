@@ -58,6 +58,6 @@ infobox2: >-
   Sludge Dryers do not require the addition of polymer (plastic), or other
   additives. This provides an environmentally friendly end product (fertilizer),
   while drying is more cost effective.
-productcategory: Fish Sludge Treatment
+productcategory: Fjell Aquaculture Wastewater Treatment Systems
 ---
 
