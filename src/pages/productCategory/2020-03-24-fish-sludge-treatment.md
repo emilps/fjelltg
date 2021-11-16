@@ -64,7 +64,7 @@ text: >-
   farms.
 
 
-  ![](/img/2020-11-11-19.27.56.jpg)
+  ![](/img/2020-11-11-19.27.56.jpg "Fjell FRS TMD Sludge Dryer System")
 
 
   ![]()
