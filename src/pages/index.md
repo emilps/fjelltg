@@ -32,5 +32,7 @@ partners:
       link: 'https://www.powerandwater.com/'
     - image: /img/logo.jpg
       link: 'https://al-2.dk/'
+    - image: /img/nce-aquatech-cluster.svg
+      link: 'https://aquatechcluster.no/'
 ---
 
