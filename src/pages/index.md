@@ -30,5 +30,7 @@ partners:
       link: 'https://www.thermtech.no/'
     - image: /img/powerandwater_logo_landscape_r.png
       link: 'https://www.powerandwater.com/'
+    - image: /img/logo.jpg
+      link: 'https://al-2.dk/'
 ---
 
