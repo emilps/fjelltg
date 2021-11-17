@@ -34,5 +34,7 @@ partners:
       link: 'https://al-2.dk/'
     - image: /img/nce-aquatech-cluster.svg
       link: 'https://aquatechcluster.no/'
+    - image: /img/gea-engineering-for-a-better-world.jpg
+      link: 'https://www.gea.com/'
 ---
 
