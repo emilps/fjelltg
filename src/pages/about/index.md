@@ -78,9 +78,7 @@ We will focus on continuously improving. Our employees will contribute to this b
 
 We shall always focus on working in a way that minimizes our companys environmental footprint. The waste will be sorted with the aim of maximizing the potential for recycling our waste. We will prevent pollution by trying to find new solutions to reduce our waste.
 
-![](/img/plastrydding-5.jpg "Fjell Technology Group cleaning ocean plastic from beaches outside Bergen.")
-
- 
+![](/img/plastrydding-5.jpg "Fjell Technology Group employees cleaning ocean plastic from beaches outside Bergen.")
 
 We will be an environmentally friendly and resource-conscious company. Fjell Technology Group will annually identify and review our environmental aspects, and make plans to improve our environmental performance. We shall know the environmental regulations and always comply with this. 
 
