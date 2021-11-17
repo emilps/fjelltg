@@ -6,8 +6,8 @@ indexblock:
   link1: >-
     https://fjelltg.no/solutionCategory/2020-02-08-greentech-and-the-environment/
   link2: 'https://fjelltg.no/solutionCategory/2020-02-08-protein-recycling/'
-  title1: 'Waste water '
-  title2: Protein Recycling
+  title1: Wastewater Treatment Systems
+  title2: Profitable fishmeal & oil from fish offal
 title: Your partner for process technology
 middleblock:
   image2: /img/20200914_083019-optim.jpg
@@ -28,5 +28,7 @@ partners:
       link: 'https://sintef.no'
     - image: /img/thermtech_logo_col-optim.jpg
       link: 'https://www.thermtech.no/'
+    - image: /img/powerandwater_logo_landscape_r.png
+      link: 'https://www.powerandwater.com/'
 ---
 
