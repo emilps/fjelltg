@@ -32,7 +32,7 @@ partners:
       link: 'https://www.powerandwater.com/'
     - image: /img/logo.jpg
       link: 'https://al-2.dk/'
-    - image: /img/nce-aquatech-cluster.svg
+    - image: /img/nce-aquatech-cluster.jpg
       link: 'https://aquatechcluster.no/'
     - image: /img/gea-engineering-for-a-better-world.jpg
       link: 'https://www.gea.com/'
