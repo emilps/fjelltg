@@ -40,5 +40,7 @@ partners:
       link: 'https://www.flottweg.com/'
     - image: /img/stord.jpg
       link: 'https://stordinternational.no/'
+    - image: /img/logo-med-navn-hvit-bak.png
+      link: 'https://www.inthesameboat.eco/'
 ---
 
