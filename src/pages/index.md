@@ -8,7 +8,7 @@ indexblock:
   link2: 'https://fjelltg.no/solutionCategory/2020-02-08-protein-recycling/'
   title1: WASTEWATER TREATMENT SYSTEMS
   title2: 'PROFITABLE FISHMEAL & FISH OIL '
-title: A better world through environmental technology & sustainable solutions
+title: A better world through green technology & sustainable solutions
 middleblock:
   image2: /img/20200914_083019-optim.jpg
   title: FJELL TECHNOLOGY TEST CENTRE
