@@ -36,5 +36,9 @@ partners:
       link: 'https://aquatechcluster.no/'
     - image: /img/gea-engineering-for-a-better-world.jpg
       link: 'https://www.gea.com/'
+    - image: /img/flottweg-se-logo.png
+      link: 'https://www.flottweg.com/'
+    - image: /img/stord.jpg
+      link: 'https://stordinternational.no/'
 ---
 
