@@ -42,5 +42,7 @@ partners:
       link: 'https://stordinternational.no/'
     - image: /img/logo-med-navn-hvit-bak.png
       link: 'https://www.inthesameboat.eco/'
+    - image: /img/logo-epcon-klipp.jpg
+      link: 'https://www.epcon.org/'
 ---
 
