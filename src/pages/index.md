@@ -44,5 +44,7 @@ partners:
       link: 'https://www.inthesameboat.eco/'
     - image: /img/logo-epcon-klipp.jpg
       link: 'https://www.epcon.org/'
+    - image: /img/logo-european-fish-meals-...jpg
+      link: www.effop.org
 ---
 
