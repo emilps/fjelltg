@@ -1,6 +1,6 @@
 ---
 templateKey: product
-title: 'Thermo Mechanical Dryer '
+title: Fjell Thermo Mechanical Dryer (TMD)
 subtitle: The TMD is the dryer for materials categorized as difficult or sticky to dry
 headerimage: /img/osan-tmd-beskjørt.jpg
 description1: >-
