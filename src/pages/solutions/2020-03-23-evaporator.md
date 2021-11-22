@@ -269,6 +269,6 @@ relatedproducts:
     title: Meal cooler
     subtitle: Cooling of fish meal
     fullwidthimage: /img/mealcooler-3.png
-solutioncategory: Protein Recycling
+solutioncategory: Fjell Fishmeal and Fish oil plants
 ---
 
