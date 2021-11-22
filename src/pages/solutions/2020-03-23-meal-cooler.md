@@ -257,6 +257,6 @@ relatedproducts:
     title: Fjell Cooker
     subtitle: Cookers and pre-heaters
     fullwidthimage: /img/img_1767.jpg
-solutioncategory: Protein Recycling
+solutioncategory: Fjell Fishmeal and Fish oil plants
 ---
 
