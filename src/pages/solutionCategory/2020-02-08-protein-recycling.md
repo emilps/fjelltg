@@ -1,7 +1,7 @@
 ---
 templateKey: solutioncategory
-featuredimage: /img/flowsheet-sludge-full-drying-header.jpg
-title: Protein Recycling
+featuredimage: /img/img_20210209_130920.jpg
+title: Fjell profitable Fishmeal and Fish oil plants
 subtitle: 'Fjell Turbo Disc Dryer- the corner stone in any fish meal plant '
 texttitle: Introduction
 information: >-
