@@ -148,6 +148,6 @@ relatedproducts:
     productcategory: Fish Sludge Treatment
     slug: 2020-03-23-thermo-mechanical-dryer
     smallimage: /img/frs.jpg
-solutioncategory: Fjell Fishmeal and Fish oil plants
+solutioncategory: 'Waste Water Treatment '
 ---
 
