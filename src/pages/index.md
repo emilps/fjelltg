@@ -45,6 +45,6 @@ partners:
     - image: /img/logo-epcon-klipp.jpg
       link: 'https://www.epcon.org/'
     - image: /img/logo-european-fish-meals-...jpg
-      link: www.effop.org
+      link: 'https://www.effop.org/'
 ---
 
