@@ -1,9 +1,15 @@
 ---
 templateKey: product
 title: FTG Onboard Fishmeal Plant
-subtitle: A compact solution for production of fishmeal and oil onboard a vessel
+subtitle: 'Profitable, Reliable and Energy efficient solutions'
 headerimage: /img/fiskemel-båt-2.png
 description1: >-
+  At present Fjell Technology Group has paused their sales, production and
+  comissioning of onboard fishmeal plants for the next 2 years. This is due to a
+  strategic desicion to develope and quality assure a new technology platform
+  and processplant design for future deliveries.  
+
+
   ## Design
 
 
@@ -12,7 +18,7 @@ description1: >-
 
 
   Fjell cooperate with multiple partners to offer the best available
-  technologies assembled as compactly as possible without compromising the
+  technologies assembled as compact as possible without compromising the
   quality. With FTG's solution for a complete fishmeal plant, it will be
   possible to place the plant in the immediate vicinity from the slaughteries
   which ensures optimum quality of raw material.
@@ -20,7 +26,8 @@ description1: >-
 
   The small sized solutions usually consists of grinder, boiler, press,
   decanter/tricanter, dryer, hammermill and cooler. FTG process solution ensure
-  the optimum trade-off of size, quality on materials and energy effectiveness. 
+  the optimum trade-off of size, quality on materials and energy effectiveness.
+  *
 
 
   **Description**
