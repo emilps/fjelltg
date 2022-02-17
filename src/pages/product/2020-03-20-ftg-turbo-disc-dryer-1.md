@@ -4,10 +4,11 @@ title: FTG Onboard Fishmeal Plant
 subtitle: 'Profitable, Reliable and Energy efficient solutions'
 headerimage: /img/fiskemel-båt-2.png
 description1: >-
-  At present Fjell Technology Group has paused their sales, production and
-  comissioning of onboard fishmeal plants for the next 2 years. This is due to a
-  strategic desicion to develope and quality assure a new technology platform
-  and processplant design for future deliveries.  
+  For the next 2 years Fjell Technology Group has paused their sales, production
+  and comissioning of small and medium sized (< 150 tons per day) onboard
+  fishmeal plants. This is due to a strategic desicion to develope and quality
+  assure a new technology platform and processplant design for future
+  deliveries.  
 
 
   ## Design
