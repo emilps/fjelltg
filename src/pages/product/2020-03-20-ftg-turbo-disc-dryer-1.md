@@ -7,7 +7,7 @@ description1: >-
   For the next 2 years Fjell Technology Group has paused their sales, production
   and comissioning of small and medium sized (< 150 tons per day) onboard
   fishmeal plants. This is due to a strategic desicion to develope and quality
-  assure a new technology platform and processplant design for future
+  assure a new technology platform and process plant design for future
   deliveries.  
 
 
