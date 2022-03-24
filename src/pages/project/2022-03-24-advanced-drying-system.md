@@ -18,7 +18,7 @@ title1: Heavvy R&D
 description1: "It has been involving heavy R&D efforts and several R&D test trials in both Norway and in another EU countries\r\n\n\r\n\nThe customer has invested a lot in developing a new revolutionary industrial process. The process convert biproducts that has no commercial use into bio-chemicals that can be used as ingredients in different applications. Both the main industrial process and the handling of biproducts are good examples of circular economy, making the world a little greener."
 miniatureimage1: /img/cornersky.jpg
 miniatureimage2: /img/minorga.jpg
-title2: Innovation
+title2: Contact us for information regarding our test facilities
 description2: \-
 category: Protein Recycling
 ---
