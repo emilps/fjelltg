@@ -75,7 +75,7 @@ description1: >-
   transporting to meal silo as reservoir for bagging.  Transport may be by means
   of cooling screw conveyors or pneumatic system.
 infobox1: >-
-  Typical onboard fishmeal plants have a capacity range of between 60 to 250
+  Typical onboard fishmeal plants have a capacity range of between 150 to 250
   tons of raw materials per day.
 productbrochures:
   - file: /img/fjell-turbo-disc-dryer-brochure.pdf
