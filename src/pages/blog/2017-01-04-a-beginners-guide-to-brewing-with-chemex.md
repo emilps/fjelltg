@@ -1,13 +1,13 @@
 ---
 templateKey: blog-post
-title: Heavy equipment demands large lifting cranes
-date: 08.11.2021
-featuredimage: /img/td300-2000-og-loftekran-hvc.jpg
+title: FAT Fjell SS130-11 Screw cooker
+date: 30.11.2022
+featuredimage: /img/ftg-ss130-11-screw-cooker-til-island-28.11.2022.jpg
 description: >-
-  A Fjell TD300 2000 Turbo Disc Dryer lifted into its new home at a municipal
-  wastewater treatment plant in Holland. 
-link: >-
-  https://www.linkedin.com/posts/halvard-madsen_ftg-fjelltech-innovative-activity-6744158369482862592-RXQY
+  Final inspection of the FTG SS130-11 screw-cooker, with outlet on the side.
+  This is the last of five cookers delivered in 2022 - al of them to Iceland. We
+  wish the cooker a safe journey and hope the customer will be satisfied.
+link: 'https://www.linkedin.com/company/15250818'
 socialmedia: LinkedIn
 ---
 
