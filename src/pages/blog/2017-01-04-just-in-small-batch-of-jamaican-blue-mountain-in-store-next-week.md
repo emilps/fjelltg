@@ -1,12 +1,10 @@
 ---
 templateKey: blog-post
-title: 400 Followers Reached on Instagram!
-date: 04.01.2021
-featuredimage: /img/400-følgere-04.01.2020.jpg
-description: |-
-  Today @fjelltechnology reached 400 followers! Thank you all!
-  We wish you the very best for the year 2021!
-link: 'https://www.facebook.com/FjellGreenTech/'
+title: Fjell Technology Group visit Vietnam
+date: 30.11.2022
+featuredimage: /img/seafood-market.jpg
+description: "Fantastic week in Vietnam, meeting world class seafood, new friends, potential customers, and a country in rapid economical growth rate. After being in Vietnam you will never be annoyed by a Norwegian scooter rider again\U0001F602"
+link: 'https://www.facebook.com/Fjelltechnologygroup'
 socialmedia: Facebook
 ---
 

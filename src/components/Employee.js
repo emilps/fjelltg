@@ -61,5 +61,6 @@ Employee.propTypes = {
   picture: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   phoneNumber: PropTypes.number,
   email: PropTypes.string,
-  linkedIn: PropTypes.string
+  linkedIn: PropTypes.string,
+  index: PropTypes.number
 };

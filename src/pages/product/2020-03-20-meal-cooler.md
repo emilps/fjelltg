@@ -2,13 +2,13 @@
 templateKey: product
 title: Meal cooler
 subtitle: Cooling of meal products
-headerimage: /img/mealcooler-2.png
+headerimage: /img/mealcooler-880-optim.jpg
 description1: >-
   To avoid condensation in dried fishmeal, it is important to have correct
-  cooling - before storing in tanks, sacks or bigbags.
+  cooling - before storing it in tanks, sacks or bigbags.
 
 
-  We offer solutions every need - whether it is in warm regions (Asia) or on
+  We offer solutions for every need - whether it is in warm regions (Asia) or on
   fishing boats designed for fishing in Arctic regions.
 
 
@@ -21,14 +21,14 @@ infobox1: >-
   roller bearings on the end plates. 
 
 
-  Hot meal is stirred through the cooler, while we use a cetrifugal fan to draw
+  Hot meal is stirred through the cooler, while we use a centrifugal fan to draw
   a counterflow of cool air.
-smallimage: /img/mealcooler-2.png
-fullwidthimage: /img/mealcooler-3.png
+smallimage: /img/mealcooler-2-optim.png
+fullwidthimage: /img/mealcooler-3-optim.png
 description2: >-
-  All FTG coolers are designed for as low costs as possible in installation and
-  maintanance
-infobox2: 'Picture is of inside cooler, to show the agitator'
+  All FTG coolers are designed to make the costs of installation and maintenance
+  as low as possible.
+infobox2: The picture shows the agitator on the inside of a cooler
 productcategory: Fish Meal Plant
 ---
 

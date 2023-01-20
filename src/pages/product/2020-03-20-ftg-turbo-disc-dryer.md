@@ -2,7 +2,7 @@
 templateKey: product
 title: FTG Turbo Disc Dryer
 subtitle: The robust and energy efficient drying of Biomasses
-headerimage: /img/fjelltg_main.jpg
+headerimage: /img/fjelltg_main-optim.jpg
 description1: >-
   ## Design
 
@@ -27,8 +27,8 @@ description1: >-
   construction (carbon-, stainless-, and duplex steels), and approved and
   inspected according to the leading international design codes and standards
   (PED, ASME, JIS, GOST, DNV, Lloyds, Bureau Veritas etc..) The dryer has a
-  unique endurable patented rotor design without traditional welded stays
-  exposed to tear, wear, fatigue and corrosion.
+  unique endurable patented rotor design without traditional welding, which
+  stays exposed to tear, wear, fatigue and corrosion.
 
 
   The distinct difference between the TD dryer and most other disc dryers is
@@ -50,7 +50,7 @@ description1: >-
 
 
   After finalizing a M&E balance we produce a flowsheet and 3D drawing to
-  optimize the tradeoff betwen size, quality in materials and cost. 
+  optimize the tradeoff between size, quality in materials and cost. 
 
 
   **P&ID** 
@@ -86,18 +86,18 @@ infobox1: >-
 productbrochures:
   - file: /img/fjell-turbo-disc-dryer-brochure.pdf
     title: PRODUCT BROCHURE
-smallimage: /img/td-tørke-lite.png
-fullwidthimage: /img/tørker-prima5.jpg
+smallimage: /img/tørker-prima5.jpg
+fullwidthimage: /img/td-tørke-lite.png
 description2: >-
   ## Legacy
 
 
   In the year 2000 Fjell Technology Group AS decided to develop a robust and
   energy efficient disc dryer specially designed for modern manufacturing
-  methods like robotic welding. We had a competent staff with senior personnel
-  having experience from design, manufacturing and installation of about 2000
-  Stord dryers since the introduction of the technology, wich took place in the
-  late 50ies. 
+  methods like robotic welding. We had a competent staff including senior
+  personnel with experience from design, manufacturing and the installation of
+  about 2000 Stord dryers since the introduction of the technology, which took
+  place in the late fifties. 
 
 
   We added some young innovative engineers skilled in state of the art
@@ -106,7 +106,7 @@ description2: >-
   manufacturing techniques.
 
 
-  Problems with leakage after som wear and tear on the welds are practically
+  Problems with leakage after some wear and tear on the welds are practically
   eliminated, as we have experienced zero leakage on our discs produced after
   year 2000.
 infobox2: |-

@@ -1,18 +1,18 @@
 ---
 templateKey: project
-title: '2019 - PRIMA PROTEIN - EGERSUND, NORWAY'
+title: '2019/2021 - PRIMA PROTEIN - EGERSUND, NORWAY'
 description: Cooker and Dryers
-mainimage: /img/img_8476-lite.jpg
-title1: FJELL TD650 DRYERS
+mainimage: /img/img_8476-main.jpg
+title1: FJELL 3 X TD650 DRYERS
 description1: >-
   For Prima Protein fish meal plant located in Egersund in Norway we have
-  delivered our largest dryers yet - Two 16 meters long TD650 dryers - total
-  evaporation capasity of almost 10 cubic meters per hour. 
+  delivered our largest dryers yet - Two 16 meters long TD650 dryers were
+  commissioned in 2019, and their third dryer was commissioned in 2021. 
 
-  This fishmeal plant has a capasity of approx. 750 tonnes of raw materials per
-  day. 
-miniatureimage1: /img/img_1726-lite.jpg
-miniatureimage2: /img/img_1767-lite.jpg
+  This fishmeal plant has a total capasity of approx. 1050 tonnes of raw
+  materials per day.
+miniatureimage1: /img/img_1726-mini.jpg
+miniatureimage2: /img/fjell-cooker-mini.jpg
 title2: Cooker
 description2: >-
   Fjell Technology Group designs, manufactures and commissions equipment,
@@ -20,28 +20,38 @@ description2: >-
   processing. We can offer:
 
 
-  *  Conceptual studies and process simulations with detailed mass and energy
-  balance
+  **Conceptual studies and process simulations with detailed mass and energy
+  balance**
 
-  *  Process design complete fish meal plants from 25 TPD – 1000 TPD Capacity
 
-  *  Pilot testing
+  **Process design complete fish meal plants from 60 TPD – 1000 TPD Capacity**
 
-  *  Plant layout in detailed 3-D
 
-  *  Design and manufacture of own process equipment.
+  **Pilot testing**
 
-  *  Specification and procurement of other process equipment
 
-  *  Construction Management
+  **Plant layout in detailed 3-D**
 
-  *  Fabrication
 
-  *  Procurement
+  **Design and manufacture of own process equipment.**
 
-  *  Installation
 
-  *  Commissioning
+  **Specification and procurement of other process equipment**
+
+
+  **Construction Management**
+
+
+  **Fabrication**
+
+
+  **Procurement**
+
+
+  **Installation**
+
+
+  **Commissioning**
 relatedproducts:
   relatedproduct1:
     body: |+
@@ -123,6 +133,81 @@ relatedproducts:
   relatedproduct2:
     body: |+
 
+    description2: >-
+      ## Legacy
+
+
+      In the year 2000 Fjell Technology Group AS decided to develop a robust and
+      energy efficient disc dryer specially designed for modern manufacturing
+      methods like robotic welding. We had a competent staff including senior
+      personnel with experience from design, manufacturing and the installation
+      of about 2000 Stord dryers since the introduction of the technology, which
+      took place in the late fifties. 
+
+
+      We added some young innovative engineers skilled in state of the art
+      engineering design and analysis techniques. The result was the Fjell Turbo
+      Disc Dryer with a unique patented disc design, based on efficient
+      manufacturing techniques.
+
+
+      Problems with leakage after some wear and tear on the welds are
+      practically eliminated, as we have experienced zero leakage on our discs
+      produced after year 2000.
+    fullwidthimage: /img/td-tørke-lite.png
+    headerimage: /img/fjelltg_main-optim.jpg
+    infobox1: >-
+      ## Advantages
+
+
+      Advantages between Fjell TD Dryer vs. other Rotadisc dryers:
+
+
+      * Forged claws can be welded with high precision in flat position using
+      robots. 
+
+      * Welds can be inspected with NDT before assembly. 
+
+      * Welds are not exposed to the material to be dried, thereby risk for
+      stress corrosion cracking is eliminated. 
+
+      * Welds do not seal between pressurised and non-pressurised side. Thereby
+      risk for steam leakage is eliminated. 
+
+      * Claws act as reinforcement beams in radial direction, thereby increasing
+      the lateral bending strength of the discs, which reduces the risk for
+      leakages in foot welds between discs (big problem with Rotadisc). 
+
+      * Smooth disc surface secures efficient self-cleaning and maximum heat
+      transfer.
+    infobox2: >-
+
+
+      ## Application
+
+
+      * Sludge in Waste Water 
+
+      * Treatment Plant for fishmeal in both land based and ship installed
+      plants 
+
+      * Ingredients in the food industry
+
+      * Spent grains in distilleries and breweries
+
+      * Animal and poultry by-products for industrial bio-sludge and mineral
+      sludge 
+
+      * Replacement rotors and units for old disc dryers
+    productbrochures:
+      - file: /img/fjell-turbo-disc-dryer-brochure.pdf
+        title: PRODUCT BROCHURE
+    productcategory: Fish Meal Plant
+    slug: 2020-03-20-ftg-turbo-disc-dryer
+    smallimage: /img/tørker-prima5.jpg
+    subtitle: The robust and energy efficient drying of Biomasses
+    templateKey: product
+    title: FTG Turbo Disc Dryer
     description1: >-
       ## Design
 
@@ -148,49 +233,7 @@ relatedproducts:
       inspected according to the leading international design codes and
       standards (PED, ASME, JIS, GOST, DNV, Lloyds, Bureau Veritas etc..) The
       dryer has a unique endurable patented rotor design without traditional
-      welded stays exposed to tear, wear, fatigue and corrosion.
-    description2: >-
-      ## Legacy
-
-
-      In the year 2000 Fjell Technology Group AS decided to develop a robust and
-      energy efficient disc dryer specially designed for modern manufacturing
-      methods like robotic welding. We had a competent staff with senior
-      personnel having experience from design, manufacturing and installation of
-      about 2000 Stord dryers since the introduction of the technology, wich
-      took place in the late 50ies. 
-
-
-      We added some young innovative engineers skilled in state of the art
-      engineering design and analysis techniques. The result was the Fjell Turbo
-      Disc Dryer with a unique patented disc design, based on efficient
-      manufacturing techniques.
-    fullwidthimage: /img/td440.jpg
-    headerimage: /img/td440.jpg
-    infobox1: >-
-      ## Advantages
-
-
-      Advantages between Fjell TD Dryer vs. other Rotadisc dryers:
-
-
-      * Forged claws can be welded with high precision in flat position using
-      robots. 
-
-      * Welds can be inspected with NDT before assembly. 
-
-      * Welds are not exposed to the material to be dried, thereby risk for
-      stress corrosion cracking is eliminated. 
-
-      * Welds do not seal between pressurised and non-pressurised side. Thereby
-      risk for steam leakage is eliminated. 
-
-      * Claws act as reinforcement beams in radial direction, thereby increasing
-      the lateral bending strength of the discs, which reduces the risk for
-      leakages in foot welds between discs (big problem with Rotadisc). 
-
-      * Smooth disc surface secures efficient self-cleaning and maximum heat
-      transfer.
+      welding, which stays exposed to tear, wear, fatigue and corrosion.
 
 
       The distinct difference between the TD dryer and most other disc dryers is
@@ -199,35 +242,30 @@ relatedproducts:
       inside of the disc. Fjell has in its process for drying with disc-driers a
       patented process solution reducing usage of steam with approx. 40% from
       normal driers.
-    infobox2: >-
 
 
-      ## Application
+      **Mass and Energy Balance** 
 
 
-      * Sludge in Waste Water 
+      All fismeal plants are being calculated based on given numbers for
+      quantity to be processed. This calculation are set up in a Mass and Energy
+      Balance Scheme to specify dimensions on all equipment and piping. 
 
-      * Treatment Plant for fishmeal in both land based and ship installed
-      plants 
 
-      * Ingredients in the food industry
+      **Flowsheet**
 
-      * Spent grains in distilleries and breweries
 
-      * Animal and poultry by-products for industrial bio-sludge and mineral
-      sludge 
+      After finalizing a M&E balance we produce a flowsheet and 3D drawing to
+      optimize the tradeoff between size, quality in materials and cost. 
 
-      * Replacement rotors and units for old disc dryers
-    productbrochure: /img/fjell-td-dryer-vs-rotadisc.pdf
-    productbrochures:
-      - file: /img/fjell-td-dryer-vs-rotadisc.pdf
-        title: PRODUCT BROCHURE
-    productcategory: Compact Fish Meal Plant
-    slug: 2020-03-20-ftg-turbo-disc-dryer-1
-    smallimage: /img/fjelltg_main.jpg
-    subtitle: The robust and energy efficient drying of Biomasses
-    templateKey: product
-    title: 'FTG Turbo Disc Dryer '
+
+      **P&ID** 
+
+
+      Together with client or yard, we produce all necessarry drawings and plan
+      all interfaces for easy assembly and use. Of course PLC system are
+      included - and can be integrated to most common PLC systems (for global
+      control)
 category: Protein Recycling
 ---
 

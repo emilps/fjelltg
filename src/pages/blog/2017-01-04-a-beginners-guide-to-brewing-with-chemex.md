@@ -1,11 +1,13 @@
 ---
 templateKey: blog-post
-title: FTG signerer ny ordre på produksjon av fiskemelsanlegg til frysetråler
-date: 14.12.2020
-featuredimage: /img/jfk1.png
-description: FTG signerer ny ordre på produksjon av fiskemelsanlegg til frysetråler
-link: >-
-  https://www.linkedin.com/posts/halvard-madsen_ftg-fjelltech-innovative-activity-6744158369482862592-RXQY
+title: FAT Fjell SS130-11 Screw cooker
+date: 30.11.2022
+featuredimage: /img/ftg-ss130-11-screw-cooker-til-island-28.11.2022.jpg
+description: >-
+  Final inspection of the FTG SS130-11 screw-cooker, with outlet on the side.
+  This is the last of five cookers delivered in 2022 - al of them to Iceland. We
+  wish the cooker a safe journey and hope the customer will be satisfied.
+link: 'https://www.linkedin.com/company/15250818'
 socialmedia: LinkedIn
 ---
 

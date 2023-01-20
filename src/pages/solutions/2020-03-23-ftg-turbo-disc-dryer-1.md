@@ -2,7 +2,7 @@
 templateKey: solution
 title: 'FTG Turbo Disc Dryer '
 subtitle: The robust and energy efficient drying of Biomasses
-featuredimage: /img/rotor-closeup-1024x1020.jpg
+featuredimage: /img/rotor-closeup-880x877.jpg
 mainquote: >-
   Sludge in Waste Water Treatment Plant and by-products for industrial
   bio-sludge and mineral sludge 
@@ -82,24 +82,12 @@ description2: >-
   Standard Range Fjell Turbo Disc Dryers are from  200 kg evaporation per hour
   to 5000 kg per hour
 description3: The robust and energy efficient drying of Biomasses
-descriptionimage: /img/iar.jpg
+descriptionimage: /img/ftg-turbo-disc-dryer-2.jpg
 relatedproducts:
   relatedproduct1:
     body: |+
 
     headerimage: /img/tmd.png
-    infobox2: >-
-      Fjell RAS Sludge drying system is a fully automated system, with minimal
-      need for supervision. Unlike most other sludge drying technologies, Fjell
-      RAS Sludge Dryers do not require the addition of polymer (plastic), or
-      other additives. This provides an environmentally friendly end product
-      (fertilizer), while drying is more cost effective.
-    productbrochures:
-      - file: /img/ftg-kunder-presentasjon-tørkeprosess-ras-flyer.pdf
-        title: PRODUCT BROCHURE
-    productcategory: Fish Sludge Treatment
-    slug: 2020-03-23-thermo-mechanical-dryer
-    smallimage: /img/frs.jpg
     templateKey: product
     title: 'Thermo Mechanical Dryer '
     subtitle: >-
@@ -148,6 +136,18 @@ relatedproducts:
       * Organic products
       * Proteins
       * Blood
+    infobox2: >-
+      Fjell RAS Sludge drying system is a fully automated system, with minimal
+      need for supervision. Unlike most other sludge drying technologies, Fjell
+      RAS Sludge Dryers do not require the addition of polymer (plastic), or
+      other additives. This provides an environmentally friendly end product
+      (fertilizer), while drying is more cost effective.
+    productbrochures:
+      - file: /img/ftg-kunder-presentasjon-tørkeprosess-ras-flyer.pdf
+        title: PRODUCT BROCHURE
+    productcategory: Fish Sludge Treatment
+    slug: 2020-03-23-thermo-mechanical-dryer
+    smallimage: /img/frs.jpg
 solutioncategory: 'Waste Water Treatment '
 ---
 

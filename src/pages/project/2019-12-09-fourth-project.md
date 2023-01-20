@@ -4,11 +4,11 @@ title: 2018 - ERKO Settefisk
 description: |+
   Erko Settefisk was one of our first plants to clean sludge from RAS plants. 
 
-mainimage: /img/greentech_1920.jpg
+mainimage: /img/greentech_1920-main.jpg
 title1: Description
 description1: >-
   At the beginning of such a project, it is important to get the correct data on
-  the outgoing water volumes from the plant and not least the amount of feed.
+  the outgoing water volumes from the plant and especially the amount of feed.
 
 
   The amount of salt in the water is also of great importance - to be able to
@@ -17,21 +17,25 @@ description1: >-
   for the choice of equipment and the design.
 
 
-  FTG designed and engineered a solution based on three steps:  
+  **FTG designed and engineered a solution based on three steps:**
 
-  1: Flocculation - with help from dedicated supplier within electro
-  flocculation - capturing and thickening the dry solids from 0,5% to 5,5%  
 
-  2: Then sentrifuge the dry solids until a sludge of approx. 22%.   
+  **1.** Flocculation - with help from dedicated supplier within electro
+  flocculation -      capturing and thickening the dry solids from 0,5% to 5,5%
 
-  3: Dry the sludge with a thermo mechanical dryer to above 90%.
+
+  **2.** Then sentrifuge the dry solids until a sludge of approx. 22%.
+
+
+  **3.** Dry the sludge with a thermo mechanical dryer to above 90%.
 
 
   Since the commissioning period the sludge drying system has been running
-  problem free - please contact us if any questions regarding setup, solutions
-  or if we in any way can help you
+  problem free - please [contact us](https://www.fjelltg.no/contact/) if you
+  have any questions regarding setup, solutions or if we can help you in any
+  way.
 miniatureimage1: /img/frs.png
-miniatureimage2: /img/p15776-001-1-lite.jpg
+miniatureimage2: /img/p15776-001-1-mini.jpg
 title2: Opportunities
 description2: >-
   The machinery can be installed at any land-based fish farming facility or

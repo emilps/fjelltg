@@ -4,7 +4,7 @@ title: Meal Cooler
 subtitle: Cooling of meal products
 featuredimage: /img/mealcooler-2.png
 mainquote: >-
-  We design and manufacture meal cooler system specially adopted for the local
+  We design and manufacture meal cooler system specially adapted for the local
   requirements. 
 description1: "To avoid condensation in dried fishmeal, it is important to have correct cooling - before storing in tanks, sacks or bigbags.\r\n\nWe offer solutions every need - whether it is in warm regions (Asia) or on fishing boats designed for fishing in Arctic regions.\n\nIn sensitive areas with restricted cooling water supply and high ambient temperatures it can be challenging to meet local requirements for emissions to water and air, and for such applications we have developed a special indirectly cooled air hygienic air cooler system."
 infobox1: >-
@@ -16,12 +16,12 @@ infobox1: >-
   a counterflow of cool air.
 fullwidthimage: /img/mealcooler-3.png
 description2: >-
-  All FTG coolers are designed for as low costs as possible in installation and
-  maintanance
+  All FTG coolers are designed to make the costs of installation and maintanance
+  as low as possible.
 description3: >-
   Example of 3D design of mealcooler silo intended for both use onshore and on
   vessels.
-descriptionimage: /img/p30000-051-0004-lite.jpg
+descriptionimage: /img/p30000-051-0004-lite-optim.jpg
 relatedproducts:
   relatedproduct1:
     body: |+
@@ -257,6 +257,6 @@ relatedproducts:
     title: Fjell Cooker
     subtitle: Cookers and pre-heaters
     fullwidthimage: /img/img_1767.jpg
-solutioncategory: Protein Recycling
+solutioncategory: Fjell Fishmeal and Fish oil plants
 ---
 

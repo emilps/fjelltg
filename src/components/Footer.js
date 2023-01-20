@@ -1,7 +1,7 @@
-import React from 'react';
-import { Link } from 'gatsby';
+import React from "react";
+import { Link } from "gatsby";
 
-import logo from '../img/ftg_logo_neg.svg';
+import logo from "../img/ftg_logo_neg.svg";
 
 const Footer = class extends React.Component {
   render() {
@@ -14,9 +14,9 @@ const Footer = class extends React.Component {
                 <img
                   src={logo}
                   alt="Fjell Technology Group AS"
-                  style={{ width: '14em', marginTop: '5px' }}
+                  style={{ width: "14em", marginTop: "5px" }}
                 />
-                <p style={{ marginTop: '20px' }}>
+                <p style={{ marginTop: "20px" }}>
                   Your partner <br />
                   <span className="has-text-weight-bold">
                     for mass and heat transfer technology
@@ -84,11 +84,11 @@ const Footer = class extends React.Component {
                 <section>
                   <p className="has-text-weight-bold">Visit</p>
                   <p className="has-text-weight-light">
-                    Main office: <br /> Idrettsvegen 103 <br />
-                    N5353 Straume
+                    Visiting address: <br /> Thormøhlens Gate 49a <br />
+                    N-5006 Bergen
                   </p>
                   <p className="has-text-weight-light">
-                    GreenTech office:
+                    Invoice address:
                     <br /> Thormøhlens Gate 49a <br />
                     N-5006 Bergen
                   </p>
@@ -131,9 +131,9 @@ const Footer = class extends React.Component {
             </div>
             <div
               className="has-text-centered-mobile"
-              style={{ marginTop: '7rem' }}
+              style={{ marginTop: "7rem" }}
             >
-              <p>© 2020 Fjell Technology Group. All rights reserved.</p>
+              <p>© 2023 Fjell Technology Group. All rights reserved.</p>
             </div>
           </div>
         </div>
@@ -142,5 +142,5 @@ const Footer = class extends React.Component {
   }
 };
 
-Footer.displayName = 'Footer';
+Footer.displayName = "Footer";
 export default Footer;
